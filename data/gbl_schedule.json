@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "seasonNameJa": "新たな歩み",
+  "seasonNameEn": "Forever Forward",
+  "sourceUpdatedJa": "2026年6月5日確認",
+  "sourceUpdatedEn": "Checked June 5, 2026",
+  "currentSeasonFormatRules": [
+    {
+      "id": "great",
+      "nameJa": "スーパーリーグ",
+      "nameEn": "Great League",
+      "league": "great",
+      "cpCap": 1500
+    },
+    {
+      "id": "ultra",
+      "nameJa": "ハイパーリーグ",
+      "nameEn": "Ultra League",
+      "league": "ultra",
+      "cpCap": 2500
+    },
+    {
+      "id": "master",
+      "nameJa": "マスターリーグ",
+      "nameEn": "Master League",
+      "league": "master",
+      "cpCap": null
+    },
+    {
+      "id": "great_mega",
+      "nameJa": "スーパーリーグ：メガバージョン",
+      "nameEn": "Great League: Mega Edition",
+      "league": "great",
+      "cpCap": 1500,
+      "megaAllowed": true,
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "ultra_mega",
+      "nameJa": "ハイパーリーグ：メガバージョン",
+      "nameEn": "Ultra League: Mega Edition",
+      "league": "ultra",
+      "cpCap": 2500,
+      "megaAllowed": true,
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "master_mega",
+      "nameJa": "マスターリーグ：メガバージョン",
+      "nameEn": "Master League: Mega Edition",
+      "league": "master",
+      "cpCap": null,
+      "megaAllowed": true,
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "naic_2026",
+      "nameJa": "NAIC 2026カップ：スーパーリーグ",
+      "nameEn": "NAIC 2026 Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "allowedTypes": ["fairy", "normal", "psychic", "water"],
+      "bannedTypes": ["dark", "grass", "steel"],
+      "bannedSpeciesIds": [
+        "clefable",
+        "wigglytuff",
+        "poliwrath",
+        "farfetchd",
+        "lickitung",
+        "chansey",
+        "furret",
+        "chinchou",
+        "lanturn",
+        "lugia",
+        "medicham",
+        "claydol",
+        "gastrodon",
+        "lickilicky",
+        "rotom_wash",
+        "cresselia",
+        "jellicent",
+        "diggersby",
+        "dedenne",
+        "carbink",
+        "toxapex",
+        "araquanid",
+        "oranguru",
+        "golisopod",
+        "greedent"
+      ],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "sunshine",
+      "nameJa": "陽光カップ：スーパーリーグ",
+      "nameEn": "Sunshine Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "allowedTypes": ["normal", "fire", "grass", "ground"],
+      "bannedSpeciesIds": ["charizard"],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "summer",
+      "nameJa": "サマーカップ：スーパーリーグ",
+      "nameEn": "Summer Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "allowedTypes": ["normal", "fire", "water", "grass", "electric", "bug"],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "fantasy_ultra",
+      "nameJa": "ファンタジーカップ：ハイパーリーグ",
+      "nameEn": "Fantasy Cup: Ultra League",
+      "league": "ultra",
+      "cpCap": 2500,
+      "allowedTypes": ["dragon", "steel", "fairy"],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "retro",
+      "nameJa": "レトロカップ：スーパーリーグ",
+      "nameEn": "Retro Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "bannedTypes": ["dark", "steel", "fairy"],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "master_premier",
+      "nameJa": "マスタープレミア",
+      "nameEn": "Master Premier",
+      "league": "master",
+      "cpCap": null,
+      "unsupportedNoteJa": "伝説・幻判定は種族データ未保持のため、この画面では手動確認してください。",
+      "unsupportedNoteEn": "Legendary/Mythical checks are manual because the bundled species data does not include those flags.",
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "nature",
+      "nameJa": "自然界カップ：スーパーリーグ",
+      "nameEn": "Nature Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "allowedTypes": ["fire", "water", "ice", "rock"],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "evolution",
+      "nameJa": "進化カップ：スーパーリーグ",
+      "nameEn": "Evolution Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "requiresMiddleEvolution": true,
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    },
+    {
+      "id": "scroll",
+      "nameJa": "かけじくカップ：スーパーリーグ",
+      "nameEn": "Scroll Cup: Great League",
+      "league": "great",
+      "cpCap": 1500,
+      "allowedTypes": ["water", "fighting", "dark"],
+      "bannedSpeciesIds": ["primarina"],
+      "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
+      "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "2026-06-02",
+      "start": "2026-06-02T20:00:00Z",
+      "end": "2026-06-09T20:00:00Z",
+      "formatIds": ["great", "naic_2026"],
+      "stardustBonus": false
+    },
+    {
+      "id": "2026-06-09",
+      "start": "2026-06-09T20:00:00Z",
+      "end": "2026-06-16T20:00:00Z",
+      "formatIds": ["ultra", "naic_2026"],
+      "stardustBonus": false
+    },
+    {
+      "id": "2026-06-16",
+      "start": "2026-06-16T20:00:00Z",
+      "end": "2026-06-23T20:00:00Z",
+      "formatIds": ["master_mega", "sunshine"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-06-23",
+      "start": "2026-06-23T20:00:00Z",
+      "end": "2026-06-30T20:00:00Z",
+      "formatIds": ["great", "ultra", "master"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-06-30",
+      "start": "2026-06-30T20:00:00Z",
+      "end": "2026-07-07T20:00:00Z",
+      "formatIds": ["great", "summer"],
+      "stardustBonus": false
+    },
+    {
+      "id": "2026-07-07",
+      "start": "2026-07-07T20:00:00Z",
+      "end": "2026-07-14T20:00:00Z",
+      "formatIds": ["ultra", "fantasy_ultra"],
+      "stardustBonus": false
+    },
+    {
+      "id": "2026-07-14",
+      "start": "2026-07-14T20:00:00Z",
+      "end": "2026-07-21T20:00:00Z",
+      "formatIds": ["master", "retro"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-07-21",
+      "start": "2026-07-21T20:00:00Z",
+      "end": "2026-07-28T20:00:00Z",
+      "formatIds": ["great", "ultra", "master"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-07-28",
+      "start": "2026-07-28T20:00:00Z",
+      "end": "2026-08-04T20:00:00Z",
+      "formatIds": ["great", "master_premier"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-08-04",
+      "start": "2026-08-04T20:00:00Z",
+      "end": "2026-08-11T20:00:00Z",
+      "formatIds": ["ultra", "nature"],
+      "stardustBonus": false
+    },
+    {
+      "id": "2026-08-11",
+      "start": "2026-08-11T20:00:00Z",
+      "end": "2026-08-18T20:00:00Z",
+      "formatIds": ["master", "evolution"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-08-18",
+      "start": "2026-08-18T20:00:00Z",
+      "end": "2026-08-25T20:00:00Z",
+      "formatIds": ["great", "scroll"],
+      "stardustBonus": false
+    },
+    {
+      "id": "2026-08-25",
+      "start": "2026-08-25T20:00:00Z",
+      "end": "2026-09-01T20:00:00Z",
+      "formatIds": ["great", "ultra", "master"],
+      "stardustBonus": true
+    },
+    {
+      "id": "2026-09-01",
+      "start": "2026-09-01T20:00:00Z",
+      "end": "2026-09-08T20:00:00Z",
+      "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+      "stardustBonus": true
+    }
+  ],
+  "tournamentEvents": [
+    {
+      "id": "pjcs_2026_go",
+      "start": "2026-06-05T15:00:00Z",
+      "end": "2026-06-07T15:00:00Z",
+      "nameJa": "PJCS2026『Pokémon GO』部門",
+      "nameEn": "PJCS 2026: Pokemon GO",
+      "locationJa": "パシフィコ横浜",
+      "locationEn": "Pacifico Yokohama",
+      "summaryJa": "日本一を決める公式大会。スーパーリーグ、登録6匹から3匹を選出。",
+      "summaryEn": "Japan Championship event. Great League, bring 6 and choose 3.",
+      "officialUrlJa": "https://www.pokemon.co.jp/ex/pjcs/2026/pokemongo/",
+      "officialUrlEn": "https://www.pokemon.co.jp/ex/pjcs/2026/pokemongo/"
+    },
+    {
+      "id": "naic_2026_go",
+      "start": "2026-06-12T05:00:00Z",
+      "end": "2026-06-15T05:00:00Z",
+      "nameJa": "NAIC 2026",
+      "nameEn": "NAIC 2026",
+      "locationJa": "ニューオーリンズ",
+      "locationEn": "New Orleans",
+      "summaryJa": "北米インターナショナルチャンピオンシップス。Pokémon GOを含む公式大会。",
+      "summaryEn": "North America International Championships, including Pokemon GO.",
+      "officialUrlJa": "https://championships.pokemon.com/en-us/about/international-championships",
+      "officialUrlEn": "https://championships.pokemon.com/en-us/about/international-championships"
+    },
+    {
+      "id": "worlds_2026_go",
+      "start": "2026-08-28T07:00:00Z",
+      "end": "2026-08-31T07:00:00Z",
+      "nameJa": "ポケモンワールドチャンピオンシップス2026",
+      "nameEn": "Pokemon World Championships 2026",
+      "locationJa": "サンフランシスコ",
+      "locationEn": "San Francisco",
+      "summaryJa": "世界大会。Pokémon GO部門を含む公式チャンピオンシップ。",
+      "summaryEn": "World Championships, including the Pokemon GO division.",
+      "officialUrlJa": "https://worlds.pokemon.com/en-us/",
+      "officialUrlEn": "https://worlds.pokemon.com/en-us/"
+    }
+  ]
+}
