@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ライセンス・権利表示 — GBLBOX</title>
-<meta name="description" content="GBLBOX の第三者データ、ライセンス、権利表示。">
+<meta name="description" content="GBLBOX の第三者データ、ライセンス、商標、権利表示。">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,6 +16,7 @@
     <nav class="site" style="margin-left:auto">
       <a href="privacy.html">プライバシー</a>
       <a href="terms.html">利用規約</a>
+      <a href="notices.html">権利表示</a>
       <a href="support.html">サポート</a>
     </nav>
   </header>
@@ -23,29 +24,38 @@
   <div class="langbar"><a href="#ja">日本語</a><a href="#en">English</a></div>
 
   <h1 id="ja">ライセンス・権利表示</h1>
-  <p class="muted small">最終更新日：2026年6月5日</p>
+  <p class="muted small">最終更新日：2026年6月4日</p>
 
-  <p>GBLBOX は非公式の補助ツールです。Niantic, Inc.、株式会社ポケモン、任天堂株式会社、その他の権利者とは関係がなく、承認・後援・提供を受けたものではありません。「Pokémon」「Pokémon GO」および関連名称・商標は各権利者に帰属します。</p>
+  <h2>非公式ツールであること（重要）</h2>
+  <p>GBLBOX は個人が開発した<strong>非公式</strong>の補助ツールです。Niantic, Inc.、株式会社ポケモン、任天堂株式会社、その他の権利者とは<strong>一切関係がなく、承認・後援・提供を受けたものではありません</strong>。</p>
 
-  <h2>第三者データの利用</h2>
-  <p>GBLBOX は、アプリ更新時に取得・整形したゲーム関連データをアプリ内に同梱し、通常利用時は端末内で参照します。通常利用時に PvPoke、PokeAPI、PokeMiners、Pokemon GO Hub、GamePress 等の外部API・外部サイトへ通信しません。GBLスケジュール・大会予定、強制アップデート、広告表示設定は、本サイト上のJSONファイルで更新する場合があります。</p>
+  <h2>商標・著作権</h2>
+  <p>「Pokémon」「Pokémon GO」および関連する名称・ロゴ・キャラクター・画像は、Niantic, Inc.、株式会社ポケモン、任天堂株式会社およびその関連会社の商標または登録商標、または著作物です。GBLBOX はこれらの権利者の許諾なく、ゲームプレイの補助を目的として公開しています。権利侵害を意図するものではありません。</p>
+  <p class="small muted">Niantic の著作権表示: <a href="https://nianticlabs.com/copyright-notices?hl=ja">Niantic Copyright Notices</a></p>
+
+  <h2>データの取得・通信</h2>
+  <p>ゲーム関連データ（種族値・タイプ・技・CPM・推奨技・ランキング・強化コスト等）は、アプリ更新時に公開情報・コミュニティ提供データを取得・整形して<strong>アプリ内に同梱</strong>し、通常利用時は<strong>端末内で参照</strong>します。通常利用時に PvPoke、PokeAPI、PokeMiners、Pokemon GO Hub、GamePress 等の外部API・外部サイトへ通信しません。</p>
+  <p>GBLスケジュール・大会予定、強制アップデート、広告表示設定は、本サイト（gblbox.com）上の JSON ファイルを取得して更新する場合があります。この通信に個人情報・登録した個体データ・スクリーンショット・設定内容は含まれません。詳細は<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+
+  <h2>第三者データ・ライセンス</h2>
+  <p>以下の公開情報・コミュニティ提供データを参考にしています。各出典元は GBLBOX を承認・後援・提供していません。</p>
 
   <div class="card">
     <h3>PvPoke</h3>
-    <p>種族値・タイプ・推奨技・ランキング等の参考にしています。PvPoke のコードと一部データは MIT License で公開されています。</p>
-    <p class="small muted">Copyright (c) 2019 pvpoke。GBLBOX は PvPoke から派生・承認されたアプリではありません。詳細は <a href="https://github.com/pvpoke/pvpoke">PvPoke GitHub</a> および <a href="https://raw.githubusercontent.com/pvpoke/pvpoke/master/LICENSE">LICENSE</a> を確認してください。</p>
+    <p>種族値・タイプ・推奨技・ランキング・技データ（威力・エネルギー等）等の参考にしています。PvPoke のコードと一部データは MIT License で公開されています。</p>
+    <p class="small muted">Copyright (c) 2019 pvpoke。GBLBOX は PvPoke のフォーク・派生アプリではなく、PvPoke による承認・後援を受けたものでもありません。<a href="https://github.com/pvpoke/pvpoke">PvPoke GitHub</a> / <a href="https://raw.githubusercontent.com/pvpoke/pvpoke/master/LICENSE">LICENSE</a></p>
   </div>
 
   <div class="card">
     <h3>PokeAPI</h3>
-    <p>名称データ等の参考にしています。PokeAPI はフェアユース方針として、取得したリソースのローカルキャッシュを推奨しています。</p>
-    <p class="small muted">Copyright © 2013-2023 Paul Hallett and PokéAPI contributors。Pokémon とキャラクター名は Nintendo の商標です。PokeAPI 名義を GBLBOX の推奨・承認として使用していません。詳細は <a href="https://pokeapi.co/docs/v2">PokeAPI Docs</a> および <a href="https://raw.githubusercontent.com/PokeAPI/pokeapi/master/LICENSE.md">LICENSE</a> を確認してください。</p>
+    <p>種族名・技名の日本語表示等に、PokeAPI が公開する CSV データを参考にしています。PokeAPI はフェアユース方針として、取得したリソースのローカルキャッシュを推奨しており、GBLBOX も同梱データとして端末内に保持します。</p>
+    <p class="small muted">Copyright © Paul Hallett and PokéAPI contributors。Pokémon およびキャラクター名は Nintendo 等の商標です。PokeAPI 名義を GBLBOX の推奨・承認として使用していません。<a href="https://pokeapi.co/docs/v2">PokeAPI Docs</a> / <a href="https://raw.githubusercontent.com/PokeAPI/pokeapi/master/LICENSE.md">LICENSE</a></p>
   </div>
 
   <div class="card">
     <h3>PokeMiners Game Master</h3>
-    <p>CPM 等の参考にしています。PokeMiners Game Master は教育目的で公開され、内容の権利は The Pokemon Company / Niantic 等に帰属すると説明されています。</p>
-    <p class="small muted">詳細は <a href="https://github.com/PokeMiners/game_masters">PokeMiners Game Master</a> を確認してください。</p>
+    <p>CPM（cpMultiplier）等の参考にしています。リポジトリは教育目的で公開されており、内容の権利は The Pokémon Company、Niantic 等に帰属すると説明されています。</p>
+    <p class="small muted"><a href="https://github.com/PokeMiners/game_masters">PokeMiners Game Master</a></p>
   </div>
 
   <div class="card">
@@ -54,35 +64,50 @@
     <p class="small muted"><a href="https://db.pokemongohub.net/">Pokemon GO Hub Database</a> / <a href="https://pogo.gamepress.gg/">GamePress Pokemon GO</a></p>
   </div>
 
+  <div class="card">
+    <h3>Google Mobile Ads (AdMob)</h3>
+    <p>広告表示機能を有効にした場合、Google の広告 SDK（AdMob）が広告配信のために端末情報・広告識別子等を処理することがあります。広告表示が無効な状態では、広告 SDK の初期化や広告リクエストは行いません。</p>
+    <p class="small muted">詳細は<a href="privacy.html">プライバシーポリシー</a>および <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>をご確認ください。</p>
+  </div>
+
   <h2>正確性について</h2>
-  <p>本アプリが表示する順位・実数値・対戦結果・ブレイクポイント・開催予定等は参考値です。ゲーム更新やデータ差分により実際と異なる場合があります。</p>
+  <p>本アプリが表示する順位・実数値・対戦結果・ブレイクポイント・GBL開催予定等は、コミュニティ提供データと独自計算に基づく<strong>参考値・推定値</strong>です。正確性・最新性・完全性を保証しません。ゲームの仕様変更やデータ差分により実際と異なる場合があります。</p>
 
   <hr class="hr">
 
   <h1 id="en">Licenses &amp; Notices</h1>
-  <p class="muted small">Last updated: June 5, 2026</p>
+  <p class="muted small">Last updated: June 4, 2026</p>
 
-  <p>GBLBOX is an unofficial helper tool. It is not affiliated with, endorsed, sponsored, or provided by Niantic, Inc., The Pokemon Company, Nintendo, or any other rights holder. Pokemon, Pokemon GO, and related names and trademarks belong to their respective owners.</p>
+  <h2>Unofficial Tool (Important)</h2>
+  <p>GBLBOX is an <strong>unofficial</strong> helper tool developed by an individual. It is <strong>not affiliated with, endorsed, sponsored, or provided by</strong> Niantic, Inc., The Pokémon Company, Nintendo, or any other rights holder.</p>
 
-  <h2>Use of Third-Party Data</h2>
-  <p>GBLBOX bundles game-related data that is fetched and processed during app updates. During normal use, the app reads this data locally on device and does not contact external APIs or websites such as PvPoke, PokeAPI, PokeMiners, Pokemon GO Hub, or GamePress. GBL schedules, tournament events, force update settings, and advertising display settings may be updated through JSON files hosted on this website.</p>
+  <h2>Trademarks and Copyright</h2>
+  <p>Pokémon, Pokémon GO, and related names, logos, characters, and images are trademarks or copyrighted works of Niantic, Inc., The Pokémon Company, Nintendo, and their affiliates. GBLBOX is published to assist gameplay without authorization from these rights holders and is not intended to infringe any rights.</p>
+  <p class="small muted">Niantic copyright notices: <a href="https://nianticlabs.com/copyright-notices?hl=en">Niantic Copyright Notices</a></p>
+
+  <h2>Data Fetching and Network Access</h2>
+  <p>Game-related data (base stats, types, moves, CPM, recommended moves, rankings, power-up costs, etc.) is fetched and processed during app updates, <strong>bundled in the app</strong>, and read <strong>locally on device</strong> during normal use. During normal use, the app does not contact external APIs or websites such as PvPoke, PokeAPI, PokeMiners, Pokemon GO Hub, or GamePress.</p>
+  <p>GBL schedules, tournament events, force update settings, and advertising display settings may be updated by fetching JSON files from this website (gblbox.com). Those requests do not include personal information, saved Pokémon data, screenshots, or settings. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <h2>Third-Party Data and Licenses</h2>
+  <p>GBLBOX references the public and community sources below. None of them endorse, sponsor, or provide GBLBOX.</p>
 
   <div class="card">
     <h3>PvPoke</h3>
-    <p>GBLBOX references PvPoke for base stats, types, recommended moves, rankings, and related data. PvPoke code and some data are published under the MIT License.</p>
-    <p class="small muted">Copyright (c) 2019 pvpoke. GBLBOX is not derived from, endorsed by, or sponsored by PvPoke. See <a href="https://github.com/pvpoke/pvpoke">PvPoke GitHub</a> and its <a href="https://raw.githubusercontent.com/pvpoke/pvpoke/master/LICENSE">LICENSE</a> for details.</p>
+    <p>Referenced for base stats, types, recommended moves, rankings, move data (power, energy, etc.), and related information. PvPoke code and some data are published under the MIT License.</p>
+    <p class="small muted">Copyright (c) 2019 pvpoke. GBLBOX is not a fork or derivative of PvPoke and is not endorsed or sponsored by PvPoke. <a href="https://github.com/pvpoke/pvpoke">PvPoke GitHub</a> / <a href="https://raw.githubusercontent.com/pvpoke/pvpoke/master/LICENSE">LICENSE</a></p>
   </div>
 
   <div class="card">
     <h3>PokeAPI</h3>
-    <p>GBLBOX references PokeAPI for name data and related information. PokeAPI's fair use guidance asks developers to cache requested resources locally.</p>
-    <p class="small muted">Copyright © 2013-2023 Paul Hallett and PokéAPI contributors. Pokemon and character names are trademarks of Nintendo. The PokeAPI name is not used to endorse or promote GBLBOX. See <a href="https://pokeapi.co/docs/v2">PokeAPI Docs</a> and its <a href="https://raw.githubusercontent.com/PokeAPI/pokeapi/master/LICENSE.md">LICENSE</a> for details.</p>
+    <p>Referenced for Japanese species and move names and related information from PokeAPI’s published CSV data. PokeAPI’s fair use guidance asks developers to cache requested resources locally; GBLBOX bundles this data on device.</p>
+    <p class="small muted">Copyright © Paul Hallett and PokéAPI contributors. Pokémon and character names are trademarks of Nintendo and related rights holders. The PokeAPI name is not used to endorse or promote GBLBOX. <a href="https://pokeapi.co/docs/v2">PokeAPI Docs</a> / <a href="https://raw.githubusercontent.com/PokeAPI/pokeapi/master/LICENSE.md">LICENSE</a></p>
   </div>
 
   <div class="card">
     <h3>PokeMiners Game Master</h3>
-    <p>GBLBOX references public PokeMiners Game Master data for CPM and related values. The repository explains that it is for educational use and that the content belongs to The Pokemon Company, Niantic, and related rights holders.</p>
-    <p class="small muted">See <a href="https://github.com/PokeMiners/game_masters">PokeMiners Game Master</a> for details.</p>
+    <p>Referenced for CPM (cpMultiplier) and related values. The repository states that it is for educational use and that the content belongs to The Pokémon Company, Niantic, and related rights holders.</p>
+    <p class="small muted"><a href="https://github.com/PokeMiners/game_masters">PokeMiners Game Master</a></p>
   </div>
 
   <div class="card">
@@ -91,11 +116,18 @@
     <p class="small muted"><a href="https://db.pokemongohub.net/">Pokemon GO Hub Database</a> / <a href="https://pogo.gamepress.gg/">GamePress Pokemon GO</a></p>
   </div>
 
+  <div class="card">
+    <h3>Google Mobile Ads (AdMob)</h3>
+    <p>When advertising is enabled, Google’s advertising SDK (AdMob) may process device information, advertising identifiers, and related data to deliver ads. When advertising is disabled, the advertising SDK is not initialized and no ad request is made.</p>
+    <p class="small muted">See the <a href="privacy.html">Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a> for details.</p>
+  </div>
+
   <h2>Accuracy</h2>
-  <p>Ranks, stats, battle results, breakpoints, schedules, and other values shown by the app are reference estimates. They may differ from the game after updates or data changes.</p>
+  <p>Ranks, stats, battle results, breakpoints, GBL schedules, and other values shown by the app are <strong>reference estimates</strong> based on community data and the app’s own calculations. No guarantee of accuracy, timeliness, or completeness is made. Results may differ from the game after updates or data changes.</p>
 
   <footer class="site">
     <p>GBLBOX © 2026 ／ <a href="index.html">ホーム</a> ・ <a href="privacy.html">プライバシー</a> ・ <a href="terms.html">利用規約</a> ・ <a href="support.html">サポート</a></p>
+    <p class="small">本アプリは Niantic / 株式会社ポケモン / 任天堂とは関係がありません。This app is not affiliated with Niantic, The Pokémon Company, or Nintendo.</p>
   </footer>
 </div>
 </body>
