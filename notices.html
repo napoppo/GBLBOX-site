@@ -35,7 +35,7 @@
 
   <h2>データの取得・通信</h2>
   <p>ゲーム関連データ（種族値・タイプ・技・CPM・推奨技・ランキング・強化コスト等）は、アプリ更新時に公開情報・コミュニティ提供データを取得・整形して<strong>アプリ内に同梱</strong>し、通常利用時は<strong>端末内で参照</strong>します。通常利用時に PvPoke、PokeAPI、PokeMiners、Pokemon GO Hub、GamePress 等の外部API・外部サイトへ通信しません。</p>
-  <p>GBLスケジュール・大会予定、強制アップデート、広告表示設定は、本サイト（gblbox.com）上の JSON ファイルを取得して更新する場合があります。この通信に個人情報・登録した個体データ・スクリーンショット・設定内容は含まれません。詳細は<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+  <p>GBLスケジュール・大会予定、強制アップデート、広告表示設定、解析設定は、本サイト（gblbox.com）上の JSON ファイルを取得して更新する場合があります。この通信に個人情報・登録した個体データ・スクリーンショット・設定内容は含まれません。詳細は<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
 
   <h2>第三者データ・ライセンス</h2>
   <p>以下の公開情報・コミュニティ提供データを参考にしています。各出典元は GBLBOX を承認・後援・提供していません。</p>
@@ -70,6 +70,12 @@
     <p class="small muted">詳細は<a href="privacy.html">プライバシーポリシー</a>および <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>をご確認ください。</p>
   </div>
 
+  <div class="card">
+    <h3>PostHog</h3>
+    <p>解析機能を有効にした場合、PostHog SDK が匿名の利用状況データ（画面表示、機能の利用回数、アプリのバージョン、匿名ID等）を処理することがあります。ポケモン名、ニックネーム、検索語、スクリーンショット、個体値、保存した個体データは送信しません。解析機能はアプリ内設定で停止できます。</p>
+    <p class="small muted">詳細は<a href="privacy.html">プライバシーポリシー</a>および <a href="https://posthog.com/privacy">PostHog Privacy Policy</a>をご確認ください。</p>
+  </div>
+
   <h2>正確性について</h2>
   <p>本アプリが表示する順位・実数値・対戦結果・ブレイクポイント・GBL開催予定等は、コミュニティ提供データと独自計算に基づく<strong>参考値・推定値</strong>です。正確性・最新性・完全性を保証しません。ゲームの仕様変更やデータ差分により実際と異なる場合があります。</p>
 
@@ -87,7 +93,7 @@
 
   <h2>Data Fetching and Network Access</h2>
   <p>Game-related data (base stats, types, moves, CPM, recommended moves, rankings, power-up costs, etc.) is fetched and processed during app updates, <strong>bundled in the app</strong>, and read <strong>locally on device</strong> during normal use. During normal use, the app does not contact external APIs or websites such as PvPoke, PokeAPI, PokeMiners, Pokemon GO Hub, or GamePress.</p>
-  <p>GBL schedules, tournament events, force update settings, and advertising display settings may be updated by fetching JSON files from this website (gblbox.com). Those requests do not include personal information, saved Pokémon data, screenshots, or settings. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+  <p>GBL schedules, tournament events, force update settings, advertising display settings, and analytics settings may be updated by fetching JSON files from this website (gblbox.com). Those requests do not include personal information, saved Pokémon data, screenshots, or settings. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
 
   <h2>Third-Party Data and Licenses</h2>
   <p>GBLBOX references the public and community sources below. None of them endorse, sponsor, or provide GBLBOX.</p>
@@ -120,6 +126,12 @@
     <h3>Google Mobile Ads (AdMob)</h3>
     <p>When advertising is enabled, Google’s advertising SDK (AdMob) may process device information, advertising identifiers, and related data to deliver ads. When advertising is disabled, the advertising SDK is not initialized and no ad request is made.</p>
     <p class="small muted">See the <a href="privacy.html">Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a> for details.</p>
+  </div>
+
+  <div class="card">
+    <h3>PostHog</h3>
+    <p>When analytics is enabled, the PostHog SDK may process anonymous usage data such as screen views, feature usage counts, app version, and an anonymous identifier. GBLBOX does not send Pokemon names, nicknames, search terms, screenshots, IV values, or saved Box data. Analytics can be disabled in the app settings.</p>
+    <p class="small muted">See the <a href="privacy.html">Privacy Policy</a> and <a href="https://posthog.com/privacy">PostHog Privacy Policy</a> for details.</p>
   </div>
 
   <h2>Accuracy</h2>

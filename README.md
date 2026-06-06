@@ -23,5 +23,6 @@ App Store Connect では次を設定:
 
 ## メモ
 - 連絡先メールは各ページの `h.nakamura3557@gmail.com` を編集して変更可能。
-- 個体管理・画像解析は端末内処理。GBLスケジュール・大会予定は `data/gbl_schedule.json`、強制アップデート・広告フラグは `data/app_config.json` で配信する。
+- 個体管理・画像解析は端末内処理。GBLスケジュール・大会予定は `data/gbl_schedule.json`、強制アップデート・広告・解析フラグは `data/app_config.json` で配信する。
 - 広告は `data/app_config.json` の `ads.enabled` が `true` の時だけアプリ側で初期化・表示する。
+- PostHog 解析は `data/app_config.json` の `analytics.enabled` が `true` かつユーザーが設定で許可している時だけ初期化・送信する。
