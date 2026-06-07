@@ -19,7 +19,7 @@
   },
   "billing": {
     "enabled": true,
-    "revenueCatApiKey": "test_RVYJcIFrQmbdmpeIYawLsbWtZKs",
+    "revenueCatApiKey": "",
     "proEntitlementId": "GBL BOX Pro"
   }
 }
