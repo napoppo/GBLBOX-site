@@ -8,7 +8,7 @@
     "messageEn": "A newer version is required. Please update from the App Store."
   },
   "analytics": {
-    "enabled": false
+    "enabled": true
   },
   "billing": {
     "enabled": true
