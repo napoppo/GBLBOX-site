@@ -114,7 +114,27 @@ GBL スケジュール・フォーマットルール・大会情報を配信す�
 | `bannedSpeciesIds` | 禁止種族 ID（pokedex の speciesId） |
 | `megaAllowed` | メガ参加可 |
 | `requiresMiddleEvolution` | 進化カップ（中間進化のみ） |
+| `regulationLinesJa` / `regulationLinesEn` | レギュレーション説明（箇条書き・表示専用。自動判定には使わない） |
+| `unsupportedNoteJa` / `unsupportedNoteEn` | アプリが自動判定できない旨の注意 |
 | `officialUrlJa` / `officialUrlEn` | 公式お知らせ URL |
+
+### レギュレーション文の追加例
+
+`formatRules` の各カップに、構造化フィールドで表せないルールを箇条書きで書けます。
+
+```json
+"regulationLinesJa": [
+  "伝説・幻ポケモンは使用できません",
+  "同一種族は1匹まで"
+],
+"regulationLinesEn": [
+  "Legendary and Mythical Pokemon are not allowed",
+  "Only one Pokemon per species"
+]
+```
+
+アプリの GBL タブ → ルール概要カードに表示されます。  
+参加可否の自動判定に使うのは `allowedTypes` / `bannedSpeciesIds` など既存フィールドです。
 
 ## 検証
 
@@ -131,6 +151,20 @@ python3 scripts/validate_gbl_schedule.py
 
 - **schemaVersion 2** … 現行（シーズン配列）
 - **schemaVersion 1** … 旧形式（ルート直下に `seasonNameJa` 等）。アプリは後方互換で読めるが、新規編集は v2 を使う
+
+## サイトからのルール更新（アプリ更新不要）
+
+`formatRules` に新カップを追加し、`schedule` の `formatIds` で参照すれば反映されます。
+
+| やりたいこと | フィールド |
+|-------------|-----------|
+| 禁止ポケモン（自動判定） | `bannedSpeciesIds` |
+| タイプ制限 | `allowedTypes` / `bannedTypes` |
+| ルール説明（表示のみ） | `regulationLinesJa` / `regulationLinesEn` |
+| 自動判定できない注意 | `unsupportedNoteJa` / `unsupportedNoteEn` |
+
+**v1.4.0 以降のアプリ**が `gbl_schedule.json` から `formatRules` 全体を読み込みます。  
+`regulationLines` は GBL タブのルール概要カードに表示されます（参加可否の自動判定には使いません）。
 
 ## デプロイ
 

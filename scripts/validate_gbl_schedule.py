@@ -42,6 +42,16 @@ def validate_v2(doc: dict) -> None:
     if len(rule_ids) != len(format_rules):
         fail(f"season '{current_id}' has duplicate formatRules ids")
 
+    for rule in format_rules:
+        if not isinstance(rule, dict):
+            continue
+        for key in ("regulationLinesJa", "regulationLinesEn"):
+            lines = rule.get(key)
+            if lines is None:
+                continue
+            if not isinstance(lines, list) or not all(isinstance(line, str) for line in lines):
+                fail(f"formatRules '{rule.get('id')}' {key} must be an array of strings")
+
     schedule = season.get("schedule", [])
     if not isinstance(schedule, list):
         fail(f"season '{current_id}' schedule must be an array")
