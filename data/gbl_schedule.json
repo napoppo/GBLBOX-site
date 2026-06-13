@@ -147,6 +147,14 @@
           "cpCap": null,
           "unsupportedNoteJa": "伝説・幻判定は種族データ未保持のため、この画面では手動確認してください。",
           "unsupportedNoteEn": "Legendary/Mythical checks are manual because the bundled species data does not include those flags.",
+          "regulationLinesJa": [
+            "伝説・幻ポケモンは使用できません",
+            "メガシンカ・ゼルネアス（いきものフォルム）は使用できません"
+          ],
+          "regulationLinesEn": [
+            "Legendary and Mythical Pokemon are not allowed",
+            "Mega-Evolved Pokemon and Xerneas (Active Mode) are not allowed"
+          ],
           "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-forever-forward",
           "officialUrlEn": "https://pokemongo.com/news/go-battle-league-forever-forward"
         },
