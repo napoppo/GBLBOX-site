@@ -10,12 +10,6 @@
   "ads": {
     "bannerAdUnitId": "ca-app-pub-6084653883738582/7514497277"
   },
-  "analytics": {
-    "enabled": false,
-    "projectToken": "phc_pyN8cyXPzM84e97g5SfWWc6o2xTMXezytooeKp8UKJnE",
-    "projectId": "456808",
-    "host": "https://us.i.posthog.com"
-  },
   "billing": {
     "enabled": true,
     "revenueCatApiKey": "",
