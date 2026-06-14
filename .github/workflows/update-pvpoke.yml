@@ -1,0 +1,46 @@
+name: Update PvPoke movesets
+
+# 毎週 PvPoke のランキングから pvpoke_movesets.json を再生成して配信する。
+# アプリは gblbox.com/data/pvpoke_movesets.json を24h毎に取得し、次回起動で反映する。
+on:
+  schedule:
+    - cron: "0 18 * * 1"   # 毎週月曜 18:00 UTC (火 03:00 JST)
+  workflow_dispatch: {}     # 手動実行も可
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pvpoke
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch & build pvpoke_movesets.json
+        run: python scripts/update_pvpoke_moves.py --output data/pvpoke_movesets.json
+
+      - name: Validate
+        run: python scripts/validate_pvpoke_movesets.py data/pvpoke_movesets.json
+
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain data/pvpoke_movesets.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/pvpoke_movesets.json
+            git commit -m "chore: update pvpoke_movesets.json (PvPoke auto, weekly)"
+            git push
+          else
+            echo "No changes to pvpoke_movesets.json."
+          fi
