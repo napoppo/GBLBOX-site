@@ -15,6 +15,7 @@
   },
   "proTrial": {
     "freeUseLimit": 5,
-    "resetGeneration": 0
+    "resetGeneration": 0,
+    "liveScanImportLimit": 10
   }
 }
