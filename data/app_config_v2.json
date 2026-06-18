@@ -12,5 +12,9 @@
   },
   "billing": {
     "enabled": true
+  },
+  "proTrial": {
+    "freeUseLimit": 5,
+    "resetGeneration": 0
   }
 }
