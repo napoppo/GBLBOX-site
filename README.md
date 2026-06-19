@@ -19,7 +19,7 @@ App Store Connect では次を設定:
 - **サポートURL**: `https://napoppo.github.io/GBLBOX-site/support.html`
 - **プライバシーポリシーURL**: `https://napoppo.github.io/GBLBOX-site/privacy.html`
 
-独自ドメインを使う場合は `CNAME` ファイルを追加し、Pages のカスタムドメインに設定する。
+独自ドメインを使う場合は、DNS が有効になってから `CNAME` ファイルを追加し、Pages のカスタムドメインに設定する。
 
 ## メモ
 - 連絡先メールは各ページの `h.nakamura3557@gmail.com` を編集して変更可能。
