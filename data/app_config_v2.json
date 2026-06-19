@@ -14,9 +14,10 @@
     "enabled": true
   },
   "proTrial": {
-    "freeUseLimit": 5,
+    "freeUseLimit": 999,
     "resetGeneration": 0,
     "bulkImportLimit": 10,
-    "liveScanImportLimit": 10
+    "liveScanImportLimit": 10,
+    "freeIndividualLimit": 50
   }
 }
