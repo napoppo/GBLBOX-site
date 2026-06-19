@@ -20,7 +20,7 @@ from secure_fetch import fetch_bytes
 
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-# gblbox.com 配信先（GitHub Pages の data/）。アプリ同梱版は pokemongo_iv_manager/tools 側で生成する。
+# GitHub Pages 配信先（data/）。アプリ同梱版は pokemongo_iv_manager/tools 側で生成する。
 OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_movesets.json"))
 BASE_URL = "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall"
 

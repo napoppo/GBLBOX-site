@@ -1,7 +1,7 @@
 # gbl_schedule.json 管理ガイド
 
 GBL スケジュール・フォーマットルール・大会情報を配信する JSON。  
-アプリは `https://gblbox.com/data/gbl_schedule.json` から取得する。
+アプリは `https://napoppo.github.io/GBLBOX-site/data/gbl_schedule.json` を優先し、必要に応じて GitHub raw / 独自ドメインへフォールバックして取得する。
 
 ## ファイル構造（schemaVersion 2）
 
@@ -168,5 +168,5 @@ python3 scripts/validate_gbl_schedule.py
 
 ## デプロイ
 
-`main` に push すると GitHub Pages（gblbox.com）経由で配信される。  
+`main` に push すると GitHub Pages 経由で配信される。
 アプリは最大6時間キャッシュするため、反映確認は少し待つかアプリ再起動が必要。
