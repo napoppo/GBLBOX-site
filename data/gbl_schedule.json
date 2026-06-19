@@ -17,6 +17,15 @@
           "cpCap": 1500
         },
         {
+          "id": "preview_cup",
+          "nameJa": "プレビューカップ：スーパーリーグ",
+          "nameEn": "Preview Cup: Great League",
+          "league": "great",
+          "cpCap": 1500,
+          "unsupportedNoteJa": "開発中の新仕様テスト版です。終了時期は未定です。",
+          "unsupportedNoteEn": "Preview test format for upcoming rules. End date is not yet decided."
+        },
+        {
           "id": "ultra",
           "nameJa": "ハイパーリーグ",
           "nameEn": "Ultra League",
@@ -195,98 +204,98 @@
           "id": "2026-06-02",
           "start": "2026-06-02T20:00:00Z",
           "end": "2026-06-09T20:00:00Z",
-          "formatIds": ["great", "naic_2026"],
+          "formatIds": ["great", "naic_2026", "preview_cup"],
           "stardustBonus": false
         },
         {
           "id": "2026-06-09",
           "start": "2026-06-09T20:00:00Z",
           "end": "2026-06-16T20:00:00Z",
-          "formatIds": ["ultra", "naic_2026"],
+          "formatIds": ["ultra", "naic_2026", "preview_cup"],
           "stardustBonus": false
         },
         {
           "id": "2026-06-16",
           "start": "2026-06-16T20:00:00Z",
           "end": "2026-06-23T20:00:00Z",
-          "formatIds": ["master_mega", "sunshine"],
+          "formatIds": ["master_mega", "sunshine", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-06-23",
           "start": "2026-06-23T20:00:00Z",
           "end": "2026-06-30T20:00:00Z",
-          "formatIds": ["great", "ultra", "master"],
+          "formatIds": ["great", "ultra", "master", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-06-30",
           "start": "2026-06-30T20:00:00Z",
           "end": "2026-07-07T20:00:00Z",
-          "formatIds": ["great", "summer"],
+          "formatIds": ["great", "summer", "preview_cup"],
           "stardustBonus": false
         },
         {
           "id": "2026-07-07",
           "start": "2026-07-07T20:00:00Z",
           "end": "2026-07-14T20:00:00Z",
-          "formatIds": ["ultra", "fantasy_ultra"],
+          "formatIds": ["ultra", "fantasy_ultra", "preview_cup"],
           "stardustBonus": false
         },
         {
           "id": "2026-07-14",
           "start": "2026-07-14T20:00:00Z",
           "end": "2026-07-21T20:00:00Z",
-          "formatIds": ["master", "retro"],
+          "formatIds": ["master", "retro", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-07-21",
           "start": "2026-07-21T20:00:00Z",
           "end": "2026-07-28T20:00:00Z",
-          "formatIds": ["great", "ultra", "master"],
+          "formatIds": ["great", "ultra", "master", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-07-28",
           "start": "2026-07-28T20:00:00Z",
           "end": "2026-08-04T20:00:00Z",
-          "formatIds": ["great", "master_premier"],
+          "formatIds": ["great", "master_premier", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-08-04",
           "start": "2026-08-04T20:00:00Z",
           "end": "2026-08-11T20:00:00Z",
-          "formatIds": ["ultra", "nature"],
+          "formatIds": ["ultra", "nature", "preview_cup"],
           "stardustBonus": false
         },
         {
           "id": "2026-08-11",
           "start": "2026-08-11T20:00:00Z",
           "end": "2026-08-18T20:00:00Z",
-          "formatIds": ["master", "evolution"],
+          "formatIds": ["master", "evolution", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-08-18",
           "start": "2026-08-18T20:00:00Z",
           "end": "2026-08-25T20:00:00Z",
-          "formatIds": ["great", "scroll"],
+          "formatIds": ["great", "scroll", "preview_cup"],
           "stardustBonus": false
         },
         {
           "id": "2026-08-25",
           "start": "2026-08-25T20:00:00Z",
           "end": "2026-09-01T20:00:00Z",
-          "formatIds": ["great", "ultra", "master"],
+          "formatIds": ["great", "ultra", "master", "preview_cup"],
           "stardustBonus": true
         },
         {
           "id": "2026-09-01",
           "start": "2026-09-01T20:00:00Z",
           "end": "2026-09-08T20:00:00Z",
-          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "formatIds": ["great_mega", "ultra_mega", "master_mega", "preview_cup"],
           "stardustBonus": true
         }
       ],
