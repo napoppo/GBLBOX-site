@@ -1,0 +1,3530 @@
+{
+"ACID": {
+"name": "Acid",
+"nameJa": "ようかいえき",
+"type": "poison",
+"power": 6,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"ACID_SPRAY": {
+"name": "Acid Spray",
+"nameJa": "アシッドボム",
+"type": "poison",
+"power": 20,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-2
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"ACROBATICS": {
+"name": "Acrobatics",
+"nameJa": "アクロバット",
+"type": "flying",
+"power": 110,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"AERIAL_ACE": {
+"name": "Aerial Ace",
+"nameJa": "つばめがえし",
+"type": "flying",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"AEROBLAST": {
+"name": "Aeroblast",
+"nameJa": "エアロブラスト",
+"type": "flying",
+"power": 170,
+"energy": 75,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+2,
+0
+],
+"buffTarget": "self",
+"buffChance": 0.125
+},
+"AIR_CUTTER": {
+"name": "Air Cutter",
+"nameJa": "エアカッター",
+"type": "flying",
+"power": 45,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 0.3
+},
+"AIR_SLASH": {
+"name": "Air Slash",
+"nameJa": "エアスラッシュ",
+"type": "flying",
+"power": 9,
+"energy": 0,
+"energyGain": 9,
+"turns": 3
+},
+"ANCIENT_POWER": {
+"name": "Ancient Power",
+"nameJa": "げんしのちから",
+"type": "rock",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+1
+],
+"buffTarget": "self",
+"buffChance": 0.1
+},
+"AQUA_JET": {
+"name": "Aqua Jet",
+"nameJa": "アクアジェット",
+"type": "water",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"AQUA_STEP": {
+"name": "Aqua Step",
+"nameJa": "アクアステップ",
+"type": "water",
+"power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"AQUA_TAIL": {
+"name": "Aqua Tail",
+"nameJa": "アクアテール",
+"type": "water",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"ASTONISH": {
+"name": "Astonish",
+"nameJa": "おどろかす",
+"type": "ghost",
+"power": 12,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"AURA_SPHERE": {
+"name": "Aura Sphere",
+"nameJa": "はどうだん",
+"type": "fighting",
+"power": 80,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"AURA_WHEEL_DARK": {
+"name": "Aura Wheel",
+"nameJa": "オーラぐるま",
+"type": "dark",
+"power": 100,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"AURA_WHEEL_ELECTRIC": {
+"name": "Aura Wheel",
+"nameJa": "オーラぐるま",
+"type": "electric",
+"power": 100,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"AURORA_BEAM": {
+"name": "Aurora Beam",
+"nameJa": "オーロラビーム",
+"type": "ice",
+"power": 80,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"AVALANCHE": {
+"name": "Avalanche",
+"nameJa": "ゆきなだれ",
+"type": "ice",
+"power": 90,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"BEAK_BLAST": {
+"name": "Beak Blast",
+"nameJa": "くちばしキャノン",
+"type": "flying",
+"power": 110,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"BEHEMOTH_BASH": {
+"name": "Behemoth Bash",
+"nameJa": "きょじゅうだん",
+"type": "steel",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"BEHEMOTH_BLADE": {
+"name": "Behemoth Blade",
+"nameJa": "きょじゅうざん",
+"type": "steel",
+"power": 100,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"BITE": {
+"name": "Bite",
+"nameJa": "かみつく",
+"type": "dark",
+"power": 4,
+"energy": 0,
+"energyGain": 2,
+"turns": 1
+},
+"BLAST_BURN": {
+"name": "Blast Burn",
+"nameJa": "ブラストバーン",
+"type": "fire",
+"power": 110,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"BLAZE_KICK": {
+"name": "Blaze Kick",
+"nameJa": "ブレイズキック",
+"type": "fire",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"BLEAKWIND_STORM": {
+"name": "Bleakwind Storm",
+"nameJa": "こがらしあらし",
+"type": "flying",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"BLIZZARD": {
+"name": "Blizzard",
+"nameJa": "ふぶき",
+"type": "ice",
+"power": 140,
+"energy": 75,
+"energyGain": 0,
+"turns": 1
+},
+"BODY_SLAM": {
+"name": "Body Slam",
+"nameJa": "のしかかり",
+"type": "normal",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"BONE_CLUB": {
+"name": "Bone Club",
+"nameJa": "ホネこんぼう",
+"type": "ground",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"BOOMBURST": {
+"name": "Boomburst",
+"nameJa": "ばくおんぱ",
+"type": "normal",
+"power": 150,
+"energy": 70,
+"energyGain": 0,
+"turns": 1
+},
+"BRAVE_BIRD": {
+"name": "Brave Bird",
+"nameJa": "ブレイブバード",
+"type": "flying",
+"power": 130,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-3
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"BREAKING_SWIPE": {
+"name": "Breaking Swipe",
+"nameJa": "ワイドブレイカー",
+"type": "dragon",
+"power": 50,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"BRICK_BREAK": {
+"name": "Brick Break",
+"nameJa": "かわらわり",
+"type": "fighting",
+"power": 50,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"BRINE": {
+"name": "Brine",
+"nameJa": "しおみず",
+"type": "water",
+"power": 60,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"BRUTAL_SWING": {
+"name": "Brutal Swing",
+"nameJa": "ぶんまわす",
+"type": "dark",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"BUBBLE": {
+"name": "Bubble",
+"nameJa": "あわ",
+"type": "water",
+"power": 8,
+"energy": 0,
+"energyGain": 11,
+"turns": 3
+},
+"BUBBLE_BEAM": {
+"name": "Bubble Beam",
+"nameJa": "バブルこうせん",
+"type": "water",
+"power": 25,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"BUG_BITE": {
+"name": "Bug Bite",
+"nameJa": "むしくい",
+"type": "bug",
+"power": 4,
+"energy": 0,
+"energyGain": 3,
+"turns": 1
+},
+"BUG_BUZZ": {
+"name": "Bug Buzz",
+"nameJa": "むしのさざめき",
+"type": "bug",
+"power": 100,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"BULLDOZE": {
+"name": "Bulldoze",
+"nameJa": "じならし",
+"type": "ground",
+"power": 45,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"BULLET_PUNCH": {
+"name": "Bullet Punch",
+"nameJa": "バレットパンチ",
+"type": "steel",
+"power": 7,
+"energy": 0,
+"energyGain": 7,
+"turns": 2
+},
+"BULLET_SEED": {
+"name": "Bullet Seed",
+"nameJa": "タネマシンガン",
+"type": "grass",
+"power": 5,
+"energy": 0,
+"energyGain": 13,
+"turns": 3
+},
+"CHARGE_BEAM": {
+"name": "Charge Beam",
+"nameJa": "チャージビーム",
+"type": "electric",
+"power": 5,
+"energy": 0,
+"energyGain": 11,
+"turns": 3
+},
+"CHARM": {
+"name": "Charm",
+"nameJa": "あまえる",
+"type": "fairy",
+"power": 12,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"CHILLING_WATER": {
+"name": "Chilling Water",
+"nameJa": "ひやみず",
+"type": "water",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"CLANGING_SCALES": {
+"name": "Clanging Scales",
+"nameJa": "スケイルノイズ",
+"type": "dragon",
+"power": 120,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"CLOSE_COMBAT": {
+"name": "Close Combat",
+"nameJa": "インファイト",
+"type": "fighting",
+"power": 100,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-2
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"CONFUSION": {
+"name": "Confusion",
+"nameJa": "ねんりき",
+"type": "psychic",
+"power": 16,
+"energy": 0,
+"energyGain": 14,
+"turns": 4
+},
+"COUNTER": {
+"name": "Counter",
+"nameJa": "カウンター",
+"type": "fighting",
+"power": 8,
+"energy": 0,
+"energyGain": 6,
+"turns": 2
+},
+"CRABHAMMER": {
+"name": "Crabhammer",
+"nameJa": "クラブハンマー",
+"type": "water",
+"power": 85,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+2,
+0
+],
+"buffTarget": "self",
+"buffChance": 0.125
+},
+"CROSS_CHOP": {
+"name": "Cross Chop",
+"nameJa": "クロスチョップ",
+"type": "fighting",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"CROSS_POISON": {
+"name": "Cross Poison",
+"nameJa": "クロスポイズン",
+"type": "poison",
+"power": 50,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+2,
+0
+],
+"buffTarget": "self",
+"buffChance": 0.125
+},
+"CRUNCH": {
+"name": "Crunch",
+"nameJa": "かみくだく",
+"type": "dark",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.2
+},
+"CRUSH_GRIP": {
+"name": "Crush Grip",
+"nameJa": "にぎりつぶす",
+"type": "normal",
+"power": 110,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"CUT": {
+"name": "Cut",
+"nameJa": "いあいぎり",
+"type": "normal",
+"power": 3,
+"energy": 0,
+"energyGain": 2,
+"turns": 1
+},
+"DARKEST_LARIAT": {
+"name": "Darkest Lariat",
+"nameJa": "ＤＤラリアット",
+"type": "dark",
+"power": 120,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"DARK_PULSE": {
+"name": "Dark Pulse",
+"nameJa": "あくのはどう",
+"type": "dark",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"DAZZLING_GLEAM": {
+"name": "Dazzling Gleam",
+"nameJa": "マジカルシャイン",
+"type": "fairy",
+"power": 90,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"DIG": {
+"name": "Dig",
+"nameJa": "あなをほる",
+"type": "ground",
+"power": 70,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"DISARMING_VOICE": {
+"name": "Disarming Voice",
+"nameJa": "チャームボイス",
+"type": "fairy",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"DISCHARGE": {
+"name": "Discharge",
+"nameJa": "ほうでん",
+"type": "electric",
+"power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"DOOM_DESIRE": {
+"name": "Doom Desire",
+"nameJa": "はめつのねがい",
+"type": "steel",
+"power": 80,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"DOUBLE_IRON_BASH": {
+"name": "Double Iron Bash",
+"nameJa": "ダブルパンツァー",
+"type": "steel",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"DOUBLE_KICK": {
+"name": "Double Kick",
+"nameJa": "にどげり",
+"type": "fighting",
+"power": 8,
+"energy": 0,
+"energyGain": 12,
+"turns": 3
+},
+"DRACO_METEOR": {
+"name": "Draco Meteor",
+"nameJa": "りゅうせいぐん",
+"type": "dragon",
+"power": 150,
+"energy": 65,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"DRAGON_ASCENT": {
+"name": "Dragon Ascent",
+"nameJa": "ガリョウテンセイ",
+"type": "flying",
+"power": 110,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"DRAGON_BREATH": {
+"name": "Dragon Breath",
+"nameJa": "りゅうのいぶき",
+"type": "dragon",
+"power": 3,
+"energy": 0,
+"energyGain": 4,
+"turns": 1
+},
+"DRAGON_CLAW": {
+"name": "Dragon Claw",
+"nameJa": "ドラゴンクロー",
+"type": "dragon",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"DRAGON_ENERGY": {
+"name": "Dragon Energy",
+"nameJa": "ドラゴンエナジー",
+"type": "dragon",
+"power": 90,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"DRAGON_PULSE": {
+"name": "Dragon Pulse",
+"nameJa": "りゅうのはどう",
+"type": "dragon",
+"power": 90,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"DRAGON_TAIL": {
+"name": "Dragon Tail",
+"nameJa": "ドラゴンテール",
+"type": "dragon",
+"power": 9,
+"energy": 0,
+"energyGain": 12,
+"turns": 3
+},
+"DRAINING_KISS": {
+"name": "Draining Kiss",
+"nameJa": "ドレインキッス",
+"type": "fairy",
+"power": 60,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"DRAIN_PUNCH": {
+"name": "Drain Punch",
+"nameJa": "ドレインパンチ",
+"type": "fighting",
+"power": 40,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"DRILL_PECK": {
+"name": "Drill Peck",
+"nameJa": "ドリルくちばし",
+"type": "flying",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"DRILL_RUN": {
+"name": "Drill Run",
+"nameJa": "ドリルライナー",
+"type": "ground",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"DRUM_BEATING": {
+"name": "Drum Beating",
+"nameJa": "ドラムアタック",
+"type": "grass",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"DYNAMAX_CANNON": {
+"name": "Dynamax Cannon",
+"nameJa": "ダイマックスほう",
+"type": "dragon",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"DYNAMIC_PUNCH": {
+"name": "Dynamic Punch",
+"nameJa": "ばくれつパンチ",
+"type": "fighting",
+"power": 90,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"EARTHQUAKE": {
+"name": "Earthquake",
+"nameJa": "じしん",
+"type": "ground",
+"power": 120,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"EARTH_POWER": {
+"name": "Earth Power",
+"nameJa": "だいちのちから",
+"type": "ground",
+"power": 90,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.1
+},
+"EMBER": {
+"name": "Ember",
+"nameJa": "ひのこ",
+"type": "fire",
+"power": 4,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"ENERGY_BALL": {
+"name": "Energy Ball",
+"nameJa": "エナジーボール",
+"type": "grass",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.1
+},
+"EXTRASENSORY": {
+"name": "Extrasensory",
+"nameJa": "じんつうりき",
+"type": "psychic",
+"power": 8,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"FAIRY_WIND": {
+"name": "Fairy Wind",
+"nameJa": "ようせいのかぜ",
+"type": "fairy",
+"power": 4,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"FEATHER_DANCE": {
+"name": "Feather Dance",
+"nameJa": "フェザーダンス",
+"type": "flying",
+"power": 35,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"FEINT_ATTACK": {
+"name": "Feint Attack",
+"nameJa": "だましうち",
+"type": "dark",
+"power": 6,
+"energy": 0,
+"energyGain": 6,
+"turns": 2
+},
+"FELL_STINGER": {
+"name": "Fell Stinger",
+"nameJa": "とどめばり",
+"type": "bug",
+"power": 20,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"FIRE_BLAST": {
+"name": "Fire Blast",
+"nameJa": "だいもんじ",
+"type": "fire",
+"power": 140,
+"energy": 80,
+"energyGain": 0,
+"turns": 1
+},
+"FIRE_FANG": {
+"name": "Fire Fang",
+"nameJa": "ほのおのキバ",
+"type": "fire",
+"power": 8,
+"energy": 0,
+"energyGain": 6,
+"turns": 2
+},
+"FIRE_PUNCH": {
+"name": "Fire Punch",
+"nameJa": "ほのおのパンチ",
+"type": "fire",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"FIRE_SPIN": {
+"name": "Fire Spin",
+"nameJa": "ほのおのうず",
+"type": "fire",
+"power": 11,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"FLAMETHROWER": {
+"name": "Flamethrower",
+"nameJa": "かえんほうしゃ",
+"type": "fire",
+"power": 90,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"FLAME_BURST": {
+"name": "Flame Burst",
+"nameJa": "はじけるほのお",
+"type": "fire",
+"power": 70,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"FLAME_CHARGE": {
+"name": "Flame Charge",
+"nameJa": "ニトロチャージ",
+"type": "fire",
+"power": 65,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"FLAME_WHEEL": {
+"name": "Flame Wheel",
+"nameJa": "かえんぐるま",
+"type": "fire",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"FLASH_CANNON": {
+"name": "Flash Cannon",
+"nameJa": "ラスターカノン",
+"type": "steel",
+"power": 110,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"FLOWER_TRICK": {
+"name": "Flower Trick",
+"nameJa": "トリックフラワー",
+"type": "grass",
+"power": 30,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"FLY": {
+"name": "Fly",
+"nameJa": "そらをとぶ",
+"type": "flying",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"FLYING_PRESS": {
+"name": "Flying Press",
+"nameJa": "フライングプレス",
+"type": "fighting",
+"power": 90,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"FOCUS_BLAST": {
+"name": "Focus Blast",
+"nameJa": "きあいだま",
+"type": "fighting",
+"power": 150,
+"energy": 75,
+"energyGain": 0,
+"turns": 1
+},
+"FORCE_PALM": {
+"name": "Force Palm",
+"nameJa": "はっけい",
+"type": "fighting",
+"power": 13,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"FOUL_PLAY": {
+"name": "Foul Play",
+"nameJa": "イカサマ",
+"type": "dark",
+"power": 65,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"FREEZE_SHOCK": {
+"name": "Freeze Shock",
+"nameJa": "フリーズボルト",
+"type": "ice",
+"power": 120,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"FRENZY_PLANT": {
+"name": "Frenzy Plant",
+"nameJa": "ハードプラント",
+"type": "grass",
+"power": 100,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"FROST_BREATH": {
+"name": "Frost Breath",
+"nameJa": "こおりのいぶき",
+"type": "ice",
+"power": 7,
+"energy": 0,
+"energyGain": 5,
+"turns": 2
+},
+"FRUSTRATION": {
+"name": "Frustration",
+"nameJa": "やつあたり",
+"type": "normal",
+"power": 10,
+"energy": 70,
+"energyGain": 0,
+"turns": 1
+},
+"FURY_CUTTER": {
+"name": "Fury Cutter",
+"nameJa": "れんぞくぎり",
+"type": "bug",
+"power": 3,
+"energy": 0,
+"energyGain": 4,
+"turns": 1
+},
+"FUSION_BOLT": {
+"name": "Fusion Bolt",
+"nameJa": "クロスサンダー",
+"type": "electric",
+"power": 90,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"FUSION_FLARE": {
+"name": "Fusion Flare",
+"nameJa": "クロスフレイム",
+"type": "fire",
+"power": 90,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"FUTURE_SIGHT": {
+"name": "Future Sight",
+"nameJa": "みらいよち",
+"type": "psychic",
+"power": 110,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"GEOMANCY": {
+"name": "Geomancy",
+"nameJa": "ジオコントロール",
+"type": "fairy",
+"power": 8,
+"energy": 0,
+"energyGain": 13,
+"turns": 3
+},
+"GIGATON_HAMMER": {
+"name": "Gigaton Hammer",
+"nameJa": "デカハンマー",
+"type": "steel",
+"power": 130,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"GIGA_DRAIN": {
+"name": "Giga Drain",
+"nameJa": "ギガドレイン",
+"type": "grass",
+"power": 50,
+"energy": 80,
+"energyGain": 0,
+"turns": 1
+},
+"GIGA_IMPACT": {
+"name": "Giga Impact",
+"nameJa": "ギガインパクト",
+"type": "normal",
+"power": 150,
+"energy": 80,
+"energyGain": 0,
+"turns": 1
+},
+"GLACIATE": {
+"name": "Glaciate",
+"nameJa": "こごえるせかい",
+"type": "ice",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"GLAIVE_RUSH": {
+"name": "Glaive Rush",
+"nameJa": "きょけんとつげき",
+"type": "dragon",
+"power": 90,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"GRASS_KNOT": {
+"name": "Grass Knot",
+"nameJa": "くさむすび",
+"type": "grass",
+"power": 90,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"GUNK_SHOT": {
+"name": "Gunk Shot",
+"nameJa": "ダストシュート",
+"type": "poison",
+"power": 130,
+"energy": 75,
+"energyGain": 0,
+"turns": 1
+},
+"GUST": {
+"name": "Gust",
+"nameJa": "かぜおこし",
+"type": "flying",
+"power": 16,
+"energy": 0,
+"energyGain": 14,
+"turns": 4
+},
+"GYRO_BALL": {
+"name": "Gyro Ball",
+"nameJa": "ジャイロボール",
+"type": "steel",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"HEART_STAMP": {
+"name": "Heart Stamp",
+"nameJa": "ハートスタンプ",
+"type": "psychic",
+"power": 40,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"HEAT_WAVE": {
+"name": "Heat Wave",
+"nameJa": "ねっぷう",
+"type": "fire",
+"power": 75,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"HEAVY_SLAM": {
+"name": "Heavy Slam",
+"nameJa": "ヘビーボンバー",
+"type": "steel",
+"power": 70,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"HEX": {
+"name": "Hex",
+"nameJa": "たたりめ",
+"type": "ghost",
+"power": 7,
+"energy": 0,
+"energyGain": 13,
+"turns": 3
+},
+"HIDDEN_POWER_BUG": {
+"name": "Hidden Power (Bug)",
+"nameJa": "めざめるパワー",
+"type": "bug",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_DARK": {
+"name": "Hidden Power (Dark)",
+"nameJa": "めざめるパワー",
+"type": "dark",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_DRAGON": {
+"name": "Hidden Power (Dragon)",
+"nameJa": "めざめるパワー",
+"type": "dragon",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_ELECTRIC": {
+"name": "Hidden Power (Electric)",
+"nameJa": "めざめるパワー",
+"type": "electric",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_FIGHTING": {
+"name": "Hidden Power (Fighting)",
+"nameJa": "めざめるパワー",
+"type": "fighting",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_FIRE": {
+"name": "Hidden Power (Fire)",
+"nameJa": "めざめるパワー",
+"type": "fire",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_FLYING": {
+"name": "Hidden Power (Flying)",
+"nameJa": "めざめるパワー",
+"type": "flying",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_GHOST": {
+"name": "Hidden Power (Ghost)",
+"nameJa": "めざめるパワー",
+"type": "ghost",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_GRASS": {
+"name": "Hidden Power (Grass)",
+"nameJa": "めざめるパワー",
+"type": "grass",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_GROUND": {
+"name": "Hidden Power (Ground)",
+"nameJa": "めざめるパワー",
+"type": "ground",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_ICE": {
+"name": "Hidden Power (Ice)",
+"nameJa": "めざめるパワー",
+"type": "ice",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_NORMAL": {
+"name": "Hidden Power",
+"nameJa": "めざめるパワー",
+"type": "normal",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_POISON": {
+"name": "Hidden Power (Poison)",
+"nameJa": "めざめるパワー",
+"type": "poison",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_PSYCHIC": {
+"name": "Hidden Power (Psychic)",
+"nameJa": "めざめるパワー",
+"type": "psychic",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_ROCK": {
+"name": "Hidden Power (Rock)",
+"nameJa": "めざめるパワー",
+"type": "rock",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_STEEL": {
+"name": "Hidden Power (Steel)",
+"nameJa": "めざめるパワー",
+"type": "steel",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIDDEN_POWER_WATER": {
+"name": "Hidden Power (Water)",
+"nameJa": "めざめるパワー",
+"type": "water",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"HIGH_HORSEPOWER": {
+"name": "High Horsepower",
+"nameJa": "１０まんばりき",
+"type": "ground",
+"power": 100,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"HIGH_JUMP_KICK": {
+"name": "High Jump Kick",
+"nameJa": "とびひざげり",
+"type": "fighting",
+"power": 110,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-4
+],
+"buffTarget": "self",
+"buffChance": 0.1
+},
+"HORN_ATTACK": {
+"name": "Horn Attack",
+"nameJa": "つのでつく",
+"type": "normal",
+"power": 40,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"HURRICANE": {
+"name": "Hurricane",
+"nameJa": "ぼうふう",
+"type": "flying",
+"power": 110,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"HYDRO_CANNON": {
+"name": "Hydro Cannon",
+"nameJa": "ハイドロカノン",
+"type": "water",
+"power": 80,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"HYDRO_PUMP": {
+"name": "Hydro Pump",
+"nameJa": "ハイドロポンプ",
+"type": "water",
+"power": 130,
+"energy": 75,
+"energyGain": 0,
+"turns": 1
+},
+"HYDRO_PUMP_BLASTOISE": {
+"name": "Hydro Pump Blastoise",
+"nameJa": "ハイドロポンプ",
+"type": "water",
+"power": 90,
+"energy": 80,
+"energyGain": 0,
+"turns": 1
+},
+"HYPER_BEAM": {
+"name": "Hyper Beam",
+"nameJa": "はかいこうせん",
+"type": "normal",
+"power": 150,
+"energy": 80,
+"energyGain": 0,
+"turns": 1
+},
+"HYPER_FANG": {
+"name": "Hyper Fang",
+"nameJa": "ひっさつまえば",
+"type": "normal",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"ICE_BEAM": {
+"name": "Ice Beam",
+"nameJa": "れいとうビーム",
+"type": "ice",
+"power": 90,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"ICE_BURN": {
+"name": "Ice Burn",
+"nameJa": "コールドフレア",
+"type": "ice",
+"power": 120,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"ICE_FANG": {
+"name": "Ice Fang",
+"nameJa": "こおりのキバ",
+"type": "ice",
+"power": 8,
+"energy": 0,
+"energyGain": 6,
+"turns": 2
+},
+"ICE_PUNCH": {
+"name": "Ice Punch",
+"nameJa": "れいとうパンチ",
+"type": "ice",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"ICE_SHARD": {
+"name": "Ice Shard",
+"nameJa": "こおりのつぶて",
+"type": "ice",
+"power": 9,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"ICICLE_SPEAR": {
+"name": "Icicle Spear",
+"nameJa": "つららばり",
+"type": "ice",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"ICY_WIND": {
+"name": "Icy Wind",
+"nameJa": "こごえるかぜ",
+"type": "ice",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"INCINERATE": {
+"name": "Incinerate",
+"nameJa": "やきつくす",
+"type": "fire",
+"power": 20,
+"energy": 0,
+"energyGain": 20,
+"turns": 5
+},
+"INFESTATION": {
+"name": "Infestation",
+"nameJa": "まとわりつく",
+"type": "bug",
+"power": 6,
+"energy": 0,
+"energyGain": 12,
+"turns": 3
+},
+"IRON_HEAD": {
+"name": "Iron Head",
+"nameJa": "アイアンヘッド",
+"type": "steel",
+"power": 70,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"IRON_TAIL": {
+"name": "Iron Tail",
+"nameJa": "アイアンテール",
+"type": "steel",
+"power": 10,
+"energy": 0,
+"energyGain": 7,
+"turns": 3
+},
+"KARATE_CHOP": {
+"name": "Karate Chop",
+"nameJa": "からてチョップ",
+"type": "fighting",
+"power": 5,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"LAST_RESORT": {
+"name": "Last Resort",
+"nameJa": "とっておき",
+"type": "normal",
+"power": 90,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"LEAFAGE": {
+"name": "Leafage",
+"nameJa": "このは",
+"type": "grass",
+"power": 6,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"LEAF_BLADE": {
+"name": "Leaf Blade",
+"nameJa": "リーフブレード",
+"type": "grass",
+"power": 70,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"LEAF_STORM": {
+"name": "Leaf Storm",
+"nameJa": "リーフストーム",
+"type": "grass",
+"power": 130,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"LEAF_TORNADO": {
+"name": "Leaf Tornado",
+"nameJa": "グラスミキサー",
+"type": "grass",
+"power": 45,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"LICK": {
+"name": "Lick",
+"nameJa": "したでなめる",
+"type": "ghost",
+"power": 3,
+"energy": 0,
+"energyGain": 3,
+"turns": 1
+},
+"LIQUIDATION": {
+"name": "Liquidation",
+"nameJa": "アクアブレイク",
+"type": "water",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"LOCK_ON": {
+"name": "Lock On",
+"nameJa": "ロックオン",
+"type": "normal",
+"power": 1,
+"energy": 0,
+"energyGain": 5,
+"turns": 1
+},
+"LOW_KICK": {
+"name": "Low Kick",
+"nameJa": "けたぐり",
+"type": "fighting",
+"power": 5,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"LOW_SWEEP": {
+"name": "Low Sweep",
+"nameJa": "ローキック",
+"type": "fighting",
+"power": 40,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"LUNGE": {
+"name": "Lunge",
+"nameJa": "とびかかる",
+"type": "bug",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"LUSTER_PURGE": {
+"name": "Luster Purge",
+"nameJa": "ラスターパージ",
+"type": "psychic",
+"power": 120,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"MAGICAL_LEAF": {
+"name": "Magical Leaf",
+"nameJa": "マジカルリーフ",
+"type": "grass",
+"power": 10,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"MAGMA_STORM": {
+"name": "Magma Storm",
+"nameJa": "マグマストーム",
+"type": "fire",
+"power": 65,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"MAGNET_BOMB": {
+"name": "Magnet Bomb",
+"nameJa": "マグネットボム",
+"type": "steel",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"MEGAHORN": {
+"name": "Megahorn",
+"nameJa": "メガホーン",
+"type": "bug",
+"power": 110,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"MEGA_DRAIN": {
+"name": "Mega Drain",
+"nameJa": "メガドレイン",
+"type": "grass",
+"power": 25,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"METAL_CLAW": {
+"name": "Metal Claw",
+"nameJa": "メタルクロー",
+"type": "steel",
+"power": 5,
+"energy": 0,
+"energyGain": 7,
+"turns": 2
+},
+"METAL_SOUND": {
+"name": "Metal Sound",
+"nameJa": "きんぞくおん",
+"type": "steel",
+"power": 5,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"METEOR_BEAM": {
+"name": "Meteor Beam",
+"nameJa": "メテオビーム",
+"type": "rock",
+"power": 120,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"METEOR_MASH": {
+"name": "Meteor Mash",
+"nameJa": "コメットパンチ",
+"type": "steel",
+"power": 100,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"MIND_BLOWN": {
+"name": "Mind Blown",
+"nameJa": "ビックリヘッド",
+"type": "fire",
+"power": 90,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-4
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"MIRROR_COAT": {
+"name": "Mirror Coat",
+"nameJa": "ミラーコート",
+"type": "psychic",
+"power": 60,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"MIRROR_SHOT": {
+"name": "Mirror Shot",
+"nameJa": "ミラーショット",
+"type": "steel",
+"power": 35,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"MIST_BALL": {
+"name": "Mist Ball",
+"nameJa": "ミストボール",
+"type": "psychic",
+"power": 120,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"MOONBLAST": {
+"name": "Moonblast",
+"nameJa": "ムーンフォース",
+"type": "fairy",
+"power": 110,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.1
+},
+"MOONGEIST_BEAM": {
+"name": "Moongeist Beam",
+"nameJa": "シャドーレイ",
+"type": "ghost",
+"power": 135,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"MUDDY_WATER": {
+"name": "Muddy Water",
+"nameJa": "だくりゅう",
+"type": "water",
+"power": 35,
+"energy": 35,
+"energyGain": 0,
+"turns": 2,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"MUD_BOMB": {
+"name": "Mud Bomb",
+"nameJa": "どろばくだん",
+"type": "ground",
+"power": 65,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"MUD_SHOT": {
+"name": "Mud Shot",
+"nameJa": "マッドショット",
+"type": "ground",
+"power": 3,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"MUD_SLAP": {
+"name": "Mud Slap",
+"nameJa": "どろかけ",
+"type": "ground",
+"power": 11,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"MYSTICAL_FIRE": {
+"name": "Mystical Fire",
+"nameJa": "マジカルフレイム",
+"type": "fire",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"NATURES_MADNESS": {
+"name": "Nature's Madness",
+"nameJa": "しぜんのいかり",
+"type": "fairy",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"NIGHT_SHADE": {
+"name": "Night Shade",
+"nameJa": "ナイトヘッド",
+"type": "ghost",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"NIGHT_SLASH": {
+"name": "Night Slash",
+"nameJa": "つじぎり",
+"type": "dark",
+"power": 50,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 0.125
+},
+"OBLIVION_WING": {
+"name": "Oblivion Wing",
+"nameJa": "デスウイング",
+"type": "flying",
+"power": 85,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"OBSTRUCT": {
+"name": "Obstruct",
+"nameJa": "ブロッキング",
+"type": "dark",
+"power": 15,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+1
+],
+"buffTarget": "both",
+"buffChance": 1.0
+},
+"OCTAZOOKA": {
+"name": "Octazooka",
+"nameJa": "オクタンほう",
+"type": "water",
+"power": 50,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"OMINOUS_WIND": {
+"name": "Ominous Wind",
+"nameJa": "あやしいかぜ",
+"type": "ghost",
+"power": 45,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+1
+],
+"buffTarget": "self",
+"buffChance": 0.1
+},
+"ORIGIN_PULSE": {
+"name": "Origin Pulse",
+"nameJa": "こんげんのはどう",
+"type": "water",
+"power": 130,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"OUTRAGE": {
+"name": "Outrage",
+"nameJa": "げきりん",
+"type": "dragon",
+"power": 110,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"OVERHEAT": {
+"name": "Overheat",
+"nameJa": "オーバーヒート",
+"type": "fire",
+"power": 130,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"PARABOLIC_CHARGE": {
+"name": "Parabolic Charge",
+"nameJa": "パラボラチャージ",
+"type": "electric",
+"power": 70,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"PAYBACK": {
+"name": "Payback",
+"nameJa": "しっぺがえし",
+"type": "dark",
+"power": 110,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"PECK": {
+"name": "Peck",
+"nameJa": "つつく",
+"type": "flying",
+"power": 6,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"PETAL_BLIZZARD": {
+"name": "Petal Blizzard",
+"nameJa": "はなふぶき",
+"type": "grass",
+"power": 110,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"PLAY_ROUGH": {
+"name": "Play Rough",
+"nameJa": "じゃれつく",
+"type": "fairy",
+"power": 90,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"PLASMA_FISTS": {
+"name": "Plasma Fists",
+"nameJa": "プラズマフィスト",
+"type": "electric",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"POISON_FANG": {
+"name": "Poison Fang",
+"nameJa": "どくどくのキバ",
+"type": "poison",
+"power": 45,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"POISON_JAB": {
+"name": "Poison Jab",
+"nameJa": "どくづき",
+"type": "poison",
+"power": 7,
+"energy": 0,
+"energyGain": 7,
+"turns": 2
+},
+"POISON_STING": {
+"name": "Poison Sting",
+"nameJa": "どくばり",
+"type": "poison",
+"power": 4,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"POLTERGEIST": {
+"name": "Poltergeist",
+"nameJa": "ポルターガイスト",
+"type": "ghost",
+"power": 150,
+"energy": 75,
+"energyGain": 0,
+"turns": 1
+},
+"POUND": {
+"name": "Pound",
+"nameJa": "はたく",
+"type": "normal",
+"power": 4,
+"energy": 0,
+"energyGain": 4,
+"turns": 2
+},
+"POWDER_SNOW": {
+"name": "Powder Snow",
+"nameJa": "こなゆき",
+"type": "ice",
+"power": 6,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"POWER_GEM": {
+"name": "Power Gem",
+"nameJa": "パワージェム",
+"type": "rock",
+"power": 85,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"POWER_UP_PUNCH": {
+"name": "Power-Up Punch",
+"nameJa": "グロウパンチ",
+"type": "fighting",
+"power": 20,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"POWER_WHIP": {
+"name": "Power Whip",
+"nameJa": "パワーウィップ",
+"type": "grass",
+"power": 90,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"PRECIPICE_BLADES": {
+"name": "Precipice Blades",
+"nameJa": "だんがいのつるぎ",
+"type": "ground",
+"power": 130,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"PRESENT": {
+"name": "Present",
+"nameJa": "プレゼント",
+"type": "normal",
+"power": 3,
+"energy": 0,
+"energyGain": 12,
+"turns": 3
+},
+"PSYBEAM": {
+"name": "Psybeam",
+"nameJa": "サイケこうせん",
+"type": "psychic",
+"power": 70,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"PSYCHIC": {
+"name": "Psychic",
+"nameJa": "サイコキネシス",
+"type": "psychic",
+"power": 75,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.1
+},
+"PSYCHIC_FANGS": {
+"name": "Psychic Fangs",
+"nameJa": "サイコファング",
+"type": "psychic",
+"power": 40,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"PSYCHO_BOOST": {
+"name": "Psycho Boost",
+"nameJa": "サイコブースト",
+"type": "psychic",
+"power": 70,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"PSYCHO_CUT": {
+"name": "Psycho Cut",
+"nameJa": "サイコカッター",
+"type": "psychic",
+"power": 4,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"PSYSHOCK": {
+"name": "Psyshock",
+"nameJa": "サイコショック",
+"type": "psychic",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"PSYSTRIKE": {
+"name": "Psystrike",
+"nameJa": "サイコブレイク",
+"type": "psychic",
+"power": 90,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"PSYWAVE": {
+"name": "Psywave",
+"nameJa": "サイコウェーブ",
+"type": "psychic",
+"power": 3,
+"energy": 0,
+"energyGain": 4,
+"turns": 1
+},
+"PYRO_BALL": {
+"name": "Pyro Ball",
+"nameJa": "かえんボール",
+"type": "fire",
+"power": 75,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"QUICK_ATTACK": {
+"name": "Quick Attack",
+"nameJa": "でんこうせっか",
+"type": "normal",
+"power": 5,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"RAGE_FIST": {
+"name": "Rage Fist",
+"nameJa": "ふんどのこぶし",
+"type": "ghost",
+"power": 50,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"RAZOR_LEAF": {
+"name": "Razor Leaf",
+"nameJa": "はっぱカッター",
+"type": "grass",
+"power": 9,
+"energy": 0,
+"energyGain": 4,
+"turns": 2
+},
+"RAZOR_SHELL": {
+"name": "Razor Shell",
+"nameJa": "シェルブレード",
+"type": "water",
+"power": 35,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"REST": {
+"name": "Rest",
+"nameJa": "ねむる",
+"type": "normal",
+"power": 50,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"RETURN": {
+"name": "Return",
+"nameJa": "おんがえし",
+"type": "normal",
+"power": 130,
+"energy": 70,
+"energyGain": 0,
+"turns": 1
+},
+"ROAR_OF_TIME": {
+"name": "Roar of Time",
+"nameJa": "ときのほうこう",
+"type": "dragon",
+"power": 150,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"ROCK_BLAST": {
+"name": "Rock Blast",
+"nameJa": "ロックブラスト",
+"type": "rock",
+"power": 50,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"ROCK_SLIDE": {
+"name": "Rock Slide",
+"nameJa": "いわなだれ",
+"type": "rock",
+"power": 75,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"ROCK_SMASH": {
+"name": "Rock Smash",
+"nameJa": "いわくだき",
+"type": "fighting",
+"power": 9,
+"energy": 0,
+"energyGain": 7,
+"turns": 3
+},
+"ROCK_THROW": {
+"name": "Rock Throw",
+"nameJa": "いわおとし",
+"type": "rock",
+"power": 8,
+"energy": 0,
+"energyGain": 5,
+"turns": 2
+},
+"ROCK_TOMB": {
+"name": "Rock Tomb",
+"nameJa": "がんせきふうじ",
+"type": "rock",
+"power": 75,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"ROCK_WRECKER": {
+"name": "Rock Wrecker",
+"nameJa": "がんせきほう",
+"type": "rock",
+"power": 110,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"ROLLOUT": {
+"name": "Rollout",
+"nameJa": "ころがる",
+"type": "rock",
+"power": 7,
+"energy": 0,
+"energyGain": 13,
+"turns": 3
+},
+"SACRED_FIRE": {
+"name": "Sacred Fire",
+"nameJa": "せいなるほのお",
+"type": "fire",
+"power": 130,
+"energy": 65,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"SACRED_SWORD": {
+"name": "Sacred Sword",
+"nameJa": "せいなるつるぎ",
+"type": "fighting",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"SANDSEAR_STORM": {
+"name": "Sandsear Storm",
+"nameJa": "ねっさのあらし",
+"type": "ground",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"SAND_ATTACK": {
+"name": "Sand Attack",
+"nameJa": "すなかけ",
+"type": "ground",
+"power": 2,
+"energy": 0,
+"energyGain": 4,
+"turns": 1
+},
+"SAND_TOMB": {
+"name": "Sand Tomb",
+"nameJa": "すなじごく",
+"type": "ground",
+"power": 40,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"SCALD": {
+"name": "Scald",
+"nameJa": "ねっとう",
+"type": "water",
+"power": 85,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"SCORCHING_SANDS": {
+"name": "Scorching Sands",
+"nameJa": "ねっさのだいち",
+"type": "ground",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.1
+},
+"SCRATCH": {
+"name": "Scratch",
+"nameJa": "ひっかく",
+"type": "normal",
+"power": 4,
+"energy": 0,
+"energyGain": 2,
+"turns": 1
+},
+"SECRET_SWORD": {
+"name": "Secret Sword",
+"nameJa": "しんぴのつるぎ",
+"type": "fighting",
+"power": 70,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"SEED_BOMB": {
+"name": "Seed Bomb",
+"nameJa": "タネばくだん",
+"type": "grass",
+"power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"SEED_FLARE": {
+"name": "Seed Flare",
+"nameJa": "シードフレア",
+"type": "grass",
+"power": 130,
+"energy": 75,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-2
+],
+"buffTarget": "opponent",
+"buffChance": 0.4
+},
+"SHADOW_BALL": {
+"name": "Shadow Ball",
+"nameJa": "シャドーボール",
+"type": "ghost",
+"power": 100,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"SHADOW_BONE": {
+"name": "Shadow Bone",
+"nameJa": "シャドーボーン",
+"type": "ghost",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.2
+},
+"SHADOW_CLAW": {
+"name": "Shadow Claw",
+"nameJa": "シャドークロー",
+"type": "ghost",
+"power": 6,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"SHADOW_FORCE": {
+"name": "Shadow Force",
+"nameJa": "シャドーダイブ",
+"type": "ghost",
+"power": 120,
+"energy": 90,
+"energyGain": 0,
+"turns": 1
+},
+"SHADOW_PUNCH": {
+"name": "Shadow Punch",
+"nameJa": "シャドーパンチ",
+"type": "ghost",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"SHADOW_SNEAK": {
+"name": "Shadow Sneak",
+"nameJa": "かげうち",
+"type": "ghost",
+"power": 75,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"SIGNAL_BEAM": {
+"name": "Signal Beam",
+"nameJa": "シグナルビーム",
+"type": "bug",
+"power": 75,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.2
+},
+"SILVER_WIND": {
+"name": "Silver Wind",
+"nameJa": "ぎんいろのかぜ",
+"type": "bug",
+"power": 75,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+1
+],
+"buffTarget": "self",
+"buffChance": 0.1
+},
+"SKULL_BASH": {
+"name": "Skull Bash",
+"nameJa": "ロケットずつき",
+"type": "normal",
+"power": 130,
+"energy": 75,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"SKY_ATTACK": {
+"name": "Sky Attack",
+"nameJa": "ゴッドバード",
+"type": "flying",
+"power": 75,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"SLUDGE": {
+"name": "Sludge",
+"nameJa": "ヘドロこうげき",
+"type": "poison",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"SLUDGE_BOMB": {
+"name": "Sludge Bomb",
+"nameJa": "ヘドロばくだん",
+"type": "poison",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"SLUDGE_WAVE": {
+"name": "Sludge Wave",
+"nameJa": "ヘドロウェーブ",
+"type": "poison",
+"power": 110,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"SMACK_DOWN": {
+"name": "Smack Down",
+"nameJa": "うちおとす",
+"type": "rock",
+"power": 11,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"SNARL": {
+"name": "Snarl",
+"nameJa": "バークアウト",
+"type": "dark",
+"power": 5,
+"energy": 0,
+"energyGain": 13,
+"turns": 3
+},
+"SOLAR_BEAM": {
+"name": "Solar Beam",
+"nameJa": "ソーラービーム",
+"type": "grass",
+"power": 150,
+"energy": 80,
+"energyGain": 0,
+"turns": 1
+},
+"SPACIAL_REND": {
+"name": "Spacial Rend",
+"nameJa": "あくうせつだん",
+"type": "dragon",
+"power": 95,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"SPARK": {
+"name": "Spark",
+"nameJa": "スパーク",
+"type": "electric",
+"power": 5,
+"energy": 0,
+"energyGain": 7,
+"turns": 2
+},
+"SPARKLING_ARIA": {
+"name": "Sparkling Aria",
+"nameJa": "うたかたのアリア",
+"type": "water",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"SPIRIT_SHACKLE": {
+"name": "Spirit Shackle",
+"nameJa": "かげぬい",
+"type": "ghost",
+"power": 50,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.33
+},
+"SPLASH": {
+"name": "Splash",
+"nameJa": "はねる",
+"type": "water",
+"power": 0,
+"energy": 0,
+"energyGain": 12,
+"turns": 4
+},
+"SPRINGTIDE_STORM": {
+"name": "Springtide Storm (Speculative)",
+"nameJa": "はるのあらし",
+"type": "fairy",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"STEEL_WING": {
+"name": "Steel Wing",
+"nameJa": "はがねのつばさ",
+"type": "steel",
+"power": 7,
+"energy": 0,
+"energyGain": 5,
+"turns": 2
+},
+"STOMP": {
+"name": "Stomp",
+"nameJa": "ふみつけ",
+"type": "normal",
+"power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"STONE_EDGE": {
+"name": "Stone Edge",
+"nameJa": "ストーンエッジ",
+"type": "rock",
+"power": 100,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"STRUGGLE": {
+"name": "Struggle",
+"nameJa": "わるあがき",
+"type": "normal",
+"power": 35,
+"energy": 100,
+"energyGain": 0,
+"turns": 1
+},
+"STRUGGLE_BUG": {
+"name": "Struggle Bug",
+"nameJa": "むしのていこう",
+"type": "bug",
+"power": 9,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"SUBMISSION": {
+"name": "Submission",
+"nameJa": "じごくぐるま",
+"type": "fighting",
+"power": 60,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"SUCKER_PUNCH": {
+"name": "Sucker Punch",
+"nameJa": "ふいうち",
+"type": "dark",
+"power": 8,
+"energy": 0,
+"energyGain": 7,
+"turns": 2
+},
+"SUNSTEEL_STRIKE": {
+"name": "Sunsteel Strike",
+"nameJa": "メテオドライブ",
+"type": "steel",
+"power": 135,
+"energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"SUPER_POWER": {
+"name": "Superpower",
+"nameJa": "ばかぢから",
+"type": "fighting",
+"power": 85,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+-1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"SURF": {
+"name": "Surf",
+"nameJa": "なみのり",
+"type": "water",
+"power": 75,
+"energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"SWIFT": {
+"name": "Swift",
+"nameJa": "スピードスター",
+"type": "normal",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"SYNCHRONOISE": {
+"name": "Synchronoise",
+"nameJa": "シンクロノイズ",
+"type": "psychic",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"TACKLE": {
+"name": "Tackle",
+"nameJa": "たいあたり",
+"type": "normal",
+"power": 3,
+"energy": 0,
+"energyGain": 3,
+"turns": 1
+},
+"TAKE_DOWN": {
+"name": "Take Down",
+"nameJa": "とっしん",
+"type": "normal",
+"power": 5,
+"energy": 0,
+"energyGain": 8,
+"turns": 3
+},
+"TECHNO_BLAST_BURN": {
+"name": "Techno Blast (Burn)",
+"nameJa": "テクノバスター",
+"type": "fire",
+"power": 120,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"TECHNO_BLAST_CHILL": {
+"name": "Techno Blast (Chill)",
+"nameJa": "テクノバスター",
+"type": "ice",
+"power": 120,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"TECHNO_BLAST_DOUSE": {
+"name": "Techno Blast (Douse)",
+"nameJa": "テクノバスター",
+"type": "water",
+"power": 120,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"TECHNO_BLAST_NORMAL": {
+"name": "Techno Blast (Normal)",
+"nameJa": "テクノバスター",
+"type": "normal",
+"power": 120,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"TECHNO_BLAST_SHOCK": {
+"name": "Techno Blast (Shock)",
+"nameJa": "テクノバスター",
+"type": "electric",
+"power": 120,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"THUNDER": {
+"name": "Thunder",
+"nameJa": "かみなり",
+"type": "electric",
+"power": 100,
+"energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"THUNDERBOLT": {
+"name": "Thunderbolt",
+"nameJa": "１０まんボルト",
+"type": "electric",
+"power": 90,
+"energy": 55,
+"energyGain": 0,
+"turns": 1
+},
+"THUNDER_CAGE": {
+"name": "Thunder Cage",
+"nameJa": "サンダープリズン",
+"type": "electric",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"THUNDER_FANG": {
+"name": "Thunder Fang",
+"nameJa": "かみなりのキバ",
+"type": "electric",
+"power": 8,
+"energy": 0,
+"energyGain": 6,
+"turns": 2
+},
+"THUNDER_PUNCH": {
+"name": "Thunder Punch",
+"nameJa": "かみなりパンチ",
+"type": "electric",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"THUNDER_SHOCK": {
+"name": "Thunder Shock",
+"nameJa": "でんきショック",
+"type": "electric",
+"power": 4,
+"energy": 0,
+"energyGain": 9,
+"turns": 2
+},
+"TORCH_SONG": {
+"name": "Torch Song",
+"nameJa": "フレアソング",
+"type": "fire",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"TRAILBLAZE": {
+"name": "Trailblaze",
+"nameJa": "くさわけ",
+"type": "grass",
+"power": 65,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"TRANSFORM": {
+"name": "Transform",
+"nameJa": "へんしん",
+"type": "normal",
+"power": 0,
+"energy": 0,
+"energyGain": 0,
+"turns": 3
+},
+"TRIPLE_AXEL": {
+"name": "Triple Axel",
+"nameJa": "トリプルアクセル",
+"type": "ice",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"TRI_ATTACK": {
+"name": "Tri Attack",
+"nameJa": "トライアタック",
+"type": "normal",
+"power": 65,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.5
+},
+"TWISTER": {
+"name": "Twister",
+"nameJa": "たつまき",
+"type": "dragon",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"UPPER_HAND": {
+"name": "Upper Hand",
+"nameJa": "はやてがえし",
+"type": "fighting",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
+"VICE_GRIP": {
+"name": "Vise Grip",
+"nameJa": "はさむ",
+"type": "normal",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"VINE_WHIP": {
+"name": "Vine Whip",
+"nameJa": "つるのムチ",
+"type": "grass",
+"power": 5,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"VOLT_SWITCH": {
+"name": "Volt Switch",
+"nameJa": "ボルトチェンジ",
+"type": "electric",
+"power": 14,
+"energy": 0,
+"energyGain": 16,
+"turns": 4
+},
+"VOLT_TACKLE": {
+"name": "Volt Tackle",
+"nameJa": "ボルテッカー",
+"type": "electric",
+"power": 90,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"V_CREATE": {
+"name": "V-Create",
+"nameJa": "Ｖジェネレート",
+"type": "fire",
+"power": 95,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-3
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"WATERFALL": {
+"name": "Waterfall",
+"nameJa": "たきのぼり",
+"type": "water",
+"power": 11,
+"energy": 0,
+"energyGain": 10,
+"turns": 3
+},
+"WATER_GUN": {
+"name": "Water Gun",
+"nameJa": "みずでっぽう",
+"type": "water",
+"power": 3,
+"energy": 0,
+"energyGain": 3,
+"turns": 1
+},
+"WATER_GUN_FAST_BLASTOISE": {
+"name": "Water Gun Fast Blastoise",
+"nameJa": "みずでっぽう",
+"type": "water",
+"power": 6,
+"energy": 0,
+"energyGain": 4,
+"turns": 2
+},
+"WATER_PULSE": {
+"name": "Water Pulse",
+"nameJa": "みずのはどう",
+"type": "water",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
+"WATER_SHURIKEN": {
+"name": "Water Shuriken",
+"nameJa": "みずしゅりけん",
+"type": "water",
+"power": 6,
+"energy": 0,
+"energyGain": 14,
+"turns": 3
+},
+"WEATHER_BALL_FIRE": {
+"name": "Weather Ball (Fire)",
+"nameJa": "ウェザーボール",
+"type": "fire",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"WEATHER_BALL_ICE": {
+"name": "Weather Ball (Ice)",
+"nameJa": "ウェザーボール",
+"type": "ice",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"WEATHER_BALL_NORMAL": {
+"name": "Weather Ball (Normal)",
+"nameJa": "ウェザーボール",
+"type": "normal",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"WEATHER_BALL_ROCK": {
+"name": "Weather Ball (Rock)",
+"nameJa": "ウェザーボール",
+"type": "rock",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"WEATHER_BALL_WATER": {
+"name": "Weather Ball (Water)",
+"nameJa": "ウェザーボール",
+"type": "water",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"WILDBOLT_STORM": {
+"name": "Wildbolt Storm",
+"nameJa": "かみなりあらし",
+"type": "electric",
+"power": 60,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"WILD_CHARGE": {
+"name": "Wild Charge",
+"nameJa": "ワイルドボルト",
+"type": "electric",
+"power": 100,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-2
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"WING_ATTACK": {
+"name": "Wing Attack",
+"nameJa": "つばさでうつ",
+"type": "flying",
+"power": 5,
+"energy": 0,
+"energyGain": 8,
+"turns": 2
+},
+"WRAP": {
+"name": "Wrap",
+"nameJa": "まきつく",
+"type": "normal",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"X_SCISSOR": {
+"name": "X-Scissor",
+"nameJa": "シザークロス",
+"type": "bug",
+"power": 65,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"YAWN": {
+"name": "Yawn",
+"nameJa": "あくび",
+"type": "normal",
+"power": 0,
+"energy": 0,
+"energyGain": 12,
+"turns": 4
+},
+"ZAP_CANNON": {
+"name": "Zap Cannon",
+"nameJa": "でんじほう",
+"type": "electric",
+"power": 150,
+"energy": 80,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.33
+},
+"ZEN_HEADBUTT": {
+"name": "Zen Headbutt",
+"nameJa": "しねんのずつき",
+"type": "psychic",
+"power": 8,
+"energy": 0,
+"energyGain": 6,
+"turns": 3
+},
+"AEGISLASH_CHARGE_AIR_SLASH": {
+"name": "Air Slash",
+"nameJa": "Air Slash",
+"type": "flying",
+"power": 0,
+"energy": 0,
+"energyGain": 6,
+"turns": 3
+},
+"AEGISLASH_CHARGE_PSYCHO_CUT": {
+"name": "Psycho Cut",
+"nameJa": "Psycho Cut",
+"type": "psychic",
+"power": 0,
+"energy": 0,
+"energyGain": 6,
+"turns": 2
+}
+}
