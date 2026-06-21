@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "forceUpdate": {
-    "enabled": false,
-    "minimumSupportedBuild": 0,
-    "appStoreUrl": "",
-    "messageJa": "新しいバージョンが必要です。App Store からアップデートしてください。",
-    "messageEn": "A newer version is required. Please update from the App Store."
+    "enabled": true,
+    "minimumSupportedBuild": 134,
+    "appStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795",
+    "messageJa": "重要な修正を含む新しいバージョンが必要です。App Store からGBLBOXをアップデートしてください。",
+    "messageEn": "A newer version with important fixes is required. Please update GBLBOX from the App Store."
   },
   "analytics": {
     "enabled": true
