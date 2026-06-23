@@ -15,7 +15,7 @@
   },
   "proTrial": {
     "freeUseLimit": 999,
-    "resetGeneration": 2,
+    "resetGeneration": 3,
     "bulkImportLimit": 10,
     "liveScanImportLimit": 10,
     "freeIndividualLimit": 50
