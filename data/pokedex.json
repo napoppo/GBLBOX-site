@@ -3556,7 +3556,7 @@
 "types": [
 "water"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "dewgong"
@@ -3588,7 +3588,7 @@
 "water",
 "ice"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [],
 "fastMoves": [
@@ -6711,7 +6711,7 @@
 "normal",
 "flying"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "noctowl"
@@ -6741,7 +6741,7 @@
 "normal",
 "flying"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [],
 "fastMoves": [
@@ -24077,7 +24077,7 @@
 "dragon",
 "fire"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [],
 "fastMoves": [
@@ -26641,7 +26641,7 @@
 "flying",
 "dragon"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "noivern"
@@ -26671,7 +26671,7 @@
 "flying",
 "dragon"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [],
 "fastMoves": [
@@ -30739,7 +30739,7 @@
 "types": [
 "flying"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "corvisquire"
@@ -30768,7 +30768,7 @@
 "types": [
 "flying"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "corviknight"
@@ -30798,7 +30798,7 @@
 "flying",
 "steel"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [],
 "fastMoves": [
