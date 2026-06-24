@@ -29386,7 +29386,7 @@
 "fairy"
 ],
 "shadowAvailable": false,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "SHADOW_CLAW",
@@ -34323,35 +34323,7 @@
 "flying"
 ],
 "shadowAvailable": false,
-"released": false,
-"evolutions": [],
-"fastMoves": [
-"PECK",
-"AIR_SLASH"
-],
-"chargedMoves": [
-"AERIAL_ACE",
-"BRAVE_BIRD",
-"FLY"
-],
-"secondMoveStardust": 75000,
-"secondMoveCandy": 75
-},
-{
-"speciesId": "squawkabilly_white",
-"dexNo": 931,
-"nameEn": "Squawkabilly_white",
-"nameJa": "イキリンコ",
-"form": "White",
-"baseAttack": 185,
-"baseDefense": 105,
-"baseStamina": 193,
-"types": [
-"normal",
-"flying"
-],
-"shadowAvailable": false,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "PECK",

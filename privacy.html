@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>プライバシーポリシー — GBLBOX</title>
-<meta name="description" content="GBLBOX のプライバシーポリシー。端末内処理、通信、広告機能について説明します。">
+<meta name="description" content="GBLBOX のプライバシーポリシー。端末内処理、アプリ内報告、通信、広告機能について説明します。">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,20 +24,25 @@
   <div class="langbar"><a href="#ja">日本語</a><a href="#en">English</a></div>
 
   <h1 id="ja">プライバシーポリシー</h1>
-  <p class="muted small">最終更新日：2026年6月6日</p>
+  <p class="muted small">最終更新日：2026年6月24日</p>
 
   <p>当方（アプリ「GBLBOX」の開発者、以下「当方」）は、アプリ GBLBOX における情報の取り扱いについて、本プライバシーポリシーにより説明します。</p>
 
   <h2>情報の収集と利用</h2>
   <p>GBLBOX は、アカウント登録なしで利用できます。個体管理・画像解析・順位計算などの主要な処理は<strong>端末内</strong>で行います。</p>
   <p>利用状況の把握と機能改善のため、設定で有効な場合に限り、PostHog による匿名の利用状況データ（画面表示、機能の利用回数、アプリのバージョン、端末に割り当てられる匿名ID等）を送信する場合があります。ポケモン名、ニックネーム、検索語、スクリーンショット、個体値、保存した個体データは送信しません。利用者はアプリ内の設定から解析データの送信を停止できます。</p>
-  <p>利用者が入力・読み取りしたポケモンのデータ、設定、切り抜き画像は、<strong>利用者の端末内にのみ</strong>保存されます。当方を含む第三者がこれらにアクセスすることはありません。</p>
+  <p>利用者が入力・読み取りしたポケモンのデータ、設定、切り抜き画像は、原則として<strong>利用者の端末内にのみ</strong>保存されます。当方を含む第三者がこれらにアクセスすることはありません。ただし、利用者がアプリ内の報告機能から明示的に送信した情報は、下記「アプリ内報告と精度改善」の範囲で当方が確認する場合があります。</p>
 
   <h2>広告について</h2>
   <p>GBLBOX は Google AdMob による広告表示機能を含む場合があります。広告表示が無効な状態では、広告SDKの初期化や広告リクエストは行いません。広告表示を有効にした場合、広告配信のために Google が端末情報、広告識別子、広告表示・クリック等に関する情報を処理する場合があります。詳細は <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a> および <a href="notices.html">ライセンス・権利表示</a> をご確認ください。</p>
 
   <h2>スクリーンショットの利用</h2>
-  <p>GBLBOX は、利用者が選択したスクリーンショットを、個体値（IV）やステータスの<strong>読み取り（端末内のOCR・画像解析）のためにのみ</strong>使用し、それ以外の目的には使用しません。GBLBOX が利用者のスクリーンショットをインターネット経由で送信することはありません。ただし、利用者ご自身が不具合報告（メールや X のDM）に添付して送る場合を除きます。</p>
+  <p>GBLBOX は、利用者が選択したスクリーンショットを、個体値（IV）やステータスの<strong>読み取り（端末内のOCR・画像解析）のためにのみ</strong>使用します。通常のスクリーンショット解析では、GBLBOX が利用者のスクリーンショットをインターネット経由で送信することはありません。ただし、利用者ご自身がアプリ内報告、メール、または X のDMに添付して送る場合を除きます。</p>
+
+  <h2>アプリ内報告と精度改善</h2>
+  <p>GBLBOX は、検出失敗や認識違いの調査、スクリーンショット解析・ライブ読み取り・GBL戦績自動記録の精度改善のため、利用者が明示的に同意して送信した報告内容を Firebase に保存する場合があります。</p>
+  <p>報告には、利用者が選択したスクリーンショット・動画・GBL対戦中の候補フレーム、入力したコメント、アプリが検出した内容、利用者が修正または入力した内容、OCR結果の一部、アプリのバージョン、ビルド番号、プラットフォーム、言語設定、Firebase の匿名ユーザーIDが含まれる場合があります。これらは報告内容の確認、原因調査、検出精度改善、重複や不正送信の抑制のために利用します。</p>
+  <p>報告機能の利用は任意です。報告しない場合、スクリーンショット・動画・保存した個体データが当方へ送信されることはありません。送信された報告データは、必要な確認・改善作業のために保持し、不要になったものは削除します。</p>
 
   <h2>写真へのアクセス（スクショ管理）</h2>
   <p>「スクショ管理」機能では、利用者の操作により、取り込み元のスクリーンショットを写真アプリから削除できます。削除は端末内で行われ、iOS の確認を伴い、利用者が選択した場合にのみ実行されます。読み取ったポケモンの一部を切り抜いた画像を、参照用にアプリ内へ保存する場合があります（端末内のみ）。</p>
@@ -60,20 +65,25 @@
   <hr class="hr">
 
   <h1 id="en">Privacy Policy</h1>
-  <p class="muted small">Last updated: June 6, 2026</p>
+  <p class="muted small">Last updated: June 24, 2026</p>
 
   <p>We (“the developer of the app GBLBOX”) are providing this Privacy Policy to explain our practices regarding the collection and use of information within the app GBLBOX.</p>
 
   <h2>Collection and Use of Information</h2>
   <p>GBLBOX can be used without creating an account. Core features such as Box management, screenshot analysis, and rank calculations are performed <strong>on device</strong>.</p>
   <p>If enabled in settings, GBLBOX may send anonymous usage data to PostHog to understand feature usage and improve the app. This may include screen views, feature usage counts, app version, and an anonymous device-level identifier. GBLBOX does not send Pokemon names, nicknames, search terms, screenshots, IV values, or saved Box data. You can opt out of analytics in the app settings.</p>
-  <p>The Pokémon data, settings, and cropped images you enter or scan are stored <strong>only on your device</strong>. Neither we nor any third party can access them.</p>
+  <p>The Pokémon data, settings, and cropped images you enter or scan are generally stored <strong>only on your device</strong>. Neither we nor any third party can access them, except for information you explicitly submit through the in-app reporting feature as described in “In-App Reports and Accuracy Improvement” below.</p>
 
   <h2>Advertising</h2>
   <p>GBLBOX may include advertising features provided by Google AdMob. When advertising is disabled, the advertising SDK is not initialized and no ad request is made. If advertising is enabled, Google may process device information, advertising identifiers, ad impressions, clicks, and related data to deliver ads. See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> and <a href="notices.html">Licenses &amp; Notices</a> for details.</p>
 
   <h2>Use of Captured Screenshots</h2>
-  <p>GBLBOX only uses the screenshots you select to calculate IV / read stats on your device, never for any other purpose. GBLBOX does not send your screenshots over the Internet, except through bug reports (email or X DM) that you may choose to send.</p>
+  <p>GBLBOX uses the screenshots you select to calculate IV / read stats on your device. During normal screenshot analysis, GBLBOX does not send your screenshots over the Internet, except when you choose to attach and submit them through in-app reports, email, or X DM.</p>
+
+  <h2>In-App Reports and Accuracy Improvement</h2>
+  <p>GBLBOX may store reports submitted with your explicit consent in Firebase to investigate detection failures or recognition issues, and to improve screenshot analysis, Live Scan, and GBL auto-recording accuracy.</p>
+  <p>A report may include screenshots, videos, or selected GBL battle candidate frames you choose to submit, your comments, the result detected by the app, the corrected or expected result you enter, partial OCR results, app version, build number, platform, language setting, and a Firebase anonymous user ID. We use this information to review reports, investigate causes, improve recognition accuracy, and reduce duplicate or abusive submissions.</p>
+  <p>Submitting a report is optional. If you do not submit a report, your screenshots, videos, and saved Box data are not sent to us. Submitted report data is retained only as needed for review and improvement work, and is deleted when it is no longer needed.</p>
 
   <h2>Photo Library Access (Screenshot Cleanup)</h2>
   <p>The “Screenshot Cleanup” feature lets you delete the original screenshots from your Photos library. Deletion is performed on-device, requires iOS confirmation, and happens only when you choose it. A cropped portion of the scanned Pokémon may be stored inside the app for reference (on-device only).</p>
