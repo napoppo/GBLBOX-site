@@ -3,10 +3,10 @@
 PvPokeのリーグ別ランキングJSONから推奨技を抽出し、アプリ同梱用JSONを更新する。
 
 使い方:
-    python3 tools/update_pvpoke_moves.py
+    python3 scripts/update_pvpoke_moves.py
 
 このスクリプトだけがネットワークへアクセスする。アプリ本体は生成済みの
-IVLab/Resources/pvpoke_movesets.json を読むだけ。
+data/pvpoke_movesets.json をサイト経由で読む。
 """
 from __future__ import annotations
 
