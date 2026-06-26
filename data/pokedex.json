@@ -22989,7 +22989,7 @@
 "types": [
 "dragon"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "fraxure"
@@ -23018,7 +23018,7 @@
 "types": [
 "dragon"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [
 "haxorus"
@@ -23047,7 +23047,7 @@
 "types": [
 "dragon"
 ],
-"shadowAvailable": false,
+"shadowAvailable": true,
 "released": true,
 "evolutions": [],
 "fastMoves": [
