@@ -2861,6 +2861,21 @@
 "energyGain": 13,
 "turns": 3
 },
+"SNIPE_SHOT": {
+"name": "Snipe Shot",
+"nameJa": "ねらいうち",
+"type": "water",
+"power": 65,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+2,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 0.125
+},
 "SOLAR_BEAM": {
 "name": "Solar Beam",
 "nameJa": "ソーラービーム",
