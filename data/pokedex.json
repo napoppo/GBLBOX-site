@@ -8971,6 +8971,34 @@
 "secondMoveCandy": 75
 },
 {
+"speciesId": "skarmory_mega",
+"dexNo": 227,
+"nameEn": "Skarmory (Mega)",
+"nameJa": "エアームド",
+"form": "Mega",
+"baseAttack": 273,
+"baseDefense": 228,
+"baseStamina": 163,
+"types": [
+"steel",
+"flying"
+],
+"shadowAvailable": true,
+"released": true,
+"evolutions": [],
+"fastMoves": [
+"AIR_SLASH",
+"STEEL_WING"
+],
+"chargedMoves": [
+"BRAVE_BIRD",
+"FLASH_CANNON",
+"SKY_ATTACK"
+],
+"secondMoveStardust": 75000,
+"secondMoveCandy": 75
+},
+{
 "speciesId": "houndour",
 "dexNo": 228,
 "nameEn": "Houndour",
