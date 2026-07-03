@@ -2873,7 +2873,7 @@
 2,
 0
 ],
-"buffTarget": "opponent",
+"buffTarget": "self",
 "buffChance": 0.125
 },
 "SOLAR_BEAM": {

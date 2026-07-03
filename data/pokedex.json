@@ -30691,7 +30691,9 @@
 "chargedMoves": [
 "WATER_PULSE",
 "SURF",
-"SHADOW_BALL"
+"SHADOW_BALL",
+"SNIPE_SHOT",
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
