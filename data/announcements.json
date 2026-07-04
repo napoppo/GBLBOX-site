@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.4.1-180",
+      "id": "2.4.1-181",
       "enabled": true,
       "publishedAt": "2026-07-05",
-      "minimumBuild": 180,
+      "minimumBuild": 181,
       "titleJa": "GBLBOX 2.4.1 のアップデート",
       "titleEn": "GBLBOX 2.4.1 Update",
-      "bodyJa": "アップデート内容を確認しやすくするため、アプリ内のお知らせを追加しました。\n\n・Proへの導線をツール画面の見やすい位置に追加しました。\n・おすすめ個体カードの順位表示を名前横の小さな表示に調整し、余白を減らしました。\n・おすすめ個体カードの順位バッジを塗りつぶし表示にして、暗色表示でも読みやすくしました。\n・修正サンプル送信ボタンは、実際に内容を修正したときだけ強調表示するようにしました。\n・新しいポケモン、技、推奨技データをサイトから更新できます。\n\n今後の重要なお知らせや変更内容は、この画面から確認できます。",
-      "bodyEn": "In-app announcements have been added so update details are easier to find.\n\n- The Pro entry point is now easier to find from the Tools screen.\n- Recommended cards now show rank as a smaller badge beside the name with less extra spacing.\n- Recommended-card rank badges now use a filled style so they are easier to read in dark mode.\n- Corrected-sample buttons are highlighted only when the detected content was actually changed.\n- Pokemon, move, and recommended-move data can be refreshed from the website.\n\nFuture important notices and update details will appear here."
+      "bodyJa": "アップデート内容を確認しやすくするため、アプリ内のお知らせを追加しました。\n\n・Proへの導線をツール画面の見やすい位置に追加しました。\n・おすすめ個体カードの順位表示を名前横の小さな表示に調整し、余白を減らしました。\n・おすすめ個体カードの順位バッジを塗りつぶし表示にして、暗色表示でも読みやすくしました。\n・技リストのおすすめ技構成を、通常技とスペシャル技に分けて見やすくしました。\n・修正サンプル送信ボタンは、実際に内容を修正したときだけ強調表示するようにしました。\n・新しいポケモン、技、推奨技データをサイトから更新できます。\n\n今後の重要なお知らせや変更内容は、この画面から確認できます。",
+      "bodyEn": "In-app announcements have been added so update details are easier to find.\n\n- The Pro entry point is now easier to find from the Tools screen.\n- Recommended cards now show rank as a smaller badge beside the name with less extra spacing.\n- Recommended-card rank badges now use a filled style so they are easier to read in dark mode.\n- Recommended moves in the move list are now separated into fast and charged moves for easier scanning.\n- Corrected-sample buttons are highlighted only when the detected content was actually changed.\n- Pokemon, move, and recommended-move data can be refreshed from the website.\n\nFuture important notices and update details will appear here."
     }
   ]
 }
