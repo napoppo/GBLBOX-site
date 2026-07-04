@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.4.1-178",
+      "id": "2.4.1-179",
       "enabled": true,
       "publishedAt": "2026-07-04",
-      "minimumBuild": 178,
+      "minimumBuild": 179,
       "titleJa": "GBLBOX 2.4.1 のアップデート",
       "titleEn": "GBLBOX 2.4.1 Update",
-      "bodyJa": "アップデート内容を確認しやすくするため、アプリ内のお知らせを追加しました。\n\n・新しいポケモン、技、推奨技データをサイトから更新できます。\n・スクショ解析画像の表示比率を安定化しました。\n・おすすめ個体カードで順位を見やすくしました。\n・精度改善用のデータ送信を、修正時やWi-Fi時のキュー送信に対応しました。\n\n今後の重要なお知らせや変更内容は、この画面から確認できます。",
-      "bodyEn": "In-app announcements have been added so update details are easier to find.\n\n- Pokemon, move, and recommended-move data can be refreshed from the website.\n- Screenshot analysis image aspect ratio is now more stable.\n- Recommended cards now make rank easier to see.\n- Accuracy-improvement data sending now supports corrected submissions and Wi-Fi queued sending.\n\nFuture important notices and update details will appear here."
+      "bodyJa": "アップデート内容を確認しやすくするため、アプリ内のお知らせを追加しました。\n\n・Proへの導線をツール画面の見やすい位置に追加しました。\n・おすすめ個体カードの順位表示を名前横の小さな表示に調整し、余白を減らしました。\n・修正サンプル送信ボタンは、実際に内容を修正したときだけ強調表示するようにしました。\n・新しいポケモン、技、推奨技データをサイトから更新できます。\n\n今後の重要なお知らせや変更内容は、この画面から確認できます。",
+      "bodyEn": "In-app announcements have been added so update details are easier to find.\n\n- The Pro entry point is now easier to find from the Tools screen.\n- Recommended cards now show rank as a smaller badge beside the name with less extra spacing.\n- Corrected-sample buttons are highlighted only when the detected content was actually changed.\n- Pokemon, move, and recommended-move data can be refreshed from the website.\n\nFuture important notices and update details will appear here."
     }
   ]
 }
