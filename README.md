@@ -23,7 +23,7 @@ App Store Connect では次を設定:
 
 ## メモ
 - 連絡先メールは各ページの `h.nakamura3557@gmail.com` を編集して変更可能。
-- 個体管理・画像解析は端末内処理。GBLスケジュール・大会予定は `data/gbl_schedule.json` で配信する（**schemaVersion 2**: シーズン配列。管理手順は `data/gbl_schedule.README.md`、検証は `python3 scripts/validate_gbl_schedule.py`）。
+- 個体管理・画像解析は端末内処理。GBLスケジュール・大会予定は `data/gbl_schedule.json` で配信する（**schemaVersion 2**: シーズン配列。管理手順は `data/gbl_schedule.README.md`、検証は `python3 scripts/validate_gbl_schedule.py`）。アプリ内のお知らせは `data/announcements.json` で配信する。
 - バトル用マスタは `data/pokedex.json` / `data/moves.json` / `data/pvpoke_movesets.json` で配信する。更新は GitHub Actions の **Update battle data** を手動実行するか、定期実行に任せる。ローカル更新は `python3 scripts/update_battle_master.py --output-dir data` と `python3 scripts/update_pvpoke_moves.py --output data/pvpoke_movesets.json`、検証は `python3 scripts/validate_battle_master.py data/pokedex.json data/moves.json data/pvpoke_movesets.json`。
 - 現行アプリ（**1.3.0 以降**）は `data/app_config_v2.json` のみ参照（`forceUpdate` / `analytics.enabled` / `billing.enabled`）。RevenueCat API Key、Pro Entitlement ID、PostHog Token、PostHog Host、AdMob ID はアプリ本体側で管理する。
 - `data/app_config.json` は **1.2.x 以前**の互換用に最小限だけ残す（広告ユニット ID・課金フラグ）。1.3.0 以降は読まない。
