@@ -1,0 +1,34 @@
+name: Validate shared data
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/validate-data.yml"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/validate-data.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Validate schemas and references
+        run: |
+          python3 -m unittest scripts/test_validate_shared_data.py
+          python3 scripts/validate_battle_master.py data/pokedex.json data/moves.json data/pvpoke_movesets.json
+          python3 scripts/validate_pvpoke_movesets.py data/pvpoke_movesets.json
+          python3 scripts/validate_gbl_schedule.py
+          python3 scripts/validate_shared_data.py --site-only
