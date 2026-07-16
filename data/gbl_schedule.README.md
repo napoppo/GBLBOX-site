@@ -1,7 +1,7 @@
 # gbl_schedule.json 管理ガイド
 
 GBL スケジュール・フォーマットルール・大会情報を配信する JSON。  
-アプリは `https://napoppo.github.io/GBLBOX-site/data/gbl_schedule.json` を優先し、必要に応じて GitHub raw / 独自ドメインへフォールバックして取得する。
+iOSは `https://gblbox.com/data/gbl_schedule.json`、GitHub raw、GitHub Pagesの順で取得し、失敗時はキャッシュまたは同梱データへフォールバックする。Android同梱データは `scripts/validate_shared_data.py --sync` でこの配信正本から再生成する。
 
 ## ファイル構造（schemaVersion 2）
 
