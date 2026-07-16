@@ -1064,6 +1064,72 @@
 "secondMoveCandy": 25
 },
 {
+"speciesId": "raichu_mega_x",
+"dexNo": 26,
+"nameEn": "Raichu (Mega X)",
+"nameJa": "ライチュウ",
+"form": "MegaX",
+"baseAttack": 277,
+"baseDefense": 203,
+"baseStamina": 155,
+"types": [
+"electric"
+],
+"shadowAvailable": false,
+"released": true,
+"evolutions": [],
+"fastMoves": [
+"SPARK",
+"THUNDER_SHOCK",
+"VOLT_SWITCH",
+"CHARM"
+],
+"chargedMoves": [
+"BRICK_BREAK",
+"THUNDER",
+"THUNDER_PUNCH",
+"WILD_CHARGE",
+"SKULL_BASH",
+"TRAILBLAZE",
+"SURF"
+],
+"secondMoveStardust": 10000,
+"secondMoveCandy": 25
+},
+{
+"speciesId": "raichu_mega_y",
+"dexNo": 26,
+"nameEn": "Raichu (Mega Y)",
+"nameJa": "ライチュウ",
+"form": "MegaY",
+"baseAttack": 339,
+"baseDefense": 157,
+"baseStamina": 155,
+"types": [
+"electric"
+],
+"shadowAvailable": false,
+"released": true,
+"evolutions": [],
+"fastMoves": [
+"SPARK",
+"THUNDER_SHOCK",
+"VOLT_SWITCH",
+"CHARM"
+],
+"chargedMoves": [
+"BRICK_BREAK",
+"THUNDER",
+"THUNDER_PUNCH",
+"WILD_CHARGE",
+"SKULL_BASH",
+"TRAILBLAZE",
+"SURF"
+],
+"secondMoveStardust": 10000,
+"secondMoveCandy": 25
+},
+{
 "speciesId": "sandshrew",
 "dexNo": 27,
 "nameEn": "Sandshrew",
@@ -31458,9 +31524,10 @@
 "WATER_GUN"
 ],
 "chargedMoves": [
-"DRILL_PECK",
 "FLY",
-"HYDRO_PUMP"
+"HYDRO_PUMP",
+"SURF",
+"DIVE"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
