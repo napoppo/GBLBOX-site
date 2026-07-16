@@ -656,6 +656,15 @@
 "energyGain": 0,
 "turns": 1
 },
+"DIVE": {
+"name": "Dive",
+"nameJa": "ダイビング",
+"type": "water",
+"power": 50,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
 "DOOM_DESIRE": {
 "name": "Doom Desire",
 "nameJa": "はめつのねがい",
