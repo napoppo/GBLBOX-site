@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "android-1.0.0-9",
+      "id": "android-1.0.0-10",
       "enabled": true,
       "publishedAt": "2026-07-17",
       "maximumBuild": 0,
       "minimumBuildAndroid": null,
       "maximumBuildAndroid": null,
-      "recommendedBuildAndroid": 9,
-      "titleJa": "GBL Box 1.0.0 (9) のアップデート",
-      "titleEn": "GBL Box 1.0.0 (9) Update",
-      "bodyJa": "内部テスト版ビルド9を配信しました。\n\n・画面を縦向きに固定しました（横向きでのレイアウト崩れを防止）。\n・技リストページで左端からのスワイプで戻れるようになりました。\n・スキャン確認画面で技リストが登録対象のポケモンを開くように修正しました。",
-      "bodyEn": "Internal test build 9 is now available.\n\n- The app is now locked to portrait orientation to prevent layout issues in landscape.\n- You can now swipe back from the left edge on the move list page.\n- Fixed the move list opening the wrong Pokemon on the scan review screen.",
+      "recommendedBuildAndroid": 10,
+      "titleJa": "GBL Box 1.0.0 (10) のアップデート",
+      "titleEn": "GBL Box 1.0.0 (10) Update",
+      "bodyJa": "内部テスト版ビルド10を配信しました。\n\n・このお知らせ画面に、新しいビルドの案内と Google Play へのリンクを表示できるようになりました。\n・ビルド9の変更: 画面の縦向き固定、技リストの左端スワイプで戻る、スキャン確認画面の技リスト対象の修正。",
+      "bodyEn": "Internal test build 10 is now available.\n\n- Announcements can now show update notices with a link to Google Play.\n- From build 9: portrait orientation lock, edge-swipe back on the move list, and a scan review move list fix.",
       "updatePromptJa": "新しいビルドが利用できます。Google Play から更新してください。",
       "updatePromptEn": "A newer build is available. Please update from Google Play.",
       "updatePlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gblbox.android"
