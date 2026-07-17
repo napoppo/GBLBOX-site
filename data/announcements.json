@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "android-1.0.0-10",
+      "id": "android-1.0.0-11",
       "enabled": true,
       "publishedAt": "2026-07-17",
       "maximumBuild": 0,
       "minimumBuildAndroid": null,
       "maximumBuildAndroid": null,
-      "recommendedBuildAndroid": 10,
-      "titleJa": "GBL Box 1.0.0 (10) のアップデート",
-      "titleEn": "GBL Box 1.0.0 (10) Update",
-      "bodyJa": "内部テスト版ビルド10を配信しました。\n\n・このお知らせ画面に、新しいビルドの案内と Google Play へのリンクを表示できるようになりました。\n・ビルド9の変更: 画面の縦向き固定、技リストの左端スワイプで戻る、スキャン確認画面の技リスト対象の修正。",
-      "bodyEn": "Internal test build 10 is now available.\n\n- Announcements can now show update notices with a link to Google Play.\n- From build 9: portrait orientation lock, edge-swipe back on the move list, and a scan review move list fix.",
+      "recommendedBuildAndroid": 11,
+      "titleJa": "GBL Box 1.0.0 (11) のアップデート",
+      "titleEn": "GBL Box 1.0.0 (11) Update",
+      "bodyJa": "内部テスト版ビルド11を配信しました。\n\n・ライブ読み取りした個体を自動でボックスへ登録するようになりました。読み取りに不安がある個体は「要確認」バッジで強調されます。\n・読み取りできないときは、原因（種族・CP・個体値のどれが読めないか）をオーバーレイに表示します。\n・GBL自動記録が対戦外のボックス画面の名前を誤って拾う問題を修正しました。",
+      "bodyEn": "Internal test build 11 is now available.\n\n- Live scan now registers Pokemon to your Box automatically; uncertain reads get a review badge.\n- When a screen cannot be read, the overlay now shows which part (species, CP, or IV) failed.\n- Fixed GBL auto-recording picking up names from box screens outside battles.",
       "updatePromptJa": "新しいビルドが利用できます。Google Play から更新してください。",
       "updatePromptEn": "A newer build is available. Please update from Google Play.",
       "updatePlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gblbox.android"
