@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "android-1.0.0-14",
+      "id": "android-1.0.0-15",
       "enabled": true,
       "publishedAt": "2026-07-17",
       "maximumBuild": 0,
       "minimumBuildAndroid": null,
       "maximumBuildAndroid": null,
-      "recommendedBuildAndroid": 14,
-      "titleJa": "GBL Box 1.0.0 (14) のアップデート",
-      "titleEn": "GBL Box 1.0.0 (14) Update",
-      "bodyJa": "内部テスト版ビルド13・14を配信しました。\n\n・GBL自動記録の検出を改善しました（自分/相手の混線、同名フォルムの誤選択、参加リーグの既定値、証拠フレームの保存）。\n・同名フォルムはGBLでよく使われる方を既定にし、確認シートのチップでワンタップ切替できるようになりました。\n・ライブ読み取りのCP誤読による多重登録を修正し、登録個体にサムネイルが付くようになりました。",
-      "bodyEn": "Internal test builds 13 and 14 are now available.\n\n- GBL auto-recording detection improved: team/opponent mix-ups, same-name form selection, default league, and evidence frames.\n- Same-name forms now default to the one most used in GBL, with one-tap form switch chips in the review sheet.\n- Fixed live scan duplicate registrations from misread CP; entries now include thumbnails.",
+      "recommendedBuildAndroid": 15,
+      "titleJa": "GBL Box 1.0.0 (15) のアップデート",
+      "titleEn": "GBL Box 1.0.0 (15) Update",
+      "bodyJa": "内部テスト版ビルド15を配信しました。\n\n・ライブ読み取りが静止した「調べてもらう」画面で確定しない問題を修正しました（CP誤読の多重登録もこの構造が原因でした）。\n・GBL自動記録の証拠スクショを、両者の名前が画面に写ったタイミングで撮るようにしました。拡大表示は横スワイプで次々見られます。\n・ボックスの個体詳細で戻る操作をするとアプリが閉じる問題を修正しました。",
+      "bodyEn": "Internal test build 15 is now available.\n\n- Fixed live scan never finishing on still appraisal screens (this also caused misread CP registrations).\n- GBL evidence shots are now taken when both names are visible; zoomed frames can be swiped through.\n- Fixed the back gesture closing the app from the Pokemon detail screen.",
       "updatePromptJa": "新しいビルドが利用できます。Google Play から更新してください。",
       "updatePromptEn": "A newer build is available. Please update from Google Play.",
       "updatePlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gblbox.android"
