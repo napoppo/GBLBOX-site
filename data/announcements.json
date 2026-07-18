@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "android-1.0.0-16",
+      "id": "android-1.0.0-17",
       "enabled": true,
       "publishedAt": "2026-07-17",
       "maximumBuild": 0,
       "minimumBuildAndroid": null,
       "maximumBuildAndroid": null,
-      "recommendedBuildAndroid": 16,
-      "titleJa": "GBL Box 1.0.0 (16) のアップデート",
-      "titleEn": "GBL Box 1.0.0 (16) Update",
-      "bodyJa": "内部テスト版ビルド16を配信しました。\n\n・ボックスから個体を開くときと技リストの表示が速くなりました。\n・ライブ読み取りでCPを誤読した場合、HPと個体値バーから正しいCPを自動補正するようになりました。\n・詳細画面のCP欄で3桁以上の数字が見えなくなる問題を修正しました。",
-      "bodyEn": "Internal test build 16 is now available.\n\n- Opening a Pokemon from the Box and the Moves page now respond instantly.\n- Misread CP values from live scan are now auto-corrected using HP and the appraisal bars.\n- Fixed 3-digit CP values being cut off in the detail screen fields.",
+      "recommendedBuildAndroid": 17,
+      "titleJa": "GBL Box 1.0.0 (17) のアップデート",
+      "titleEn": "GBL Box 1.0.0 (17) Update",
+      "bodyJa": "内部テスト版ビルド17を配信しました。\n\n・ライブ読み取りが画面上部の時計や録画表示の数字をCPとして誤読する問題を修正しました。\n・自動登録の既定値に育成おすすめを反映し、進化先が有力な個体はおすすめの育成先・リーグで登録されるようになりました。",
+      "bodyEn": "Internal test build 17 is now available.\n\n- Fixed live scan misreading the clock or recording chip as CP.\n- Auto-registered Pokemon now default to the recommended evolution target and league.",
       "updatePromptJa": "新しいビルドが利用できます。Google Play から更新してください。",
       "updatePromptEn": "A newer build is available. Please update from Google Play.",
       "updatePlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gblbox.android"
