@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "android-1.0.0-18",
+      "id": "android-1.0.0-19",
       "enabled": true,
       "publishedAt": "2026-07-17",
       "maximumBuild": 0,
       "minimumBuildAndroid": null,
       "maximumBuildAndroid": null,
-      "recommendedBuildAndroid": 18,
-      "titleJa": "GBL Box 1.0.0 (18) のアップデート",
-      "titleEn": "GBL Box 1.0.0 (18) Update",
-      "bodyJa": "内部テスト版ビルド18を配信しました。\n\n・CPを補正して登録した個体でも、個体値が一意に確定していれば「要確認」を付けないようにしました。\n・同じ個体で「新規登録」の表示が繰り返し出る問題を修正し、登録済みの個体は「登録済み」と表示されるようになりました。\n・誤検出報告には画面全体のスクショを使い、送信予約後は端末内の元画像を自動削除するようにしました（未報告分も30日で削除）。",
-      "bodyEn": "Internal test build 18 is now available.\n\n- Corrected-CP registrations no longer show the review badge when the IV is uniquely confirmed.\n- Fixed repeated \"new registration\" popups; already-registered Pokemon now show as such.\n- Accuracy reports use the full screenshot; local copies are cleaned up after queueing (30-day retention otherwise).",
+      "recommendedBuildAndroid": 19,
+      "titleJa": "GBL Box 1.0.0 (19) のアップデート",
+      "titleEn": "GBL Box 1.0.0 (19) Update",
+      "bodyJa": "内部テスト版ビルド19を配信しました。\n\n・ライブ読み取りで、ボックスに登録済みの個体が「新規登録」と表示され続ける問題を修正しました。登録済みの個体は「登録済み」と表示されます。",
+      "bodyEn": "Internal test build 19 is now available.\n\n- Fixed live scan repeatedly showing \"new registration\" for Pokemon already in your Box; they now show as already registered.",
       "updatePromptJa": "新しいビルドが利用できます。Google Play から更新してください。",
       "updatePromptEn": "A newer build is available. Please update from Google Play.",
       "updatePlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gblbox.android"
