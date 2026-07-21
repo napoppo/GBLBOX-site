@@ -2,6 +2,22 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.5.0-208",
+      "enabled": true,
+      "publishedAt": "2026-07-21",
+      "maximumBuild": 207,
+      "recommendedBuild": 208,
+      "titleJa": "GBLBOX 2.5.0 のアップデート",
+      "titleEn": "GBLBOX 2.5.0 Update",
+      "bodyJa": "・CP補完（隠れて読めないCPを種族・HP・個体値から推定）\n・GBL自動記録の検出精度と証拠画像の保持を改善\n・フォルム切替・シャドウ表示の改善",
+      "bodyEn": "- CP recovery when obscured (estimated from species, HP, and IVs)\n- Improved GBL auto-record detection and evidence retention\n- Form switching and Shadow display improvements",
+      "updatePromptJa": "2.5.0 に更新すると、CP補完とGBL自動記録の改善が利用できます。",
+      "updatePromptEn": "Update to 2.5.0 for CP recovery and GBL auto-record improvements.",
+      "updateActionTitleJa": "App Store で更新",
+      "updateActionTitleEn": "Update on App Store",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "android-1.0.0-19",
       "enabled": true,
       "publishedAt": "2026-07-17",
