@@ -6,6 +6,7 @@
       "enabled": true,
       "publishedAt": "2026-07-21",
       "maximumBuild": 207,
+      "maximumBuildAndroid": 0,
       "recommendedBuild": 208,
       "titleJa": "GBLBOX 2.5.0 のアップデート",
       "titleEn": "GBLBOX 2.5.0 Update",
