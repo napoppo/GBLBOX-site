@@ -153,6 +153,62 @@ class SharedDataContractTests(unittest.TestCase):
         with self.assertRaises(ContractError):
             validate_announcements(document, "test announcements")
 
+    def _android_announcement(self, **overrides: object) -> dict:
+        announcement = {
+            "id": "android-1.0.0-39",
+            "enabled": True,
+            "publishedAt": "2026-07-25",
+            "maximumBuild": 0,
+            "recommendedBuildAndroid": 39,
+            "titleJa": "GBL Box 1.0.0 (39) のアップデート",
+            "bodyJa": "内部テスト版ビルド39を配信しました。",
+            "updatePlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gblbox.android",
+        }
+        announcement.update(overrides)
+        return {"schemaVersion": 1, "announcements": [announcement]}
+
+    def test_android_announcement_excluding_ios_is_accepted(self) -> None:
+        validate_announcements(self._android_announcement(), "test announcements")
+
+    def test_android_announcement_requires_explicit_ios_range(self) -> None:
+        # maximumBuild が無いと iOS 側の isRelevant を素通りし、全 iOS ユーザーに
+        # 「Google Play から更新してください」が出てしまう。
+        document = self._android_announcement()
+        del document["announcements"][0]["maximumBuild"]
+
+        with self.assertRaises(ContractError):
+            validate_announcements(document, "test announcements")
+
+    def test_play_store_url_requires_recommended_build_android(self) -> None:
+        document = self._android_announcement()
+        del document["announcements"][0]["recommendedBuildAndroid"]
+
+        with self.assertRaises(ContractError):
+            validate_announcements(document, "test announcements")
+
+    def test_play_store_url_rejects_other_apps(self) -> None:
+        document = self._android_announcement(
+            updatePlayStoreUrl="https://play.google.com/store/apps/details?id=com.example.other",
+        )
+
+        with self.assertRaises(ContractError):
+            validate_announcements(document, "test announcements")
+
+    def test_announcement_without_any_platform_targeting_is_rejected(self) -> None:
+        document = {
+            "schemaVersion": 1,
+            "announcements": [{
+                "id": "no-targeting",
+                "enabled": True,
+                "publishedAt": "2026-07-25",
+                "titleJa": "案内",
+                "bodyJa": "本文",
+            }],
+        }
+
+        with self.assertRaises(ContractError):
+            validate_announcements(document, "test announcements")
+
 
 if __name__ == "__main__":
     unittest.main()

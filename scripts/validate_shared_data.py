@@ -42,6 +42,20 @@ BUILD_FIELDS = (
     "recommendedBuild",
     "minimumBuildAndroid",
     "maximumBuildAndroid",
+    "recommendedBuildAndroid",
+)
+# 各エントリがどちらのプラットフォーム向けかを判定するフィールド。
+IOS_TARGETING_FIELDS = (
+    "minimumBuild",
+    "maximumBuild",
+    "recommendedBuild",
+    "updateAppStoreUrl",
+)
+ANDROID_TARGETING_FIELDS = (
+    "minimumBuildAndroid",
+    "maximumBuildAndroid",
+    "recommendedBuildAndroid",
+    "updatePlayStoreUrl",
 )
 ANNOUNCEMENT_OPTIONAL_TEXT_FIELDS = (
     "titleEn",
@@ -54,6 +68,7 @@ ANNOUNCEMENT_OPTIONAL_TEXT_FIELDS = (
     "updateActionTitleEn",
 )
 APP_STORE_APP_ID = "id6776499795"
+PLAY_PACKAGE_ID = "com.gblbox.android"
 
 
 class ContractError(RuntimeError):
@@ -218,6 +233,37 @@ def validate_announcements(document: Any, label: str) -> None:
             require(
                 isinstance(recommended, int) and not isinstance(recommended, bool),
                 f"{label} {announcement_id} updateAppStoreUrl requires recommendedBuild",
+            )
+        play_url = announcement.get("updatePlayStoreUrl")
+        require(
+            play_url is None or (
+                isinstance(play_url, str)
+                and play_url.startswith("https://play.google.com/")
+                and PLAY_PACKAGE_ID in play_url
+            ),
+            f"{label} {announcement_id} updatePlayStoreUrl must be the GBL Box Play Store HTTPS URL",
+        )
+        if play_url is not None:
+            recommended_android = announcement.get("recommendedBuildAndroid")
+            require(
+                isinstance(recommended_android, int) and not isinstance(recommended_android, bool),
+                f"{label} {announcement_id} updatePlayStoreUrl requires recommendedBuildAndroid",
+            )
+
+        targets_ios = any(announcement.get(key) is not None for key in IOS_TARGETING_FIELDS)
+        targets_android = any(announcement.get(key) is not None for key in ANDROID_TARGETING_FIELDS)
+        require(
+            targets_ios or targets_android,
+            f"{label} {announcement_id} must target at least one platform",
+        )
+        # Android は該当フィールドが皆無なら自動的に非表示になる（AppAnnouncement.hasAndroidAudience）が、
+        # iOS の isRelevant には同等のガードが無く、iOS 側の範囲指定が無いエントリは全 iOS ユーザーに出る。
+        # Android 向けのお知らせが iOS に漏れないよう、iOS の対象範囲を必ず明示させる（除外は maximumBuild: 0）。
+        if targets_android:
+            require(
+                announcement.get("minimumBuild") is not None or announcement.get("maximumBuild") is not None,
+                f"{label} {announcement_id} targets Android without an iOS build range; "
+                f"set maximumBuild to 0 to exclude iOS, or give it an explicit iOS range",
             )
 
 
