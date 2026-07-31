@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.5.3-228",
+      "enabled": true,
+      "publishedAt": "2026-08-01",
+      "maximumBuild": 227,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 228,
+      "titleJa": "GBLBOX 2.5.3 のアップデート",
+      "titleEn": "GBLBOX 2.5.3 Update",
+      "bodyJa": "・GBL開始時のレートと称号を自動で記録\n・GBL自動記録の検出精度と補正機能を改善\n・相手レートの手入力に対応し、VS画面の証拠画像を保持",
+      "bodyEn": "- Auto-record GBL starting rating and title\n- Improved GBL auto-record detection and correction\n- Manual opponent rating input with VS screen evidence retention",
+      "updatePromptJa": "2.5.3 に更新すると、GBL自動記録の改善とレート手入力が利用できます。",
+      "updatePromptEn": "Update to 2.5.3 for improved GBL auto-record and manual rating input.",
+      "updateActionTitleJa": "App Store で更新",
+      "updateActionTitleEn": "Update on App Store",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.5.0-208",
       "enabled": true,
       "publishedAt": "2026-07-21",
