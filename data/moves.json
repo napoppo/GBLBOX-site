@@ -23,6 +23,21 @@
 "buffTarget": "opponent",
 "buffChance": 1.0
 },
+"ACID_SPRAY_PLUS": {
+"name": "Acid Spray+",
+"nameJa": "アシッドボム",
+"type": "poison",
+"power": 20,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-2
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
 "ACROBATICS": {
 "name": "Acrobatics",
 "nameJa": "アクロバット",
@@ -341,6 +356,21 @@
 "type": "fighting",
 "power": 50,
 "energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"BRICK_BREAK_PLUS": {
+"name": "Brick Break+",
+"nameJa": "かわらわり",
+"type": "fighting",
+"power": 40,
+"energy": 35,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -800,6 +830,15 @@
 "energyGain": 0,
 "turns": 1
 },
+"DRILL_PECK_PLUS": {
+"name": "Drill Peck+",
+"nameJa": "ドリルくちばし",
+"type": "flying",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
 "DRILL_RUN": {
 "name": "Drill Run",
 "nameJa": "ドリルライナー",
@@ -839,6 +878,15 @@
 "type": "fighting",
 "power": 90,
 "energy": 45,
+"energyGain": 0,
+"turns": 1
+},
+"DYNAMIC_PUNCH_PLUS": {
+"name": "Dynamic Punch+",
+"nameJa": "ばくれつパンチ",
+"type": "fighting",
+"power": 130,
+"energy": 80,
 "energyGain": 0,
 "turns": 1
 },
@@ -1169,6 +1217,15 @@
 "type": "psychic",
 "power": 110,
 "energy": 65,
+"energyGain": 0,
+"turns": 1
+},
+"FUTURE_SIGHT_PLUS": {
+"name": "Future Sight+",
+"nameJa": "みらいよち",
+"type": "psychic",
+"power": 130,
+"energy": 80,
 "energyGain": 0,
 "turns": 1
 },
@@ -1751,6 +1808,21 @@
 "buffTarget": "opponent",
 "buffChance": 0.3
 },
+"LIQUIDATION_PLUS": {
+"name": "Liquidation+",
+"nameJa": "アクアブレイク",
+"type": "water",
+"power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 0.3
+},
 "LOCK_ON": {
 "name": "Lock On",
 "nameJa": "ロックオン",
@@ -2030,6 +2102,21 @@
 "buffTarget": "opponent",
 "buffChance": 1.0
 },
+"MYSTICAL_FIRE_PLUS": {
+"name": "Mystical Fire+",
+"nameJa": "マジカルフレイム",
+"type": "fire",
+"power": 50,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
 "NATURES_MADNESS": {
 "name": "Nature's Madness",
 "nameJa": "しぜんのいかり",
@@ -2147,6 +2234,15 @@
 "energyGain": 0,
 "turns": 1
 },
+"OUTRAGE_PLUS": {
+"name": "Outrage+",
+"nameJa": "げきりん",
+"type": "dragon",
+"power": 80,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
+},
 "OVERHEAT": {
 "name": "Overheat",
 "nameJa": "オーバーヒート",
@@ -2204,21 +2300,21 @@
 "energyGain": 0,
 "turns": 1
 },
-"PLAY_ROUGH": {
-"name": "Play Rough",
-"nameJa": "じゃれつく",
-"type": "fairy",
-"power": 90,
-"energy": 60,
-"energyGain": 0,
-"turns": 1
-},
 "PLASMA_FISTS": {
 "name": "Plasma Fists",
 "nameJa": "プラズマフィスト",
 "type": "electric",
 "power": 60,
 "energy": 35,
+"energyGain": 0,
+"turns": 1
+},
+"PLAY_ROUGH": {
+"name": "Play Rough",
+"nameJa": "じゃれつく",
+"type": "fairy",
+"power": 90,
+"energy": 60,
 "energyGain": 0,
 "turns": 1
 },
@@ -2339,6 +2435,15 @@
 "type": "psychic",
 "power": 70,
 "energy": 60,
+"energyGain": 0,
+"turns": 1
+},
+"PSYBEAM_PLUS": {
+"name": "Psybeam+",
+"nameJa": "サイケこうせん",
+"type": "psychic",
+"power": 60,
+"energy": 45,
 "energyGain": 0,
 "turns": 1
 },
@@ -2692,6 +2797,15 @@
 "nameJa": "タネばくだん",
 "type": "grass",
 "power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1
+},
+"SEED_BOMB_PLUS": {
+"name": "Seed Bomb+",
+"nameJa": "タネばくだん",
+"type": "grass",
+"power": 60,
 "energy": 40,
 "energyGain": 0,
 "turns": 1
@@ -3056,6 +3170,15 @@
 "energyGain": 0,
 "turns": 1
 },
+"SURF_PLUS": {
+"name": "Surf+",
+"nameJa": "なみのり",
+"type": "water",
+"power": 55,
+"energy": 35,
+"energyGain": 0,
+"turns": 1
+},
 "SWIFT": {
 "name": "Swift",
 "nameJa": "スピードスター",
@@ -3332,6 +3455,21 @@
 "buffTarget": "self",
 "buffChance": 1.0
 },
+"VOLT_TACKLE_PLUS": {
+"name": "Volt Tackle+",
+"nameJa": "ボルテッカー",
+"type": "electric",
+"power": 65,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
 "V_CREATE": {
 "name": "V-Create",
 "nameJa": "Ｖジェネレート",
@@ -3523,6 +3661,21 @@
 ],
 "buffTarget": "opponent",
 "buffChance": 0.33
+},
+"ZAP_CANNON_PLUS": {
+"name": "Zap Cannon+",
+"nameJa": "でんじほう",
+"type": "electric",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-1,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
 },
 "ZEN_HEADBUTT": {
 "name": "Zen Headbutt",
