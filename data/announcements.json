@@ -31,7 +31,7 @@
     },
     {
       "id": "2.5.4-242",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-08-08",
       "maximumBuild": 241,
       "maximumBuildAndroid": 0,
@@ -42,7 +42,7 @@
     },
     {
       "id": "2.5.3-228",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-08-01",
       "maximumBuild": 227,
       "maximumBuildAndroid": 0,
@@ -53,7 +53,7 @@
     },
     {
       "id": "2.5.0-208",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-07-21",
       "maximumBuild": 207,
       "maximumBuildAndroid": 0,
@@ -80,7 +80,7 @@
     },
     {
       "id": "2.4.2-192",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-07-16",
       "minimumBuild": 192,
       "minimumBuildAndroid": null,
@@ -92,7 +92,7 @@
     },
     {
       "id": "2.4.1-181",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-07-05",
       "minimumBuild": 181,
       "minimumBuildAndroid": null,
