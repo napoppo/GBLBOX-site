@@ -16,7 +16,7 @@
   },
   "proTrial": {
     "freeUseLimit": 999,
-    "resetGeneration": 4,
+    "resetGeneration": 5,
     "freeIndividualLimit": 50
   }
 }
