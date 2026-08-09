@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.5.4-ocr-apology-20260809",
+      "id": "2.5.5-243",
       "enabled": true,
+      "publishedAt": "2026-08-10",
+      "maximumBuild": 242,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 243,
+      "titleJa": "GBLBOX 2.5.5 の配信を開始しました",
+      "titleEn": "GBLBOX 2.5.5 is now available",
+      "bodyJa": "GBLBOX 2.5.5 の配信を開始しました。\n\n2.5.4で、正しく読み取ったポケモン名が別の候補へ置き換わることがある問題を修正しています。ご不便とご心配をおかけし、申し訳ありませんでした。\n\nお手数ですが、App Storeから2.5.5へアップデートしてください。",
+      "bodyEn": "GBLBOX 2.5.5 is now available.\n\nThis update fixes an issue in version 2.5.4 where a correctly recognized Pokemon name could be replaced with a different candidate. We apologize for the inconvenience and concern this caused.\n\nPlease update to version 2.5.5 from the App Store.",
+      "updatePromptJa": "スクリーンショット解析の名前判定を修正した2.5.5が利用できます。",
+      "updatePromptEn": "Version 2.5.5, which fixes species-name selection in screenshot analysis, is available.",
+      "updateActionTitleJa": "App Storeで2.5.5へ更新",
+      "updateActionTitleEn": "Update to 2.5.5",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.5.4-ocr-apology-20260809",
+      "enabled": false,
       "publishedAt": "2026-08-09",
       "maximumBuild": 242,
       "maximumBuildAndroid": 0,
