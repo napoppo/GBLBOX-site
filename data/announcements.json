@@ -2,21 +2,26 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.5.4-ocr-advisory-20260809",
+      "enabled": true,
+      "publishedAt": "2026-08-09",
+      "maximumBuild": 242,
+      "maximumBuildAndroid": 0,
+      "titleJa": "GBLBOX 2.5.4 への更新はお控えください",
+      "titleEn": "Please postpone updating to GBLBOX 2.5.4",
+      "bodyJa": "2.5.4 では、スクリーンショット解析時に正しく読み取ったポケモン名が別の候補へ置き換わることがあります。\n\n修正版を準備しています。公開まで 2.5.4 への更新をお控えください。すでに更新済みの場合は、保存前にポケモン名と個体値をご確認ください。",
+      "bodyEn": "In version 2.5.4, a Pokemon name correctly read from a screenshot may be replaced with a different candidate.\n\nA fix is being prepared. Please postpone updating to 2.5.4 until it is released. If you have already updated, verify the Pokemon name and IVs before saving."
+    },
+    {
       "id": "2.5.4-242",
       "enabled": true,
       "publishedAt": "2026-08-08",
       "maximumBuild": 241,
       "maximumBuildAndroid": 0,
-      "recommendedBuild": 242,
       "titleJa": "GBLBOX 2.5.4 のアップデート",
       "titleEn": "GBLBOX 2.5.4 Update",
       "bodyJa": "・技構成を個体ごとに設定できるようになりました\n・ボックスのタグを候補から選んで付けられ、絞り込みでも選べます\n・タグの名前をまとめて変更・削除できる「タグの整理」を追加\n・ニックネームに技名や個体値（FFF＝15/15/15）を入れられます\n・スクショ解析の修正（フォルム判定、シャドウの誤検出、起動後1枚目の読み取り）",
-      "bodyEn": "- Set each Pokemon's moves individually\n- Add Box tags by tapping a chip, and pick tags in the filter\n- New Manage tags screen to rename or remove a tag everywhere at once\n- Nicknames can include move names and IVs (FFF = 15/15/15)\n- Scan fixes (form detection, false Shadow detection, first scan after launch)",
-      "updatePromptJa": "2.5.4 に更新すると、技構成の設定とタグの整理が利用できます。",
-      "updatePromptEn": "Update to 2.5.4 for per-Pokemon movesets and tag management.",
-      "updateActionTitleJa": "App Store で更新",
-      "updateActionTitleEn": "Update on App Store",
-      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+      "bodyEn": "- Set each Pokemon's moves individually\n- Add Box tags by tapping a chip, and pick tags in the filter\n- New Manage tags screen to rename or remove a tag everywhere at once\n- Nicknames can include move names and IVs (FFF = 15/15/15)\n- Scan fixes (form detection, false Shadow detection, first scan after launch)"
     },
     {
       "id": "2.5.3-228",
@@ -24,16 +29,10 @@
       "publishedAt": "2026-08-01",
       "maximumBuild": 227,
       "maximumBuildAndroid": 0,
-      "recommendedBuild": 228,
       "titleJa": "GBLBOX 2.5.3 のアップデート",
       "titleEn": "GBLBOX 2.5.3 Update",
       "bodyJa": "・メガシンカに対応（スキャン確認のメガ/相棒+1チップ、ランキング表のメガ切替）\n・GBL開始時のレートとランク（ACE/VETERAN等）を自動で記録\n・GBL自動記録の検出精度と補正機能を改善\n・VS画面の証拠画像を保持",
-      "bodyEn": "- Mega Evolution support (Mega/Best Buddy +1 chip in scan review, Mega toggle in rankings)\n- Auto-record GBL starting rating and rank (ACE/VETERAN, etc.)\n- Improved GBL auto-record detection and correction\n- VS screen evidence image retention",
-      "updatePromptJa": "2.5.3 に更新すると、メガシンカ対応とGBL自動記録の改善が利用できます。",
-      "updatePromptEn": "Update to 2.5.3 for Mega Evolution support and improved GBL auto-record.",
-      "updateActionTitleJa": "App Store で更新",
-      "updateActionTitleEn": "Update on App Store",
-      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+      "bodyEn": "- Mega Evolution support (Mega/Best Buddy +1 chip in scan review, Mega toggle in rankings)\n- Auto-record GBL starting rating and rank (ACE/VETERAN, etc.)\n- Improved GBL auto-record detection and correction\n- VS screen evidence image retention"
     },
     {
       "id": "2.5.0-208",
@@ -41,16 +40,10 @@
       "publishedAt": "2026-07-21",
       "maximumBuild": 207,
       "maximumBuildAndroid": 0,
-      "recommendedBuild": 208,
       "titleJa": "GBLBOX 2.5.0 のアップデート",
       "titleEn": "GBLBOX 2.5.0 Update",
       "bodyJa": "・CP補完（隠れて読めないCPを種族・HP・個体値から推定）\n・GBL自動記録の検出精度と証拠画像の保持を改善\n・フォルム切替・シャドウ表示の改善",
-      "bodyEn": "- CP recovery when obscured (estimated from species, HP, and IVs)\n- Improved GBL auto-record detection and evidence retention\n- Form switching and Shadow display improvements",
-      "updatePromptJa": "2.5.0 に更新すると、CP補完とGBL自動記録の改善が利用できます。",
-      "updatePromptEn": "Update to 2.5.0 for CP recovery and GBL auto-record improvements.",
-      "updateActionTitleJa": "App Store で更新",
-      "updateActionTitleEn": "Update on App Store",
-      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+      "bodyEn": "- CP recovery when obscured (estimated from species, HP, and IVs)\n- Improved GBL auto-record detection and evidence retention\n- Form switching and Shadow display improvements"
     },
     {
       "id": "android-1.0.0-39",
