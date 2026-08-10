@@ -252,13 +252,14 @@
       "dexNo": 150,
       "form": "MegaX",
       "released": true,
-      "megaMaxLevel": 3,
+      "megaMaxLevel": 4,
       "powerLevelBonus": null,
       "levelsAvailable": [
         0,
         1,
         2,
-        3
+        3,
+        4
       ],
       "sourceVersion": "1776386930700"
     },
@@ -267,13 +268,14 @@
       "dexNo": 150,
       "form": "MegaY",
       "released": true,
-      "megaMaxLevel": 3,
+      "megaMaxLevel": 4,
       "powerLevelBonus": null,
       "levelsAvailable": [
         0,
         1,
         2,
-        3
+        3,
+        4
       ],
       "sourceVersion": "1776386930700"
     },
