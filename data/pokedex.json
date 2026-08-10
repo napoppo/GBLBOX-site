@@ -5006,6 +5006,57 @@
 "secondMoveCandy": 50
 },
 {
+"speciesId": "starmie_mega",
+"dexNo": 121,
+"nameEn": "Starmie (Mega)",
+"nameJa": "スターミー",
+"form": "Mega",
+"baseAttack": 276,
+"baseDefense": 229,
+"baseStamina": 155,
+"types": [
+"water",
+"psychic"
+],
+"shadowAvailable": true,
+"released": true,
+"evolutions": [],
+"fastMoves": [
+"HIDDEN_POWER_BUG",
+"HIDDEN_POWER_DARK",
+"HIDDEN_POWER_DRAGON",
+"HIDDEN_POWER_ELECTRIC",
+"HIDDEN_POWER_FIGHTING",
+"HIDDEN_POWER_FIRE",
+"HIDDEN_POWER_FLYING",
+"HIDDEN_POWER_GHOST",
+"HIDDEN_POWER_GRASS",
+"HIDDEN_POWER_GROUND",
+"HIDDEN_POWER_ICE",
+"HIDDEN_POWER_POISON",
+"HIDDEN_POWER_PSYCHIC",
+"HIDDEN_POWER_ROCK",
+"HIDDEN_POWER_STEEL",
+"HIDDEN_POWER_WATER",
+"QUICK_ATTACK",
+"TACKLE",
+"WATER_GUN",
+"PSYWAVE"
+],
+"chargedMoves": [
+"HYDRO_PUMP",
+"ICE_BEAM",
+"POWER_GEM",
+"PSYBEAM",
+"PSYCHIC",
+"THUNDER",
+"SURF",
+"AQUA_JET"
+],
+"secondMoveStardust": 50000,
+"secondMoveCandy": 50
+},
+{
 "speciesId": "mr_mime",
 "dexNo": 122,
 "nameEn": "Mr. Mime",
