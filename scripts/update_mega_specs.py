@@ -31,6 +31,10 @@ MEGA_MAX_LEVEL_OVERRIDES = {
     "mewtwo_mega_x": 4,
     "mewtwo_mega_y": 4,
 }
+MEGA_POWER_LEVEL_BONUS_OVERRIDES = {
+    "mewtwo_mega_x": 2,
+    "mewtwo_mega_y": 2,
+}
 
 
 def load_json(path: Path):
@@ -87,7 +91,9 @@ def build_specs(pokedex: list[dict], game_master: dict, source_version: str) -> 
             "form": pokemon["form"],
             "released": RELEASED_OVERRIDES.get(species_id, bool(pokemon.get("released", False))),
             "megaMaxLevel": max_level,
-            "powerLevelBonus": effects.get("selfCpBoostAdditionalLevel"),
+            "powerLevelBonus": MEGA_POWER_LEVEL_BONUS_OVERRIDES.get(
+                species_id, effects.get("selfCpBoostAdditionalLevel")
+            ),
             "levelsAvailable": levels,
             "sourceVersion": source_version,
         })

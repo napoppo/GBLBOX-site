@@ -253,7 +253,7 @@
       "form": "MegaX",
       "released": true,
       "megaMaxLevel": 4,
-      "powerLevelBonus": null,
+      "powerLevelBonus": 2,
       "levelsAvailable": [
         0,
         1,
@@ -269,7 +269,7 @@
       "form": "MegaY",
       "released": true,
       "megaMaxLevel": 4,
-      "powerLevelBonus": null,
+      "powerLevelBonus": 2,
       "levelsAvailable": [
         0,
         1,
