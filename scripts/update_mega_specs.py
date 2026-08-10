@@ -25,6 +25,13 @@ RELEASED_OVERRIDES = {
     "camerupt_mega": True,
 }
 
+# メガミュウツーはGame Master側にレベル4テンプレートが現れない期間が
+# あるため、ゲーム内で解放可能な上限を補完する。
+MEGA_MAX_LEVEL_OVERRIDES = {
+    "mewtwo_mega_x": 4,
+    "mewtwo_mega_y": 4,
+}
+
 
 def load_json(path: Path):
     with path.open(encoding="utf-8") as handle:
@@ -68,8 +75,11 @@ def build_specs(pokedex: list[dict], game_master: dict, source_version: str) -> 
         if not levels:
             # Game Masterに個体別設定が無い場合は、最大レベルを推測しない。
             continue
-        max_level = max(levels)
-        settings = settings_by_level_dex[(max_level, pokemon["dexNo"])]
+        observed_max_level = max(levels)
+        max_level = max(observed_max_level, MEGA_MAX_LEVEL_OVERRIDES.get(species_id, 0))
+        settings = settings_by_level_dex[(observed_max_level, pokemon["dexNo"])]
+        if max_level not in levels:
+            levels.append(max_level)
         effects = settings.get("effects") if isinstance(settings.get("effects"), dict) else {}
         entries.append({
             "speciesId": species_id,
