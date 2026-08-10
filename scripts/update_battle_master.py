@@ -78,6 +78,11 @@ PAREN_FORM_HINTS = (
 
 SECOND_MOVE_CANDY = {10000: 25, 50000: 50, 75000: 75, 100000: 100}
 
+# 上流のreleasedフラグが遅れている実装済みフォームを補完する。
+RELEASED_OVERRIDES = {
+    "camerupt_mega": True,
+}
+
 
 def fetch_json(source_key: str):
     return json.loads(fetch_bytes(SOURCES[source_key]).decode("utf-8"))
@@ -155,7 +160,7 @@ def build_pokedex(pvpoke_gamemaster: dict, ja_names: dict[int, str]) -> list[dic
             "baseStamina": base_stats["hp"],
             "types": [type_name for type_name in pokemon.get("types", []) if type_name and type_name != "none"],
             "shadowAvailable": "shadoweligible" in tags,
-            "released": bool(pokemon.get("released", False)),
+            "released": RELEASED_OVERRIDES.get(species_id, bool(pokemon.get("released", False))),
             "evolutions": evolutions,
             "fastMoves": pokemon.get("fastMoves", []) or [],
             "chargedMoves": pokemon.get("chargedMoves", []) or [],

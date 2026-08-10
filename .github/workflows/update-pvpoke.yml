@@ -33,17 +33,21 @@ jobs:
       - name: Fetch & build pvpoke_movesets.json
         run: python scripts/update_pvpoke_moves.py --output data/pvpoke_movesets.json
 
+      - name: Fetch & build mega_specs.json
+        run: python scripts/update_mega_specs.py --output data/mega_specs.json
+
       - name: Validate
         run: |
           python scripts/validate_battle_master.py data/pokedex.json data/moves.json data/pvpoke_movesets.json
           python scripts/validate_pvpoke_movesets.py data/pvpoke_movesets.json
+          python scripts/validate_mega_specs.py data/mega_specs.json data/pokedex.json
 
       - name: Commit if changed
         run: |
-          if [ -n "$(git status --porcelain data/pokedex.json data/moves.json data/pvpoke_movesets.json)" ]; then
+          if [ -n "$(git status --porcelain data/pokedex.json data/moves.json data/pvpoke_movesets.json data/mega_specs.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/pokedex.json data/moves.json data/pvpoke_movesets.json
+            git add data/pokedex.json data/moves.json data/pvpoke_movesets.json data/mega_specs.json
             git commit -m "chore: update battle data from upstream"
             git push
           else
