@@ -87,10 +87,7 @@
 "SLUDGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "venusaur_mega",
@@ -120,10 +117,7 @@
 "SLUDGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "charmander",
@@ -182,10 +176,7 @@
 "FLAMETHROWER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"SCRATCH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "charizard",
@@ -219,14 +210,7 @@
 "AIR_CUTTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"EMBER",
-"WING_ATTACK",
-"BLAST_BURN",
-"FLAMETHROWER",
-"DRAGON_BREATH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "charizard_mega_x",
@@ -260,14 +244,7 @@
 "AIR_CUTTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"EMBER",
-"WING_ATTACK",
-"BLAST_BURN",
-"FLAMETHROWER",
-"DRAGON_BREATH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "charizard_mega_y",
@@ -301,14 +278,7 @@
 "AIR_CUTTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"EMBER",
-"WING_ATTACK",
-"BLAST_BURN",
-"FLAMETHROWER",
-"DRAGON_BREATH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "squirtle",
@@ -396,10 +366,7 @@
 "SKULL_BASH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "blastoise_mega",
@@ -429,10 +396,7 @@
 "SKULL_BASH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "caterpie",
@@ -515,10 +479,7 @@
 "SIGNAL_BEAM"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BUG_BITE"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "weedle",
@@ -606,11 +567,7 @@
 "DRILL_RUN"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BUG_BITE",
-"DRILL_RUN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "beedrill_mega",
@@ -642,11 +599,7 @@
 "DRILL_RUN"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BUG_BITE",
-"DRILL_RUN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "pidgey",
@@ -740,12 +693,7 @@
 "TWISTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"WING_ATTACK",
-"AIR_CUTTER",
-"GUST"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "pidgeot_mega",
@@ -779,12 +727,7 @@
 "TWISTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"WING_ATTACK",
-"AIR_CUTTER",
-"GUST"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "rattata",
@@ -929,10 +872,7 @@
 "TWISTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"TWISTER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "fearow",
@@ -963,10 +903,7 @@
 "DRILL_PECK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"TWISTER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "ekans",
@@ -996,10 +933,7 @@
 "WRAP"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"GUNK_SHOT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "arbok",
@@ -1061,12 +995,7 @@
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"PRESENT",
-"SURF",
-"THUNDER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "raichu",
@@ -1099,10 +1028,7 @@
 "SURF"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"THUNDER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "raichu_alolan",
@@ -1232,10 +1158,7 @@
 "SAND_TOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ROCK_TOMB"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "sandshrew_alolan",
@@ -1295,10 +1218,7 @@
 "SCORCHING_SANDS"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"NIGHT_SLASH"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "sandslash_alolan",
@@ -1330,10 +1250,7 @@
 "AERIAL_ACE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SHADOW_CLAW"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "nidoran_female",
@@ -1516,10 +1433,7 @@
 "SAND_TOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"FURY_CUTTER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "clefairy",
@@ -1582,10 +1496,7 @@
 "DRAINING_KISS"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"POUND"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "vulpix",
@@ -1679,13 +1590,7 @@
 "ENERGY_BALL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"EMBER",
-"FIRE_BLAST",
-"FLAMETHROWER",
-"ENERGY_BALL"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "ninetales_alolan",
@@ -1717,10 +1622,7 @@
 "CHILLING_WATER"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"CHILLING_WATER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "jigglypuff",
@@ -1753,11 +1655,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"PLAY_ROUGH",
-"BODY_SLAM"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "wigglytuff",
@@ -1821,10 +1719,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"SLUDGE_BOMB"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "golbat",
@@ -1855,10 +1750,7 @@
 "SHADOW_BALL"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"OMINOUS_WIND"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "oddish",
@@ -2007,10 +1899,7 @@
 "X_SCISSOR"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BUG_BITE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "venonat",
@@ -2071,10 +1960,7 @@
 "SILVER_WIND"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BUG_BITE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "diglett",
@@ -2222,10 +2108,7 @@
 "NIGHT_SLASH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "meowth_alolan",
@@ -2315,10 +2198,7 @@
 "PAYBACK"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"NIGHT_SLASH"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "persian_alolan",
@@ -2469,12 +2349,7 @@
 "RAGE_FIST"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"KARATE_CHOP",
-"CROSS_CHOP",
-"RAGE_FIST"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "growlithe",
@@ -2566,11 +2441,7 @@
 "SCORCHING_SANDS"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BITE",
-"BULLDOZE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "arcanine_hisuian",
@@ -2660,10 +2531,7 @@
 "WATER_PULSE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SCALD"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "poliwrath",
@@ -2697,11 +2565,7 @@
 "ICY_WIND"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SUBMISSION",
-"COUNTER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "abra",
@@ -2790,12 +2654,7 @@
 "SHADOW_BALL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"COUNTER",
-"DAZZLING_GLEAM",
-"PSYCHIC"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "alakazam_mega",
@@ -2826,12 +2685,7 @@
 "SHADOW_BALL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"COUNTER",
-"DAZZLING_GLEAM",
-"PSYCHIC"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "machop",
@@ -2861,10 +2715,7 @@
 "LOW_SWEEP"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"LOW_KICK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "machoke",
@@ -2894,10 +2745,7 @@
 "SUBMISSION"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"CROSS_CHOP"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "machamp",
@@ -2930,13 +2778,7 @@
 "PAYBACK"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"KARATE_CHOP",
-"STONE_EDGE",
-"SUBMISSION",
-"PAYBACK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "bellsprout",
@@ -2997,10 +2839,7 @@
 "SLUDGE_BOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"RAZOR_LEAF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "victreebel",
@@ -3031,10 +2870,7 @@
 "LEAF_TORNADO"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"MAGICAL_LEAF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "victreebel_mega",
@@ -3065,10 +2901,7 @@
 "LEAF_TORNADO"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"MAGICAL_LEAF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "tentacool",
@@ -3222,10 +3055,7 @@
 "STONE_EDGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"ROCK_SLIDE"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "graveler_alolan",
@@ -3314,10 +3144,7 @@
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"ROLLOUT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "ponyta",
@@ -3347,10 +3174,7 @@
 "STOMP"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"FIRE_BLAST"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "ponyta_galarian",
@@ -3411,11 +3235,7 @@
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"EMBER",
-"WILD_CHARGE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "rapidash_galarian",
@@ -3447,10 +3267,7 @@
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"WILD_CHARGE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "slowpoke",
@@ -3542,10 +3359,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SURF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "slowbro_galarian",
@@ -3577,10 +3391,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SURF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "slowbro_mega",
@@ -3611,10 +3422,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SURF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "magnemite",
@@ -3709,10 +3517,7 @@
 "LEAF_BLADE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"CUT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "farfetchd_galarian",
@@ -3772,10 +3577,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SWIFT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "dodrio",
@@ -3806,10 +3608,7 @@
 "TRAILBLAZE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"AIR_CUTTER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "seel",
@@ -3840,11 +3639,7 @@
 "ICY_WIND"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"WATER_GUN",
-"AQUA_JET"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "dewgong",
@@ -3877,12 +3672,7 @@
 "LIQUIDATION"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ICE_SHARD",
-"AQUA_JET",
-"ICY_WIND"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "grimer",
@@ -3912,10 +3702,7 @@
 "SLUDGE_BOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"legacyMoves": [
-"ACID"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "grimer_alolan",
@@ -3976,13 +3763,7 @@
 "ACID_SPRAY"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"LICK"
-],
-"legacyMoves": [
-"ACID"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "muk_alolan",
@@ -4074,10 +3855,7 @@
 "RAZOR_SHELL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BLIZZARD"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "gastly",
@@ -4109,11 +3887,7 @@
 "SLUDGE_BOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SUCKER_PUNCH",
-"OMINOUS_WIND"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "haunter",
@@ -4146,10 +3920,7 @@
 "ICE_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"LICK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "gengar",
@@ -4184,14 +3955,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"LICK",
-"SLUDGE_WAVE",
-"DARK_PULSE",
-"PSYCHIC",
-"SHADOW_PUNCH"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "gengar_mega",
@@ -4226,14 +3990,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"LICK",
-"SLUDGE_WAVE",
-"DARK_PULSE",
-"PSYCHIC",
-"SHADOW_PUNCH"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "onix",
@@ -4266,11 +4023,7 @@
 "BREAKING_SWIPE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"IRON_HEAD",
-"ROCK_SLIDE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "drowzee",
@@ -4331,10 +4084,7 @@
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"PSYSHOCK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "krabby",
@@ -4394,10 +4144,7 @@
 "RAZOR_SHELL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"MUD_SHOT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "voltorb",
@@ -4427,10 +4174,7 @@
 "THUNDERBOLT"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SIGNAL_BEAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "voltorb_hisuian",
@@ -4489,10 +4233,7 @@
 "FOUL_PLAY"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"TACKLE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "electrode_hisuian",
@@ -4580,10 +4321,7 @@
 "SOLAR_BEAM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ZEN_HEADBUTT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "exeggutor_alolan",
@@ -4612,10 +4350,7 @@
 "DRACO_METEOR"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"DRACO_METEOR"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "cubone",
@@ -4704,10 +4439,7 @@
 "SHADOW_BONE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SHADOW_BONE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "hitmonlee",
@@ -4738,11 +4470,7 @@
 "BLAZE_KICK"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"STOMP",
-"BRICK_BREAK"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "hitmonchan",
@@ -4773,11 +4501,7 @@
 "POWER_UP_PUNCH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"ROCK_SMASH",
-"BRICK_BREAK"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "lickitung",
@@ -4808,10 +4532,7 @@
 "WRAP"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "koffing",
@@ -4841,10 +4562,7 @@
 "SLUDGE_BOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"legacyMoves": [
-"ACID"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "weezing",
@@ -4874,10 +4592,7 @@
 "THUNDERBOLT"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"legacyMoves": [
-"ACID"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "weezing_galarian",
@@ -4969,10 +4684,7 @@
 "BREAKING_SWIPE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"MEGAHORN"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "chansey",
@@ -5002,10 +4714,7 @@
 "PSYCHIC"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"legacyMoves": [
-"PSYBEAM"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "tangela",
@@ -5035,10 +4744,7 @@
 "SOLAR_BEAM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"POWER_WHIP"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "kangaskhan",
@@ -5068,11 +4774,7 @@
 "POWER_UP_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BRICK_BREAK",
-"STOMP"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "kangaskhan_mega",
@@ -5102,11 +4804,7 @@
 "POWER_UP_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BRICK_BREAK",
-"STOMP"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "horsea",
@@ -5165,10 +4863,7 @@
 "HYDRO_PUMP"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BLIZZARD"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "goldeen",
@@ -5227,12 +4922,7 @@
 "WATER_PULSE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"POISON_JAB",
-"ICY_WIND",
-"DRILL_RUN"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "staryu",
@@ -5262,10 +4952,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"legacyMoves": [
-"QUICK_ATTACK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "starmie",
@@ -5316,13 +5003,7 @@
 "AQUA_JET"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"TACKLE"
-],
-"legacyMoves": [
-"QUICK_ATTACK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "starmie_mega",
@@ -5468,11 +5149,7 @@
 "TRAILBLAZE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"STEEL_WING",
-"BUG_BUZZ"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "jynx",
@@ -5503,11 +5180,7 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"POUND",
-"ICE_PUNCH"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "electabuzz",
@@ -5596,10 +5269,7 @@
 "SUPER_POWER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SUBMISSION"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "pinsir_mega",
@@ -5630,10 +5300,7 @@
 "SUPER_POWER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SUBMISSION"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "tauros",
@@ -5809,12 +5476,7 @@
 "AQUA_TAIL"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"DRAGON_TAIL",
-"DRAGON_PULSE",
-"AQUA_TAIL"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "gyarados_mega",
@@ -5847,12 +5509,7 @@
 "AQUA_TAIL"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"DRAGON_TAIL",
-"DRAGON_PULSE",
-"AQUA_TAIL"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "lapras",
@@ -5886,12 +5543,7 @@
 "SPARKLING_ARIA"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"ICE_SHARD",
-"DRAGON_PULSE",
-"ICE_BEAM"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "ditto",
@@ -5952,11 +5604,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"BODY_SLAM"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "vaporeon",
@@ -5985,11 +5633,7 @@
 "LIQUIDATION"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"SCALD"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "jolteon",
@@ -6018,11 +5662,7 @@
 "ZAP_CANNON"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"ZAP_CANNON"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "flareon",
@@ -6052,12 +5692,7 @@
 "SUPER_POWER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"HEAT_WAVE",
-"SUPER_POWER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "porygon",
@@ -6107,17 +5742,7 @@
 "ZAP_CANNON"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"TACKLE",
-"ZEN_HEADBUTT",
-"SIGNAL_BEAM",
-"PSYBEAM",
-"DISCHARGE"
-],
-"legacyMoves": [
-"QUICK_ATTACK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "omanyte",
@@ -6149,11 +5774,7 @@
 "ROCK_TOMB"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"ROCK_TOMB",
-"BRINE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "omastar",
@@ -6183,11 +5804,7 @@
 "ROCK_SLIDE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"ROCK_THROW",
-"ROCK_SLIDE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "kabuto",
@@ -6248,10 +5865,7 @@
 "AQUA_JET"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"FURY_CUTTER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "aerodactyl",
@@ -6347,10 +5961,7 @@
 "SUPER_POWER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"YAWN"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "articuno",
@@ -6382,10 +5993,7 @@
 "TRIPLE_AXEL"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"HURRICANE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "articuno_galarian",
@@ -6445,10 +6053,7 @@
 "HEAT_WAVE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"THUNDER_SHOCK"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "zapdos_galarian",
@@ -6508,10 +6113,7 @@
 "FLY"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SKY_ATTACK"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "moltres_galarian",
@@ -6633,11 +6235,7 @@
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"DRACO_METEOR",
-"DRAGON_PULSE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "dragonite_mega",
@@ -6671,11 +6269,7 @@
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"DRACO_METEOR",
-"DRAGON_PULSE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "mewtwo",
@@ -6708,15 +6302,7 @@
 "PSYSTRIKE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"PSYSTRIKE",
-"SHADOW_BALL",
-"HYPER_BEAM"
-],
-"legacyMoves": [
-"COUNTER"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "mewtwo_armored",
@@ -6745,10 +6331,7 @@
 "PSYSTRIKE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"PSYSTRIKE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "mewtwo_mega_x",
@@ -6782,15 +6365,7 @@
 "PSYSTRIKE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"PSYSTRIKE",
-"SHADOW_BALL",
-"HYPER_BEAM"
-],
-"legacyMoves": [
-"COUNTER"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "mewtwo_mega_y",
@@ -6823,15 +6398,7 @@
 "PSYSTRIKE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"PSYSTRIKE",
-"SHADOW_BALL",
-"HYPER_BEAM"
-],
-"legacyMoves": [
-"COUNTER"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "mew",
@@ -6981,10 +6548,7 @@
 "SOLAR_BEAM"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "cyndaquil",
@@ -7072,10 +6636,7 @@
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "typhlosion_hisuian",
@@ -7194,11 +6755,7 @@
 "ICE_BEAM"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"WATER_GUN",
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "sentret",
@@ -7556,10 +7113,7 @@
 "THUNDERBOLT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"legacyMoves": [
-"QUICK_ATTACK"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "cleffa",
@@ -7591,11 +7145,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"PSYCHIC",
-"BODY_SLAM"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "igglybuff",
@@ -7627,10 +7177,7 @@
 "SWIFT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "togepi",
@@ -7675,10 +7222,7 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"ZEN_HEADBUTT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "togetic",
@@ -7729,11 +7273,7 @@
 "HEAT_WAVE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"STEEL_WING",
-"ZEN_HEADBUTT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "natu",
@@ -7886,10 +7426,7 @@
 "TRAILBLAZE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"DRAGON_PULSE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "ampharos_mega",
@@ -7922,10 +7459,7 @@
 "TRAILBLAZE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"DRAGON_PULSE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "bellossom",
@@ -8073,11 +7607,7 @@
 "SCALD"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"EARTHQUAKE",
-"ICE_BEAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "hoppip",
@@ -8168,10 +7698,7 @@
 "ACROBATICS"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ACROBATICS"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "aipom",
@@ -8379,10 +7906,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"AQUA_TAIL"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "espeon",
@@ -8412,11 +7936,7 @@
 "PSYCHIC_FANGS"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"SHADOW_BALL"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "umbreon",
@@ -8444,11 +7964,7 @@
 "PSYCHIC"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"PSYCHIC"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "murkrow",
@@ -8508,10 +8024,7 @@
 "SCALD"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SURF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "slowking_galarian",
@@ -8543,10 +8056,7 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SURF"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "misdreavus",
@@ -9516,10 +9026,7 @@
 "TRIPLE_AXEL"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"legacyMoves": [
-"QUICK_ATTACK"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "mantine",
@@ -9726,10 +9233,7 @@
 "SURF"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"WATER_GUN"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "phanpy",
@@ -10209,10 +9713,7 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FROST_BREATH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "elekid",
@@ -10242,10 +9743,7 @@
 "THUNDERBOLT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"THUNDERBOLT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "magby",
@@ -10275,10 +9773,7 @@
 "FLAMETHROWER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FLAMETHROWER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "miltank",
@@ -10336,10 +9831,7 @@
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"WILD_CHARGE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "raikou",
@@ -10445,25 +9937,7 @@
 "SCALD"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"HIDDEN_POWER_BUG",
-"HIDDEN_POWER_DARK",
-"HIDDEN_POWER_DRAGON",
-"HIDDEN_POWER_ELECTRIC",
-"HIDDEN_POWER_FIGHTING",
-"HIDDEN_POWER_FIRE",
-"HIDDEN_POWER_FLYING",
-"HIDDEN_POWER_GHOST",
-"HIDDEN_POWER_GRASS",
-"HIDDEN_POWER_GROUND",
-"HIDDEN_POWER_ICE",
-"HIDDEN_POWER_POISON",
-"HIDDEN_POWER_PSYCHIC",
-"HIDDEN_POWER_ROCK",
-"HIDDEN_POWER_STEEL",
-"HIDDEN_POWER_WATER"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "larvitar",
@@ -10554,10 +10028,7 @@
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SMACK_DOWN"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "tyranitar_mega",
@@ -10588,10 +10059,7 @@
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SMACK_DOWN"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "lugia",
@@ -10621,10 +10089,7 @@
 "FLY"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"AEROBLAST"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "ho_oh",
@@ -10671,11 +10136,7 @@
 "SACRED_FIRE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"EARTHQUAKE",
-"SACRED_FIRE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "celebi",
@@ -10707,10 +10168,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"MAGICAL_LEAF"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "treecko",
@@ -10798,10 +10256,7 @@
 "BREAKING_SWIPE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "sceptile_mega",
@@ -10832,10 +10287,7 @@
 "BREAKING_SWIPE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "torchic",
@@ -10927,11 +10379,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN",
-"STONE_EDGE"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "blaziken_mega",
@@ -10964,11 +10412,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN",
-"STONE_EDGE"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "mudkip",
@@ -11058,10 +10502,7 @@
 "SLUDGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "swampert_mega",
@@ -11092,10 +10533,7 @@
 "SLUDGE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "poochyena",
@@ -11596,10 +11034,7 @@
 "LEAF_TORNADO"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BULLET_SEED"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "taillow",
@@ -11778,10 +11213,7 @@
 "TRIPLE_AXEL"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"legacyMoves": [
-"DRAINING_KISS"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "gardevoir",
@@ -11813,10 +11245,7 @@
 "TRIPLE_AXEL"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SYNCHRONOISE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "gardevoir_mega",
@@ -11848,10 +11277,7 @@
 "TRIPLE_AXEL"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SYNCHRONOISE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "surskit",
@@ -11970,10 +11396,7 @@
 "SLUDGE_BOMB"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"GRASS_KNOT"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "slakoth",
@@ -12058,10 +11481,7 @@
 "BODY_SLAM"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "nincada",
@@ -12148,10 +11568,7 @@
 "SHADOW_SNEAK"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"STRUGGLE_BUG"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "whismur",
@@ -13490,10 +12907,7 @@
 "TWISTER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"EARTH_POWER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "cacnea",
@@ -13616,10 +13030,7 @@
 "FLAMETHROWER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"MOONBLAST"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "altaria_mega",
@@ -13649,10 +13060,7 @@
 "FLAMETHROWER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"MOONBLAST"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "zangoose",
@@ -14497,10 +13905,7 @@
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BRUTAL_SWING"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "absol_mega",
@@ -14529,10 +13934,7 @@
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BRUTAL_SWING"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "wynaut",
@@ -14738,11 +14140,7 @@
 "ICICLE_SPEAR"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"POWDER_SNOW",
-"ICICLE_SPEAR"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "clamperl",
@@ -14972,10 +14370,7 @@
 "CRUNCH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"OUTRAGE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "salamence_mega",
@@ -15008,10 +14403,7 @@
 "CRUNCH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"OUTRAGE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "beldum",
@@ -15100,11 +14492,7 @@
 "PSYCHIC"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"METEOR_MASH",
-"SHADOW_CLAW"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "metagross_mega",
@@ -15135,11 +14523,7 @@
 "PSYCHIC"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"METEOR_MASH",
-"SHADOW_CLAW"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "regirock",
@@ -15168,10 +14552,7 @@
 "EARTHQUAKE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"EARTHQUAKE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "regice",
@@ -15200,10 +14581,7 @@
 "THUNDER"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"THUNDER"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "registeel",
@@ -15232,10 +14610,7 @@
 "ZAP_CANNON"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"ZAP_CANNON"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "latias",
@@ -15266,10 +14641,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"MIST_BALL"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "latias_mega",
@@ -15300,10 +14672,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"MIST_BALL"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "latios",
@@ -15333,10 +14702,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"LUSTER_PURGE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "latios_mega",
@@ -15366,10 +14732,7 @@
 "AURA_SPHERE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"LUSTER_PURGE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "kyogre",
@@ -15398,10 +14761,7 @@
 "AVALANCHE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"ORIGIN_PULSE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "kyogre_primal",
@@ -15430,10 +14790,7 @@
 "AVALANCHE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"ORIGIN_PULSE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "groudon",
@@ -15462,11 +14819,7 @@
 "PRECIPICE_BLADES"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"PRECIPICE_BLADES",
-"FIRE_PUNCH"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "groudon_primal",
@@ -15496,11 +14849,7 @@
 "PRECIPICE_BLADES"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"PRECIPICE_BLADES",
-"FIRE_PUNCH"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "rayquaza",
@@ -15531,12 +14880,7 @@
 "DRAGON_ASCENT"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"HURRICANE",
-"BREAKING_SWIPE",
-"DRAGON_ASCENT"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "rayquaza_mega",
@@ -15567,12 +14911,7 @@
 "DRAGON_ASCENT"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"HURRICANE",
-"BREAKING_SWIPE",
-"DRAGON_ASCENT"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "jirachi",
@@ -15798,10 +15137,7 @@
 "FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "chimchar",
@@ -15889,10 +15225,7 @@
 "BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "piplup",
@@ -15982,10 +15315,7 @@
 "DRILL_PECK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "starly",
@@ -16079,10 +15409,7 @@
 "FLY"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"GUST"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "bidoof",
@@ -16115,13 +15442,7 @@
 "SUPER_POWER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"ICE_BEAM",
-"THUNDERBOLT",
-"SHADOW_BALL",
-"SUPER_POWER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "bibarel",
@@ -16306,10 +15627,7 @@
 "PSYCHIC_FANGS"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"PSYCHIC_FANGS"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "budew",
@@ -16387,11 +15705,7 @@
 "LEAF_STORM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BULLET_SEED",
-"WEATHER_BALL_FIRE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "cranidos",
@@ -17701,10 +17015,7 @@
 "TWISTER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"EARTH_POWER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "garchomp_mega",
@@ -17736,10 +17047,7 @@
 "TWISTER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"EARTH_POWER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "munchlax",
@@ -17833,10 +17141,7 @@
 "METEOR_MASH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"FORCE_PALM"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "lucario_mega",
@@ -17870,10 +17175,7 @@
 "METEOR_MASH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"FORCE_PALM"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "hippopotas",
@@ -18359,10 +17661,7 @@
 "BODY_SLAM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "rhyperior",
@@ -18395,10 +17694,7 @@
 "DRILL_RUN"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ROCK_WRECKER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "tangrowth",
@@ -18456,10 +17752,7 @@
 "FLAMETHROWER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"FLAMETHROWER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "magmortar",
@@ -18489,10 +17782,7 @@
 "SCORCHING_SANDS"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"THUNDERBOLT"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "togekiss",
@@ -18540,10 +17830,7 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"AURA_SPHERE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "yanmega",
@@ -18600,11 +17887,7 @@
 "LAST_RESORT"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"BULLET_SEED"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "glaceon",
@@ -18633,11 +17916,7 @@
 "WATER_PULSE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"WATER_PULSE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "gliscor",
@@ -18699,10 +17978,7 @@
 "ICICLE_SPEAR"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ANCIENT_POWER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "porygon_z",
@@ -18747,10 +18023,7 @@
 "TRI_ATTACK"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"TRI_ATTACK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "gallade",
@@ -18781,10 +18054,7 @@
 "SYNCHRONOISE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SYNCHRONOISE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "gallade_mega",
@@ -18815,10 +18085,7 @@
 "SYNCHRONOISE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"SYNCHRONOISE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "probopass",
@@ -18878,10 +18145,7 @@
 "DYNAMIC_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"SHADOW_BALL"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "froslass",
@@ -19217,10 +18481,7 @@
 "ROAR_OF_TIME"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"legacyMoves": [
-"ROAR_OF_TIME"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "palkia",
@@ -19279,10 +18540,7 @@
 "SPACIAL_REND"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"legacyMoves": [
-"SPACIAL_REND"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "heatran",
@@ -19313,10 +18571,7 @@
 "MAGMA_STORM"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"MAGMA_STORM"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "regigigas",
@@ -19359,10 +18614,7 @@
 "CRUSH_GRIP"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"CRUSH_GRIP"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "giratina_altered",
@@ -19391,10 +18643,7 @@
 "SHADOW_FORCE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SHADOW_FORCE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "giratina_origin",
@@ -19423,10 +18672,7 @@
 "SHADOW_FORCE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SHADOW_FORCE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "cresselia",
@@ -19454,10 +18700,7 @@
 "GRASS_KNOT"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"GRASS_KNOT"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "phione",
@@ -19539,10 +18782,7 @@
 "SLUDGE_BOMB"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SLUDGE_BOMB"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "shaymin_land",
@@ -19586,10 +18826,7 @@
 "SEED_FLARE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SEED_FLARE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "shaymin_sky",
@@ -19634,10 +18871,7 @@
 "SEED_FLARE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SEED_FLARE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "arceus",
@@ -20239,10 +19473,7 @@
 "FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "tepig",
@@ -20331,10 +19562,7 @@
 "BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "oshawott",
@@ -20422,10 +19650,7 @@
 "LIQUIDATION"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "samurott_hisuian",
@@ -21114,10 +20339,7 @@
 "METEOR_BEAM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"METEOR_BEAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "woobat",
@@ -21265,10 +20487,7 @@
 "BODY_SLAM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "audino_mega",
@@ -21297,10 +20516,7 @@
 "BODY_SLAM"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"BODY_SLAM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "timburr",
@@ -21387,10 +20603,7 @@
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BRUTAL_SWING"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "tympole",
@@ -21624,10 +20837,7 @@
 "LEAF_STORM"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"SHADOW_CLAW"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "venipede",
@@ -23011,10 +22221,7 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"CHARM"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "ducklett",
@@ -23161,10 +22368,7 @@
 "AVALANCHE"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"AVALANCHE"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "deerling",
@@ -23314,10 +22518,7 @@
 "RAZOR_SHELL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"RAZOR_SHELL"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "foongus",
@@ -23771,10 +22972,7 @@
 "LIQUIDATION"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"VOLT_SWITCH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "elgyem",
@@ -23922,10 +23120,7 @@
 "POLTERGEIST"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"POLTERGEIST"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "axew",
@@ -24012,10 +23207,7 @@
 "BREAKING_SWIPE"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BREAKING_SWIPE"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "cubchoo",
@@ -24160,10 +23352,7 @@
 "ENERGY_BALL"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"ENERGY_BALL"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "stunfisk",
@@ -24251,10 +23440,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"HIGH_JUMP_KICK"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "mienshao",
@@ -24756,10 +23942,7 @@
 "FLY"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BRUTAL_SWING"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "larvesta",
@@ -24848,10 +24031,7 @@
 "SACRED_SWORD"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SACRED_SWORD"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "terrakion",
@@ -24881,10 +24061,7 @@
 "SACRED_SWORD"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SACRED_SWORD"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "virizion",
@@ -24914,10 +24091,7 @@
 "SACRED_SWORD"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SACRED_SWORD"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "tornadus_incarnate",
@@ -24974,10 +24148,7 @@
 "BLEAKWIND_STORM"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"BLEAKWIND_STORM"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "thundurus_incarnate",
@@ -25036,10 +24207,7 @@
 "WILDBOLT_STORM"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"WILDBOLT_STORM"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "reshiram",
@@ -25069,10 +24237,7 @@
 "FUSION_FLARE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"FUSION_FLARE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "zekrom",
@@ -25102,10 +24267,7 @@
 "FUSION_BOLT"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"FUSION_BOLT"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "landorus_incarnate",
@@ -25164,10 +24326,7 @@
 "SANDSEAR_STORM"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SANDSEAR_STORM"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "kyurem",
@@ -25196,10 +24355,7 @@
 "GLACIATE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"GLACIATE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "kyurem_black",
@@ -25230,10 +24386,7 @@
 "FREEZE_SHOCK"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"legacyMoves": [
-"FREEZE_SHOCK"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "kyurem_white",
@@ -25265,10 +24418,7 @@
 "ICE_BURN"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"legacyMoves": [
-"ICE_BURN"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "keldeo_ordinary",
@@ -25328,10 +24478,7 @@
 "SECRET_SWORD"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"SECRET_SWORD"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "meloetta_aria",
@@ -25418,10 +24565,7 @@
 "TECHNO_BLAST_NORMAL"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"TECHNO_BLAST_NORMAL"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "chespin",
@@ -25511,10 +24655,39 @@
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
+},
+{
+"speciesId": "chesnaught_mega",
+"dexNo": 652,
+"nameEn": "Chesnaught (Mega)",
+"nameJa": "ブリガロン",
+"form": "Mega",
+"baseAttack": 242,
+"baseDefense": 282,
+"baseStamina": 204,
+"types": [
+"grass",
+"fighting"
+],
+"shadowAvailable": true,
+"released": false,
+"evolutions": [],
+"fastMoves": [
+"LOW_KICK",
+"SMACK_DOWN",
+"VINE_WHIP"
+],
+"chargedMoves": [
+"GYRO_BALL",
+"ENERGY_BALL",
+"SUPER_POWER",
+"SOLAR_BEAM",
+"FRENZY_PLANT",
+"THUNDER_PUNCH"
+],
+"secondMoveStardust": 10000,
+"secondMoveCandy": 25
 },
 {
 "speciesId": "fennekin",
@@ -25605,10 +24778,40 @@
 "PSYSHOCK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
+},
+{
+"speciesId": "delphox_mega",
+"dexNo": 655,
+"nameEn": "Delphox (Mega)",
+"nameJa": "マフォクシー",
+"form": "Mega",
+"baseAttack": 331,
+"baseDefense": 235,
+"baseStamina": 181,
+"types": [
+"fire",
+"psychic"
+],
+"shadowAvailable": true,
+"released": false,
+"evolutions": [],
+"fastMoves": [
+"SCRATCH",
+"FIRE_SPIN",
+"ZEN_HEADBUTT"
+],
+"chargedMoves": [
+"PSYCHIC",
+"FLAMETHROWER",
+"FLAME_CHARGE",
+"FIRE_BLAST",
+"BLAST_BURN",
+"MYSTICAL_FIRE",
+"PSYSHOCK"
+],
+"secondMoveStardust": 10000,
+"secondMoveCandy": 25
 },
 {
 "speciesId": "froakie",
@@ -25697,10 +24900,38 @@
 "HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
+"secondMoveCandy": 25
+},
+{
+"speciesId": "greninja_mega",
+"dexNo": 658,
+"nameEn": "Greninja (Mega)",
+"nameJa": "ゲッコウガ",
+"form": "Mega",
+"baseAttack": 299,
+"baseDefense": 180,
+"baseStamina": 176,
+"types": [
+"water",
+"dark"
+],
+"shadowAvailable": true,
+"released": false,
+"evolutions": [],
+"fastMoves": [
+"FEINT_ATTACK",
+"BUBBLE",
+"WATER_SHURIKEN"
+],
+"chargedMoves": [
+"NIGHT_SLASH",
+"AERIAL_ACE",
+"SURF",
+"HYDRO_PUMP",
 "HYDRO_CANNON"
-]
+],
+"secondMoveStardust": 10000,
+"secondMoveCandy": 25
 },
 {
 "speciesId": "bunnelby",
@@ -25854,10 +25085,7 @@
 "FLY"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"INCINERATE"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "scatterbug",
@@ -26093,10 +25321,7 @@
 "CHILLING_WATER"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"CHILLING_WATER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "skiddo",
@@ -27046,11 +26271,7 @@
 "SHADOW_BALL"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"LAST_RESORT",
-"PSYSHOCK"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "hawlucha",
@@ -27226,10 +26447,7 @@
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"THUNDER_PUNCH"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "klefki",
@@ -27709,10 +26927,7 @@
 "BOOMBURST"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BOOMBURST"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "xerneas",
@@ -27742,10 +26957,7 @@
 "THUNDER"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"GEOMANCY"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "yveltal",
@@ -27777,10 +26989,7 @@
 "OBLIVION_WING"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"OBLIVION_WING"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "zygarde",
@@ -28111,10 +27320,7 @@
 "SPIRIT_SHACKLE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "decidueye_hisuian",
@@ -28236,10 +27442,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "popplio",
@@ -28328,10 +27531,7 @@
 "SPARKLING_ARIA"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "pikipek",
@@ -28421,10 +27621,7 @@
 "BEAK_BLAST"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BEAK_BLAST"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "yungoos",
@@ -28540,10 +27737,7 @@
 "CRUNCH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"VOLT_SWITCH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "vikavolt",
@@ -28574,10 +27768,7 @@
 "FLY"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"VOLT_SWITCH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "crabrawler",
@@ -29389,10 +28580,7 @@
 "DRAIN_PUNCH"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"DRAIN_PUNCH"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "bounsweet",
@@ -29481,10 +28669,7 @@
 "HIGH_JUMP_KICK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HIGH_JUMP_KICK"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "comfey",
@@ -30637,10 +29822,7 @@
 "UPPER_HAND"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"CLANGING_SCALES"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "tapu_koko",
@@ -30670,10 +29852,7 @@
 "NATURES_MADNESS"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"NATURES_MADNESS"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "tapu_lele",
@@ -30704,10 +29883,7 @@
 "DRAINING_KISS"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"NATURES_MADNESS"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "tapu_bulu",
@@ -30737,10 +29913,7 @@
 "NATURES_MADNESS"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"NATURES_MADNESS"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "tapu_fini",
@@ -30785,10 +29958,7 @@
 "NATURES_MADNESS"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"NATURES_MADNESS"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "cosmog",
@@ -31399,10 +30569,7 @@
 "MIND_BLOWN"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"MIND_BLOWN"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "zeraora",
@@ -31487,10 +30654,7 @@
 "DYNAMIC_PUNCH"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"DOUBLE_IRON_BASH"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "grookey",
@@ -31575,10 +30739,7 @@
 "FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "scorbunny",
@@ -31663,10 +30824,7 @@
 "BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "sobble",
@@ -31898,11 +31056,7 @@
 "AIR_CUTTER"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"IRON_HEAD",
-"AIR_CUTTER"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "blipbug",
@@ -33080,10 +32234,7 @@
 "OBSTRUCT"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"OBSTRUCT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "perrserker",
@@ -33929,10 +33080,7 @@
 "BEHEMOTH_BLADE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"legacyMoves": [
-"BEHEMOTH_BLADE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "zacian_hero",
@@ -33991,10 +33139,7 @@
 "BEHEMOTH_BASH"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"legacyMoves": [
-"BEHEMOTH_BASH"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "zamazenta_hero",
@@ -34053,10 +33198,7 @@
 "DRAGON_PULSE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"DYNAMAX_CANNON"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "eternatus_eternamax",
@@ -34231,10 +33373,7 @@
 "THUNDER_CAGE"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"THUNDER_CAGE"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "regidrago",
@@ -34264,11 +33403,7 @@
 "VICE_GRIP"
 ],
 "secondMoveStardust": 100000,
-"secondMoveCandy": 100,
-"eliteMoves": [
-"DRAGON_BREATH",
-"DRAGON_ENERGY"
-]
+"secondMoveCandy": 100
 },
 {
 "speciesId": "glastrier",
@@ -34473,10 +33608,7 @@
 "PLAY_ROUGH"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"HIGH_HORSEPOWER"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "basculegion_female",
@@ -34733,10 +33865,7 @@
 "FLOWER_TRICK"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"FRENZY_PLANT"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "fuecoco",
@@ -34826,10 +33955,7 @@
 "TORCH_SONG"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"BLAST_BURN"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "quaxly",
@@ -34919,10 +34045,7 @@
 "HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"HYDRO_CANNON"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "lechonk",
@@ -34980,10 +34103,7 @@
 "TRAILBLAZE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"MUD_SLAP"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "oinkologne_female",
@@ -35011,10 +34131,7 @@
 "TRAILBLAZE"
 ],
 "secondMoveStardust": 10000,
-"secondMoveCandy": 25,
-"eliteMoves": [
-"MUD_SLAP"
-]
+"secondMoveCandy": 25
 },
 {
 "speciesId": "tarountula",
@@ -35226,10 +34343,7 @@
 "BRICK_BREAK"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"BRICK_BREAK"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "tandemaus",
@@ -36273,10 +35387,7 @@
 "GIGATON_HAMMER"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"GIGATON_HAMMER"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "wiglett",
@@ -36887,10 +35998,7 @@
 "RAGE_FIST"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"RAGE_FIST"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "clodsire",
@@ -36921,10 +36029,7 @@
 "MEGAHORN"
 ],
 "secondMoveStardust": 50000,
-"secondMoveCandy": 50,
-"eliteMoves": [
-"MEGAHORN"
-]
+"secondMoveCandy": 50
 },
 {
 "speciesId": "farigiraf",
@@ -37408,10 +36513,7 @@
 "GLAIVE_RUSH"
 ],
 "secondMoveStardust": 75000,
-"secondMoveCandy": 75,
-"eliteMoves": [
-"GLAIVE_RUSH"
-]
+"secondMoveCandy": 75
 },
 {
 "speciesId": "gimmighoul",
