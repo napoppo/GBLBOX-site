@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.6.2-285",
+      "enabled": true,
+      "publishedAt": "2026-08-16",
+      "maximumBuild": 284,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 285,
+      "titleJa": "GBLBOX 2.6.2 の配信を開始しました",
+      "titleEn": "GBLBOX 2.6.2 is now available",
+      "bodyJa": "GBLBOX 2.6.2 の配信を開始しました。\n\n[スクショ解析・ボックス]\n・おすすめ育成先、個体値候補、詳細ランキングを確認しやすく整理しました\n・登録したポケモンの名前、CP、HP、個体値、PLを保持し、進化先は育成候補として表示します\n・ボックス一覧と個体詳細の表示・読み込みを改善しました\n\n[GBL・対戦]\n・2.6.1で、リーグごとの設定と同名フォルムの判定を改善しました\n・GBL戦績と動画解析の確認画像、保存内容、使い方を見直しました\n\n[CSV・案内]\n・選択した個体をCSV出力でき、現在の状態か育成後かを選べるようにしました\n・Pokebox向けの50体制限を選択でき、制限を外すと全件出力できます\n・4つのタブの使い方と各画面のコーチマークを整理しました\n\n2.6.1の改善を含む最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.6.2 is now available.\n\n[Scan and Box]\n- Screenshot analysis now makes recommendations, IV candidates, and detailed rankings easier to review\n- The registered Pokemon name, CP, HP, IVs, and level are preserved; evolutions are shown as training candidates\n- Improved Box list and individual-detail loading and layout\n\n[GBL and Battles]\n- Version 2.6.1 improved league-specific settings and same-name form matching\n- Reviewed saved GBL battles, video-analysis evidence, and in-app guidance\n\n[CSV and Guidance]\n- Export selected Pokemon as CSV in either their current state or powered-up state\n- Choose whether to apply the 50-row Pokebox limit, or export all rows without the limit\n- Refined the four-tab guide and in-screen coach marks\n\nWe recommend updating to the latest version, which includes the improvements from 2.6.1.",
+      "updatePromptJa": "スクショ解析、ボックス、GBLの表示と操作を改善した2.6.2が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "GBLBOX 2.6.2 improves scan, Box, and GBL screens. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.6.2へ更新",
+      "updateActionTitleEn": "Update to 2.6.2",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.6.0-272",
       "enabled": true,
       "publishedAt": "2026-08-12",
