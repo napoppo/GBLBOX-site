@@ -31666,7 +31666,7 @@
 "water"
 ],
 "shadowAvailable": false,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "PECK",
@@ -31694,7 +31694,7 @@
 "water"
 ],
 "shadowAvailable": false,
-"released": false,
+"released": true,
 "evolutions": [
 "barraskewda"
 ],
@@ -31724,7 +31724,7 @@
 "water"
 ],
 "shadowAvailable": false,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "WATERFALL",

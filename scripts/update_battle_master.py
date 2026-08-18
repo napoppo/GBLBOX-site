@@ -81,6 +81,10 @@ SECOND_MOVE_CANDY = {10000: 25, 50000: 50, 75000: 75, 100000: 100}
 # 上流のreleasedフラグが遅れている実装済みフォームを補完する。
 RELEASED_OVERRIDES = {
     "camerupt_mega": True,
+    # 2026-08-18 GO実装。上流反映待ちの間も配信側で解禁を維持する。
+    "cramorant": True,
+    "arrokuda": True,
+    "barraskewda": True,
 }
 
 
