@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.7.0-330",
+      "enabled": true,
+      "publishedAt": "2026-08-24",
+      "maximumBuild": 329,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 330,
+      "titleJa": "GBLBOX 2.7.0 の配信を開始しました",
+      "titleEn": "GBLBOX 2.7.0 is now available",
+      "bodyJa": "GBLBOX 2.7.0 の配信を開始しました。\n画面全体の構成を見直し、設定やツールの置き場所を変えています。\n\n■ 新しくできること\n・広告右の×から動画を見ると、8時間バナー広告が消えます\n・スクショを一覧で確認してから、まとめて追加できます\n・ツールの並び順を保存できます\n\n■ Pro の機能\n・iCloud に個体・戦績・設定を保存し、日時を選んで復元できます\n・削除したデータも履歴から戻せます\n\nそのほか、スクショ解析で落ちることがあった問題を直し、表示を速くしました。\n\nこれまで iCloud への保存が失敗していました。Pro をご利用の方にはご不便をおかけし、申し訳ありませんでした。原因は解消しています。\n\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.7.0 is now available.\nThe overall layout has been reworked, and settings and tools have moved.\n\n■ New\n- Tap the × next to the banner and watch a video to hide banner ads for 8 hours\n- Review your screenshots in a list, then add them in bulk\n- Tool order is now saved\n\n■ Pro features\n- Back up your Pokemon, battle records, and settings to iCloud, and restore from a chosen save point\n- Bring back deleted data from the history\n\nWe also fixed a crash when opening screenshot analysis and made the app faster.\n\nUntil now, saving to iCloud kept failing. We are sorry for the trouble this caused Pro users. The cause has been fixed.\n\nWe recommend updating to the latest version.",
+      "updatePromptJa": "画面の構成を見直し、広告を消せる動画と iCloud 保存・復元を入れた2.7.0が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.0 reworks the layout and adds ad-hiding videos and iCloud backup and restore. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.0へ更新",
+      "updateActionTitleEn": "Update to 2.7.0",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.6.3-301",
       "enabled": true,
       "publishedAt": "2026-08-18",
