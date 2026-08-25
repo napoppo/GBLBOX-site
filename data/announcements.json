@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.7.1-331",
+      "enabled": true,
+      "publishedAt": "2026-08-25",
+      "maximumBuild": 330,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 331,
+      "titleJa": "GBLBOX 2.7.1 のアップデート",
+      "titleEn": "GBLBOX 2.7.1 Update",
+      "bodyJa": "スクリーンショット解析の表示タイミングを改善しました。\n\nポケモンGOモードで、関係ないスクリーンショットが一瞬表示される問題を修正しています。\n\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "Screenshot analysis now shows results at the right time.\n\nFixed an issue where unrelated screenshots could briefly appear in Pokemon GO mode.\n\nWe recommend updating to the latest version.",
+      "updatePromptJa": "スクリーンショット解析の表示を改善した2.7.1が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.1 improves screenshot-analysis display. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.1へ更新",
+      "updateActionTitleEn": "Update to 2.7.1",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.7.0-330",
       "enabled": true,
       "publishedAt": "2026-08-24",
