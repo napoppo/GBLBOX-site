@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://gblbox.com/</loc><lastmod>2026-08-26</lastmod></url>
-  <url><loc>https://gblbox.com/index-en.html</loc><lastmod>2026-08-26</lastmod></url>
+  <url><loc>https://gblbox.com/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://gblbox.com/index-en.html</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://gblbox.com/guide/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://gblbox.com/guide/scp.html</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://gblbox.com/guide/breakpoint.html</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://gblbox.com/support.html</loc></url>
   <url><loc>https://gblbox.com/privacy.html</loc></url>
   <url><loc>https://gblbox.com/terms.html</loc></url>

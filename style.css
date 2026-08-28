@@ -203,3 +203,35 @@ footer.site a{color:var(--muted)}
     }
   }
 }
+
+/* =========================================================
+   解説記事（/guide/）
+   ========================================================= */
+.article{max-width:720px;margin:0 auto;padding:6px 0 0}
+.article h1{font-size:clamp(26px,4.2vw,38px);line-height:1.42;margin:0 0 22px}
+.article h2{font-size:clamp(20px,2.6vw,26px);margin:54px 0 14px}
+.article h3{font-size:17px;font-weight:700;margin:32px 0 8px}
+.article p{margin:0 0 18px;font-size:16px;line-height:2.05;color:var(--ink-2)}
+.article p.lead{font-size:17px;color:var(--ink-2);max-width:none;margin-bottom:26px}
+.article ul{margin:0 0 18px;padding-left:1.35em}
+.article li{margin:7px 0;line-height:1.95;color:var(--ink-2)}
+.article strong{color:var(--ink);font-weight:700}
+.crumb{font-size:13px;color:var(--muted);margin:0 0 24px}
+.crumb a{color:var(--muted)}
+.formula{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;line-height:1.9;
+  background:var(--paper-2);border:1px solid var(--rule);padding:15px 17px;margin:0 0 20px;overflow-x:auto;
+}
+table.data{width:100%;border-collapse:collapse;margin:0 0 10px;font-size:15px}
+table.data th,table.data td{text-align:left;padding:12px;border-bottom:1px solid var(--rule-2)}
+table.data thead th{border-bottom:1px solid var(--ink);font-size:13px;color:var(--muted);font-weight:500}
+table.data td.num{font-family:var(--mincho);font-size:19px;white-space:nowrap}
+table.data tr.hi td{background:var(--paper-2)}
+table.data tr.hi td.num{color:var(--accent);font-weight:700}
+.article .note{margin:0 0 18px}
+.cta-inline{border-top:1px solid var(--rule);margin-top:56px;padding-top:28px;display:flex;align-items:center;gap:18px 22px;flex-wrap:wrap}
+.guide-list{display:grid;border-top:1px solid var(--ink);margin-top:24px}
+.guide-list a{display:block;padding:22px 2px;border-bottom:1px solid var(--rule-2);color:var(--ink)}
+.guide-list a:hover{background:var(--paper-2);text-decoration:none}
+.guide-list b{display:block;font-family:var(--mincho);font-size:21px;font-weight:700;margin-bottom:6px}
+.guide-list span{display:block;font-size:14px;color:var(--ink-2);line-height:1.85}

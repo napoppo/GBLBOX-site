@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>ポケモンGOのSCPとは｜攻撃・防御・HPをまとめた総合力の指標 - GBL Box</title>
+<meta name="description" content="ポケモンGOのSCPは、攻撃・防御・HPの実数値をひとつにまとめた総合力の指標です。計算式と、順位や1位比では見えない種族をまたいだ比較のしかたを実例で解説します。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gblbox.com/guide/scp.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="ポケモンGOのSCPとは｜攻撃・防御・HPをまとめた総合力の指標 - GBL Box">
+<meta property="og:description" content="ポケモンGOのSCPは、攻撃・防御・HPの実数値をひとつにまとめた総合力の指標です。計算式と、順位や1位比では見えない種族をまたいだ比較のしかたを実例で解説します。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gblbox.com/guide/scp.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"ポケモンGOのSCPとは｜攻撃・防御・HPをひとつにまとめた総合力の指標",
+  "inLanguage":"ja",
+  "mainEntityOfPage":"https://gblbox.com/guide/scp.html",
+  "author":{"@type":"Organization","name":"GBL Box"},
+  "publisher":{"@type":"Organization","name":"GBL Box"}
+}
+</script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap wrap-top">
+  <header class="site">
+    <div class="brand"><a href="../index.html" style="color:inherit">GBL Box</a></div>
+    <nav class="site">
+      <a href="../index.html">トップ</a>
+      <a href="index.html">解説</a>
+      <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
+      <a href="../support.html">サポート</a>
+    </nav>
+  </header>
+</div>
+
+<main>
+  <div class="wrap wrap-body">
+    <article class="article">
+      <p class="crumb"><a href="../index.html">GBL Box</a> ／ <a href="index.html">解説</a> ／ SCPとは</p>
+      <h1>SCPとは — 攻撃・防御・HPを<br>ひとつにまとめた指標</h1>
+      <p class="lead">ポケモンGO の GBL 向けに個体を選ぶとき、順位や 1位比だけでは足りない場面があります。SCP は攻撃・防御・HP の実数値をひとつの数にまとめた指標で、<strong>種族をまたいで硬さを比べられる</strong>のが順位との違いです。</p>
+
+      <h2>SCP の計算式</h2>
+      <p>SCP は、CP 上限まで強化したときの実数値から求めます。</p>
+      <div class="formula">SCP = floor( (攻撃 × 防御 × HP) ^ (2/3) ÷ 10 )</div>
+      <p>スーパーリーグのオーダイル、順位1位の個体（個体値 0/11/13）で実際に計算するとこうなります。</p>
+      <div class="formula">攻撃 122.47 × 防御 118.88 × HP 126 = 1,834,459
+1,834,459 ^ (2/3) = 14,985.52
+14,985.52 ÷ 10 = 1,498.55  →  切り捨てて <strong>SCP 1,498</strong></div>
+      <p>攻撃・防御・HP を掛けた積は 3 つ分の大きさになるので、2/3 乗して CP と近いスケールに戻しています。数字の桁が CP と揃うため、感覚で扱いやすくなります。</p>
+
+      <h2>同じ種族の中では、順位と同じことを言っている</h2>
+      <p>SCP は積を単調に変換しただけなので、<strong>同じ種族の中では順位が下がれば SCP も下がります</strong>。オーダイルの 4096 通りすべてで確認しても例外はありません。</p>
+      <p>つまり「同じポケモンの中でどの個体がいいか」を選ぶだけなら、順位を見ても SCP を見ても結論は変わりません。SCP の出番はここではありません。</p>
+
+      <h2>種族をまたぐと、順位では比べられない</h2>
+      <p>順位と 1位比は、同じ種族の 4096 通りの中での相対値です。どの種族の順位1位も 1位比は 100% になるので、種族が違う個体同士を比べる物差しにはなりません。</p>
+      <p>SCP は実数値そのものから出る絶対量なので、ここで効きます。スーパーリーグの各種族について、順位1位の個体を並べたものです。</p>
+      <table class="data">
+        <thead><tr><th>種族（順位1位の個体）</th><th>攻撃</th><th>防御</th><th>HP</th><th>SCP</th></tr></thead>
+        <tbody>
+          <tr><td>マリルリ</td><td>91.6</td><td>136.6</td><td>196</td><td class="num">1,818</td></tr>
+          <tr><td>レジスチル</td><td>93.6</td><td>191.7</td><td>134</td><td class="num">1,794</td></tr>
+          <tr><td>エアームド</td><td>103.7</td><td>168.8</td><td>123</td><td class="num">1,667</td></tr>
+          <tr><td>チャーレム</td><td>105.9</td><td>140.3</td><td>142</td><td class="num">1,644</td></tr>
+          <tr><td>ファイアロー</td><td>119.9</td><td>114.4</td><td>136</td><td class="num">1,515</td></tr>
+          <tr><td>オーダイル</td><td>122.5</td><td>118.9</td><td>126</td><td class="num">1,498</td></tr>
+        </tbody>
+      </table>
+      <p class="note">スーパーリーグ（CP 1500 まで）、通常個体。いずれも 1位比は 100% です。</p>
+      <p>6 体とも「順位1位・1位比 100%」ですが、SCP は 1,498 から 1,818 まで開きます。マリルリとオーダイルでは <strong>2 割以上の差</strong>があり、これは順位や % をいくら見ても出てこない情報です。</p>
+      <p>ただし SCP が高いほど強いわけではありません。オーダイルは攻撃 122.5、マリルリは 91.6 で、火力では逆転しています。SCP は「硬さと火力の釣り合いの総量」であって、勝敗そのものではありません。</p>
+
+      <h2>1位比と SCP の使い分け</h2>
+      <ul>
+        <li><strong>1位比（SP%）</strong> — 同じ種族の中で、その個体が理想からどれだけ離れているか</li>
+        <li><strong>SCP</strong> — 種族が違う個体同士で、どちらが総量として上か</li>
+      </ul>
+      <p>GBL Box はどちらも同じ画面に出すので、種族の中で選ぶときと、パーティの並びを考えるときで見る数字を変えられます。</p>
+
+      <h2>関連</h2>
+      <ul>
+        <li><a href="breakpoint.html">ブレイクポイントとは — 技のダメージが1上がる境目</a></li>
+      </ul>
+      <p class="note">数値は GBL Box と同じ式（RankCalc）で算出し、アプリの表示と一致することを確認しています。シャドウ・相棒補正なし、強化上限 PL50 での計算です。</p>
+
+      <div class="cta-inline">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store で入手</a>
+        <span class="small muted">スクショ1枚から、順位・SCP・実数値まで確認できます</span>
+      </div>
+    </article>
+  </div>
+
+  <div class="wrap wrap-note">
+    <p class="small muted">本アプリは Niantic, Inc.、株式会社ポケモン、任天堂株式会社とは一切関係がなく、これらの企業によって承認・後援・提供されているものではありません。「ポケモン」「Pokémon GO」等は各権利者の商標です。数値は参考値です。</p>
+  </div>
+</main>
+
+<div class="wrap wrap-foot">
+  <footer class="site">
+    <p>GBLBOX © 2026 ／
+      <a href="../privacy.html">プライバシー</a> ・
+      <a href="../terms.html">利用規約</a> ・
+      <a href="../notices.html">権利表示</a> ・
+      <a href="../support.html">サポート</a></p>
+  </footer>
+</div>
+</body>
+</html>
