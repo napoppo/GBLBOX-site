@@ -40,7 +40,7 @@
   "mainEntity":[
     {"@type":"Question","name":"ポケモンGOの個体値をスクショから確認できますか？","acceptedAnswer":{"@type":"Answer","text":"はい。ポケモンGOの評価画面をスクリーンショットで保存し、GBLBOXで個体値、CP、HP、リーグ順位を確認できます。"}},
     {"@type":"Question","name":"GBLBOXはどのリーグに対応していますか？","acceptedAnswer":{"@type":"Answer","text":"スーパーリーグ、ハイパーリーグ、マスターリーグのPvPランクや実数値を確認できます。"}},
-    {"@type":"Question","name":"スクリーンショットの解析は安全ですか？","acceptedAnswer":{"@type":"Answer","text":"通常の画像解析は端末内で行います。スクリーンショットを使った個体値確認を、外部サービスに送信せずに進められます。"}},
+    {"@type":"Question","name":"スクリーンショットの解析は安全ですか？","acceptedAnswer":{"@type":"Answer","text":"通常の画像解析は端末内で行い、外部サービスには送信しません。"}},
     {"@type":"Question","name":"SCPとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"攻撃・防御・HPの実数値を掛け合わせた総合力の指標です。GBLBOXではリーグごとに算出し、順位や1位比とは別に確認できます。"}}
   ]
 }
@@ -69,7 +69,7 @@
     <div class="hero-main">
       <p class="eyebrow">GBL の育成判断</p>
       <h1 id="hero-title">順位だけでは、<br>対戦は決まらない。</h1>
-      <p class="lead">個体値と順位を出すところまでは、他のツールでもできます。GBLBOX はその先、対戦の指標になる <strong>SCP</strong>（総合力）と攻撃・防御・HP の<strong>実数値</strong>、到達レベルまで同じ画面に出します。順位が上でも、対面で負けることがあるからです。</p>
+      <p class="lead">個体値と順位だけなら、他のツールでも出せます。GBLBOX は <strong>SCP</strong>（総合力）と攻撃・防御・HP の<strong>実数値</strong>まで、同じ画面に出します。</p>
       <div class="btns">
         <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795" aria-label="App StoreからGBLBOXをダウンロード">App Store で入手</a>
         <span class="small muted">解析は端末内で完結します</span>
@@ -90,7 +90,7 @@
 
   <section aria-labelledby="compare-title">
     <h2 id="compare-title">順位1位が、76位に負ける。</h2>
-    <p class="section-intro">同じオーダイル同士の対面です。CP はどちらも 1,499。順位 1 位のほうが 1位比も SCP も上ですが、攻撃と防御の実数値は 76 位のほうが高く、低いのは HP だけです。シャドークローもハイドロカノンも 1 ずつ多く入り、ゲージ技とシールドまで含めて回すと、シールドが 0 でも 1 でも 2 でも順位 1 位が先に落ちます。4096 通りのうち 185 体が、同じように順位 1 位に勝ちます。</p>
+    <p class="section-intro">同じオーダイル同士、CP はどちらも 1,499。攻撃と防御の実数値が上の 76 位が、シールド 0・1・2 のどれでも勝ちます。4096 通りのうち 185 体が同じ結果です。</p>
 
     <div class="compare">
       <div class="cmp-h cmp-blank"></div>
@@ -134,7 +134,7 @@
       <div class="cmp-b key"><span class="cmp-val">12</span><span class="cmp-tag">すべて勝ち</span></div>
 
     </div>
-    <p class="note">スーパーリーグ（CP 1500 まで）。技はシャドークロー＋ハイドロカノン／れいとうビーム。アプリの対戦シミュレータと同じ計算（ダメージ・エネルギー・ターン・CMP・シールド）で、双方が投げられる最大ダメージのゲージ技を即投げ、シールドは先行して使う前提です。餌切りなどの立ち回りは含みません。</p>
+    <p class="note">スーパーリーグ、シャドークロー＋ハイドロカノン／れいとうビーム。アプリの対戦シミュレータと同じ計算で、双方が最大ダメージのゲージ技を即投げ、シールドは先行して使う前提です。餌切りは含みません。</p>
   </section>
 
   <hr class="rule">
@@ -142,10 +142,10 @@
   <section aria-labelledby="points-title">
     <h2 id="points-title">対戦を決める数字まで、出す。</h2>
     <div class="points">
-      <div class="point"><h3>SCP（総合力）</h3><p>攻撃・防御・HP を掛け合わせた一つの数。火力と耐久の釣り合いを見るために、順位や1位比とは別に確認できます。リーグごとに算出します。</p></div>
-      <div class="point"><h3>攻撃・防御・HP の実数値</h3><p>強化したあとに実際いくつになるか。相手の技を何発耐えるかを考えるときは、％ではなくこの数字で見ます。</p></div>
-      <div class="point"><h3>到達レベルと到達CP</h3><p>CP上限のどこまで上げられるか。必要な砂とアメも並ぶので、育成の重さまで含めて判断できます。</p></div>
-      <div class="point"><h3>ブレイクポイント</h3><p>技が1発多く入るラインから、必要な攻撃の実数値を逆に引きます。あと少しで届くのかどうかが分かります。</p></div>
+      <div class="point"><h3>SCP（総合力）</h3><p>攻撃・防御・HP を掛けた一つの数。火力と耐久の釣り合いを、リーグごとに見ます。</p></div>
+      <div class="point"><h3>攻撃・防御・HP の実数値</h3><p>強化後に実際いくつになるか。何発耐えるかは、％ではなくこの数字で決まります。</p></div>
+      <div class="point"><h3>到達レベルと到達CP</h3><p>CP上限のどこまで上げられるか。必要な砂とアメも並びます。</p></div>
+      <div class="point"><h3>ブレイクポイント</h3><p>1発多く入るラインから、必要な攻撃の実数値を逆に引きます。</p></div>
     </div>
   </section>
 
@@ -156,19 +156,19 @@
     <div class="screen-grid">
       <figure class="screen-card">
         <div class="screen-frame"><img src="assets/device-detail.png" alt="GBLBOXの個体詳細画面" loading="lazy"></div>
-        <figcaption><b>順位と進化後を確認</b><span>名前、CP、HP、個体値、リーグ順位、SCP と実数値、進化後の評価をまとめて見られます。</span></figcaption>
+        <figcaption><b>順位と進化後を確認</b><span>個体値、リーグ順位、SCP、実数値、進化後まで一画面で。</span></figcaption>
       </figure>
       <figure class="screen-card">
         <div class="screen-frame"><img src="assets/device-simulator.png" alt="GBLBOXの技カウント画面" loading="lazy"></div>
-        <figcaption><b>技の回数を確認する</b><span>技カウントやブレイク探索で、対戦前の確認を進められます。</span></figcaption>
+        <figcaption><b>技の回数を確認する</b><span>技カウントとブレイク探索。</span></figcaption>
       </figure>
       <figure class="screen-card">
         <div class="screen-frame"><img src="assets/device-tools.png" alt="GBLBOXのツール画面" loading="lazy"></div>
-        <figcaption><b>必要な機能をすぐ開く</b><span>GBLランク確認、強化プランナー、交換チェックをまとめています。</span></figcaption>
+        <figcaption><b>必要な機能をすぐ開く</b><span>ランク確認、強化プランナー、交換チェック。</span></figcaption>
       </figure>
       <figure class="screen-card">
         <div class="screen-frame"><img src="assets/device-gbl.png" alt="GBLBOXのGBL戦績分析画面" loading="lazy"></div>
-        <figcaption><b>戦績を振り返る</b><span>勝率、得意な相手、苦手な相手を記録から確認できます。</span></figcaption>
+        <figcaption><b>戦績を振り返る</b><span>勝率と、得意・苦手な相手。</span></figcaption>
       </figure>
     </div>
   </section>
@@ -179,7 +179,7 @@
     <div class="steps-block">
       <h2 id="how-title">入口は、<br>スクショ1枚。</h2>
       <div class="steps-body">
-        <p class="section-intro">ポケモンGO の評価画面をスクショして、GBLBOX に渡すだけです。共有シートから送っても、まとめて読み取っても構いません。あとは進化後まで含めた数字が並びます。</p>
+        <p class="section-intro">ポケモンGO の評価画面をスクショして渡すだけ。あとは進化後まで含めた数字が並びます。</p>
         <ul class="chips">
           <li>共有シートから送る</li>
           <li>まとめて読み取る</li>
@@ -195,10 +195,10 @@
   <section aria-labelledby="faq-title">
     <h2 id="faq-title">よくある質問</h2>
     <div class="faq">
-      <details><summary>ポケモンGOの個体値をスクショから確認できますか？</summary><p>はい。評価画面のスクリーンショットを GBLBOX で読み込み、個体値、CP、HP、各リーグの順位を確認できます。</p></details>
-      <details><summary>SCPとは何ですか？</summary><p>攻撃・防御・HP の実数値を掛け合わせた総合力の指標です。リーグごとに算出し、順位や1位比とは別に確認できます。順位が近い個体を比べるときの手がかりになります。</p></details>
-      <details><summary>GBLBOXはどのリーグに対応していますか？</summary><p>スーパーリーグ、ハイパーリーグ、マスターリーグの順位、1位比、SCP、実数値、進化後の評価を確認できます。</p></details>
-      <details><summary>スクリーンショットの解析は安全ですか？</summary><p>通常の画像解析は端末内で行います。スクリーンショットを使った個体値確認を、外部サービスに送信せずに進められます。</p></details>
+      <details><summary>ポケモンGOの個体値をスクショから確認できますか？</summary><p>はい。評価画面のスクショを読み込むと、個体値、CP、HP、各リーグの順位が出ます。</p></details>
+      <details><summary>SCPとは何ですか？</summary><p>攻撃・防御・HP の実数値を掛けた総合力の指標です。順位が近い個体を比べるときの手がかりになります。</p></details>
+      <details><summary>GBLBOXはどのリーグに対応していますか？</summary><p>スーパー、ハイパー、マスターの順位、1位比、SCP、実数値、進化後の評価。</p></details>
+      <details><summary>スクリーンショットの解析は安全ですか？</summary><p>通常の画像解析は端末内で行い、外部サービスには送信しません。</p></details>
     </div>
   </section>
 
@@ -208,7 +208,7 @@
     <div class="final-cta-inner">
       <div class="final-cta-copy">
         <h2>次の1枚から、判断を変える。</h2>
-        <p>GBLBOX は無料です。まず1体、SCP と実数値まで確認できます。</p>
+        <p>無料です。まず1体、SCP と実数値まで。</p>
       </div>
       <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store で入手</a>
     </div>
