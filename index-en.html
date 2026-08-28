@@ -88,21 +88,21 @@
   <hr class="rule">
 
   <section aria-labelledby="compare-title">
-    <h2 id="compare-title">Rank 1 loses the mirror.</h2>
-    <p class="section-intro">Two Feraligatr facing each other. Rank 1 and rank 2 sit at 100.0% and 99.9% of the top stat product, SCP 1,498 against 1,497, and both land on CP 1,499 — on paper you cannot tell them apart. Yet the rank 2 one, with slightly more Defense, splits Shadow Claw damage 4 against 5 and takes the other down five hits sooner.</p>
+    <h2 id="compare-title">Rank 1 loses to rank 76.</h2>
+    <p class="section-intro">Two Feraligatr facing each other, both at CP 1,499. Rank 1 leads on stat product and SCP, yet rank 76 has the higher Attack and Defense values — only its HP is lower. It lands one more damage with both Shadow Claw and Hydro Cannon, and once the full exchange is run with charged moves and shields, rank 1 falls first whether each side holds zero, one, or two shields. 185 of the 4,096 IV combinations beat rank 1 the same way.</p>
 
     <div class="compare">
       <div class="cmp-h cmp-blank"></div>
       <div class="cmp-a cmp-head"><small>IVs 0 / 11 / 13</small><b>Rank 1</b></div>
-      <div class="cmp-b cmp-head"><small>IVs 0 / 14 / 10</small><b>Rank 2</b></div>
+      <div class="cmp-b cmp-head"><small>IVs 0 / 13 / 1</small><b>Rank 76</b></div>
 
       <div class="cmp-h"><span>Stat product</span><small>share of the rank 1 value</small></div>
       <div class="cmp-a"><span class="cmp-val">100.0</span><span class="cmp-unit">%</span></div>
-      <div class="cmp-b"><span class="cmp-val">99.9</span><span class="cmp-unit">%</span></div>
+      <div class="cmp-b"><span class="cmp-val">98.6</span><span class="cmp-unit">%</span></div>
 
       <div class="cmp-h"><span>SCP (overall bulk)</span><small>Attack × Defense × HP</small></div>
       <div class="cmp-a"><span class="cmp-val">1,498</span></div>
-      <div class="cmp-b"><span class="cmp-val">1,497</span><span class="cmp-tag">about the same</span></div>
+      <div class="cmp-b"><span class="cmp-val">1,484</span></div>
 
       <div class="cmp-h"><span>CP</span></div>
       <div class="cmp-a"><span class="cmp-val">1,499</span></div>
@@ -110,18 +110,30 @@
 
       <div class="cmp-h"><span>Attack / Defense / HP</span><small>values after powering up</small></div>
       <div class="cmp-a"><span class="cmp-val">122.5 / 118.9 / 126</span></div>
-      <div class="cmp-b"><span class="cmp-val">122.5 / 120.7 / 124</span></div>
+      <div class="cmp-b"><span class="cmp-val">124.0 / 121.6 / 120</span></div>
 
-      <div class="cmp-h key"><span>Shadow Claw, one hit</span><small>against the other Feraligatr</small></div>
-      <div class="cmp-a key"><span class="cmp-val">4</span></div>
-      <div class="cmp-b key"><span class="cmp-val">5</span></div>
+      <div class="cmp-h"><span>Shadow Claw, one hit</span></div>
+      <div class="cmp-a"><span class="cmp-val">4</span></div>
+      <div class="cmp-b"><span class="cmp-val">5</span></div>
 
-      <div class="cmp-h key"><span>Hits to take it down</span><small>fast moves only</small></div>
-      <div class="cmp-a key"><span class="cmp-val">31</span></div>
-      <div class="cmp-b key"><span class="cmp-val">26</span><span class="cmp-tag">five sooner</span></div>
+      <div class="cmp-h"><span>Hydro Cannon, one hit</span></div>
+      <div class="cmp-a"><span class="cmp-val">40</span></div>
+      <div class="cmp-b"><span class="cmp-val">41</span></div>
+
+      <div class="cmp-h key"><span>HP left after the mirror</span><small>no shields</small></div>
+      <div class="cmp-a key"><span class="cmp-val">0</span></div>
+      <div class="cmp-b key"><span class="cmp-val">40</span></div>
+
+      <div class="cmp-h key"><small>one shield each</small></div>
+      <div class="cmp-a key"><span class="cmp-val">0</span></div>
+      <div class="cmp-b key"><span class="cmp-val">20</span></div>
+
+      <div class="cmp-h key"><small>two shields each</small></div>
+      <div class="cmp-a key"><span class="cmp-val">0</span></div>
+      <div class="cmp-b key"><span class="cmp-val">12</span><span class="cmp-tag">wins every time</span></div>
 
     </div>
-    <p class="note">Great League (CP 1500 cap), both at PL 20.0. Counts assume Shadow Claw only, with no charged moves or shields. Values are calculated with the same formulas the app uses.</p>
+    <p class="note">Great League (CP 1500 cap). Moveset: Shadow Claw with Hydro Cannon and Ice Beam. Simulated with the same rules the app's battle simulator uses — damage, energy, turns, CMP, shields — where each side throws the highest-damage charged move as soon as it can afford it and shields the earliest hits. Advanced play such as baiting is not modelled.</p>
   </section>
 
   <hr class="rule">

@@ -103,6 +103,7 @@ section{padding:52px 0 0}
 .cmp-blank{border-bottom-color:var(--rule)}
 /* 決定的な行 */
 .cmp-h.key span{font-weight:700;color:var(--ink)}
+.cmp-h.key:empty,.cmp-h.key:has(> small:only-child){padding-top:8px}
 .key .cmp-val{font-size:30px;font-weight:700}
 .cmp-b.key .cmp-val{color:var(--accent)}
 

@@ -89,21 +89,21 @@
   <hr class="rule">
 
   <section aria-labelledby="compare-title">
-    <h2 id="compare-title">順位1位が、ミラーで負ける。</h2>
-    <p class="section-intro">同じオーダイル同士の対面です。順位 1 位と 2 位で、1位比は 100.0% と 99.9%、SCP は 1,498 と 1,497、CP はどちらも 1,499。数字の上ではほとんど見分けがつきません。ところが防御の実数値がわずかに高い 2 位のほうが、シャドークローのダメージが 4 と 5 に分かれ、相手を落とすまでが 5 発早くなります。</p>
+    <h2 id="compare-title">順位1位が、76位に負ける。</h2>
+    <p class="section-intro">同じオーダイル同士の対面です。CP はどちらも 1,499。順位 1 位のほうが 1位比も SCP も上ですが、攻撃と防御の実数値は 76 位のほうが高く、低いのは HP だけです。シャドークローもハイドロカノンも 1 ずつ多く入り、ゲージ技とシールドまで含めて回すと、シールドが 0 でも 1 でも 2 でも順位 1 位が先に落ちます。4096 通りのうち 185 体が、同じように順位 1 位に勝ちます。</p>
 
     <div class="compare">
       <div class="cmp-h cmp-blank"></div>
       <div class="cmp-a cmp-head"><small>個体値 0 / 11 / 13</small><b>順位 1 位</b></div>
-      <div class="cmp-b cmp-head"><small>個体値 0 / 14 / 10</small><b>順位 2 位</b></div>
+      <div class="cmp-b cmp-head"><small>個体値 0 / 13 / 1</small><b>順位 76 位</b></div>
 
       <div class="cmp-h"><span>1位比（SP%）</span><small>Stat Product が1位の何%か</small></div>
       <div class="cmp-a"><span class="cmp-val">100.0</span><span class="cmp-unit">%</span></div>
-      <div class="cmp-b"><span class="cmp-val">99.9</span><span class="cmp-unit">%</span></div>
+      <div class="cmp-b"><span class="cmp-val">98.6</span><span class="cmp-unit">%</span></div>
 
       <div class="cmp-h"><span>SCP（総合力）</span><small>攻撃 × 防御 × HP</small></div>
       <div class="cmp-a"><span class="cmp-val">1,498</span></div>
-      <div class="cmp-b"><span class="cmp-val">1,497</span><span class="cmp-tag">ほぼ同じ</span></div>
+      <div class="cmp-b"><span class="cmp-val">1,484</span></div>
 
       <div class="cmp-h"><span>CP</span></div>
       <div class="cmp-a"><span class="cmp-val">1,499</span></div>
@@ -111,18 +111,30 @@
 
       <div class="cmp-h"><span>攻撃 / 防御 / HP</span><small>強化後の実数値</small></div>
       <div class="cmp-a"><span class="cmp-val">122.5 / 118.9 / 126</span></div>
-      <div class="cmp-b"><span class="cmp-val">122.5 / 120.7 / 124</span></div>
+      <div class="cmp-b"><span class="cmp-val">124.0 / 121.6 / 120</span></div>
 
-      <div class="cmp-h key"><span>シャドークロー 1発</span><small>相手のオーダイルへ</small></div>
-      <div class="cmp-a key"><span class="cmp-val">4</span></div>
-      <div class="cmp-b key"><span class="cmp-val">5</span></div>
+      <div class="cmp-h"><span>シャドークロー 1発</span></div>
+      <div class="cmp-a"><span class="cmp-val">4</span></div>
+      <div class="cmp-b"><span class="cmp-val">5</span></div>
 
-      <div class="cmp-h key"><span>相手を落とすまで</span><small>ファストのみで計算</small></div>
-      <div class="cmp-a key"><span class="cmp-val">31</span><span class="cmp-unit">発</span></div>
-      <div class="cmp-b key"><span class="cmp-val">26</span><span class="cmp-unit">発</span><span class="cmp-tag">5発早い</span></div>
+      <div class="cmp-h"><span>ハイドロカノン 1発</span></div>
+      <div class="cmp-a"><span class="cmp-val">40</span></div>
+      <div class="cmp-b"><span class="cmp-val">41</span></div>
+
+      <div class="cmp-h key"><span>ミラー対戦の残りHP</span><small>シールドなし</small></div>
+      <div class="cmp-a key"><span class="cmp-val">0</span></div>
+      <div class="cmp-b key"><span class="cmp-val">40</span></div>
+
+      <div class="cmp-h key"><small>シールド1枚ずつ</small></div>
+      <div class="cmp-a key"><span class="cmp-val">0</span></div>
+      <div class="cmp-b key"><span class="cmp-val">20</span></div>
+
+      <div class="cmp-h key"><small>シールド2枚ずつ</small></div>
+      <div class="cmp-a key"><span class="cmp-val">0</span></div>
+      <div class="cmp-b key"><span class="cmp-val">12</span><span class="cmp-tag">すべて勝ち</span></div>
 
     </div>
-    <p class="note">スーパーリーグ（CP 1500 まで）での計算。どちらも PL 20.0。シャドークローだけで殴り合った場合の回数で、ゲージ技とシールドは含みません。数値はアプリと同じ式で算出しています。</p>
+    <p class="note">スーパーリーグ（CP 1500 まで）。技はシャドークロー＋ハイドロカノン／れいとうビーム。アプリの対戦シミュレータと同じ計算（ダメージ・エネルギー・ターン・CMP・シールド）で、双方が投げられる最大ダメージのゲージ技を即投げ、シールドは先行して使う前提です。餌切りなどの立ち回りは含みません。</p>
   </section>
 
   <hr class="rule">
