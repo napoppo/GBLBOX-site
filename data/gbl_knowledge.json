@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-27T17:11:41Z",
+  "gameMasterVersion": "gm-0d0e1b5dea36",
+  "entries": [
+    {
+      "id": "great-tinkaton-jellicent-draft",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "opponentSpeciesId": "tinkaton",
+      "candidateSpeciesId": "jellicent",
+      "candidateRole": "resistance",
+      "positions": [
+        "lead",
+        "safe_swap",
+        "closer"
+      ],
+      "shieldScenarios": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "summaries": {
+        "ja": "デカヌチャン対策では、弱点を突く地面・炎だけでなく、鋼技への耐性と環境での採用状況を理由にブルンゲルも候補になる。",
+        "en": "Against Tinkaton, Jellicent can be a candidate not only for type coverage but also for its resistance to Steel moves and its presence in the current meta."
+      },
+      "reasons": {
+        "typeAdvantages": [],
+        "resistsMoveTypes": [
+          "steel"
+        ],
+        "metaRank": null,
+        "usageRate": 0.03,
+        "observedRecord": null
+      },
+      "simulation": {
+        "computedAt": "2026-08-27T16:48:26Z",
+        "engine": "ivlab-battle-engine",
+        "engineVersion": "2.7.2",
+        "gameMasterVersion": "gm-0d0e1b5dea36",
+        "moveIds": [
+          "bulldoze",
+          "fairy_wind_fast",
+          "gigaton_hammer",
+          "hex_fast",
+          "shadow_ball",
+          "surf"
+        ],
+        "results": [
+          {
+            "candidateEnergy": 4,
+            "candidateHpPercent": 0.47,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "0-0"
+          },
+          {
+            "candidateEnergy": 6,
+            "candidateHpPercent": 0.35,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "1-1"
+          },
+          {
+            "candidateEnergy": 0,
+            "candidateHpPercent": 0.28,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "2-2"
+          }
+        ]
+      },
+      "losesTo": [],
+      "confidence": "low",
+      "evidence": [
+        {
+          "type": "manual",
+          "directness": "team_context",
+          "url": "https://gblbox.com/",
+          "title": "初期設計メモ",
+          "channel": null,
+          "publishedAt": null,
+          "timestampSeconds": null,
+          "note": "ユーザー提案を初期仮説として登録。環境順位・使用率・実戦記録の確認後にreviewedへ進める。"
+        },
+        {
+          "type": "youtube",
+          "directness": "team_context",
+          "url": "https://www.youtube.com/watch?v=srbpo2Lhet0",
+          "title": "JELLICENT is SO STRONG it CARRIES 2 SPICY POKEMON",
+          "channel": "DanOttawa Pokemon Go",
+          "publishedAt": "2026-03-24",
+          "timestampSeconds": null,
+          "note": "ブルンゲルをGreat Leagueの軸として扱う対戦動画。デカヌチャンとの直接対面を示す根拠ではないため、候補の実戦価値を補助するdraft資料として扱う。"
+        },
+        {
+          "type": "other",
+          "directness": "meta_stat",
+          "url": "https://gblnote.com/en/gbl/tier/great",
+          "title": "Great League Tier List · Recommended Movesets",
+          "channel": "GBL Note",
+          "publishedAt": null,
+          "timestampSeconds": null,
+          "note": "直近30日の遭遇率としてブルンゲル3%、デカヌチャン20%を掲載。ブルンゲルはS tier、推奨技はHex・Surf・Shadow Ball。数値は更新されるため有効期限を付けて利用する。"
+        }
+      ],
+      "status": "draft",
+      "expiresAt": null
+    },
+    {
+      "id": "great-tinkaton-swampert-draft",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "opponentSpeciesId": "tinkaton",
+      "candidateSpeciesId": "swampert",
+      "candidateRole": "direct_counter",
+      "positions": [
+        "lead",
+        "safe_swap",
+        "closer"
+      ],
+      "shieldScenarios": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "summaries": {
+        "ja": "デカヌチャンには、鋼タイプの弱点を突ける地面打点を持つポケモンが直接対策候補になる。",
+        "en": "Against Tinkaton, Pokemon with Ground damage are direct counter candidates because Steel is weak to Ground."
+      },
+      "reasons": {
+        "typeAdvantages": [
+          "ground"
+        ],
+        "resistsMoveTypes": [],
+        "metaRank": null,
+        "usageRate": null,
+        "observedRecord": null
+      },
+      "simulation": {
+        "computedAt": "2026-08-27T16:48:26Z",
+        "engine": "ivlab-battle-engine",
+        "engineVersion": "2.7.2",
+        "gameMasterVersion": "gm-0d0e1b5dea36",
+        "moveIds": [
+          "bulldoze",
+          "earthquake",
+          "fairy_wind_fast",
+          "gigaton_hammer",
+          "hydro_cannon",
+          "mud_shot_fast"
+        ],
+        "results": [
+          {
+            "candidateEnergy": 10,
+            "candidateHpPercent": 0.36,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "0-0"
+          },
+          {
+            "candidateEnergy": 6,
+            "candidateHpPercent": 0.48,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "1-1"
+          },
+          {
+            "candidateEnergy": 2,
+            "candidateHpPercent": 0.39,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "2-2"
+          }
+        ]
+      },
+      "losesTo": [],
+      "confidence": "low",
+      "evidence": [
+        {
+          "type": "pvpoke",
+          "directness": "meta_stat",
+          "url": "https://pvpoke.com/rankings/",
+          "title": "Great League PvP Rankings",
+          "channel": "PvPoke",
+          "publishedAt": null,
+          "timestampSeconds": null,
+          "note": "技・タイプ・ステータスを含むシミュレーション順位の確認先。個別の採用判断には現在の技構成と実戦記録を併用する。"
+        },
+        {
+          "type": "other",
+          "directness": "meta_stat",
+          "url": "https://gblnote.com/en/gbl/tier/great",
+          "title": "Great League Tier List · Recommended Movesets",
+          "channel": "GBL Note",
+          "publishedAt": null,
+          "timestampSeconds": null,
+          "note": "デカヌチャンをGreat LeagueのS tier・遭遇率20%として掲載。地面打点による直接対策という判断は、アプリ側のタイプ相性データで補う。"
+        }
+      ],
+      "status": "draft",
+      "expiresAt": null
+    },
+    {
+      "id": "great-tinkaton-talonflame-draft",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "opponentSpeciesId": "tinkaton",
+      "candidateSpeciesId": "talonflame",
+      "candidateRole": "direct_counter",
+      "positions": [
+        "lead",
+        "safe_swap",
+        "closer"
+      ],
+      "shieldScenarios": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "summaries": {
+        "ja": "デカヌチャンには、鋼タイプの弱点を突ける炎打点を持つポケモンも直接対策候補になる。",
+        "en": "Against Tinkaton, Pokemon with Fire damage are direct counter candidates because Steel is weak to Fire."
+      },
+      "reasons": {
+        "typeAdvantages": [
+          "fire"
+        ],
+        "resistsMoveTypes": [],
+        "metaRank": null,
+        "usageRate": null,
+        "observedRecord": null
+      },
+      "simulation": {
+        "computedAt": "2026-08-27T16:48:26Z",
+        "engine": "ivlab-battle-engine",
+        "engineVersion": "2.7.2",
+        "gameMasterVersion": "gm-0d0e1b5dea36",
+        "moveIds": [
+          "brave_bird",
+          "bulldoze",
+          "fairy_wind_fast",
+          "fly",
+          "gigaton_hammer",
+          "incinerate_fast"
+        ],
+        "results": [
+          {
+            "candidateEnergy": 45,
+            "candidateHpPercent": 0.4,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "0-0"
+          },
+          {
+            "candidateEnergy": 20,
+            "candidateHpPercent": 0.44,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "1-1"
+          },
+          {
+            "candidateEnergy": 40,
+            "candidateHpPercent": 0.38,
+            "decidedByCmp": false,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "2-2"
+          }
+        ]
+      },
+      "losesTo": [],
+      "confidence": "low",
+      "evidence": [
+        {
+          "type": "other",
+          "directness": "meta_stat",
+          "url": "https://gblnote.com/en/gbl/tier/great",
+          "title": "Great League Tier List · Recommended Movesets",
+          "channel": "GBL Note",
+          "publishedAt": null,
+          "timestampSeconds": null,
+          "note": "タロンフレームをGreat LeagueのA tierとして掲載。デカヌチャンへの直接対策としての採用は、技構成と実戦状況を追加確認する。"
+        },
+        {
+          "type": "youtube",
+          "directness": "team_context",
+          "url": "https://www.youtube.com/watch?v=QgPPbxRkYmU",
+          "title": "HAMMER TIME! This NEW TINKATON Team is AMAZING in the Great League",
+          "channel": "JonkusPKMN",
+          "publishedAt": "2025-04-22",
+          "timestampSeconds": null,
+          "note": "デカヌチャンをGreat Leagueのチーム軸として扱う動画。炎対策そのものの解説ではないため、環境存在の補助資料として扱う。"
+        }
+      ],
+      "status": "draft",
+      "expiresAt": null
+    }
+  ],
+  "videos": [
+    {
+      "id": "great-jellicent-cradily-toucannon-2026-03",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "title": "UNSTOPPABLE RUN! Jellicent Goes 10-0 in the Great League",
+      "channel": "SsilentSlayer Pokemon Go",
+      "url": "https://www.youtube.com/watch?v=K7icD7YCG1M",
+      "publishedAt": "2026-03-31",
+      "timestampSeconds": null,
+      "teamSpeciesIds": [
+        "cradily",
+        "toucannon",
+        "jellicent"
+      ],
+      "relatedSpeciesIds": [
+        "jellicent",
+        "tinkaton"
+      ],
+      "summaries": {
+        "ja": "動画の説明にあるユレイドル・ドデカバシ・ブルンゲル構成。ブルンゲル候補を検討するときに近い構成として見る。",
+        "en": "The description lists Cradily, Toucannon, and Jellicent. Use it as a nearby team reference when considering Jellicent."
+      },
+      "status": "draft"
+    }
+  ]
+}
