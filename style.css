@@ -113,11 +113,11 @@ section{padding:52px 0 0}
 .point p{margin:0;font-size:15px;line-height:1.95;color:var(--ink-2)}
 
 /* --- 画面紹介 --- */
-.screen-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:26px}
+.screen-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px 26px;margin-top:26px}
 .screen-card{margin:0}
 .screen-frame{background:var(--dark);padding:16px 16px 0;display:flex;justify-content:center;overflow:hidden}
 .screen-frame img{display:block;width:100%;max-width:270px;height:300px;object-fit:cover;object-position:top}
-.screen-card figcaption{padding:14px 2px 0}
+.screen-card figcaption{padding:10px 2px 0}
 .screen-card figcaption b{display:block;font-size:16px}
 .screen-card figcaption span{display:block;font-size:14px;line-height:1.85;color:var(--ink-2);margin-top:4px}
 
