@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>GBLBOX｜ポケモンGO個体値・PvPランク・GBL管理アプリ</title>
-<meta name="description" content="GBLBOXは、ポケモンGOのスクショから個体値を読み取り、スーパー・ハイパー・マスターリーグのPvPランクや育成候補、ボックスを管理できるiPhoneアプリです。">
+<meta name="description" content="GBLBOXは、ポケモンGOのスクショから個体値を読み取り、順位だけでなくSCP（総合力）と攻撃・防御・HPの実数値、到達レベル、ブレイクポイントまで確認できるiPhoneアプリです。">
 <meta name="robots" content="index,follow">
 <meta name="apple-itunes-app" content="app-id=6776499795">
 <link rel="canonical" href="https://gblbox.com/">
@@ -15,7 +15,7 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:title" content="GBLBOX｜ポケモンGO個体値・PvPランク管理">
-<meta property="og:description" content="ポケモンGOのスクショから個体値、GBLランク、育成候補を確認。">
+<meta property="og:description" content="順位だけでは対戦は決まらない。SCPと実数値まで確認できるGBL向け個体管理アプリ。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://gblbox.com/">
 <meta name="twitter:card" content="summary">
@@ -40,18 +40,18 @@
   "mainEntity":[
     {"@type":"Question","name":"ポケモンGOの個体値をスクショから確認できますか？","acceptedAnswer":{"@type":"Answer","text":"はい。ポケモンGOの評価画面をスクリーンショットで保存し、GBLBOXで個体値、CP、HP、リーグ順位を確認できます。"}},
     {"@type":"Question","name":"GBLBOXはどのリーグに対応していますか？","acceptedAnswer":{"@type":"Answer","text":"スーパーリーグ、ハイパーリーグ、マスターリーグのPvPランクや実数値を確認できます。"}},
-    {"@type":"Question","name":"スクリーンショットの解析は安全ですか？","acceptedAnswer":{"@type":"Answer","text":"通常の画像解析は端末内で行います。スクリーンショットを使った個体値確認を、外部サービスに送信せずに進められます。"}}
+    {"@type":"Question","name":"スクリーンショットの解析は安全ですか？","acceptedAnswer":{"@type":"Answer","text":"通常の画像解析は端末内で行います。スクリーンショットを使った個体値確認を、外部サービスに送信せずに進められます。"}},
+    {"@type":"Question","name":"SCPとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"攻撃・防御・HPの実数値を掛け合わせた総合力の指標です。GBLBOXではリーグごとに算出し、順位や1位比とは別に確認できます。"}}
   ]
 }
 </script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
+<div class="wrap wrap-top">
   <header class="site">
-    <div class="logo">GB</div>
-    <div class="brand">GBLBOX</div>
-    <nav class="site" style="margin-left:auto">
+    <div class="brand">GBL Box</div>
+    <nav class="site">
       <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
       <a href="privacy.html">プライバシー</a>
       <a href="terms.html">利用規約</a>
@@ -61,112 +61,153 @@
   </header>
 
   <div class="langbar" aria-label="言語"><span class="lang-label">言語</span><a href="index.html#ja" aria-current="page">日本語</a><a href="index-en.html" lang="en">English</a></div>
+</div>
 
-  <main>
+<main>
+  <div class="wrap wrap-body">
   <section id="ja" class="hero" aria-labelledby="hero-title">
-    <p class="eyebrow">GOバトルリーグ向け個体管理</p>
-    <h1 id="hero-title">ポケモンGOの個体値・GBLランクを、スクショ1枚から。</h1>
-    <p class="lead">GBLBOX は、ポケモンGOのスクリーンショットから個体値を確認し、各リーグの順位・実数値・育成候補まで整理できるアプリです。画像解析は<strong>端末内</strong>で処理します。</p>
-
-    <div class="btns hero-actions">
-      <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795" aria-label="App StoreからGBLBOXをダウンロード">App Storeで無料で始める</a>
-      <a class="btn alt" href="#how-it-works">使い方を見る</a>
+    <div class="hero-main">
+      <p class="eyebrow">GBL の育成判断</p>
+      <h1 id="hero-title">順位だけでは、<br>対戦は決まらない。</h1>
+      <p class="lead">個体値と順位を出すところまでは、他のツールでもできます。GBLBOX はその先、対戦の指標になる <strong>SCP</strong>（総合力）と攻撃・防御・HP の<strong>実数値</strong>、到達レベルまで同じ画面に出します。順位が上でも、対面で負けることがあるからです。</p>
+      <div class="btns">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795" aria-label="App StoreからGBLBOXをダウンロード">App Store で入手</a>
+        <span class="small muted">解析は端末内で完結します</span>
+      </div>
+      <ul class="trust-list" aria-label="GBLBOXの特徴">
+        <li class="trust">無料</li>
+        <li class="trust">iPhone</li>
+        <li class="trust">スクショは端末内で解析</li>
+      </ul>
     </div>
-
-    <div class="trust-list" aria-label="GBLBOXの特徴">
-      <span class="trust">無料でダウンロード</span>
-      <span class="trust">スクショは端末内で解析</span>
-      <span class="trust">iPhone対応</span>
+    <div class="hero-shot">
+      <img src="assets/device-detail.png" alt="GBLBOXの個体詳細画面。個体値、CP、各リーグの順位、SCPと実数値が並ぶ" loading="eager" width="250" height="452">
+      <span>読み取り結果の画面</span>
     </div>
   </section>
 
-  <section class="screen-showcase" aria-labelledby="screen-title">
-    <h2 id="screen-title">画面で見るGBLBOX</h2>
+  <hr class="rule">
+
+  <section aria-labelledby="compare-title">
+    <h2 id="compare-title">順位1位が、ミラーで負ける。</h2>
+    <p class="section-intro">同じオーダイル同士の対面です。順位 1 位と 2 位で、1位比は 100.0% と 99.9%、SCP は 1,498 と 1,497、CP はどちらも 1,499。数字の上ではほとんど見分けがつきません。ところが防御の実数値がわずかに高い 2 位のほうが、シャドークローのダメージが 4 と 5 に分かれ、相手を落とすまでが 5 発早くなります。</p>
+
+    <div class="compare">
+      <div class="cmp-h cmp-blank"></div>
+      <div class="cmp-a cmp-head"><small>個体値 0 / 11 / 13</small><b>順位 1 位</b></div>
+      <div class="cmp-b cmp-head"><small>個体値 0 / 14 / 10</small><b>順位 2 位</b></div>
+
+      <div class="cmp-h"><span>1位比（SP%）</span><small>Stat Product が1位の何%か</small></div>
+      <div class="cmp-a"><span class="cmp-val">100.0</span><span class="cmp-unit">%</span></div>
+      <div class="cmp-b"><span class="cmp-val">99.9</span><span class="cmp-unit">%</span></div>
+
+      <div class="cmp-h"><span>SCP（総合力）</span><small>攻撃 × 防御 × HP</small></div>
+      <div class="cmp-a"><span class="cmp-val">1,498</span></div>
+      <div class="cmp-b"><span class="cmp-val">1,497</span><span class="cmp-tag">ほぼ同じ</span></div>
+
+      <div class="cmp-h"><span>CP</span></div>
+      <div class="cmp-a"><span class="cmp-val">1,499</span></div>
+      <div class="cmp-b"><span class="cmp-val">1,499</span><span class="cmp-tag">同じ</span></div>
+
+      <div class="cmp-h"><span>攻撃 / 防御 / HP</span><small>強化後の実数値</small></div>
+      <div class="cmp-a"><span class="cmp-val">122.5 / 118.9 / 126</span></div>
+      <div class="cmp-b"><span class="cmp-val">122.5 / 120.7 / 124</span></div>
+
+      <div class="cmp-h key"><span>シャドークロー 1発</span><small>相手のオーダイルへ</small></div>
+      <div class="cmp-a key"><span class="cmp-val">4</span></div>
+      <div class="cmp-b key"><span class="cmp-val">5</span></div>
+
+      <div class="cmp-h key"><span>相手を落とすまで</span><small>ファストのみで計算</small></div>
+      <div class="cmp-a key"><span class="cmp-val">31</span><span class="cmp-unit">発</span></div>
+      <div class="cmp-b key"><span class="cmp-val">26</span><span class="cmp-unit">発</span><span class="cmp-tag">5発早い</span></div>
+
+    </div>
+    <p class="note">スーパーリーグ（CP 1500 まで）での計算。どちらも PL 20.0。シャドークローだけで殴り合った場合の回数で、ゲージ技とシールドは含みません。数値はアプリと同じ式で算出しています。</p>
+  </section>
+
+  <hr class="rule">
+
+  <section aria-labelledby="points-title">
+    <h2 id="points-title">対戦を決める数字まで、出す。</h2>
+    <div class="points">
+      <div class="point"><h3>SCP（総合力）</h3><p>攻撃・防御・HP を掛け合わせた一つの数。火力と耐久の釣り合いを見るために、順位や1位比とは別に確認できます。リーグごとに算出します。</p></div>
+      <div class="point"><h3>攻撃・防御・HP の実数値</h3><p>強化したあとに実際いくつになるか。相手の技を何発耐えるかを考えるときは、％ではなくこの数字で見ます。</p></div>
+      <div class="point"><h3>到達レベルと到達CP</h3><p>CP上限のどこまで上げられるか。必要な砂とアメも並ぶので、育成の重さまで含めて判断できます。</p></div>
+      <div class="point"><h3>ブレイクポイント</h3><p>技が1発多く入るラインから、必要な攻撃の実数値を逆に引きます。あと少しで届くのかどうかが分かります。</p></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section aria-labelledby="screen-title">
+    <h2 id="screen-title">画面で見る GBLBOX</h2>
     <div class="screen-grid">
       <figure class="screen-card">
-        <div class="screen-frame scan-frame"><img src="assets/device-detail.png" alt="GBLBOXの個体詳細画面" loading="eager"></div>
-        <figcaption><b>順位と進化後を確認</b><span>名前、CP、HP、個体値、リーグ順位、進化後の評価をまとめて見られます。</span></figcaption>
+        <div class="screen-frame"><img src="assets/device-detail.png" alt="GBLBOXの個体詳細画面" loading="lazy"></div>
+        <figcaption><b>順位と進化後を確認</b><span>名前、CP、HP、個体値、リーグ順位、SCP と実数値、進化後の評価をまとめて見られます。</span></figcaption>
       </figure>
       <figure class="screen-card">
-        <div class="screen-frame tools-frame"><img src="assets/device-tools.png" alt="GBLBOXのツール画面" loading="lazy"></div>
-        <figcaption><b>必要な機能をすぐ開く</b><span>GBLランク確認、強化プランナー、交換チェックをまとめています。</span></figcaption>
-      </figure>
-      <figure class="screen-card">
-        <div class="screen-frame tools-frame"><img src="assets/device-simulator.png" alt="GBLBOXの技カウント画面" loading="lazy"></div>
+        <div class="screen-frame"><img src="assets/device-simulator.png" alt="GBLBOXの技カウント画面" loading="lazy"></div>
         <figcaption><b>技の回数を確認する</b><span>技カウントやブレイク探索で、対戦前の確認を進められます。</span></figcaption>
       </figure>
       <figure class="screen-card">
-        <div class="screen-frame tools-frame"><img src="assets/device-gbl.png" alt="GBLBOXのGBL戦績分析画面" loading="lazy"></div>
+        <div class="screen-frame"><img src="assets/device-tools.png" alt="GBLBOXのツール画面" loading="lazy"></div>
+        <figcaption><b>必要な機能をすぐ開く</b><span>GBLランク確認、強化プランナー、交換チェックをまとめています。</span></figcaption>
+      </figure>
+      <figure class="screen-card">
+        <div class="screen-frame"><img src="assets/device-gbl.png" alt="GBLBOXのGBL戦績分析画面" loading="lazy"></div>
         <figcaption><b>戦績を振り返る</b><span>勝率、得意な相手、苦手な相手を記録から確認できます。</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <section id="how-it-works" aria-labelledby="how-it-works-title">
-    <h2 id="how-it-works-title">個体値確認を3ステップで</h2>
-    <p class="section-intro">ポケモンGOで撮ったスクショを、保存や育成判断につなげます。</p>
-    <div class="scan-demo" role="img" aria-label="スクリーンショットを読み取ると、個体値と各リーグの順位が表示される流れ">
-      <div class="sd-shot">
-        <span class="sd-tag">スクショ</span>
-        <div class="sd-mon"></div>
-        <div class="sd-name"></div>
-        <div class="sd-cp"></div>
-        <div class="sd-bars"><i style="--v:93%"></i><i style="--v:80%"></i><i style="--v:100%"></i></div>
-        <div class="sd-scan"></div>
-      </div>
-      <div class="sd-arrow"></div>
-      <div class="sd-result">
-        <div class="sd-row"><span>個体値</span><b>14 / 12 / 15</b></div>
-        <div class="sd-row"><span>スーパー</span><b>132位</b></div>
-        <div class="sd-row hit"><span>ハイパー</span><b>8位</b></div>
-      </div>
-    </div>
-    <ol class="steps">
-      <li class="step"><span class="step-number">1</span><div><b>スクショを撮る</b><span>ポケモンGOの評価画面を撮影します。</span></div></li>
-      <li class="step"><span class="step-number">2</span><div><b>GBLBOXで確認する</b><span>スクショを選ぶか、共有シートから送ります。</span></div></li>
-      <li class="step"><span class="step-number">3</span><div><b>順位と育成先を決める</b><span>リーグ順位を見て、残す個体をボックスに整理します。</span></div></li>
-    </ol>
-  </section>
+  <hr class="rule">
 
-  <section aria-labelledby="audience-title">
-    <h2 id="audience-title">こんなときに使えます</h2>
-    <div class="audience-grid">
-      <div class="audience"><b>スクショが増えてきた</b><span>個体値、CP、HP、タグをまとめて検索できます。</span></div>
-      <div class="audience"><b>どの個体を育てるか迷う</b><span>スーパー、ハイパー、マスターの順位を比べられます。</span></div>
-      <div class="audience"><b>対戦前に確認したい</b><span>技の流れ、ブレイクポイント、GBL戦績を調べられます。</span></div>
+  <section id="how-it-works" aria-labelledby="how-title">
+    <div class="steps-block">
+      <h2 id="how-title">入口は、<br>スクショ1枚。</h2>
+      <div class="steps-body">
+        <p class="section-intro">ポケモンGO の評価画面をスクショして、GBLBOX に渡すだけです。共有シートから送っても、まとめて読み取っても構いません。あとは進化後まで含めた数字が並びます。</p>
+        <ul class="chips">
+          <li>共有シートから送る</li>
+          <li>まとめて読み取る</li>
+          <li>進化後も評価する</li>
+          <li>ボックスに残す</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section aria-labelledby="features-title">
-    <h2 id="features-title">ポケモンGOの個体値確認とGBL準備をひとつに</h2>
+  <hr class="rule">
 
-  <div class="feature-grid">
-    <div class="feature"><b>スクショから読み取り</b><span>端末内のOCRでCP・HP・個体値バーを解析。サーバー送信なし。</span></div>
-    <div class="feature"><b>GBLランク評価</b><span>スーパー/ハイパー/マスターの順位・%・到達Lv・SCP・実数値。</span></div>
-    <div class="feature"><b>進化後も評価</b><span>同じ個体値で進化後の順位・実数値をまとめて確認。</span></div>
-    <div class="feature"><b>対戦シミュ＆ブレイクポイント</b><span>技・シールド込みの簡易対戦、必要ダメージから個体値を逆引き。</span></div>
-    <div class="feature"><b>ボックス管理</b><span>検索・並べ替え・タグ・CSV出力。ニックネーム自動生成。</span></div>
-    <div class="feature"><b>GBLスケジュール</b><span>開催フォーマットをカレンダーで確認。</span></div>
+  <section aria-labelledby="faq-title">
+    <h2 id="faq-title">よくある質問</h2>
+    <div class="faq">
+      <details><summary>ポケモンGOの個体値をスクショから確認できますか？</summary><p>はい。評価画面のスクリーンショットを GBLBOX で読み込み、個体値、CP、HP、各リーグの順位を確認できます。</p></details>
+      <details><summary>SCPとは何ですか？</summary><p>攻撃・防御・HP の実数値を掛け合わせた総合力の指標です。リーグごとに算出し、順位や1位比とは別に確認できます。順位が近い個体を比べるときの手がかりになります。</p></details>
+      <details><summary>GBLBOXはどのリーグに対応していますか？</summary><p>スーパーリーグ、ハイパーリーグ、マスターリーグの順位、1位比、SCP、実数値、進化後の評価を確認できます。</p></details>
+      <details><summary>スクリーンショットの解析は安全ですか？</summary><p>通常の画像解析は端末内で行います。スクリーンショットを使った個体値確認を、外部サービスに送信せずに進められます。</p></details>
+    </div>
+  </section>
+
   </div>
-  </section>
 
-  <section class="faq" aria-labelledby="faq-title">
-    <h2 id="faq-title">ポケモンGO個体値・GBLBOXについて</h2>
-    <details><summary>ポケモンGOの個体値をスクショから確認できますか？</summary><p>はい。評価画面のスクリーンショットをGBLBOXで読み込み、個体値、CP、HP、各リーグの順位を確認できます。</p></details>
-    <details><summary>GBLBOXはどのリーグに対応していますか？</summary><p>スーパーリーグ、ハイパーリーグ、マスターリーグのPvPランク、実数値、進化後の評価を確認できます。</p></details>
-    <details><summary>スクリーンショットの解析は安全ですか？</summary><p>通常の画像解析は端末内で行います。スクリーンショットを使った個体値確認を、外部サービスに送信せずに進められます。</p></details>
-  </section>
+  <div class="final-cta">
+    <div class="final-cta-inner">
+      <div class="final-cta-copy">
+        <h2>次の1枚から、判断を変える。</h2>
+        <p>GBLBOX は無料です。まず1体、SCP と実数値まで確認できます。</p>
+      </div>
+      <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store で入手</a>
+    </div>
+  </div>
 
-  <section class="final-cta" aria-labelledby="download-title">
-    <h2 id="download-title">次のスクショから、整理を始める</h2>
-    <p class="section-intro">GBLBOXを無料でダウンロードして、まず1体の順位を確認できます。</p>
-    <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App StoreでGBLBOXを入手</a>
-  </section>
+  <div class="wrap wrap-note">
+    <p class="small muted">本アプリは Niantic, Inc.、株式会社ポケモン、任天堂株式会社とは一切関係がなく、これらの企業によって承認・後援・提供されているものではありません。「ポケモン」「Pokémon GO」等は各権利者の商標です。ゲーム関連データはコミュニティ提供・公開情報（PvPoke / PokeAPI / PokeMiners / Pokemon GO Hub / GamePress 等）を参考にアプリ内へ同梱しており、通常利用時にこれらの外部API・外部サイトへ通信しません。GBLスケジュール・大会予定は本サイト上のJSONで更新する場合があります。内容は参考値です。</p>
+  </div>
+</main>
 
-  <hr class="hr">
-  <p class="small muted">本アプリは Niantic, Inc.、株式会社ポケモン、任天堂株式会社とは一切関係がなく、これらの企業によって承認・後援・提供されているものではありません。「ポケモン」「Pokémon GO」等は各権利者の商標です。ゲーム関連データはコミュニティ提供・公開情報（PvPoke / PokeAPI / PokeMiners / Pokemon GO Hub / GamePress 等）を参考にアプリ内へ同梱しており、通常利用時にこれらの外部API・外部サイトへ通信しません。GBLスケジュール・大会予定は本サイト上のJSONで更新する場合があります。内容は参考値です。</p>
-  </main>
-
+<div class="wrap wrap-foot">
   <footer class="site">
     <p>GBLBOX © 2026 ／
       <a href="privacy.html">プライバシー</a> ・

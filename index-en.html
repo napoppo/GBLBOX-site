@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>GBLBOX | Pokémon GO IV checker and GBL tracker</title>
-<meta name="description" content="GBLBOX reads Pokémon GO screenshots on-device and helps you check IVs, Great League, Ultra League, and Master League PvP ranks, training candidates, and your collection.">
+<meta name="description" content="GBLBOX reads Pokémon GO screenshots on-device and shows more than rank: SCP (overall bulk), the actual Attack, Defense, and HP values, reachable level, and breakpoints.">
 <meta name="robots" content="index,follow">
 <meta name="apple-itunes-app" content="app-id=6776499795">
 <link rel="canonical" href="https://gblbox.com/index-en.html">
@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="ja_JP">
 <meta property="og:title" content="GBLBOX | Pokémon GO IV checker and GBL tracker">
-<meta property="og:description" content="Check Pokémon GO IVs, PvP league ranks, and training candidates from screenshots.">
+<meta property="og:description" content="Rank alone does not decide the battle. Check SCP and the actual stat values too.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://gblbox.com/index-en.html">
 <meta name="twitter:card" content="summary">
@@ -47,12 +47,10 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
+<div class="wrap wrap-top">
   <header class="site">
-    <a href="index.html" style="text-decoration:none;display:flex;gap:10px;align-items:center">
-      <div class="logo">GB</div><div class="brand">GBLBOX</div>
-    </a>
-    <nav class="site" style="margin-left:auto">
+    <div class="brand">GBL Box</div>
+    <nav class="site">
       <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
@@ -62,113 +60,158 @@
   </header>
 
   <div class="langbar" aria-label="Language"><span class="lang-label">Language</span><a href="index.html" lang="ja">日本語</a><a href="index-en.html#en" aria-current="page">English</a></div>
+</div>
 
-  <main id="en">
-    <section class="hero" aria-labelledby="hero-title">
-      <p class="eyebrow">IV management for GO Battle League</p>
-      <h1 id="hero-title">Check Pokémon GO IVs and GBL ranks from one screenshot.</h1>
-      <p class="lead">GBLBOX reads Pokémon GO screenshots, then helps you check league ranks, stats, and training candidates. Screenshot analysis runs <strong>on your device</strong>.</p>
-
-      <div class="btns hero-actions">
-        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795" aria-label="Download GBLBOX from the App Store">Start free on the App Store</a>
-        <a class="btn alt" href="#how-it-works">See how it works</a>
+<main>
+  <div class="wrap wrap-body">
+  <section id="en" class="hero" aria-labelledby="hero-title">
+    <div class="hero-main">
+      <p class="eyebrow">IV decisions for GO Battle League</p>
+      <h1 id="hero-title">Rank alone does not<br>decide the battle.</h1>
+      <p class="lead">Plenty of tools will read your IVs and show a rank. GBLBOX goes one step further: <strong>SCP</strong> (overall bulk), the actual <strong>Attack, Defense, and HP</strong> values, and the level you can reach, all on the same screen. Because a higher rank can still lose the matchup.</p>
+      <div class="btns">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795" aria-label="Download GBLBOX from the App Store">Get it on the App Store</a>
+        <span class="small muted">Analysis runs on your device</span>
       </div>
+      <ul class="trust-list" aria-label="GBLBOX features">
+        <li class="trust">Free</li>
+        <li class="trust">iPhone</li>
+        <li class="trust">On-device screenshot analysis</li>
+      </ul>
+    </div>
+    <div class="hero-shot">
+      <img src="assets/device-detail.png" alt="GBLBOX detail screen showing IVs, CP, league ranks, SCP and actual stat values" loading="eager" width="250" height="452">
+      <span>The reading result screen</span>
+    </div>
+  </section>
 
-      <div class="trust-list" aria-label="GBLBOX features">
-        <span class="trust">Free download</span>
-        <span class="trust">On-device screenshot analysis</span>
-        <span class="trust">For iPhone</span>
-      </div>
-    </section>
+  <hr class="rule">
 
-    <section class="screen-showcase" aria-labelledby="screen-title">
-      <h2 id="screen-title">See GBLBOX in action</h2>
-      <div class="screen-grid">
-        <figure class="screen-card">
-          <div class="screen-frame scan-frame"><img src="assets/device-detail.png" alt="GBLBOX individual detail screen" loading="eager"></div>
-          <figcaption><b>Check ranks and evolution</b><span>See the name, CP, HP, IVs, league ranks, and evolution results together.</span></figcaption>
-        </figure>
-        <figure class="screen-card">
-          <div class="screen-frame tools-frame"><img src="assets/device-tools.png" alt="GBLBOX tools screen" loading="lazy"></div>
-          <figcaption><b>Open the tools you need</b><span>Find rank checks, the power-up planner, and trade checks in one place.</span></figcaption>
-        </figure>
-        <figure class="screen-card">
-          <div class="screen-frame tools-frame"><img src="assets/device-simulator.png" alt="GBLBOX move count screen" loading="lazy"></div>
-          <figcaption><b>Check move counts</b><span>Use move counting and breakpoint search to prepare for battles.</span></figcaption>
-        </figure>
-        <figure class="screen-card">
-          <div class="screen-frame tools-frame"><img src="assets/device-gbl.png" alt="GBLBOX GBL record analysis screen" loading="lazy"></div>
-          <figcaption><b>Review your battle record</b><span>See your win rate, strong matchups, and difficult opponents.</span></figcaption>
-        </figure>
-      </div>
-    </section>
+  <section aria-labelledby="compare-title">
+    <h2 id="compare-title">Rank 1 loses the mirror.</h2>
+    <p class="section-intro">Two Feraligatr facing each other. Rank 1 and rank 2 sit at 100.0% and 99.9% of the top stat product, SCP 1,498 against 1,497, and both land on CP 1,499 — on paper you cannot tell them apart. Yet the rank 2 one, with slightly more Defense, splits Shadow Claw damage 4 against 5 and takes the other down five hits sooner.</p>
 
-    <section id="how-it-works" aria-labelledby="how-it-works-title">
-      <h2 id="how-it-works-title">Three steps from screenshot to decision</h2>
-      <p class="section-intro">Turn the screenshots you already take into a useful collection.</p>
-    <div class="scan-demo" role="img" aria-label="A screenshot is read, then IVs and league ranks appear">
-      <div class="sd-shot">
-        <span class="sd-tag">Screenshot</span>
-        <div class="sd-mon"></div>
-        <div class="sd-name"></div>
-        <div class="sd-cp"></div>
-        <div class="sd-bars"><i style="--v:93%"></i><i style="--v:80%"></i><i style="--v:100%"></i></div>
-        <div class="sd-scan"></div>
-      </div>
-      <div class="sd-arrow"></div>
-      <div class="sd-result">
-        <div class="sd-row"><span>IVs</span><b>14 / 12 / 15</b></div>
-        <div class="sd-row"><span>Great</span><b>#132</b></div>
-        <div class="sd-row hit"><span>Ultra</span><b>#8</b></div>
+    <div class="compare">
+      <div class="cmp-h cmp-blank"></div>
+      <div class="cmp-a cmp-head"><small>IVs 0 / 11 / 13</small><b>Rank 1</b></div>
+      <div class="cmp-b cmp-head"><small>IVs 0 / 14 / 10</small><b>Rank 2</b></div>
+
+      <div class="cmp-h"><span>Stat product</span><small>share of the rank 1 value</small></div>
+      <div class="cmp-a"><span class="cmp-val">100.0</span><span class="cmp-unit">%</span></div>
+      <div class="cmp-b"><span class="cmp-val">99.9</span><span class="cmp-unit">%</span></div>
+
+      <div class="cmp-h"><span>SCP (overall bulk)</span><small>Attack × Defense × HP</small></div>
+      <div class="cmp-a"><span class="cmp-val">1,498</span></div>
+      <div class="cmp-b"><span class="cmp-val">1,497</span><span class="cmp-tag">about the same</span></div>
+
+      <div class="cmp-h"><span>CP</span></div>
+      <div class="cmp-a"><span class="cmp-val">1,499</span></div>
+      <div class="cmp-b"><span class="cmp-val">1,499</span><span class="cmp-tag">identical</span></div>
+
+      <div class="cmp-h"><span>Attack / Defense / HP</span><small>values after powering up</small></div>
+      <div class="cmp-a"><span class="cmp-val">122.5 / 118.9 / 126</span></div>
+      <div class="cmp-b"><span class="cmp-val">122.5 / 120.7 / 124</span></div>
+
+      <div class="cmp-h key"><span>Shadow Claw, one hit</span><small>against the other Feraligatr</small></div>
+      <div class="cmp-a key"><span class="cmp-val">4</span></div>
+      <div class="cmp-b key"><span class="cmp-val">5</span></div>
+
+      <div class="cmp-h key"><span>Hits to take it down</span><small>fast moves only</small></div>
+      <div class="cmp-a key"><span class="cmp-val">31</span></div>
+      <div class="cmp-b key"><span class="cmp-val">26</span><span class="cmp-tag">five sooner</span></div>
+
+    </div>
+    <p class="note">Great League (CP 1500 cap), both at PL 20.0. Counts assume Shadow Claw only, with no charged moves or shields. Values are calculated with the same formulas the app uses.</p>
+  </section>
+
+  <hr class="rule">
+
+  <section aria-labelledby="points-title">
+    <h2 id="points-title">The numbers that decide the fight.</h2>
+    <div class="points">
+      <div class="point"><h3>SCP (overall bulk)</h3><p>Attack, Defense, and HP combined into one number. Check it alongside rank and stat product when you want to weigh damage against staying power. Calculated per league.</p></div>
+      <div class="point"><h3>Actual Attack, Defense, HP</h3><p>What the stats become once you power up. When you are counting how many hits you survive, this is the number to read, not a percentage.</p></div>
+      <div class="point"><h3>Reachable level and CP</h3><p>How far you can power up under the CP cap. The stardust and candy required are listed too, so the cost is part of the decision.</p></div>
+      <div class="point"><h3>Breakpoints</h3><p>Work backwards from the line where a move lands one more point of damage to the Attack value you need. You can see whether you are just short.</p></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section aria-labelledby="screen-title">
+    <h2 id="screen-title">See GBLBOX in action</h2>
+    <div class="screen-grid">
+      <figure class="screen-card">
+        <div class="screen-frame"><img src="assets/device-detail.png" alt="GBLBOX individual detail screen" loading="lazy"></div>
+        <figcaption><b>Check ranks and evolutions</b><span>The name, CP, HP, IVs, league ranks, SCP and stat values, and evolution results together.</span></figcaption>
+      </figure>
+      <figure class="screen-card">
+        <div class="screen-frame"><img src="assets/device-simulator.png" alt="GBLBOX move count screen" loading="lazy"></div>
+        <figcaption><b>Check move counts</b><span>Move counting and breakpoint search, for the checks you make before a battle.</span></figcaption>
+      </figure>
+      <figure class="screen-card">
+        <div class="screen-frame"><img src="assets/device-tools.png" alt="GBLBOX tools screen" loading="lazy"></div>
+        <figcaption><b>Open the tools you need</b><span>Rank checks, the power-up planner, and trade checks in one place.</span></figcaption>
+      </figure>
+      <figure class="screen-card">
+        <div class="screen-frame"><img src="assets/device-gbl.png" alt="GBLBOX GBL record analysis screen" loading="lazy"></div>
+        <figcaption><b>Review your battle record</b><span>Your win rate, strong matchups, and difficult opponents, from your own records.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="how-it-works" aria-labelledby="how-title">
+    <div class="steps-block">
+      <h2 id="how-title">It starts with<br>one screenshot.</h2>
+      <div class="steps-body">
+        <p class="section-intro">Capture the appraisal screen in Pokémon GO and hand it to GBLBOX. Send it from the share sheet or read a batch at once. The numbers follow, evolutions included.</p>
+        <ul class="chips">
+          <li>Send from the share sheet</li>
+          <li>Read a batch</li>
+          <li>Evaluate evolutions</li>
+          <li>Keep it in the box</li>
+        </ul>
       </div>
     </div>
-      <ol class="steps">
-        <li class="step"><span class="step-number">1</span><div><b>Take a screenshot</b><span>Capture the appraisal screen in Pokémon GO.</span></div></li>
-        <li class="step"><span class="step-number">2</span><div><b>Review it in GBLBOX</b><span>Choose the screenshot or send it from the share sheet.</span></div></li>
-        <li class="step"><span class="step-number">3</span><div><b>Choose what to build</b><span>Compare league ranks and keep the candidates that matter.</span></div></li>
-      </ol>
-    </section>
+  </section>
 
-    <section aria-labelledby="audience-title">
-      <h2 id="audience-title">Useful when you want to</h2>
-      <div class="audience-grid">
-        <div class="audience"><b>Organize growing screenshots</b><span>Search saved Pokémon by IVs, CP, HP, and tags.</span></div>
-        <div class="audience"><b>Choose a training candidate</b><span>Compare Great, Ultra, and Master League ranks.</span></div>
-        <div class="audience"><b>Prepare for battles</b><span>Check move timing, breakpoints, and your GBL record.</span></div>
+  <hr class="rule">
+
+  <section aria-labelledby="faq-title">
+    <h2 id="faq-title">Questions</h2>
+    <div class="faq">
+      <details><summary>Can GBLBOX check Pokémon GO IVs from screenshots?</summary><p>Yes. Load the appraisal screenshot into GBLBOX to check IVs, CP, HP, and each league rank.</p></details>
+      <details><summary>What is SCP?</summary><p>A measure of overall bulk: the actual Attack, Defense, and HP values multiplied together. GBLBOX calculates it per league so you can compare individuals whose ranks are close.</p></details>
+      <details><summary>Which leagues does GBLBOX support?</summary><p>Great, Ultra, and Master League ranks, stat product, SCP, actual stat values, and evolution results.</p></details>
+      <details><summary>Is screenshot analysis safe?</summary><p>Normal image analysis runs on your device. You can check IVs from screenshots without sending them to an outside service.</p></details>
+    </div>
+  </section>
+  </div>
+
+  <div class="final-cta">
+    <div class="final-cta-inner">
+      <div class="final-cta-copy">
+        <h2>Change the call on your next screenshot.</h2>
+        <p>GBLBOX is free. Start with one Pokémon and read it through to SCP and the stat values.</p>
       </div>
-    </section>
+      <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">Get it on the App Store</a>
+    </div>
+  </div>
 
-    <section aria-labelledby="features-title">
-      <h2 id="features-title">Everything for Pokémon GO IV checks and GBL preparation</h2>
-      <div class="feature-grid">
-        <div class="feature"><b>Screenshot scanning</b><span>Read CP, HP, and IV bars on-device.</span></div>
-        <div class="feature"><b>League rank checks</b><span>Compare ranks, percentages, levels, and stats.</span></div>
-        <div class="feature"><b>Evolution planning</b><span>Check how the same IVs perform after evolution.</span></div>
-        <div class="feature"><b>Battle tools</b><span>Use a battle simulator and explore breakpoints.</span></div>
-        <div class="feature"><b>Box management</b><span>Search, sort, tag, and export your collection.</span></div>
-        <div class="feature"><b>GBL schedule</b><span>Keep upcoming formats close at hand.</span></div>
-      </div>
-    </section>
+  <div class="wrap wrap-note">
+    <p class="small muted">This app is not affiliated with, endorsed, sponsored, or specifically approved by Niantic, Inc., The Pokémon Company, or Nintendo. "Pokémon" and "Pokémon GO" are trademarks of their respective owners. Game-related data is bundled inside the app based on community and public sources (PvPoke / PokeAPI / PokeMiners / Pokemon GO Hub / GamePress and others); normal use does not contact those external APIs or sites. GBL schedules and tournament dates may be updated through JSON hosted on this site. All values are for reference.</p>
+  </div>
+</main>
 
-    <section class="faq" aria-labelledby="faq-title">
-      <h2 id="faq-title">About Pokémon GO IV checks and GBLBOX</h2>
-      <details><summary>Can GBLBOX check Pokémon GO IVs from screenshots?</summary><p>Yes. Save the appraisal screen as a screenshot and use GBLBOX to check IVs, CP, HP, and league ranks.</p></details>
-      <details><summary>Which PvP leagues does GBLBOX support?</summary><p>GBLBOX helps you check PvP ranks and stats for Great League, Ultra League, and Master League.</p></details>
-      <details><summary>Is screenshot analysis private?</summary><p>Normal image analysis runs on your device, so you can review screenshots without sending them to an external analysis service.</p></details>
-    </section>
-
-    <section class="final-cta" aria-labelledby="download-title">
-      <h2 id="download-title">Start with your next screenshot</h2>
-      <p class="section-intro">Download GBLBOX for free and check the rank of your first Pokémon.</p>
-      <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">Get GBLBOX on the App Store</a>
-    </section>
-
-    <hr class="hr">
-    <p class="small muted">GBLBOX is an unofficial companion app and is not affiliated with, endorsed, or sponsored by Niantic, Inc., The Pokémon Company, or Nintendo Co., Ltd. “Pokémon” and “Pokémon GO” are trademarks of their respective owners. Game-related data is based on community and public sources and is provided for reference.</p>
-  </main>
-
+<div class="wrap wrap-foot">
   <footer class="site">
-    <p>GBLBOX © 2026 ／ <a href="index.html">日本語</a> ・ <a href="privacy.html">Privacy</a> ・ <a href="terms.html">Terms</a> ・ <a href="notices.html">Notices</a> ・ <a href="support.html#en">Support</a></p>
+    <p>GBLBOX © 2026 /
+      <a href="privacy.html">Privacy</a> ·
+      <a href="terms.html">Terms</a> ·
+      <a href="notices.html">Notices</a> ·
+      <a href="support.html#en">Support</a></p>
   </footer>
 </div>
 </body>
