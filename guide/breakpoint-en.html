@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="LNNTWSM9H1-sJVdd7SWh1wG_zLPATxHc1BkAoOdzE3U">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>What a breakpoint is in Pokémon GO | Where a move gains one more damage - GBL Box</title>
+<meta name="description" content="A Pokémon GO breakpoint is the Attack value where a move starts dealing one more damage. How the floor in the damage formula creates it, and why higher-ranked individuals often sit below it.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gblbox.com/guide/breakpoint-en.html">
+<link rel="alternate" hreflang="ja" href="https://gblbox.com/guide/breakpoint.html">
+<link rel="alternate" hreflang="en" href="https://gblbox.com/guide/breakpoint-en.html">
+<link rel="alternate" hreflang="x-default" href="https://gblbox.com/guide/breakpoint.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="What a breakpoint is in Pokémon GO | Where a move gains one more damage - GBL Box">
+<meta property="og:description" content="A Pokémon GO breakpoint is the Attack value where a move starts dealing one more damage. How the floor in the damage formula creates it, and why higher-ranked individuals often sit below it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gblbox.com/guide/breakpoint-en.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"What a breakpoint is in Pokémon GO: where a move gains one more damage",
+  "inLanguage":"en",
+  "mainEntityOfPage":"https://gblbox.com/guide/breakpoint-en.html",
+  "author":{"@type":"Organization","name":"GBL Box"},
+  "publisher":{"@type":"Organization","name":"GBL Box"}
+}
+</script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap wrap-top">
+  <header class="site">
+    <div class="brand"><a href="../index-en.html" style="color:inherit">GBL Box</a></div>
+    <nav class="site">
+      <a href="../index-en.html">Home</a>
+      <a href="index-en.html">Guides</a>
+      <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
+      <a href="../support.html#en">Support</a>
+    </nav>
+  </header>
+
+  <div class="langbar" aria-label="Language"><span class="lang-label">Language</span><a href="breakpoint.html" lang="ja">日本語</a><a href="breakpoint-en.html" aria-current="page">English</a></div>
+</div>
+
+<main>
+  <div class="wrap wrap-body">
+    <article class="article">
+      <p class="crumb"><a href="../index-en.html">GBL Box</a> / <a href="index-en.html">Guides</a> / What a breakpoint is</p>
+      <h1>What a breakpoint is — where a<br>move gains one more damage</h1>
+      <p class="lead">In Pokémon GO battles, nudging your Attack value up a fraction can make the same move land one more point of damage. That threshold is a breakpoint, and it decides whether moving an IV or a level is worth it.</p>
+
+      <h2>Why a threshold exists at all</h2>
+      <p>Damage is worked out like this.</p>
+      <div class="formula">damage = floor( 0.5 × power × (Attack ÷ opponent's Defense) × type effectiveness × STAB × 1.3 ) + 1</div>
+      <p>The <strong>floor</strong> in the middle is the whole story. Attack can rise without the floored result changing, and the damage stays exactly where it was. Then at one particular point it steps up by 1. It climbs in stairs, not a slope, which is why we talk about a threshold.</p>
+
+      <h2>Worked example: Feraligatr's Shadow Claw</h2>
+      <p>Against a Feraligatr with a Defense value of 118.88, using Shadow Claw (power 6, neutral, no STAB):</p>
+      <table class="data">
+        <thead><tr><th>Your Attack value</th><th>Shadow Claw damage</th></tr></thead>
+        <tbody>
+          <tr><td class="num">121.90</td><td class="num">4</td></tr>
+          <tr><td class="num">121.92</td><td class="num">4</td></tr>
+          <tr class="hi"><td class="num">121.93</td><td class="num">5</td></tr>
+          <tr><td class="num">121.95</td><td class="num">5</td></tr>
+          <tr><td class="num">122.47</td><td class="num">5</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Great League, ordinary individuals.</p>
+      <p>The threshold is Attack <strong>121.93</strong>. There is 0.01 between 121.92 and 121.93, and the damage splits 4 against 5.</p>
+
+      <h2>One point compounds</h2>
+      <p>One point per hit sounds like nothing, but you throw fast moves over and over in a battle. Counting how long it takes to bring down an opponent with 126 HP using fast moves alone:</p>
+      <table class="data">
+        <thead><tr><th>Damage per hit</th><th>Hits to take it down</th></tr></thead>
+        <tbody>
+          <tr><td class="num">4</td><td class="num">32</td></tr>
+          <tr class="hi"><td class="num">5</td><td class="num">26</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Fast moves only. A real battle also has charged moves and shields.</p>
+      <p>Six hits apart. An individual sitting just under the threshold and one sitting just over it are not the same speed against that opponent.</p>
+
+      <h2>Higher rank often means sitting under the threshold</h2>
+      <p>GBL rank comes from the product of Attack, Defense, and HP, which leans toward bulk. Pushing rank up favours a <em>lower</em> Attack IV, so <strong>the higher-ranked an individual is, the smaller its Attack value tends to be</strong>.</p>
+      <p>The result is that an individual which is ahead on rank can fail to clear a threshold that a lower-ranked one clears. Judge by rank alone and that difference stays invisible.</p>
+
+      <h2>How to check it in GBL Box</h2>
+      <p>Pick an opponent and a move, and the breakpoint search shows every step where damage rises as the attacker's level moves. You can also work the other way: give it the damage you need, and it finds the IV combinations that reach it.</p>
+
+      <h2>Related</h2>
+      <ul>
+        <li><a href="scp-en.html">What SCP is — Attack, Defense, and HP in one number</a></li>
+      </ul>
+      <p class="note">Values are calculated with the same formulas the app uses (DamageCalc).</p>
+
+      <div class="cta-inline">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">Get it on the App Store</a>
+        <span class="small muted">One screenshot gives you rank, SCP, and the actual stat values</span>
+      </div>
+    </article>
+  </div>
+
+  <div class="wrap wrap-note">
+    <p class="small muted">This app is not affiliated with, endorsed, sponsored, or specifically approved by Niantic, Inc., The Pokémon Company, or Nintendo. "Pokémon" and "Pokémon GO" are trademarks of their respective owners. All values are for reference.</p>
+  </div>
+</main>
+
+<div class="wrap wrap-foot">
+  <footer class="site">
+    <p>GBLBOX © 2026 /
+      <a href="../privacy.html">Privacy</a>
+      · <a href="../terms.html">Terms</a>
+      · <a href="../notices.html">Notices</a>
+      · <a href="../support.html#en">Support</a></p>
+  </footer>
+</div>
+</body>
+</html>

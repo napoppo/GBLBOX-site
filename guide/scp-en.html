@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="LNNTWSM9H1-sJVdd7SWh1wG_zLPATxHc1BkAoOdzE3U">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>What SCP is in Pokémon GO | Attack, Defense, and HP in one number - GBL Box</title>
+<meta name="description" content="SCP folds a Pokémon GO individual's actual Attack, Defense, and HP into one number. The formula, and how it compares across species where rank and stat product cannot.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gblbox.com/guide/scp-en.html">
+<link rel="alternate" hreflang="ja" href="https://gblbox.com/guide/scp.html">
+<link rel="alternate" hreflang="en" href="https://gblbox.com/guide/scp-en.html">
+<link rel="alternate" hreflang="x-default" href="https://gblbox.com/guide/scp.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="What SCP is in Pokémon GO | Attack, Defense, and HP in one number - GBL Box">
+<meta property="og:description" content="SCP folds a Pokémon GO individual's actual Attack, Defense, and HP into one number. The formula, and how it compares across species where rank and stat product cannot.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gblbox.com/guide/scp-en.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"What SCP is in Pokémon GO: Attack, Defense, and HP in one number",
+  "inLanguage":"en",
+  "mainEntityOfPage":"https://gblbox.com/guide/scp-en.html",
+  "author":{"@type":"Organization","name":"GBL Box"},
+  "publisher":{"@type":"Organization","name":"GBL Box"}
+}
+</script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap wrap-top">
+  <header class="site">
+    <div class="brand"><a href="../index-en.html" style="color:inherit">GBL Box</a></div>
+    <nav class="site">
+      <a href="../index-en.html">Home</a>
+      <a href="index-en.html">Guides</a>
+      <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
+      <a href="../support.html#en">Support</a>
+    </nav>
+  </header>
+
+  <div class="langbar" aria-label="Language"><span class="lang-label">Language</span><a href="scp.html" lang="ja">日本語</a><a href="scp-en.html" aria-current="page">English</a></div>
+</div>
+
+<main>
+  <div class="wrap wrap-body">
+    <article class="article">
+      <p class="crumb"><a href="../index-en.html">GBL Box</a> / <a href="index-en.html">Guides</a> / What SCP is</p>
+      <h1>What SCP is — Attack, Defense,<br>and HP in one number</h1>
+      <p class="lead">When you are choosing a Pokémon for the GO Battle League, rank and stat product on their own do not always tell you enough. SCP folds the actual Attack, Defense, and HP values into a single number, and unlike rank it <strong>lets you compare across species</strong>.</p>
+
+      <h2>How SCP is calculated</h2>
+      <p>SCP is derived from the stat values you reach after powering up to the CP cap.</p>
+      <div class="formula">SCP = floor( (Attack × Defense × HP) ^ (2/3) ÷ 10 )</div>
+      <p>Worked through for the rank 1 Feraligatr in the Great League (IVs 0/11/13):</p>
+      <div class="formula">Attack 122.47 × Defense 118.88 × HP 126 = 1,834,459
+1,834,459 ^ (2/3) = 14,985.52
+14,985.52 ÷ 10 = 1,498.55  →  floor to <strong>SCP 1,498</strong></div>
+      <p>Multiplying three stats together grows as a cube, so raising it to the power of 2/3 brings the figure back to roughly the same scale as CP. Because the digits line up with CP, the number is easy to hold in your head.</p>
+
+      <h2>Within one species, SCP says what rank already says</h2>
+      <p>SCP is a monotone transform of the stat product, so <strong>within a single species a lower rank always means a lower SCP</strong>. Checked across all 4,096 IV combinations for Feraligatr, there is no exception.</p>
+      <p>So if all you are doing is choosing between individuals of the same Pokémon, rank and SCP lead to the same answer. This is not where SCP earns its place.</p>
+
+      <h2>Across species, rank cannot compare anything</h2>
+      <p>Rank and stat product percentage are relative positions inside one species' 4,096 combinations. Every species has a rank 1 sitting at 100%, so those figures cannot measure one species against another.</p>
+      <p>SCP comes straight from the stat values, so it can. Here are the rank 1 individuals of six Great League species.</p>
+      <table class="data">
+        <thead><tr><th>Species (its rank 1 individual)</th><th>Attack</th><th>Defense</th><th>HP</th><th>SCP</th></tr></thead>
+        <tbody>
+          <tr><td>Azumarill</td><td>91.6</td><td>136.6</td><td>196</td><td class="num">1,818</td></tr>
+          <tr><td>Registeel</td><td>93.6</td><td>191.7</td><td>134</td><td class="num">1,794</td></tr>
+          <tr><td>Skarmory</td><td>103.7</td><td>168.8</td><td>123</td><td class="num">1,667</td></tr>
+          <tr><td>Medicham</td><td>105.9</td><td>140.3</td><td>142</td><td class="num">1,644</td></tr>
+          <tr><td>Talonflame</td><td>119.9</td><td>114.4</td><td>136</td><td class="num">1,515</td></tr>
+          <tr><td>Feraligatr</td><td>122.5</td><td>118.9</td><td>126</td><td class="num">1,498</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Great League (CP 1500 cap), ordinary individuals. All six sit at 100% of their own species' top stat product.</p>
+      <p>All six are rank 1 at 100%, and yet SCP runs from 1,498 to 1,818. Azumarill carries <strong>more than 20% more</strong> than Feraligatr — a gap that no amount of staring at rank or percentage will show you.</p>
+      <p>Higher SCP does not mean stronger, though. Feraligatr's Attack is 122.5 against Azumarill's 91.6, so the order reverses on damage. SCP is the total of bulk and damage traded off against each other, not a verdict.</p>
+
+      <h2>Which number to read when</h2>
+      <ul>
+        <li><strong>Stat product (%)</strong> — how far an individual sits from the ideal within its own species</li>
+        <li><strong>SCP</strong> — which of two different species carries more overall</li>
+      </ul>
+      <p>GBL Box puts both on the same screen, so you can switch between them depending on whether you are picking within a species or thinking about a team.</p>
+
+      <h2>Related</h2>
+      <ul>
+        <li><a href="breakpoint-en.html">What a breakpoint is — where a move gains one more damage</a></li>
+      </ul>
+      <p class="note">Values are calculated with the same formulas the app uses (RankCalc) and match what the app displays. No shadow or best buddy bonus; power-up cap PL50.</p>
+
+      <div class="cta-inline">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">Get it on the App Store</a>
+        <span class="small muted">One screenshot gives you rank, SCP, and the actual stat values</span>
+      </div>
+    </article>
+  </div>
+
+  <div class="wrap wrap-note">
+    <p class="small muted">This app is not affiliated with, endorsed, sponsored, or specifically approved by Niantic, Inc., The Pokémon Company, or Nintendo. "Pokémon" and "Pokémon GO" are trademarks of their respective owners. All values are for reference.</p>
+  </div>
+</main>
+
+<div class="wrap wrap-foot">
+  <footer class="site">
+    <p>GBLBOX © 2026 /
+      <a href="../privacy.html">Privacy</a>
+      · <a href="../terms.html">Terms</a>
+      · <a href="../notices.html">Notices</a>
+      · <a href="../support.html#en">Support</a></p>
+  </footer>
+</div>
+</body>
+</html>
