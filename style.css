@@ -11,6 +11,7 @@ body{
 }
 a{color:var(--accent); text-decoration:none}
 a:hover{text-decoration:underline}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--accent2);outline-offset:3px;border-radius:6px}
 .wrap{max-width:760px; margin:0 auto; padding:24px 18px 64px}
 header.site{display:flex; align-items:center; flex-wrap:wrap; gap:10px; padding:18px 0; border-bottom:1px solid var(--line); margin-bottom:8px}
 .logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));
@@ -25,6 +26,14 @@ h3{font-size:16px; margin:18px 0 4px; color:var(--accent)}
 p,li{color:var(--fg)}
 .muted{color:var(--muted)}
 .lead{color:var(--muted); font-size:16px}
+.hero{padding:28px 0 18px}
+.eyebrow{color:var(--accent2);font-size:13px;font-weight:700;letter-spacing:.04em;margin:0 0 8px}
+.hero h1{max-width:620px;margin-top:0}
+.hero-actions{margin:22px 0 14px}
+.trust-list{display:flex;flex-wrap:wrap;gap:8px 14px;color:var(--muted);font-size:13px}
+.trust{display:inline-flex;align-items:center;gap:5px}
+.trust::before{content:"✓";color:var(--accent2);font-weight:800}
+.section-intro{color:var(--muted);margin-top:-2px}
 .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:18px 18px; margin:16px 0}
 ul{padding-left:20px} li{margin:4px 0}
 .badge{display:inline-block; font-size:12px; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:3px 10px; margin:2px 4px 2px 0}
@@ -33,8 +42,10 @@ ul{padding-left:20px} li{margin:4px 0}
 .btn.alt{background:transparent; border:1px solid var(--line); color:var(--fg)}
 .btn:hover{text-decoration:none; opacity:.92}
 .hr{height:1px;background:var(--line);border:0;margin:28px 0}
-.langbar{display:flex;gap:8px;margin:8px 0 0}
+.langbar{display:flex;align-items:center;gap:8px;margin:8px 0 0}
+.lang-label{color:var(--muted);font-size:13px;margin-right:2px}
 .langbar a{font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 12px}
+.langbar a[aria-current="page"]{color:var(--fg);border-color:var(--accent);background:rgba(59,130,246,.12)}
 footer.site{border-top:1px solid var(--line); margin-top:40px; padding-top:18px; color:var(--muted); font-size:13px}
 footer.site a{color:var(--muted)}
 .small{font-size:13px}
@@ -44,3 +55,226 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
 .feature{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
 .feature b{display:block;margin-bottom:2px}
 .feature span{color:var(--muted);font-size:14px}
+.steps{list-style:none;padding:0;margin:16px 0 28px;display:grid;gap:10px}
+.step{display:flex;align-items:flex-start;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 14px}
+.step-number{display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800}
+.step b,.step span{display:block}
+.step div span{color:var(--muted);font-size:14px}
+.audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0 28px}
+.audience{background:linear-gradient(180deg,rgba(59,130,246,.12),var(--card));border:1px solid var(--line);border-radius:12px;padding:14px}
+.audience b,.audience span{display:block}
+.audience span{color:var(--muted);font-size:14px;margin-top:4px}
+.final-cta{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin:30px 0 28px}
+.final-cta h2{margin-top:0}
+.final-cta .btn{margin-top:4px}
+.screen-showcase{margin:6px 0 30px}
+.screen-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}
+.screen-card{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.screen-frame{background:#0b0d11;display:flex;align-items:flex-start;justify-content:center;overflow:hidden}
+.screen-frame img{display:block;width:100%;height:auto;object-fit:cover;object-position:top}
+.scan-frame,.tools-frame{height:330px}
+.scan-frame img,.tools-frame img{width:100%;max-width:300px}
+.help-frame{height:180px;align-items:center}
+.help-frame img{width:100%;height:100%;object-fit:cover;object-position:center}
+.screen-card figcaption{padding:12px 14px 14px}
+.screen-card figcaption b,.screen-card figcaption span{display:block}
+.screen-card figcaption span{color:var(--muted);font-size:14px;margin-top:3px}
+.faq{margin:30px 0 28px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:12px 14px}
+.faq summary{cursor:pointer;font-weight:700}
+.faq details p{color:var(--muted);font-size:14px;margin:8px 0 0}
+@media (max-width:680px){.audience-grid{grid-template-columns:1fr}}
+@media (max-width:560px){.screen-grid{grid-template-columns:1fr}}
+
+/* =========================================================
+   モーション層（JS なし・CSP の script-src 無しでも動く）
+   ・reduced motion では静止した完成形だけを出す
+   ・スクロール連動は @supports で囲い、非対応環境では常時表示
+   ========================================================= */
+
+@keyframes gb-rise{from{opacity:0;translate:0 16px}to{opacity:1;translate:none}}
+@keyframes gb-pop{from{opacity:0;scale:.55}60%{scale:1.12}to{opacity:1;scale:1}}
+@keyframes gb-draw{from{scale:1 0}to{scale:1 1}}
+@keyframes gb-shine{from{translate:-120% 0}to{translate:220% 0}}
+
+/* --- モーションに依存しない土台 --- */
+.btn{position:relative;overflow:hidden;isolation:isolate}
+.step{position:relative}
+/* ステップ間をつなぐ線（カード間の隙間に出る） */
+.step:not(:last-child)::after{
+  content:"";position:absolute;left:28px;top:100%;width:2px;height:10px;
+  transform-origin:top;background:linear-gradient(var(--accent),rgba(59,130,246,.3));
+}
+/* FAQ は開閉状態が一目で分かるシェブロンにする */
+.faq summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"";flex:0 0 auto;width:8px;height:8px;margin-right:3px;
+  border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg)
+}
+.faq details[open] summary::after{transform:rotate(-135deg);border-color:var(--accent)}
+
+@media (prefers-reduced-motion: no-preference){
+
+  /* --- 読み込み時：ヒーローを上から順に立ち上げる --- */
+  header.site .brand,.hero .eyebrow,.hero h1,.hero .lead,.hero .hero-actions,.hero .trust-list{
+    animation:gb-rise .6s cubic-bezier(.22,.68,.32,1) backwards;
+  }
+  header.site .logo{animation:gb-pop .5s cubic-bezier(.22,.68,.32,1) backwards}
+  header.site .brand{animation-delay:.06s}
+  .hero .eyebrow{animation-delay:.12s}
+  .hero h1{animation-delay:.18s}
+  .hero .lead{animation-delay:.26s}
+  .hero .hero-actions{animation-delay:.34s}
+  .hero .trust-list{animation-delay:.42s}
+  .hero .trust{animation:gb-rise .45s ease backwards}
+  .hero .trust:nth-child(1){animation-delay:.50s}
+  .hero .trust:nth-child(2){animation-delay:.58s}
+  .hero .trust:nth-child(3){animation-delay:.66s}
+
+  /* --- ホバー：触れる要素であることを示す --- */
+  .feature,.audience,.screen-card,.step,.faq details{
+    transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+  }
+  .feature:hover,.audience:hover,.step:hover,.faq details:hover{
+    transform:translateY(-3px);border-color:var(--accent);
+    box-shadow:0 10px 24px -18px rgba(59,130,246,.9);
+  }
+  .screen-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 18px 34px -22px rgba(0,0,0,.95)}
+  .screen-frame img{transition:transform .45s cubic-bezier(.22,.68,.32,1)}
+  .screen-card:hover .screen-frame img{transform:scale(1.045)}
+  nav.site a,.langbar a{transition:color .2s ease,border-color .2s ease,background .2s ease}
+  .faq summary::after{transition:transform .25s ease,border-color .25s ease}
+
+  /* CTA：押せることを伝える程度に留める */
+  .btn{transition:transform .18s ease,opacity .18s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn:active{transform:translateY(0)}
+  .btn::after{
+    content:"";position:absolute;inset:0;z-index:-1;translate:-120% 0;
+    background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.30) 50%,transparent 58%);
+  }
+  .btn:hover::after{animation:gb-shine .75s ease}
+
+  /* --- スクロール連動（対応ブラウザのみ・非対応は常時表示のまま） --- */
+  @supports (animation-timeline: view()){
+    main h2,.section-intro,.scan-demo,.screen-card,.step,.feature,.audience,
+    .faq details,.final-cta,.hr + .small{
+      animation-name:gb-rise;
+      animation-fill-mode:both;
+      animation-timing-function:linear;
+      animation-timeline:view();
+      animation-range:entry 4% entry 62%;
+    }
+    /* 並んだカードは開始位置をずらして順に出す */
+    .screen-grid .screen-card:nth-child(2n),
+    .feature-grid .feature:nth-child(2n),
+    .audience-grid .audience:nth-child(2){animation-range:entry 10% entry 68%}
+    .audience-grid .audience:nth-child(3){animation-range:entry 15% entry 72%}
+
+    /* 手順は「番号が立ち上がり、線が下へ伸びる」で流れを見せる */
+    .step{view-timeline-name:--gb-step}
+    .step-number{
+      animation-name:gb-pop;animation-fill-mode:both;animation-timing-function:cubic-bezier(.22,.68,.32,1);
+      animation-timeline:--gb-step;animation-range:entry 10% entry 75%;
+    }
+    .step:not(:last-child)::after{
+      animation-name:gb-draw;animation-fill-mode:both;animation-timing-function:linear;
+      animation-timeline:--gb-step;animation-range:entry 45% entry 100%;
+    }
+  }
+
+  /* --- FAQ の開閉を滑らかに（対応ブラウザのみ） --- */
+  @supports selector(details::details-content){
+    :root{interpolate-size:allow-keywords}
+    .faq details::details-content{
+      block-size:0;overflow:clip;
+      transition:block-size .3s ease,content-visibility .3s allow-discrete;
+    }
+    .faq details[open]::details-content{block-size:auto}
+  }
+}
+
+/* =========================================================
+   ミニデモ：スクショ →(読み取り)→ 個体値・リーグ順位
+   静止時（reduced motion）は完成形がそのまま見える状態を既定にする
+   ========================================================= */
+.scan-demo{
+  display:flex;align-items:center;justify-content:center;gap:16px;
+  margin:16px 0 22px;padding:18px 16px;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+}
+.sd-shot{
+  position:relative;flex:none;width:138px;height:184px;padding:10px;overflow:hidden;
+  border:1px solid var(--line);border-radius:12px;background:linear-gradient(180deg,#141822,#0b0d11);
+}
+.sd-tag{
+  position:absolute;top:8px;right:8px;font-size:10px;color:var(--muted);
+  border:1px solid var(--line);border-radius:999px;padding:1px 7px;background:rgba(0,0,0,.45);
+}
+.sd-mon{
+  width:46px;height:46px;margin:16px auto 10px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,rgba(59,130,246,.75),rgba(59,130,246,.14));
+  border:1px solid rgba(59,130,246,.4);
+}
+.sd-name{height:7px;width:68%;margin:0 auto 7px;border-radius:4px;background:var(--line)}
+.sd-cp{height:6px;width:42%;margin:0 auto 14px;border-radius:4px;background:var(--line)}
+.sd-bars{display:grid;gap:7px}
+.sd-bars i{position:relative;display:block;height:8px;border-radius:4px;background:#20242e;overflow:hidden}
+.sd-bars i::after{
+  content:"";position:absolute;inset:0 auto 0 0;width:var(--v);border-radius:4px;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+}
+.sd-scan{
+  position:absolute;left:0;right:0;top:-40px;height:40px;opacity:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(59,130,246,0),rgba(59,130,246,.26) 70%,rgba(147,197,253,.95) 96%,rgba(59,130,246,0));
+}
+.sd-arrow{position:relative;flex:none;width:26px;height:26px}
+.sd-arrow::before{
+  content:"";position:absolute;top:8px;left:5px;width:10px;height:10px;
+  border-top:2px solid var(--accent);border-right:2px solid var(--accent);transform:rotate(45deg);
+}
+.sd-result{flex:1 1 auto;min-width:0;max-width:240px;display:grid;gap:8px;align-content:start}
+.sd-row{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:8px 11px;font-size:13px;border:1px solid var(--line);border-radius:10px;background:#12151c;
+}
+.sd-row span{color:var(--muted)}
+.sd-row b{font-variant-numeric:tabular-nums}
+.sd-row.hit{border-color:rgba(245,158,11,.55)}
+.sd-row.hit b{color:var(--accent2)}
+@media (max-width:560px){
+  .scan-demo{flex-direction:column;gap:12px}
+  .sd-arrow::before{top:5px;left:8px;transform:rotate(135deg)}
+  .sd-result{width:100%;max-width:none}
+}
+
+@keyframes sd-scan{
+  0%,2%{opacity:0;translate:0 0}
+  5%{opacity:1}
+  22%{opacity:1}
+  26%,100%{opacity:0;translate:0 224px}
+}
+@keyframes sd-fill{
+  0%,16%{width:0}
+  34%,90%{width:var(--v)}
+  97%,100%{width:0}
+}
+@keyframes sd-arrow{
+  0%,28%{opacity:.2;translate:-5px 0}
+  38%{opacity:1;translate:4px 0}
+  50%,100%{opacity:.2;translate:-5px 0}
+}
+@keyframes sd-row{
+  0%,36%{opacity:0;translate:0 8px}
+  46%,90%{opacity:1;translate:0 0}
+  97%,100%{opacity:0;translate:0 8px}
+}
+@media (prefers-reduced-motion: no-preference){
+  .sd-scan{animation:sd-scan 7s linear infinite}
+  .sd-bars i::after{animation:sd-fill 7s cubic-bezier(.22,.68,.32,1) infinite}
+  .sd-arrow{animation:sd-arrow 7s ease-in-out infinite}
+  .sd-row{animation:sd-row 7s ease infinite backwards}
+  .sd-row:nth-child(2){animation-delay:.18s}
+  .sd-row:nth-child(3){animation-delay:.36s}
+}
