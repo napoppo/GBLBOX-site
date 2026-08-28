@@ -87,6 +87,167 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
 @media (max-width:560px){.screen-grid{grid-template-columns:1fr}}
 
 /* =========================================================
+   ビジュアル刷新：奥行きのある背景・ガラス質のカード・
+   詰まったタイポグラフィ。外部フォントは CSP で読めないため
+   システムフォントの範囲で仕上げる。
+   ========================================================= */
+
+:root{
+  --bg:#0a0c11;
+  --fg:#eef1f6;
+  --muted:#97a0af;
+  --accent:#5b9cff;
+  --accent2:#f5a524;
+  --card:rgba(255,255,255,.042);
+  --line:rgba(255,255,255,.085);
+  --line-strong:rgba(255,255,255,.16);
+  --radius:16px;
+  --ring:inset 0 1px 0 rgba(255,255,255,.07);
+  --lift:0 12px 34px -26px rgba(0,0,0,1);
+}
+
+html{background:var(--bg)}
+/* 画面に固定した淡い光。スクロールしても背景だけ動かない */
+body::before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+    radial-gradient(1100px 540px at 10% -10%,rgba(91,156,255,.17),transparent 62%),
+    radial-gradient(900px 460px at 94% 2%,rgba(245,165,36,.10),transparent 64%),
+    radial-gradient(900px 700px at 50% 112%,rgba(91,156,255,.09),transparent 62%);
+}
+body{
+  background:transparent;
+  font-size:16.5px;line-height:1.8;letter-spacing:.005em;
+  -webkit-font-smoothing:antialiased;
+  font-feature-settings:"palt" 1;   /* 日本語の字詰めを詰める */
+}
+::selection{background:rgba(91,156,255,.32)}
+.wrap{max-width:860px;padding:0 20px 84px}
+
+h1,h2,h3{line-break:strict}
+p,li{text-wrap:pretty}
+h1{font-size:clamp(30px,5vw,44px);line-height:1.26;letter-spacing:-.02em;font-weight:800;margin:22px 0 10px}
+h2{
+  position:relative;padding:0 0 0 15px;font-weight:800;
+  font-size:clamp(20px,2.5vw,26px);line-height:1.42;letter-spacing:-.012em;margin:44px 0 10px;
+}
+h2::before{
+  content:"";position:absolute;left:0;top:.34em;width:4px;height:1.1em;border-radius:3px;
+  background:linear-gradient(180deg,var(--accent),var(--accent2));
+}
+.lead{font-size:17px;max-width:60ch}
+.section-intro{max-width:62ch}
+.muted,.lead,.section-intro{color:var(--muted)}
+
+/* ヘッダーは追従させ、下の内容を透かす */
+header.site{
+  position:sticky;top:0;z-index:20;padding:14px 20px;
+  /* 帯は画面いっぱいに、中身は本文と同じ幅に揃える */
+  margin-inline:calc(50% - 50vw);margin-block:0 4px;
+  padding-inline:max(20px,calc(50vw - 430px));
+  background:rgba(10,12,17,.72);
+  -webkit-backdrop-filter:blur(16px) saturate(150%);backdrop-filter:blur(16px) saturate(150%);
+}
+.logo{box-shadow:0 8px 22px -10px rgba(91,156,255,.95),var(--ring)}
+.brand{letter-spacing:-.01em}
+nav.site a{font-size:13.5px}
+
+.langbar{margin:14px 0 0}
+.langbar a{background:var(--card);border-color:var(--line)}
+.langbar a[aria-current="page"]{background:rgba(91,156,255,.16);border-color:rgba(91,156,255,.45)}
+
+/* ヒーロー */
+.hero{padding:34px 0 22px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;margin:0 0 16px;padding:5px 13px;
+  border-radius:999px;border:1px solid rgba(91,156,255,.3);background:rgba(91,156,255,.1);
+  color:#c2d7ff;font-size:12.5px;font-weight:700;letter-spacing:.02em;
+}
+.eyebrow::before{
+  content:"";width:6px;height:6px;border-radius:50%;
+  background:var(--accent2);box-shadow:0 0 10px 1px rgba(245,165,36,.9);
+}
+.hero h1{max-width:16em}
+.hero-actions{margin:26px 0 18px}
+.trust-list{gap:8px}
+.trust{
+  padding:5px 12px;border:1px solid var(--line);border-radius:999px;
+  background:var(--card);box-shadow:var(--ring);font-size:12.5px;
+}
+
+/* ボタン */
+.btn{
+  padding:12px 20px;border-radius:12px;letter-spacing:.01em;
+  background:linear-gradient(180deg,#6fa8ff,#3b7ce4);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 12px 28px -14px rgba(59,124,228,.95);
+}
+.btn.alt{
+  background:linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.02));
+  border:1px solid var(--line-strong);box-shadow:var(--ring);
+}
+
+/* カードの質感をそろえる */
+.card,.feature,.step,.screen-card,.faq details,.final-cta,.scan-demo{
+  background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.022));
+  border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--ring),var(--lift);
+}
+.audience{
+  background:linear-gradient(180deg,rgba(91,156,255,.11),rgba(255,255,255,.022));
+  border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--ring),var(--lift);
+}
+.feature,.audience,.step{padding:15px 17px}
+.feature b,.audience b,.step b,.screen-card figcaption b{letter-spacing:-.005em}
+.feature span,.audience span,.step div span,.screen-card figcaption span{line-height:1.7}
+
+.feature-grid,.audience-grid,.screen-grid,.steps{gap:12px}
+.step-number{
+  background:linear-gradient(180deg,#6fa8ff,#3b7ce4);
+  box-shadow:0 6px 16px -8px rgba(91,156,255,.95),inset 0 1px 0 rgba(255,255,255,.35);
+}
+
+/* スクショは端末のように見せ、下端はカードへ溶かす */
+.screen-frame{background:transparent;padding:18px 0 0}
+.scan-frame,.tools-frame{height:352px}
+.screen-frame img{
+  border-radius:20px 20px 0 0;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 20px 44px -26px #000;
+  -webkit-mask-image:linear-gradient(180deg,#000 84%,transparent);
+  mask-image:linear-gradient(180deg,#000 84%,transparent);
+}
+.screen-card figcaption{padding:4px 16px 16px}
+
+.faq details{padding:14px 16px}
+.faq summary{letter-spacing:-.005em}
+.final-cta{
+  padding:26px;position:relative;overflow:hidden;
+  background:linear-gradient(180deg,rgba(91,156,255,.14),rgba(255,255,255,.025));
+  border-color:rgba(91,156,255,.28);
+  box-shadow:var(--ring),0 24px 60px -34px rgba(91,156,255,.9);
+}
+.final-cta::before{
+  content:"";position:absolute;inset:-40% -10% auto;height:140px;pointer-events:none;
+  background:radial-gradient(60% 100% at 50% 0,rgba(91,156,255,.35),transparent 70%);
+}
+.final-cta h2{margin-top:0}
+
+.hr{background:linear-gradient(90deg,transparent,var(--line-strong),transparent);margin:44px 0 22px}
+footer.site{border-top:1px solid var(--line);margin-top:48px}
+
+/* ミニデモも同じ質感に寄せる */
+.scan-demo{padding:22px 18px;gap:18px}
+.sd-shot{
+  border:1px solid var(--line-strong);border-radius:14px;
+  background:linear-gradient(180deg,#161b26,#0a0c11);
+  box-shadow:0 22px 44px -28px #000,inset 0 1px 0 rgba(255,255,255,.1);
+}
+.sd-row{
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02));
+  border:1px solid var(--line);box-shadow:var(--ring);
+}
+.sd-row.hit{background:linear-gradient(180deg,rgba(245,165,36,.14),rgba(245,165,36,.03))}
+
+/* =========================================================
    モーション層（JS なし・CSP の script-src 無しでも動く）
    ・reduced motion では静止した完成形だけを出す
    ・スクロール連動は @supports で囲い、非対応環境では常時表示
@@ -102,7 +263,7 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
 .step{position:relative}
 /* ステップ間をつなぐ線（カード間の隙間に出る） */
 .step:not(:last-child)::after{
-  content:"";position:absolute;left:28px;top:100%;width:2px;height:10px;
+  content:"";position:absolute;left:31px;top:100%;width:2px;height:12px;
   transform-origin:top;background:linear-gradient(var(--accent),rgba(59,130,246,.3));
 }
 /* FAQ は開閉状態が一目で分かるシェブロンにする */
@@ -137,10 +298,10 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
     transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
   }
   .feature:hover,.audience:hover,.step:hover,.faq details:hover{
-    transform:translateY(-3px);border-color:var(--accent);
-    box-shadow:0 10px 24px -18px rgba(59,130,246,.9);
+    transform:translateY(-3px);border-color:rgba(91,156,255,.55);
+    box-shadow:var(--ring),0 16px 32px -20px rgba(91,156,255,.75);
   }
-  .screen-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 18px 34px -22px rgba(0,0,0,.95)}
+  .screen-card:hover{transform:translateY(-4px);border-color:rgba(91,156,255,.5);box-shadow:var(--ring),0 22px 44px -22px rgba(0,0,0,.95)}
   .screen-frame img{transition:transform .45s cubic-bezier(.22,.68,.32,1)}
   .screen-card:hover .screen-frame img{transform:scale(1.045)}
   nav.site a,.langbar a{transition:color .2s ease,border-color .2s ease,background .2s ease}
@@ -217,8 +378,8 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
   background:radial-gradient(circle at 35% 30%,rgba(59,130,246,.75),rgba(59,130,246,.14));
   border:1px solid rgba(59,130,246,.4);
 }
-.sd-name{height:7px;width:68%;margin:0 auto 7px;border-radius:4px;background:var(--line)}
-.sd-cp{height:6px;width:42%;margin:0 auto 14px;border-radius:4px;background:var(--line)}
+.sd-name{height:7px;width:68%;margin:0 auto 7px;border-radius:4px;background:rgba(255,255,255,.16)}
+.sd-cp{height:6px;width:42%;margin:0 auto 14px;border-radius:4px;background:rgba(255,255,255,.11)}
 .sd-bars{display:grid;gap:7px}
 .sd-bars i{position:relative;display:block;height:8px;border-radius:4px;background:#20242e;overflow:hidden}
 .sd-bars i::after{
@@ -234,7 +395,7 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
   content:"";position:absolute;top:8px;left:5px;width:10px;height:10px;
   border-top:2px solid var(--accent);border-right:2px solid var(--accent);transform:rotate(45deg);
 }
-.sd-result{flex:1 1 auto;min-width:0;max-width:240px;display:grid;gap:8px;align-content:start}
+.sd-result{flex:1 1 auto;min-width:0;max-width:290px;display:grid;gap:9px;align-content:start}
 .sd-row{
   display:flex;align-items:center;justify-content:space-between;gap:10px;
   padding:8px 11px;font-size:13px;border:1px solid var(--line);border-radius:10px;background:#12151c;
@@ -277,4 +438,13 @@ code{background:#0b0d11;border:1px solid var(--line);border-radius:6px;padding:1
   .sd-row{animation:sd-row 7s ease infinite backwards}
   .sd-row:nth-child(2){animation-delay:.18s}
   .sd-row:nth-child(3){animation-delay:.36s}
+}
+
+/* 狭い画面では nav が2段になり追従ヘッダーが画面を食うので固定しない */
+@media (max-width:560px){
+  header.site{position:static;padding-block:12px}
+  nav.site{gap:8px 12px}
+  nav.site a{font-size:12.5px}
+  .wrap{padding-bottom:64px}
+  h2{margin-top:36px}
 }
