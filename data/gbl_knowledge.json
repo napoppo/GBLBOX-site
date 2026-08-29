@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T00:08:13Z",
+  "generatedAt": "2026-08-29T16:35:59Z",
   "gameMasterVersion": "gm-0d0e1b5dea36",
   "entries": [
     {
@@ -86,9 +86,7 @@
           "type": "manual",
           "directness": "team_context",
           "url": "https://gblbox.com/",
-          "title": "初期設計メモ",
-          "channel": null,
-          "publishedAt": null,
+          "sourceId": "gblbox.com",
           "timestampSeconds": null,
           "note": "ユーザー提案を初期仮説として登録。環境順位・使用率・実戦記録の確認後にreviewedへ進める。"
         },
@@ -96,9 +94,7 @@
           "type": "youtube",
           "directness": "team_context",
           "url": "https://www.youtube.com/watch?v=srbpo2Lhet0",
-          "title": "JELLICENT is SO STRONG it CARRIES 2 SPICY POKEMON",
-          "channel": "DanOttawa Pokemon Go",
-          "publishedAt": "2026-03-24",
+          "sourceId": "yt-danottawa",
           "timestampSeconds": null,
           "note": "ブルンゲルをGreat Leagueの軸として扱う対戦動画。デカヌチャンとの直接対面を示す根拠ではないため、候補の実戦価値を補助するdraft資料として扱う。"
         },
@@ -106,9 +102,7 @@
           "type": "other",
           "directness": "meta_stat",
           "url": "https://gblnote.com/en/gbl/tier/great",
-          "title": "Great League Tier List · Recommended Movesets",
-          "channel": "GBL Note",
-          "publishedAt": null,
+          "sourceId": "gblnote.com",
           "timestampSeconds": null,
           "note": "直近30日の遭遇率としてブルンゲル3%、デカヌチャン20%を掲載。ブルンゲルはS tier、推奨技はHex・Surf・Shadow Ball。数値は更新されるため有効期限を付けて利用する。"
         }
@@ -199,9 +193,7 @@
           "type": "pvpoke",
           "directness": "meta_stat",
           "url": "https://pvpoke.com/rankings/",
-          "title": "Great League PvP Rankings",
-          "channel": "PvPoke",
-          "publishedAt": null,
+          "sourceId": "pvpoke.com",
           "timestampSeconds": null,
           "note": "技・タイプ・ステータスを含むシミュレーション順位の確認先。個別の採用判断には現在の技構成と実戦記録を併用する。"
         },
@@ -209,9 +201,7 @@
           "type": "other",
           "directness": "meta_stat",
           "url": "https://gblnote.com/en/gbl/tier/great",
-          "title": "Great League Tier List · Recommended Movesets",
-          "channel": "GBL Note",
-          "publishedAt": null,
+          "sourceId": "gblnote.com",
           "timestampSeconds": null,
           "note": "デカヌチャンをGreat LeagueのS tier・遭遇率20%として掲載。地面打点による直接対策という判断は、アプリ側のタイプ相性データで補う。"
         }
@@ -302,9 +292,7 @@
           "type": "other",
           "directness": "meta_stat",
           "url": "https://gblnote.com/en/gbl/tier/great",
-          "title": "Great League Tier List · Recommended Movesets",
-          "channel": "GBL Note",
-          "publishedAt": null,
+          "sourceId": "gblnote.com",
           "timestampSeconds": null,
           "note": "タロンフレームをGreat LeagueのA tierとして掲載。デカヌチャンへの直接対策としての採用は、技構成と実戦状況を追加確認する。"
         },
@@ -312,9 +300,7 @@
           "type": "youtube",
           "directness": "team_context",
           "url": "https://www.youtube.com/watch?v=QgPPbxRkYmU",
-          "title": "HAMMER TIME! This NEW TINKATON Team is AMAZING in the Great League",
-          "channel": "JonkusPKMN",
-          "publishedAt": "2025-04-22",
+          "sourceId": "yt-jonkuspkmn",
           "timestampSeconds": null,
           "note": "デカヌチャンをGreat Leagueのチーム軸として扱う動画。炎対策そのものの解説ではないため、環境存在の補助資料として扱う。"
         }
@@ -334,11 +320,9 @@
         "validFrom": null,
         "validUntil": null
       },
-      "title": "UNSTOPPABLE RUN! Jellicent Goes 10-0 in the Great League",
-      "channel": "SsilentSlayer Pokemon Go",
+      "videoId": "K7icD7YCG1M",
+      "channelId": "yt-ssilentslayer",
       "language": "en",
-      "url": "https://www.youtube.com/watch?v=K7icD7YCG1M",
-      "publishedAt": "2026-03-31",
       "timestampSeconds": null,
       "teamSpeciesIds": [
         "cradily",
