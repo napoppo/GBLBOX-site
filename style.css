@@ -24,11 +24,12 @@
 }
 
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;background:var(--paper)}
+html{-webkit-text-size-adjust:100%;background:var(--paper);font-size:100%}
 body{
   margin:0;background:var(--paper);color:var(--ink);
-  font-family:var(--sans);font-size:16px;line-height:1.95;
+  font-family:var(--sans);font-size:1rem;line-height:1.95;letter-spacing:0;
   -webkit-font-smoothing:antialiased;font-feature-settings:"palt" 1;
+  font-optical-sizing:auto;text-spacing-trim:trim-start;
 }
 p,li{text-wrap:pretty}
 a{color:var(--accent);text-decoration:none}
@@ -43,7 +44,7 @@ a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:2px solid var(-
 
 /* --- ヘッダー --- */
 header.site{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:22px 0 18px}
-.brand{font-family:var(--mincho);font-weight:700;font-size:20px;letter-spacing:.04em}
+.brand{font-family:var(--mincho);font-weight:700;font-size:1.25rem;letter-spacing:.02em}
 nav.site{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px 16px;margin-left:auto}
 nav.site a{color:var(--muted);font-size:13px}
 nav.site a:hover{color:var(--ink)}
@@ -54,16 +55,16 @@ nav.site a:hover{color:var(--ink)}
 .langbar a[aria-current="page"]{color:var(--ink);border-color:var(--ink)}
 
 /* --- 見出し --- */
-h1{font-family:var(--mincho);font-size:clamp(30px,5.2vw,50px);line-height:1.36;font-weight:700;letter-spacing:.01em;margin:0}
-h2{font-family:var(--mincho);font-size:clamp(23px,3.4vw,34px);line-height:1.5;font-weight:700;letter-spacing:.01em;margin:0}
-h3{font-size:17px;font-weight:700;margin:0}
+h1{font-family:var(--mincho);font-size:clamp(1.875rem,5.2vw,3.125rem);line-height:1.32;font-weight:700;letter-spacing:-.012em;margin:0}
+h2{font-family:var(--mincho);font-size:clamp(1.4375rem,3.4vw,2.125rem);line-height:1.45;font-weight:700;letter-spacing:-.006em;margin:0}
+h3{font-size:1.0625rem;font-weight:700;letter-spacing:0;margin:0}
 .eyebrow{display:flex;align-items:center;gap:12px;margin:0;font-size:13px;letter-spacing:.16em;color:var(--muted)}
 .eyebrow::before{content:"";width:34px;height:1px;background:var(--ink);display:block;flex:0 0 auto}
-.lead{font-size:17px;line-height:2.05;color:var(--ink-2);margin:0;max-width:32em}
-.section-intro{font-size:15px;line-height:1.95;color:var(--ink-2);margin:0;max-width:46em}
+.lead{font-size:1.0625rem;line-height:2.05;letter-spacing:.002em;color:var(--ink-2);margin:0;max-width:32em}
+.section-intro{font-size:.9375rem;line-height:1.98;letter-spacing:.004em;color:var(--ink-2);margin:0;max-width:46em}
 .muted{color:var(--muted)}
-.small{font-size:13px}
-.note{font-size:13px;line-height:1.85;color:var(--muted);margin:0}
+.small{font-size:.8125rem;letter-spacing:.012em}
+.note{font-size:.8125rem;line-height:1.95;letter-spacing:.012em;color:var(--muted);margin:0}
 
 section{padding:52px 0 0}
 .rule{height:1px;background:var(--rule);border:0;margin:56px 0 0}
@@ -171,7 +172,7 @@ footer.site a{color:var(--muted)}
    動き（CSS のみ。script-src が無いので JS は使えない）
    reduced motion では完成形を静止して見せる。
    ========================================================= */
-@keyframes gb-rise{from{opacity:0;translate:0 14px}to{opacity:1;translate:none}}
+@keyframes gb-rise{from{opacity:0;translate:0 10px}to{opacity:1;translate:none}}
 @keyframes gb-draw{from{scale:0 1}to{scale:1 1}}
 
 @media (prefers-reduced-motion: no-preference){
@@ -186,6 +187,25 @@ footer.site a{color:var(--muted)}
 
   .btn,.faq summary::after,.screen-frame img{transition:background .2s ease,transform .3s ease,color .2s ease}
   .screen-card:hover .screen-frame img{transform:scale(1.03)}
+
+  /* §7 開くときは減速、閉じるときは加速。往路と復路のカーブを鏡にする */
+  @supports selector(details::details-content){
+    :root{interpolate-size:allow-keywords}
+    .faq details::details-content{
+      block-size:0;overflow:clip;
+      transition:block-size .28s cubic-bezier(.4,0,1,1),content-visibility .28s allow-discrete;
+    }
+    .faq details[open]::details-content{
+      block-size:auto;
+      transition-timing-function:cubic-bezier(0,0,.2,1);
+    }
+  }
+
+  /* 押した瞬間に返す。離すまで待たない */
+  .btn:active{transform:scale(.975);transition-duration:.1s;transition-timing-function:ease-out}
+  .guide-list a{transition:background .18s ease}
+  .guide-list a:active{background:var(--paper-2)}
+  .faq summary:active{opacity:.6;transition:opacity .1s ease-out}
 
   @supports (animation-timeline: view()){
     main h2,.section-intro,.compare,.point,.screen-card,.steps-body,.faq details,.note{
@@ -208,11 +228,11 @@ footer.site a{color:var(--muted)}
    解説記事（/guide/）
    ========================================================= */
 .article{max-width:720px;margin:0 auto;padding:6px 0 0}
-.article h1{font-size:clamp(26px,4.2vw,38px);line-height:1.42;margin:0 0 22px}
-.article h2{font-size:clamp(20px,2.6vw,26px);margin:54px 0 14px}
+.article h1{font-size:clamp(1.625rem,4.2vw,2.375rem);line-height:1.4;letter-spacing:-.01em;margin:0 0 1.375rem}
+.article h2{font-size:clamp(1.25rem,2.6vw,1.625rem);line-height:1.5;letter-spacing:-.004em;margin:3.375rem 0 .875rem}
 .article h3{font-size:17px;font-weight:700;margin:32px 0 8px}
-.article p{margin:0 0 18px;font-size:16px;line-height:2.05;color:var(--ink-2)}
-.article p.lead{font-size:17px;color:var(--ink-2);max-width:none;margin-bottom:26px}
+.article p{margin:0 0 1.125rem;font-size:1rem;line-height:2.05;color:var(--ink-2)}
+.article p.lead{font-size:1.0625rem;letter-spacing:.002em;color:var(--ink-2);max-width:none;margin-bottom:1.625rem}
 .article ul{margin:0 0 18px;padding-left:1.35em}
 .article li{margin:7px 0;line-height:1.95;color:var(--ink-2)}
 .article strong{color:var(--ink);font-weight:700}
@@ -236,3 +256,25 @@ table.data tr.hi td.num{color:var(--accent);font-weight:700}
 .guide-list a:hover{background:var(--paper-2);text-decoration:none}
 .guide-list b{display:block;font-family:var(--mincho);font-size:21px;font-weight:700;margin-bottom:6px}
 .guide-list span{display:block;font-size:14px;color:var(--ink-2);line-height:1.85}
+
+/* =========================================================
+   §14 コントラストを上げる設定への対応。
+   透過は使っていないので prefers-reduced-transparency は対象外。
+   ========================================================= */
+@media (prefers-contrast: more){
+  :root{
+    --ink-2:#1A1D22;
+    --muted:#46423B;
+    --rule:#B4AE9F;
+    --rule-2:#C4BEB0;
+    --line:#8C8676;
+    --accent:#0847A0;
+  }
+  .btn.alt,.chips li,.trust,.langbar a{border-width:2px}
+  a:hover{text-decoration-thickness:2px}
+}
+
+/* 図。記事内の表と対になる視覚化で、hover は SVG の title（JS不要） */
+.chart{margin:8px 0 26px}
+.chart svg{display:block}
+.chart figcaption{margin-top:10px;font-size:.8125rem;line-height:1.85;letter-spacing:.012em;color:var(--muted)}
