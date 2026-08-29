@@ -177,11 +177,25 @@ def validate_schedule_document(document: Any, label: str) -> None:
                     raise ContractError(f"{label} schedule {week_id} has invalid {key}: {value}") from exc
 
 
+# アプリの AppAdsConfig.BannerSizeMode と対応させる。増やすときは両方直す。
+BANNER_SIZE_MODES = {"standard50", "large100", "split50_100"}
+
+
 def validate_app_config(document: Any, label: str) -> None:
     require(isinstance(document, dict), f"{label} must be an object")
     require(document.get("schemaVersion") == 1, f"{label} must use schemaVersion 1")
     for section in ("forceUpdate", "analytics", "billing", "proTrial"):
         require(isinstance(document.get(section), dict), f"{label} missing {section}")
+    ads = document.get("ads")
+    if ads is not None:
+        require(isinstance(ads, dict), f"{label} ads must be an object")
+        if "bannerSizeMode" in ads:
+            # アプリは未知の値を安全側(standard50)へ倒すため、綴り違いは「切り替えたのに
+            # 何も起きない」形で表面化する。ここで弾いて気づけるようにする。
+            require(
+                ads["bannerSizeMode"] in BANNER_SIZE_MODES,
+                f"{label} ads.bannerSizeMode must be one of {sorted(BANNER_SIZE_MODES)}",
+            )
     force_update = document["forceUpdate"]
     require(isinstance(force_update.get("enabled"), bool), f"{label} forceUpdate.enabled must be boolean")
     for key in ("minimumSupportedBuild", "minimumSupportedBuildAndroid"):

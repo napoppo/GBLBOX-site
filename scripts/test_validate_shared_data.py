@@ -11,7 +11,34 @@ from scripts.validate_shared_data import (
     overlay_shared_values,
     semantic_hash,
     validate_announcements,
+    validate_app_config,
 )
+
+
+class AppConfigAdsTests(unittest.TestCase):
+    def config(self, ads: object) -> dict:
+        return {
+            "schemaVersion": 1,
+            "forceUpdate": {"enabled": True, "minimumSupportedBuild": 1},
+            "analytics": {"enabled": True},
+            "billing": {"enabled": True},
+            "proTrial": {"freeUseLimit": 1, "resetGeneration": 1, "freeIndividualLimit": 50},
+            "ads": ads,
+        }
+
+    def test_known_banner_size_modes_pass(self) -> None:
+        for mode in ("standard50", "large100", "split50_100"):
+            validate_app_config(self.config({"bannerSizeMode": mode}), "test")
+
+    def test_typo_in_banner_size_mode_is_rejected(self) -> None:
+        # アプリ側は未知値を standard50 へ倒すので、ここで弾かないと無言で効かない。
+        with self.assertRaises(ContractError):
+            validate_app_config(self.config({"bannerSizeMode": "large_100"}), "test")
+
+    def test_ads_section_is_optional(self) -> None:
+        document = self.config({"bannerSizeMode": "standard50"})
+        del document["ads"]
+        validate_app_config(document, "test")
 
 
 class SharedDataContractTests(unittest.TestCase):
