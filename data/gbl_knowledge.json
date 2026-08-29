@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T17:24:30Z",
+  "generatedAt": "2026-08-29T17:52:16Z",
   "gameMasterVersion": "gm-0d0e1b5dea36",
   "entries": [
     {
@@ -123,6 +123,99 @@
           "note": "直近30日の遭遇率としてブルンゲル3%、デカヌチャン20%を掲載。ブルンゲルはS tier、推奨技はHex・Surf・Shadow Ball。数値は更新されるため有効期限を付けて利用する。"
         }
       ],
+      "status": "draft",
+      "expiresAt": null
+    },
+    {
+      "id": "great-tinkaton-stunfisk",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "opponentSpeciesId": "tinkaton",
+      "candidateSpeciesId": "stunfisk",
+      "candidateRole": "direct_counter",
+      "positions": [
+        "lead",
+        "safe_swap",
+        "closer"
+      ],
+      "shieldScenarios": [
+        "0-0",
+        "1-1",
+        "2-2"
+      ],
+      "summaries": {
+        "ja": "地面打点でデカヌチャンの鋼を突ける。ただし全シールド前提で同時投げのCMP決着のため、攻撃実数値の前提が変わると結果は崩れる。",
+        "en": "Ground damage answers Tinkaton's Steel typing, but every shield scenario is decided by CMP, so the result depends on attack stats."
+      },
+      "reasons": {
+        "typeAdvantages": [
+          "ground"
+        ],
+        "resistsMoveTypes": [],
+        "metaRank": null,
+        "usageRate": null,
+        "observedRecord": null
+      },
+      "simulation": {
+        "computedAt": "2026-08-29T17:51:43Z",
+        "engine": "ivlab-battle-engine",
+        "engineVersion": "2.7.2",
+        "gameMasterVersion": "gm-0d0e1b5dea36",
+        "moveIds": [
+          "bulldoze",
+          "discharge",
+          "fairy_wind_fast",
+          "gigaton_hammer",
+          "mud_bomb",
+          "thunder_shock_fast"
+        ],
+        "results": [
+          {
+            "candidateEnergy": 0,
+            "candidateHpPercent": 0.38,
+            "decidedByCmp": true,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "0-0"
+          },
+          {
+            "candidateEnergy": 0,
+            "candidateHpPercent": 0.3,
+            "decidedByCmp": true,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "1-1"
+          },
+          {
+            "candidateEnergy": 0,
+            "candidateHpPercent": 0.21,
+            "decidedByCmp": true,
+            "opponentHpPercent": 0,
+            "outcome": "candidate_wins",
+            "shieldScenario": "2-2"
+          }
+        ]
+      },
+      "losesTo": [
+        {
+          "speciesId": "jumpluff",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP46%。"
+        },
+        {
+          "speciesId": "quagsire",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP27%。"
+        }
+      ],
+      "confidence": "low",
+      "evidence": [],
       "status": "draft",
       "expiresAt": null
     },
