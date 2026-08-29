@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="LNNTWSM9H1-sJVdd7SWh1wG_zLPATxHc1BkAoOdzE3U">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>順位1位が、ミラーで負ける｜ポケモンGO GBLで順位だけを見てはいけない理由 - GBL Box</title>
+<meta name="description" content="スーパーリーグのオーダイル同士。順位1位と76位はCPも1位比もほぼ同じですが、シールド0・1・2のどれでも1位が先に落ちます。4096通り中185体が同じ結果になる理由を、対戦シミュレーションで解説します。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gblbox.com/guide/rank1-mirror.html">
+<link rel="alternate" hreflang="ja" href="https://gblbox.com/guide/rank1-mirror.html">
+<link rel="alternate" hreflang="en" href="https://gblbox.com/guide/rank1-mirror-en.html">
+<link rel="alternate" hreflang="x-default" href="https://gblbox.com/guide/rank1-mirror.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="順位1位が、ミラーで負ける｜ポケモンGO GBLで順位だけを見てはいけない理由 - GBL Box">
+<meta property="og:description" content="スーパーリーグのオーダイル同士。順位1位と76位はCPも1位比もほぼ同じですが、シールド0・1・2のどれでも1位が先に落ちます。4096通り中185体が同じ結果になる理由を、対戦シミュレーションで解説します。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gblbox.com/guide/rank1-mirror.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"順位1位が、ミラーで負ける｜ポケモンGO GBL",
+  "inLanguage":"ja",
+  "mainEntityOfPage":"https://gblbox.com/guide/rank1-mirror.html",
+  "author":{"@type":"Organization","name":"GBL Box"},
+  "publisher":{"@type":"Organization","name":"GBL Box"}
+}
+</script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap wrap-top">
+  <header class="site">
+    <div class="brand"><a href="../index.html" style="color:inherit">GBL Box</a></div>
+    <nav class="site">
+      <a href="../index.html">トップ</a>
+      <a href="index.html">解説</a>
+      <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
+      <a href="../support.html">サポート</a>
+    </nav>
+  </header>
+
+  <div class="langbar" aria-label="言語"><span class="lang-label">言語</span><a href="rank1-mirror.html" aria-current="page">日本語</a><a href="rank1-mirror-en.html" lang="en">English</a></div>
+</div>
+
+<main>
+  <div class="wrap wrap-body">
+    <article class="article">
+      <p class="crumb"><a href="../index.html">GBL Box</a> ／ <a href="index.html">解説</a> ／ 順位1位とミラー</p>
+      <h1>順位1位が、ミラーで負ける</h1>
+      <p class="lead">スーパーリーグのオーダイルで、順位 1 位の個体と 76 位の個体を戦わせると、<strong>1 位が先に落ちます</strong>。シールドが 0 枚でも 1 枚でも 2 枚でも同じです。順位は耐久寄りの指標なので、追いかけると攻撃の実数値が犠牲になります。</p>
+
+      <h2>数字の上では見分けがつかない2体</h2>
+      <p>CP はどちらも 1,499。1位比も SCP もほとんど変わりません。違うのは、攻撃と防御の実数値が 76 位のほうが高く、HP だけ低いという点です。</p>
+      <table class="data">
+        <thead><tr><th></th><th>順位 1 位<br><small>個体値 0 / 11 / 13</small></th><th>順位 76 位<br><small>個体値 0 / 13 / 1</small></th></tr></thead>
+        <tbody>
+          <tr><td>1位比（SP%）</td><td class="num">100.0%</td><td class="num">98.6%</td></tr>
+          <tr><td>SCP（総合力）</td><td class="num">1,498</td><td class="num">1,484</td></tr>
+          <tr><td>CP</td><td class="num">1,499</td><td class="num">1,499</td></tr>
+          <tr><td>到達レベル</td><td class="num">PL20.0</td><td class="num">PL20.5</td></tr>
+          <tr class="hi"><td>攻撃 / 防御 / HP</td><td class="num">122.5 / 118.9 / 126</td><td class="num">124.0 / 121.6 / 120</td></tr>
+        </tbody>
+      </table>
+      <p class="note">スーパーリーグ（CP 1500 まで）、通常個体での計算。</p>
+
+      <h2>実数値の差が、ダメージを1ずつ動かす</h2>
+      <p>攻撃が 122.5 と 124.0、防御が 118.9 と 121.6。この差でダメージの切り捨てが両方とも 76 位側に有利な方向へ転びます。</p>
+      <table class="data">
+        <thead><tr><th>相手に与えるダメージ</th><th>順位 1 位</th><th>順位 76 位</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>シャドークロー 1発</td><td class="num">4</td><td class="num">5</td></tr>
+          <tr class="hi"><td>ハイドロカノン 1発</td><td class="num">40</td><td class="num">41</td></tr>
+        </tbody>
+      </table>
+      <p class="note">技はシャドークロー＋ハイドロカノン／れいとうビーム。</p>
+      <p>ここまでは <a href="breakpoint.html">ブレイクポイント</a> の話です。問題は、この 1 が対戦を通してどう効くかです。</p>
+
+      <h2>ゲージ技とシールドまで含めて回す</h2>
+      <p>通常技だけで数えると誤解が出るので、エネルギー・ターン・CMP・シールドを含めた 1v1 をそのまま回します。双方とも撃てる中で一番強いゲージ技をすぐ撃ち、シールドは早い順に使う前提です。</p>
+      <table class="data">
+        <thead><tr><th>シールド</th><th>順位 1 位の残りHP</th><th>順位 76 位の残りHP</th><th>結果</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>0 枚ずつ</td><td class="num">0</td><td class="num">40</td><td>76位の勝ち</td></tr>
+          <tr class="hi"><td>1 枚ずつ</td><td class="num">0</td><td class="num">20</td><td>76位の勝ち</td></tr>
+          <tr class="hi"><td>2 枚ずつ</td><td class="num">0</td><td class="num">12</td><td>76位の勝ち</td></tr>
+        </tbody>
+      </table>
+      <p><strong>どの前提でも順位 1 位が先に落ちます。</strong>同時にゲージ技を撃ったときの先攻（CMP）がどちらに転んでも結果は変わりません。</p>
+
+      <h2>例外ではなく、185体が同じことをする</h2>
+      <p>この 76 位が特別なわけではありません。4096 通りを総当たりで戦わせると、<strong>185 体</strong>が同じようにシールド 0・1・2 のすべてで順位 1 位に勝ちます。</p>
+      <p>理由は単純で、順位が攻撃 × 防御 × HP の積で決まるからです。積を最大にする個体は攻撃の実数値を落としがちで、その結果ダメージの境目を越えられなくなります。<a href="attack-iv.html">攻撃の個体値が低いほうが順位が上がる</a>のと同じ構造の裏返しです。</p>
+
+      <h2>この計算について</h2>
+      <p>数値は GBL Box のランク計算・ダメージ計算・対戦シミュレータと同じ規則で算出しています。そのうえで、<strong>アプリ本体のエンジンを実際に走らせて、ここに書いた数字がすべて一致することを確認しました</strong>（順位・実数値・SCP・CP、ダメージ 4/5 と 40/41、残りHP 40/20/12、そして 185 という数まで）。</p>
+      <p>前提として、餌切り（わざと弱い技を撃ってシールドを使わせる駆け引き）は含みません。実戦の立ち回りが入れば結論は変わり得ます。</p>
+
+      <h2>関連</h2>
+      <ul>
+        <li><a href="attack-iv.html">攻撃の個体値はなぜ低いほうがいいのか</a></li>
+        <li><a href="breakpoint.html">ブレイクポイントとは — 技のダメージが1上がる境目</a></li>
+        <li><a href="scp.html">SCPとは — 攻撃・防御・HPをひとつにまとめた指標</a></li>
+      </ul>
+
+      <div class="cta-inline">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store で入手</a>
+        <span class="small muted">スクショ1枚から、順位・SCP・実数値まで確認できます</span>
+      </div>
+    </article>
+  </div>
+
+  <div class="wrap wrap-note">
+    <p class="small muted">本アプリは Niantic, Inc.、株式会社ポケモン、任天堂株式会社とは一切関係がなく、これらの企業によって承認・後援・提供されているものではありません。「ポケモン」「Pokémon GO」等は各権利者の商標です。数値は参考値です。</p>
+  </div>
+</main>
+
+<div class="wrap wrap-foot">
+  <footer class="site">
+    <p>GBLBOX © 2026 ／
+      <a href="../privacy.html">プライバシー</a>
+      ・ <a href="../terms.html">利用規約</a>
+      ・ <a href="../notices.html">権利表示</a>
+      ・ <a href="../support.html">サポート</a></p>
+  </footer>
+</div>
+</body>
+</html>

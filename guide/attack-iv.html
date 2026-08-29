@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="LNNTWSM9H1-sJVdd7SWh1wG_zLPATxHc1BkAoOdzE3U">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>ポケモンGO 攻撃の個体値はなぜ低いほうがいいのか｜100%個体がスーパーリーグで3138位になる理由 - GBL Box</title>
+<meta name="description" content="個体値15/15/15のオーダイルはスーパーリーグで3,138位。CPの計算式が攻撃だけを重く見るため、CP上限のあるリーグでは攻撃の個体値が低いほうが順位が上がります。マスターリーグでは逆になる理由まで解説します。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://gblbox.com/guide/attack-iv.html">
+<link rel="alternate" hreflang="ja" href="https://gblbox.com/guide/attack-iv.html">
+<link rel="alternate" hreflang="en" href="https://gblbox.com/guide/attack-iv-en.html">
+<link rel="alternate" hreflang="x-default" href="https://gblbox.com/guide/attack-iv.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="ポケモンGO 攻撃の個体値はなぜ低いほうがいいのか｜100%個体がスーパーリーグで3138位になる理由 - GBL Box">
+<meta property="og:description" content="個体値15/15/15のオーダイルはスーパーリーグで3,138位。CPの計算式が攻撃だけを重く見るため、CP上限のあるリーグでは攻撃の個体値が低いほうが順位が上がります。マスターリーグでは逆になる理由まで解説します。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gblbox.com/guide/attack-iv.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"ポケモンGO 攻撃の個体値はなぜ低いほうがいいのか",
+  "inLanguage":"ja",
+  "mainEntityOfPage":"https://gblbox.com/guide/attack-iv.html",
+  "author":{"@type":"Organization","name":"GBL Box"},
+  "publisher":{"@type":"Organization","name":"GBL Box"}
+}
+</script>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap wrap-top">
+  <header class="site">
+    <div class="brand"><a href="../index.html" style="color:inherit">GBL Box</a></div>
+    <nav class="site">
+      <a href="../index.html">トップ</a>
+      <a href="index.html">解説</a>
+      <a href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store</a>
+      <a href="../support.html">サポート</a>
+    </nav>
+  </header>
+
+  <div class="langbar" aria-label="言語"><span class="lang-label">言語</span><a href="attack-iv.html" aria-current="page">日本語</a><a href="attack-iv-en.html" lang="en">English</a></div>
+</div>
+
+<main>
+  <div class="wrap wrap-body">
+    <article class="article">
+      <p class="crumb"><a href="../index.html">GBL Box</a> ／ <a href="index.html">解説</a> ／ 攻撃の個体値</p>
+      <h1>攻撃の個体値はなぜ低いほうが<br>いいのか</h1>
+      <p class="lead">個体値 15/15/15 のオーダイルは、スーパーリーグでは <strong>3,138 位</strong>です。4096 通りのうち下から数えたほうが早い順位で、1位比は 93.8% にとどまります。攻撃の個体値が低いほうが順位が上がるのは、CP の計算式がそうなっているからです。</p>
+
+      <h2>CP は攻撃だけを重く見ている</h2>
+      <div class="formula">CP = floor( 攻撃 × √防御 × √HP ÷ 10 )</div>
+      <p>攻撃は 1 乗、防御と HP は 1/2 乗です。攻撃を 1 上げると CP は大きく増えますが、防御や HP を 1 上げても CP はあまり増えません。<strong>CP の中では攻撃だけが高い買い物になっている</strong>ということです。</p>
+
+      <h2>CP上限のあるリーグでは、CP は予算</h2>
+      <p>スーパーリーグは CP 1500 までしか出せません。つまり CP は使い切りの予算です。攻撃に予算を使うと単価が高いので、同じ 1500 の枠で買える防御と HP が減ります。</p>
+      <p>逆に攻撃の個体値が低い個体は、CP を食わずに済んだぶんレベルを上げられ、結果として防御と HP を多く積めます。GBL の順位は攻撃 × 防御 × HP の積で決まるので、この積が大きい低攻撃個体が上に来ます。</p>
+
+      <h2>同じオーダイルで並べる</h2>
+      <table class="data">
+        <thead><tr><th>個体値</th><th>順位</th><th>1位比</th><th>到達PL / CP</th><th>攻 / 防 / HP</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>0 / 11 / 13</td><td class="num">1 位</td><td>100.0%</td><td>PL20.0 / 1,499</td><td>122.5 / 118.9 / 126</td></tr>
+          <tr><td>0 / 15 / 15</td><td class="num">61 位</td><td>98.7%</td><td>PL19.5 / 1,483</td><td>120.9 / 119.7 / 125</td></tr>
+          <tr><td>15 / 15 / 15</td><td class="num">3,138 位</td><td>93.8%</td><td>PL18.0 / 1,469</td><td>124.7 / 115.1 / 120</td></tr>
+          <tr><td>15 / 0 / 0</td><td class="num">4,083 位</td><td>91.0%</td><td>PL19.5 / 1,476</td><td>129.8 / 110.9 / 116</td></tr>
+        </tbody>
+      </table>
+      <p class="note">スーパーリーグ（CP 1500 まで）、強化上限 PL50、通常個体での計算。</p>
+      <p>15/15/15 は攻撃こそ 124.7 と高いものの、CP を攻撃に取られてレベルが PL18.0 で止まり、防御 115.1・HP 120 と細くなります。0/11/13 は PL20.0 まで伸びて、防御と HP で上回ります。</p>
+
+      <h2>上位と下位で、攻撃の個体値はここまで違う</h2>
+      <ul>
+        <li>上位 100 体の攻撃個体値は<strong>平均 1.7</strong>（最大でも 8）</li>
+        <li>下位 100 体の攻撃個体値は<strong>平均 13.4</strong>（最小でも 10）</li>
+        <li>順位 1 位の攻撃個体値は <strong>0</strong></li>
+      </ul>
+      <p>偶然ではなく、CP上限のあるリーグでは構造的にこうなります。</p>
+
+      <h2>マスターリーグでは逆になる</h2>
+      <p>マスターリーグには CP 上限がありません。予算の制約が消えるので、話がひっくり返ります。</p>
+      <table class="data">
+        <thead><tr><th>個体値</th><th>マスターリーグ順位</th><th>1位比</th><th>CP</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td>15 / 15 / 15</td><td class="num">2 位</td><td>100.0%</td><td>3,230</td></tr>
+          <tr><td>0 / 15 / 15</td><td class="num">769 位</td><td>93.2%</td><td>3,009</td></tr>
+        </tbody>
+      </table>
+      <p class="note">マスターリーグ（CP上限なし）、強化上限 PL50。1位は 15/15/14 です。</p>
+      <p>スーパーで 3,138 位だった 15/15/15 が、マスターでは 2 位です。<strong>「攻撃は低いほうがいい」はCP上限のあるリーグの話であって、個体値そのものの良し悪しではありません。</strong></p>
+
+      <h2>ただし、順位が上＝強いではない</h2>
+      <p>ここまでは順位の話です。順位は耐久寄りの指標なので、順位を追うと攻撃の実数値が犠牲になります。その結果、順位が上の個体が対面で負けることが実際に起こります。</p>
+      <ul>
+        <li><a href="rank1-mirror.html">順位1位が、ミラーで負ける — 対戦で確かめる</a></li>
+        <li><a href="breakpoint.html">ブレイクポイントとは — 技のダメージが1上がる境目</a></li>
+        <li><a href="scp.html">SCPとは — 攻撃・防御・HPをひとつにまとめた指標</a></li>
+      </ul>
+      <p class="note">数値は GBL Box と同じ式（RankCalc）で算出し、アプリの表示と一致することを確認しています。</p>
+
+      <div class="cta-inline">
+        <a class="btn" href="https://apps.apple.com/jp/app/gbl-box/id6776499795">App Store で入手</a>
+        <span class="small muted">スクショ1枚から、順位・SCP・実数値まで確認できます</span>
+      </div>
+    </article>
+  </div>
+
+  <div class="wrap wrap-note">
+    <p class="small muted">本アプリは Niantic, Inc.、株式会社ポケモン、任天堂株式会社とは一切関係がなく、これらの企業によって承認・後援・提供されているものではありません。「ポケモン」「Pokémon GO」等は各権利者の商標です。数値は参考値です。</p>
+  </div>
+</main>
+
+<div class="wrap wrap-foot">
+  <footer class="site">
+    <p>GBLBOX © 2026 ／
+      <a href="../privacy.html">プライバシー</a>
+      ・ <a href="../terms.html">利用規約</a>
+      ・ <a href="../notices.html">権利表示</a>
+      ・ <a href="../support.html">サポート</a></p>
+  </footer>
+</div>
+</body>
+</html>
