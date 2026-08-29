@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T16:35:59Z",
+  "generatedAt": "2026-08-29T17:24:30Z",
   "gameMasterVersion": "gm-0d0e1b5dea36",
   "entries": [
     {
@@ -79,7 +79,23 @@
           }
         ]
       },
-      "losesTo": [],
+      "losesTo": [
+        {
+          "speciesId": "mimikyu",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP47%。"
+        },
+        {
+          "speciesId": "jumpluff",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP41%。"
+        },
+        {
+          "speciesId": "fearow",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP29%。"
+        }
+      ],
       "confidence": "low",
       "evidence": [
         {
@@ -186,7 +202,23 @@
           }
         ]
       },
-      "losesTo": [],
+      "losesTo": [
+        {
+          "speciesId": "jumpluff",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP75%。"
+        },
+        {
+          "speciesId": "mimikyu",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP71%。"
+        },
+        {
+          "speciesId": "altaria",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP68%。"
+        }
+      ],
       "confidence": "low",
       "evidence": [
         {
@@ -285,7 +317,23 @@
           }
         ]
       },
-      "losesTo": [],
+      "losesTo": [
+        {
+          "speciesId": "jellicent",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP75%。"
+        },
+        {
+          "speciesId": "lickilicky",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP73%。"
+        },
+        {
+          "speciesId": "quagsire",
+          "shieldScenario": "1-1",
+          "note": "シールド1-1の自前計算で敗北。相手残HP73%。"
+        }
+      ],
       "confidence": "low",
       "evidence": [
         {
