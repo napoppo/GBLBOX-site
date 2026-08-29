@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-27T17:11:41Z",
+  "generatedAt": "2026-08-29T00:08:13Z",
   "gameMasterVersion": "gm-0d0e1b5dea36",
   "entries": [
     {
@@ -336,6 +336,7 @@
       },
       "title": "UNSTOPPABLE RUN! Jellicent Goes 10-0 in the Great League",
       "channel": "SsilentSlayer Pokemon Go",
+      "language": "en",
       "url": "https://www.youtube.com/watch?v=K7icD7YCG1M",
       "publishedAt": "2026-03-31",
       "timestampSeconds": null,
