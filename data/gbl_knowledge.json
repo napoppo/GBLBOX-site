@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T17:52:16Z",
+  "generatedAt": "2026-08-30T14:08:59Z",
   "gameMasterVersion": "gm-0d0e1b5dea36",
   "entries": [
     {
@@ -452,6 +452,32 @@
   ],
   "videos": [
     {
+      "id": "great-azumarill-altaria-registeel-2023-07",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "videoId": "CX2em-f_MKk",
+      "channelId": "yt-danottawapogo",
+      "language": "en",
+      "timestampSeconds": null,
+      "teamSpeciesIds": [
+        "azumarill",
+        "altaria",
+        "registeel"
+      ],
+      "relatedSpeciesIds": [],
+      "summaries": {
+        "ja": "動画内の使用パーティーを確認中。",
+        "en": "The team shown in the video is being verified."
+      },
+      "status": "draft"
+    },
+    {
       "id": "great-jellicent-cradily-toucannon-2026-03",
       "format": {
         "leagueId": "great",
@@ -477,6 +503,58 @@
       "summaries": {
         "ja": "動画の説明にあるユレイドル・ドデカバシ・ブルンゲル構成。ブルンゲル候補を検討するときに近い構成として見る。",
         "en": "The description lists Cradily, Toucannon, and Jellicent. Use it as a nearby team reference when considering Jellicent."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "great-medicham-azumarill-registeel-2022",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "videoId": "IZaVmT-gGLA",
+      "channelId": "yt-ssilentslayer",
+      "language": "en",
+      "timestampSeconds": null,
+      "teamSpeciesIds": [
+        "medicham",
+        "azumarill",
+        "registeel"
+      ],
+      "relatedSpeciesIds": [],
+      "summaries": {
+        "ja": "動画内の使用パーティーを確認中。",
+        "en": "The team shown in the video is being verified."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "great-venusaur-altaria-registeel-2022-05",
+      "format": {
+        "leagueId": "great",
+        "cupId": "open",
+        "cpLimit": 1500,
+        "seasonId": null,
+        "validFrom": null,
+        "validUntil": null
+      },
+      "videoId": "UAsYvFn9kcE",
+      "channelId": "yt-ssilentslayer",
+      "language": "en",
+      "timestampSeconds": null,
+      "teamSpeciesIds": [
+        "venusaur",
+        "altaria",
+        "registeel"
+      ],
+      "relatedSpeciesIds": [],
+      "summaries": {
+        "ja": "動画内の使用パーティーを確認中。",
+        "en": "The team shown in the video is being verified."
       },
       "status": "draft"
     }
