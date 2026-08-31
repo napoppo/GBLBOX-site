@@ -145,8 +145,8 @@ TWILIGHT_TRAILS_MOVE_OVERRIDES = {
     "BODY_SLAM": {"power": 65, "energy": 40},
     "SAND_TOMB": {"power": 55, "energy": 45},
     "BRINE": {"power": 100, "energy": 60},
-    "BUBBLE_BEAM": {"power": 50, "energy": 45},
-    "MIRROR_COAT": {"power": 75, "energy": 50},
+    "BUBBLE_BEAM": {"power": 50, "energy": 50},
+    "MIRROR_COAT": {"power": 75, "energy": 45},
     "HIGH_HORSEPOWER": {"energy": 55},
     "CHARGE_BEAM": {"power": 6},
     "BLAZE_KICK": {"energy": 35},
@@ -165,7 +165,7 @@ TWILIGHT_TRAILS_MOVE_OVERRIDES = {
     "RAGE_FIST": {"power": 55, "energy": 40},
     "MAGNET_BOMB": {"energy": 40},
     "DOUBLE_IRON_BASH": {"power": 70},
-    "SHADOW_FORCE": {"energy": 80},
+    "SHADOW_FORCE": {"energy": 60},
     "LOW_KICK": {"power": 6},
 }
 

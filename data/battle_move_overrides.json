@@ -52,7 +52,7 @@
 {
 "moveId": "BUBBLE_BEAM",
 "power": 50,
-"energy": 45,
+"energy": 50,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
@@ -61,7 +61,7 @@
 {
 "moveId": "MIRROR_COAT",
 "power": 75,
-"energy": 50,
+"energy": 45,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
@@ -238,7 +238,7 @@
 {
 "moveId": "SHADOW_FORCE",
 "power": 120,
-"energy": 80,
+"energy": 60,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
