@@ -158,7 +158,7 @@
 "moveId": "TAKE_DOWN",
 "power": 14,
 "energy": 0,
-"energyGain": 10,
+"energyGain": 9,
 "turns": 3,
 "energyGainIsEstimated": true,
 "energyIsEstimated": false

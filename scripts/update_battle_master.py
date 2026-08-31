@@ -156,7 +156,7 @@ TWILIGHT_TRAILS_MOVE_OVERRIDES = {
     "LUNGE": {"power": 70},
     "BITE": {"power": 2, "energyGain": 4},
     "INFESTATION": {"power": 10},
-    "TAKE_DOWN": {"power": 14, "energyGain": 10},
+    "TAKE_DOWN": {"power": 14, "energyGain": 9},
     "SCRATCH": {"power": 3, "energyGain": 4},
     "MOONBLAST": {"power": 90, "energy": 50},
     "SHADOW_BALL": {"power": 90},
