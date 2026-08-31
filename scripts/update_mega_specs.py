@@ -23,6 +23,19 @@ TEMPLATE_RE = re.compile(r"^MEGA_EVOLUTION_LEVEL_(\d+)_V(\d{4})_POKEMON_")
 # 新しい実装済みメガは、公式発表を確認したうえでここへ追加する。
 RELEASED_OVERRIDES = {
     "camerupt_mega": True,
+    "starmie_mega": True,
+    "chesnaught_mega": True,
+    "delphox_mega": True,
+    "greninja_mega": True,
+}
+
+# 2026-08-31 GO Fest: Mega Finaleで追加技が告知された形態は、
+# いずれもSuper Max Level（メガレベル4）まで到達できる。
+SUPER_MAX_LEVEL_SPECIES = {
+    "mewtwo_mega_x", "mewtwo_mega_y",
+    "chesnaught_mega", "delphox_mega", "greninja_mega",
+    "raichu_mega_x", "raichu_mega_y", "skarmory_mega", "falinks_mega",
+    "starmie_mega", "victreebel_mega", "malamar_mega", "dragonite_mega",
 }
 
 # メガミュウツーはGame Master側にレベル4テンプレートが現れない期間が
@@ -30,10 +43,12 @@ RELEASED_OVERRIDES = {
 MEGA_MAX_LEVEL_OVERRIDES = {
     "mewtwo_mega_x": 4,
     "mewtwo_mega_y": 4,
+    **{species_id: 4 for species_id in SUPER_MAX_LEVEL_SPECIES},
 }
 MEGA_POWER_LEVEL_BONUS_OVERRIDES = {
     "mewtwo_mega_x": 2,
     "mewtwo_mega_y": 2,
+    **{species_id: 2 for species_id in SUPER_MAX_LEVEL_SPECIES},
 }
 
 
@@ -77,11 +92,13 @@ def build_specs(pokedex: list[dict], game_master: dict, source_version: str) -> 
         species_id = pokemon["speciesId"]
         levels = sorted(level for level, dex_no in settings_by_level_dex if dex_no == pokemon.get("dexNo"))
         if not levels:
-            # Game Masterに個体別設定が無い場合は、最大レベルを推測しない。
-            continue
+            if species_id not in SUPER_MAX_LEVEL_SPECIES:
+                # Game Masterに個体別設定が無い場合は、最大レベルを推測しない。
+                continue
+            levels = [0, 1, 2, 3, 4]
         observed_max_level = max(levels)
         max_level = max(observed_max_level, MEGA_MAX_LEVEL_OVERRIDES.get(species_id, 0))
-        settings = settings_by_level_dex[(observed_max_level, pokemon["dexNo"])]
+        settings = settings_by_level_dex.get((observed_max_level, pokemon["dexNo"]), {})
         if max_level not in levels:
             levels.append(max_level)
         effects = settings.get("effects") if isinstance(settings.get("effects"), dict) else {}

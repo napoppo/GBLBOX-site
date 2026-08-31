@@ -1091,7 +1091,8 @@
 "WILD_CHARGE",
 "SKULL_BASH",
 "TRAILBLAZE",
-"SURF"
+"SURF",
+"VOLT_TACKLE_PLUS"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -1124,7 +1125,8 @@
 "WILD_CHARGE",
 "SKULL_BASH",
 "TRAILBLAZE",
-"SURF"
+"SURF",
+"ZAP_CANNON_PLUS"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -2898,7 +2900,8 @@
 "SLUDGE_BOMB",
 "SOLAR_BEAM",
 "ACID_SPRAY",
-"LEAF_TORNADO"
+"LEAF_TORNADO",
+"ACID_SPRAY_PLUS"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -5051,7 +5054,8 @@
 "PSYCHIC",
 "THUNDER",
 "SURF",
-"AQUA_JET"
+"AQUA_JET",
+"LIQUIDATION_PLUS"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -6266,7 +6270,8 @@
 "HYPER_BEAM",
 "OUTRAGE",
 "SUPER_POWER",
-"THUNDER_PUNCH"
+"THUNDER_PUNCH",
+"OUTRAGE_PLUS"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -6362,7 +6367,8 @@
 "PSYCHIC",
 "SHADOW_BALL",
 "THUNDERBOLT",
-"PSYSTRIKE"
+"PSYSTRIKE",
+"DYNAMIC_PUNCH_PLUS"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -6395,7 +6401,8 @@
 "PSYCHIC",
 "SHADOW_BALL",
 "THUNDERBOLT",
-"PSYSTRIKE"
+"PSYSTRIKE",
+"FUTURE_SIGHT_PLUS"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -9110,7 +9117,8 @@
 "chargedMoves": [
 "BRAVE_BIRD",
 "FLASH_CANNON",
-"SKY_ATTACK"
+"SKY_ATTACK",
+"DRILL_PECK_PLUS"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -24671,7 +24679,7 @@
 "fighting"
 ],
 "shadowAvailable": true,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "LOW_KICK",
@@ -24684,7 +24692,8 @@
 "SUPER_POWER",
 "SOLAR_BEAM",
 "FRENZY_PLANT",
-"THUNDER_PUNCH"
+"THUNDER_PUNCH",
+"SEED_BOMB_PLUS"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -24794,7 +24803,7 @@
 "psychic"
 ],
 "shadowAvailable": true,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "SCRATCH",
@@ -24808,7 +24817,8 @@
 "FIRE_BLAST",
 "BLAST_BURN",
 "MYSTICAL_FIRE",
-"PSYSHOCK"
+"PSYSHOCK",
+"MYSTICAL_FIRE_PLUS"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -24916,7 +24926,7 @@
 "dark"
 ],
 "shadowAvailable": true,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "FEINT_ATTACK",
@@ -24928,7 +24938,8 @@
 "AERIAL_ACE",
 "SURF",
 "HYDRO_PUMP",
-"HYDRO_CANNON"
+"HYDRO_CANNON",
+"SURF_PLUS"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -25869,7 +25880,8 @@
 "PSYBEAM",
 "FOUL_PLAY",
 "SUPER_POWER",
-"HYPER_BEAM"
+"HYPER_BEAM",
+"PSYBEAM_PLUS"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -32485,7 +32497,8 @@
 "chargedMoves": [
 "SUPER_POWER",
 "BRICK_BREAK",
-"MEGAHORN"
+"MEGAHORN",
+"BRICK_BREAK_PLUS"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75

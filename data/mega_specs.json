@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "source": "PokeMiners Game Master",
   "sourceURL": "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json",
-  "sourceVersion": "1776386930700",
-  "updatedAt": "2026-08-21",
+  "sourceVersion": "1787902550208",
+  "updatedAt": "2026-08-31",
   "entries": [
     {
       "speciesId": "altaria_mega",
@@ -384,6 +384,134 @@
         4
       ],
       "sourceVersion": "1776386930700"
+    },
+    {
+      "speciesId": "chesnaught_mega",
+      "dexNo": 652,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "delphox_mega",
+      "dexNo": 655,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "falinks_mega",
+      "dexNo": 870,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "greninja_mega",
+      "dexNo": 658,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "raichu_mega_x",
+      "dexNo": 26,
+      "form": "MegaX",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "raichu_mega_y",
+      "dexNo": 26,
+      "form": "MegaY",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "skarmory_mega",
+      "dexNo": 227,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "starmie_mega",
+      "dexNo": 121,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
     }
   ]
 }

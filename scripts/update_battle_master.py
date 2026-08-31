@@ -78,9 +78,33 @@ PAREN_FORM_HINTS = (
 
 SECOND_MOVE_CANDY = {10000: 25, 50000: 50, 75000: 75, 100000: 100}
 
+# 2026-08-31 GO Fest: Mega Finaleで追加された、メガ進化中の追加チャージ技。
+# 上流のポケモン別技リスト反映が遅れても配信側で保持する。
+ADDITIONAL_CHARGED_MOVE_OVERRIDES = {
+    "mewtwo_mega_x": "DYNAMIC_PUNCH_PLUS",
+    "mewtwo_mega_y": "FUTURE_SIGHT_PLUS",
+    "chesnaught_mega": "SEED_BOMB_PLUS",
+    "delphox_mega": "MYSTICAL_FIRE_PLUS",
+    "greninja_mega": "SURF_PLUS",
+    "raichu_mega_x": "VOLT_TACKLE_PLUS",
+    "raichu_mega_y": "ZAP_CANNON_PLUS",
+    "skarmory_mega": "DRILL_PECK_PLUS",
+    "falinks_mega": "BRICK_BREAK_PLUS",
+    "starmie_mega": "LIQUIDATION_PLUS",
+    "victreebel_mega": "ACID_SPRAY_PLUS",
+    "malamar_mega": "PSYBEAM_PLUS",
+    "dragonite_mega": "OUTRAGE_PLUS",
+}
+
 # 上流のreleasedフラグが遅れている実装済みフォームを補完する。
 RELEASED_OVERRIDES = {
     "camerupt_mega": True,
+    # 2026-08-22 GO実装。上流反映が戻っても配信側で解禁を維持する。
+    "starmie_mega": True,
+    # 2026-08-31 GO実装。上流反映が戻っても配信側で解禁を維持する。
+    "chesnaught_mega": True,
+    "delphox_mega": True,
+    "greninja_mega": True,
     # 2026-08-18 GO実装。上流反映待ちの間も配信側で解禁を維持する。
     "cramorant": True,
     "arrokuda": True,
@@ -169,6 +193,9 @@ def build_pokedex(pvpoke_gamemaster: dict, ja_names: dict[int, str]) -> list[dic
             "fastMoves": pokemon.get("fastMoves", []) or [],
             "chargedMoves": pokemon.get("chargedMoves", []) or [],
         }
+        additional_move = ADDITIONAL_CHARGED_MOVE_OVERRIDES.get(species_id)
+        if additional_move and additional_move not in entry["chargedMoves"]:
+            entry["chargedMoves"].append(additional_move)
         third_move_cost = pokemon.get("thirdMoveCost")
         if isinstance(third_move_cost, int) and third_move_cost > 0:
             entry["secondMoveStardust"] = third_move_cost
@@ -219,6 +246,25 @@ def build_moves(pvpoke_gamemaster: dict, move_ja) -> dict[str, dict]:
             except ValueError:
                 entry["buffChance"] = 0.0
         output[move_id] = entry
+
+    # 追加技の定義自体が上流から一時的に消えた場合も、種族側の参照を壊さない。
+    additional_moves = {
+        "ACID_SPRAY_PLUS": {"name": "Acid Spray+", "nameJa": "アシッドボム", "type": "poison", "power": 20, "energy": 40, "energyGain": 0, "turns": 1},
+        "BRICK_BREAK_PLUS": {"name": "Brick Break+", "nameJa": "かわらわり", "type": "fighting", "power": 40, "energy": 35, "energyGain": 0, "turns": 1},
+        "DRILL_PECK_PLUS": {"name": "Drill Peck+", "nameJa": "ドリルくちばし", "type": "flying", "power": 60, "energy": 35, "energyGain": 0, "turns": 1},
+        "DYNAMIC_PUNCH_PLUS": {"name": "Dynamic Punch+", "nameJa": "ばくれつパンチ", "type": "fighting", "power": 130, "energy": 80, "energyGain": 0, "turns": 1},
+        "FUTURE_SIGHT_PLUS": {"name": "Future Sight+", "nameJa": "みらいよち", "type": "psychic", "power": 130, "energy": 80, "energyGain": 0, "turns": 1},
+        "LIQUIDATION_PLUS": {"name": "Liquidation+", "nameJa": "アクアブレイク", "type": "water", "power": 55, "energy": 40, "energyGain": 0, "turns": 1},
+        "MYSTICAL_FIRE_PLUS": {"name": "Mystical Fire+", "nameJa": "マジカルフレイム", "type": "fire", "power": 50, "energy": 40, "energyGain": 0, "turns": 1},
+        "OUTRAGE_PLUS": {"name": "Outrage+", "nameJa": "げきりん", "type": "dragon", "power": 80, "energy": 50, "energyGain": 0, "turns": 1},
+        "PSYBEAM_PLUS": {"name": "Psybeam+", "nameJa": "サイケこうせん", "type": "psychic", "power": 60, "energy": 45, "energyGain": 0, "turns": 1},
+        "SEED_BOMB_PLUS": {"name": "Seed Bomb+", "nameJa": "タネばくだん", "type": "grass", "power": 60, "energy": 40, "energyGain": 0, "turns": 1},
+        "SURF_PLUS": {"name": "Surf+", "nameJa": "なみのり", "type": "water", "power": 55, "energy": 35, "energyGain": 0, "turns": 1},
+        "VOLT_TACKLE_PLUS": {"name": "Volt Tackle+", "nameJa": "ボルテッカー", "type": "electric", "power": 65, "energy": 35, "energyGain": 0, "turns": 1},
+        "ZAP_CANNON_PLUS": {"name": "Zap Cannon+", "nameJa": "でんじほう", "type": "electric", "power": 70, "energy": 45, "energyGain": 0, "turns": 1},
+    }
+    for move_id, fallback in additional_moves.items():
+        output.setdefault(move_id, fallback)
     return output
 
 
