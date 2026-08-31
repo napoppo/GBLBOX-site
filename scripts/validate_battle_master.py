@@ -57,10 +57,36 @@ def validate_pvpoke_movesets(pvpoke: dict, moves: dict) -> None:
                 require(move_id in move_ids, f"{league}.{species_id}.{field} references missing move: {move_id}")
 
 
+def validate_move_overrides(overrides: dict, moves: dict) -> None:
+    require(overrides.get("schemaVersion") == 1, "move overrides schemaVersion must be 1")
+    require(isinstance(overrides.get("updatedAt"), str), "move overrides updatedAt is required")
+    entries = overrides.get("overrides")
+    require(isinstance(entries, list), "move overrides must be an array")
+    known_ids = set(moves)
+    seen: set[str] = set()
+    for entry in entries:
+        require(isinstance(entry, dict), "move override entry must be an object")
+        move_id = entry.get("moveId")
+        require(isinstance(move_id, str) and move_id in known_ids, f"unknown move override: {move_id}")
+        require(move_id not in seen, f"duplicate move override: {move_id}")
+        seen.add(move_id)
+        for key in ("power", "energy", "energyGain", "turns"):
+            require(isinstance(entry.get(key), int), f"{move_id}.{key} must be an integer")
+        for key in ("energyGainIsEstimated", "energyIsEstimated"):
+            require(isinstance(entry.get(key), bool), f"{move_id}.{key} must be boolean")
+        if "buffs" in entry:
+            require(entry["buffs"] in ([0, 0], [0, 1], [0, -1], [1, 0], [-1, 0], [-1, -1], [1, 1]), f"{move_id}.buffs is invalid")
+        if "buffTarget" in entry:
+            require(entry["buffTarget"] in ("self", "opponent"), f"{move_id}.buffTarget is invalid")
+        if "buffChance" in entry:
+            require(isinstance(entry["buffChance"], (int, float)) and 0 <= entry["buffChance"] <= 1, f"{move_id}.buffChance is invalid")
+
+
 def main() -> int:
     pokedex_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data/pokedex.json")
     moves_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("data/moves.json")
     pvpoke_path = Path(sys.argv[3]) if len(sys.argv) > 3 else Path("data/pvpoke_movesets.json")
+    overrides_path = Path(sys.argv[4]) if len(sys.argv) > 4 else Path("data/battle_move_overrides.json")
 
     pokedex = load_json(pokedex_path)
     moves = load_json(moves_path)
@@ -68,6 +94,8 @@ def main() -> int:
 
     if pvpoke_path.exists():
         validate_pvpoke_movesets(load_json(pvpoke_path), moves)
+    if overrides_path.exists():
+        validate_move_overrides(load_json(overrides_path), moves)
 
     print(f"OK: {pokedex_path} species={len(pokedex)} | {moves_path} moves={len(moves)}")
     return 0

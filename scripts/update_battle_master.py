@@ -96,6 +96,79 @@ ADDITIONAL_CHARGED_MOVE_OVERRIDES = {
     "dragonite_mega": "OUTRAGE_PLUS",
 }
 
+# 2026-08-31 GO Battle League: Twilight Trails の習得可能技追加。
+# 上流データの反映前でも、公式発表済みの組み合わせを配信データへ保持する。
+ATTACK_AVAILABILITY_OVERRIDES = {
+    "volbeat": {"fastMoves": ["INFESTATION"], "chargedMoves": ["LUNGE"]},
+    "illumise": {"fastMoves": ["INFESTATION"], "chargedMoves": ["LUNGE", "SHADOW_BALL"]},
+    "arbok": {"chargedMoves": ["BRUTAL_SWING", "WRAP"]},
+    "aerodactyl": {"chargedMoves": ["BRUTAL_SWING"]},
+    "muk_alolan": {"chargedMoves": ["BRUTAL_SWING", "ICE_PUNCH"]},
+    "greninja": {"chargedMoves": ["BRUTAL_SWING"]},
+    "ariados": {"chargedMoves": ["FOUL_PLAY"]},
+    "darkrai": {"fastMoves": ["SUCKER_PUNCH"], "chargedMoves": ["FOUL_PLAY"]},
+    "grafaiai": {"fastMoves": ["SCRATCH"], "chargedMoves": ["FOUL_PLAY"]},
+    "victreebel": {"fastMoves": ["SUCKER_PUNCH"]},
+    "audino": {"fastMoves": ["CHARGE_BEAM"]},
+    "raichu": {"chargedMoves": ["VOLT_TACKLE"]},
+    "raichu_alolan": {"chargedMoves": ["VOLT_TACKLE"]},
+    "grimmsnarl": {"chargedMoves": ["DRAINING_KISS"]},
+    "aggron": {"chargedMoves": ["BRICK_BREAK"]},
+    "zeraora": {"chargedMoves": ["DYNAMIC_PUNCH"]},
+    "deoxys_defense": {"fastMoves": ["LOW_KICK"]},
+    "kingambit": {"fastMoves": ["LOW_KICK"]},
+    "gallade": {"chargedMoves": ["SACRED_SWORD"]},
+    "houndoom": {"fastMoves": ["INCINERATE"], "chargedMoves": ["TRAILBLAZE"]},
+    "mismagius": {"chargedMoves": ["MYSTICAL_FIRE"]},
+    "crobat": {"fastMoves": ["GUST"]},
+    "flamigo": {"fastMoves": ["PECK"]},
+    "chandelure": {"fastMoves": ["ASTONISH"]},
+    "cofagrigus": {"chargedMoves": ["ENERGY_BALL"]},
+    "skarmory": {"chargedMoves": ["DRILL_RUN"]},
+    "bombirdier": {"chargedMoves": ["DRILL_RUN"]},
+    "lugia": {"chargedMoves": ["EARTH_POWER"]},
+    "miltank": {"chargedMoves": ["HIGH_HORSEPOWER"]},
+    "nidoking": {"chargedMoves": ["AVALANCHE"]},
+    "ursaluna": {"fastMoves": ["SCRATCH"]},
+    "zoroark_hisuian": {"chargedMoves": ["SWIFT"]},
+    "toxtricity_low_key": {"chargedMoves": ["SWIFT"]},
+    "toxtricity_amped": {"chargedMoves": ["SWIFT"]},
+    "snorlax": {"fastMoves": ["PSYWAVE"]},
+}
+
+# 公式発表で威力や効果が確定している項目と、発表文が増減だけに留まる
+# エネルギー値の予想を分離して保持する。energy/energyGain の予想値は
+# battle_move_overrides.json 側で isEstimated を付けて公開する。
+TWILIGHT_TRAILS_MOVE_OVERRIDES = {
+    "AIR_CUTTER": {"power": 60, "energy": 40, "buffChance": 0.1},
+    "BULLDOZE": {"power": 80, "energy": 55, "buffChance": 1.0},
+    "BODY_SLAM": {"power": 65, "energy": 40},
+    "SAND_TOMB": {"power": 55, "energy": 45},
+    "BRINE": {"power": 100, "energy": 60},
+    "BUBBLE_BEAM": {"power": 50, "energy": 45},
+    "MIRROR_COAT": {"power": 75, "energy": 50},
+    "HIGH_HORSEPOWER": {"energy": 55},
+    "CHARGE_BEAM": {"power": 6},
+    "BLAZE_KICK": {"energy": 35},
+    "IRON_HEAD": {"power": 85},
+    "DRAINING_KISS": {"power": 80, "buffs": [0, 1], "buffTarget": "self", "buffChance": 1.0},
+    "POISON_FANG": {"power": 50},
+    "LUNGE": {"power": 70},
+    "BITE": {"power": 2, "energyGain": 4},
+    "INFESTATION": {"power": 10},
+    "TAKE_DOWN": {"power": 14, "energyGain": 10},
+    "SCRATCH": {"power": 3, "energyGain": 4},
+    "MOONBLAST": {"power": 90, "energy": 50},
+    "SHADOW_BALL": {"power": 90},
+    "DARK_PULSE": {"energy": 45},
+    "PSYCHO_BOOST": {"power": 85},
+    "RAGE_FIST": {"power": 55, "energy": 40},
+    "MAGNET_BOMB": {"energy": 40},
+    "DOUBLE_IRON_BASH": {"power": 70},
+    "SHADOW_FORCE": {"energy": 80},
+    "LOW_KICK": {"power": 6},
+}
+
 # 上流のreleasedフラグが遅れている実装済みフォームを補完する。
 RELEASED_OVERRIDES = {
     "camerupt_mega": True,
@@ -196,6 +269,13 @@ def build_pokedex(pvpoke_gamemaster: dict, ja_names: dict[int, str]) -> list[dic
         additional_move = ADDITIONAL_CHARGED_MOVE_OVERRIDES.get(species_id)
         if additional_move and additional_move not in entry["chargedMoves"]:
             entry["chargedMoves"].append(additional_move)
+        availability = ATTACK_AVAILABILITY_OVERRIDES.get(species_id, {})
+        for move_id in availability.get("fastMoves", []):
+            if move_id not in entry["fastMoves"]:
+                entry["fastMoves"].append(move_id)
+        for move_id in availability.get("chargedMoves", []):
+            if move_id not in entry["chargedMoves"]:
+                entry["chargedMoves"].append(move_id)
         third_move_cost = pokemon.get("thirdMoveCost")
         if isinstance(third_move_cost, int) and third_move_cost > 0:
             entry["secondMoveStardust"] = third_move_cost
@@ -275,6 +355,33 @@ def write_json(path: str, payload) -> None:
         handle.write("\n")
 
 
+def build_twilight_trails_overrides(moves: dict[str, dict]) -> dict:
+    """Create the separate adjustment document without changing moves.json."""
+    overrides = []
+    for move_id, changes in TWILIGHT_TRAILS_MOVE_OVERRIDES.items():
+        base = moves.get(move_id)
+        if base is None:
+            raise ValueError(f"missing move for adjustment override: {move_id}")
+        override = {
+            "moveId": move_id,
+            "power": changes.get("power", base["power"]),
+            "energy": changes.get("energy", base["energy"]),
+            "energyGain": changes.get("energyGain", base["energyGain"]),
+            "turns": changes.get("turns", base["turns"]),
+            "energyGainIsEstimated": "energyGain" in changes and base["energyGain"] != changes["energyGain"],
+            "energyIsEstimated": "energy" in changes and base["energy"] != changes["energy"],
+        }
+        for key in ("buffs", "buffTarget", "buffChance"):
+            if key in changes:
+                override[key] = changes[key]
+        overrides.append(override)
+    return {
+        "schemaVersion": 1,
+        "updatedAt": "2026-08-31T00:00:00Z",
+        "overrides": overrides,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Update remote battle master data.")
     parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR, help="Directory containing pokedex.json and moves.json")
@@ -286,6 +393,10 @@ def main() -> int:
 
     write_json(os.path.join(args.output_dir, "pokedex.json"), pokedex)
     write_json(os.path.join(args.output_dir, "moves.json"), moves)
+    write_json(
+        os.path.join(args.output_dir, "battle_move_overrides.json"),
+        build_twilight_trails_overrides(moves),
+    )
 
     released_count = sum(1 for entry in pokedex if entry["released"])
     print(f"pokedex.json: {len(pokedex)} species (released={released_count})")

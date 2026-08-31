@@ -1,0 +1,257 @@
+{
+"schemaVersion": 1,
+"updatedAt": "2026-08-31T00:00:00Z",
+"overrides": [
+{
+"moveId": "AIR_CUTTER",
+"power": 60,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true,
+"buffChance": 0.1
+},
+{
+"moveId": "BULLDOZE",
+"power": 80,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true,
+"buffChance": 1.0
+},
+{
+"moveId": "BODY_SLAM",
+"power": 65,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "SAND_TOMB",
+"power": 55,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "BRINE",
+"power": 100,
+"energy": 60,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "BUBBLE_BEAM",
+"power": 50,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "MIRROR_COAT",
+"power": 75,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "HIGH_HORSEPOWER",
+"power": 100,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "CHARGE_BEAM",
+"power": 6,
+"energy": 0,
+"energyGain": 11,
+"turns": 3,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "BLAZE_KICK",
+"power": 60,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "IRON_HEAD",
+"power": 85,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "DRAINING_KISS",
+"power": 80,
+"energy": 55,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false,
+"buffs": [
+0,
+1
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+{
+"moveId": "POISON_FANG",
+"power": 50,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "LUNGE",
+"power": 70,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "BITE",
+"power": 2,
+"energy": 0,
+"energyGain": 4,
+"turns": 1,
+"energyGainIsEstimated": true,
+"energyIsEstimated": false
+},
+{
+"moveId": "INFESTATION",
+"power": 10,
+"energy": 0,
+"energyGain": 12,
+"turns": 3,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "TAKE_DOWN",
+"power": 14,
+"energy": 0,
+"energyGain": 10,
+"turns": 3,
+"energyGainIsEstimated": true,
+"energyIsEstimated": false
+},
+{
+"moveId": "SCRATCH",
+"power": 3,
+"energy": 0,
+"energyGain": 4,
+"turns": 1,
+"energyGainIsEstimated": true,
+"energyIsEstimated": false
+},
+{
+"moveId": "MOONBLAST",
+"power": 90,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "SHADOW_BALL",
+"power": 90,
+"energy": 50,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "DARK_PULSE",
+"power": 80,
+"energy": 45,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "PSYCHO_BOOST",
+"power": 85,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "RAGE_FIST",
+"power": 55,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "MAGNET_BOMB",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "DOUBLE_IRON_BASH",
+"power": 70,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+},
+{
+"moveId": "SHADOW_FORCE",
+"power": 120,
+"energy": 80,
+"energyGain": 0,
+"turns": 1,
+"energyGainIsEstimated": false,
+"energyIsEstimated": true
+},
+{
+"moveId": "LOW_KICK",
+"power": 6,
+"energy": 0,
+"energyGain": 8,
+"turns": 2,
+"energyGainIsEstimated": false,
+"energyIsEstimated": false
+}
+]
+}
