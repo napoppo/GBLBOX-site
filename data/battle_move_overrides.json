@@ -1,21 +1,22 @@
 {
 "schemaVersion": 1,
 "updatedAt": "2026-08-31T00:00:00Z",
+"seasonId": "twilight_trails_2026",
 "overrides": [
 {
 "moveId": "AIR_CUTTER",
 "power": 60,
-"energy": 40,
+"energy": 45,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
 "energyIsEstimated": true,
-"buffChance": 0.1
+"buffChance": 0.2
 },
 {
 "moveId": "BULLDOZE",
 "power": 80,
-"energy": 55,
+"energy": 60,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
@@ -25,7 +26,7 @@
 {
 "moveId": "BODY_SLAM",
 "power": 65,
-"energy": 40,
+"energy": 45,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
@@ -43,7 +44,7 @@
 {
 "moveId": "BRINE",
 "power": 100,
-"energy": 60,
+"energy": 65,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
@@ -52,7 +53,7 @@
 {
 "moveId": "BUBBLE_BEAM",
 "power": 50,
-"energy": 50,
+"energy": 45,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
@@ -238,7 +239,7 @@
 {
 "moveId": "SHADOW_FORCE",
 "power": 120,
-"energy": 60,
+"energy": 55,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
