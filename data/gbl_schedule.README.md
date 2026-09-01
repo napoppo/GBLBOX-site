@@ -31,7 +31,7 @@ iOSは `https://gblbox.com/data/gbl_schedule.json`、GitHub raw、GitHub Pages�
 | `seasons[].schedule` | 週次ローテーション（`formatIds` は同シーズンの `formatRules[].id` を参照） |
 | `seasons[].tournamentEvents` | そのシーズン期間の公式大会（任意） |
 
-**アプリの挙動:** `currentSeasonId` に一致するシーズンだけを読み込む。過去シーズンは JSON に残して履歴管理できる。
+**アプリの挙動:** `currentSeasonId` に一致するシーズンを現行として表示し、`seasons` に残っている過去シーズンも予定画面のシーズン選択から閲覧できる。ウィジェットは常に現行シーズンを表示する。
 
 ## よくある更新
 

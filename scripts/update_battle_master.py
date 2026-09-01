@@ -378,8 +378,20 @@ def build_twilight_trails_overrides(moves: dict[str, dict]) -> dict:
     return {
         "schemaVersion": 1,
         "updatedAt": "2026-08-31T00:00:00Z",
+        "seasonId": current_battle_season_id(),
         "overrides": overrides,
     }
+
+
+def current_battle_season_id() -> str:
+    """Keep move adjustments tied to the season catalog used by the site."""
+    schedule_path = os.path.join(DEFAULT_OUTPUT_DIR, "gbl_schedule.json")
+    try:
+        with open(schedule_path, encoding="utf-8") as handle:
+            season_id = json.load(handle).get("currentSeasonId")
+    except (OSError, json.JSONDecodeError):
+        season_id = None
+    return season_id if isinstance(season_id, str) and season_id else "twilight_trails_2026"
 
 
 def main() -> int:

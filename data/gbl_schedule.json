@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "currentSeasonId": "forever_forward_2026",
+  "currentSeasonId": "twilight_trails_2026",
   "seasons": [
     {
       "id": "forever_forward_2026",
@@ -419,6 +419,266 @@
           "officialUrlEn": "https://worlds.pokemon.com/en-us/"
         }
       ]
+    },
+    {
+      "id": "twilight_trails_2026",
+      "nameJa": "黄昏の旅路",
+      "nameEn": "Twilight Trails",
+      "sourceUpdatedJa": "2026年8月31日確認",
+      "sourceUpdatedEn": "Checked August 31, 2026",
+      "formatRules": [
+        {
+          "id": "great",
+          "nameJa": "スーパーリーグ",
+          "nameEn": "Great League",
+          "league": "great",
+          "cpCap": 1500
+        },
+        {
+          "id": "ultra",
+          "nameJa": "ハイパーリーグ",
+          "nameEn": "Ultra League",
+          "league": "ultra",
+          "cpCap": 2500
+        },
+        {
+          "id": "master",
+          "nameJa": "マスターリーグ",
+          "nameEn": "Master League",
+          "league": "master",
+          "cpCap": null
+        },
+        {
+          "id": "great_mega",
+          "nameJa": "スーパーリーグ：メガバージョン",
+          "nameEn": "Great League: Mega Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "megaAllowed": true,
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "ultra_mega",
+          "nameJa": "ハイパーリーグ：メガバージョン",
+          "nameEn": "Ultra League: Mega Edition",
+          "league": "ultra",
+          "cpCap": 2500,
+          "megaAllowed": true,
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "master_mega",
+          "nameJa": "マスターリーグ：メガバージョン",
+          "nameEn": "Master League: Mega Edition",
+          "league": "master",
+          "cpCap": null,
+          "megaAllowed": true,
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "willpower_2026",
+          "nameJa": "意志の力カップ：スーパーリーグ",
+          "nameEn": "Willpower Cup: Great League Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "allowedTypes": ["fighting", "psychic", "dark"],
+          "bannedSpeciesIds": ["gardevoir", "zorua", "zoroark"],
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "retro_2026",
+          "nameJa": "レトロカップ：スーパーリーグ",
+          "nameEn": "Retro Cup: Great League Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "bannedTypes": ["dark", "steel", "fairy"],
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "mega_color_2026",
+          "nameJa": "メガカラーカップ：スーパーリーグ",
+          "nameEn": "Mega Color Cup: Great League Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "allowedTypes": ["grass", "fire", "water", "electric"],
+          "megaAllowed": true,
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "little_2026",
+          "nameJa": "リトルカップ",
+          "nameEn": "Little Cup",
+          "league": "great",
+          "cpCap": 500,
+          "requiresBasicCanEvolve": true,
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "fantasy_2026",
+          "nameJa": "ファンタジーカップ：スーパーリーグ",
+          "nameEn": "Fantasy Cup: Great League Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "allowedTypes": ["dragon", "steel", "fairy"],
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "mega_halloween_2026",
+          "nameJa": "メガハロウィンカップ：スーパーリーグ",
+          "nameEn": "Mega Halloween Cup: Great League Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "allowedTypes": ["bug", "poison", "ghost", "dark", "fairy"],
+          "megaAllowed": true,
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "laic_2026",
+          "nameJa": "2026 GO LAICカップ",
+          "nameEn": "2026 GO LAIC Cup",
+          "league": "great",
+          "cpCap": 1500,
+          "bannedTypes": ["fire", "dark", "steel", "fairy"],
+          "bannedSpeciesIds": [
+            "chansey", "snorlax", "furret", "wobbuffet", "corsola_galarian", "kingdra",
+            "medicham", "altaria", "dusclops", "jellicent", "araquanid", "oranguru",
+            "annihilape", "clodsire"
+          ],
+          "megaAllowed": false,
+          "unsupportedNoteJa": "伝説・幻・ウルトラビーストの判定は種族データ未保持のため、手動確認してください。",
+          "unsupportedNoteEn": "Legendary, Mythical, and Ultra Beast checks are manual because the species data does not include those flags.",
+          "regulationLinesJa": [
+            "ほのお・あく・はがね・フェアリータイプは使用できません",
+            "伝説・幻ポケモン、ウルトラビーストは使用できません",
+            "メガシンカしたポケモンは使用できません"
+          ],
+          "regulationLinesEn": [
+            "Fire-, Dark-, Steel-, and Fairy-type Pokemon are not allowed",
+            "Legendary and Mythical Pokemon and Ultra Beasts are not allowed",
+            "Mega-Evolved Pokemon are not allowed"
+          ],
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        },
+        {
+          "id": "mega_catch_2026",
+          "nameJa": "メガキャッチカップ：スーパーリーグ",
+          "nameEn": "Mega Catch Cup: Great League Edition",
+          "league": "great",
+          "cpCap": 1500,
+          "megaAllowed": true,
+          "unsupportedNoteJa": "2026年9月8日10:00から12月1日10:00（日本時間）の捕獲期間と、幻ポケモンの判定は手動確認してください。",
+          "unsupportedNoteEn": "Catch-window and Mythical Pokemon checks are manual.",
+          "regulationLinesJa": [
+            "メガシンカしたポケモンが参加できます",
+            "シーズン中（日本時間2026年9月8日10:00から12月1日10:00）に捕獲したポケモンのみです",
+            "幻ポケモンは使用できません"
+          ],
+          "regulationLinesEn": [
+            "Mega-Evolved Pokemon are eligible",
+            "Only Pokemon caught during the season are eligible",
+            "Mythical Pokemon are not allowed"
+          ],
+          "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
+          "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
+        }
+      ],
+      "schedule": [
+        {
+          "id": "2026-09-08",
+          "start": "2026-09-08T20:00:00Z",
+          "end": "2026-09-15T20:00:00Z",
+          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-09-15",
+          "start": "2026-09-15T20:00:00Z",
+          "end": "2026-09-22T20:00:00Z",
+          "formatIds": ["great", "ultra_mega", "willpower_2026"],
+          "stardustBonus": false
+        },
+        {
+          "id": "2026-09-22",
+          "start": "2026-09-22T20:00:00Z",
+          "end": "2026-09-29T20:00:00Z",
+          "formatIds": ["ultra", "master_mega", "retro_2026"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-09-29",
+          "start": "2026-09-29T20:00:00Z",
+          "end": "2026-10-06T20:00:00Z",
+          "formatIds": ["master", "mega_color_2026"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-10-06",
+          "start": "2026-10-06T20:00:00Z",
+          "end": "2026-10-13T20:00:00Z",
+          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-10-13",
+          "start": "2026-10-13T20:00:00Z",
+          "end": "2026-10-20T20:00:00Z",
+          "formatIds": ["great", "ultra_mega", "little_2026"],
+          "stardustBonus": false
+        },
+        {
+          "id": "2026-10-20",
+          "start": "2026-10-20T20:00:00Z",
+          "end": "2026-10-27T20:00:00Z",
+          "formatIds": ["ultra", "master_mega", "fantasy_2026"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-10-27",
+          "start": "2026-10-27T20:00:00Z",
+          "end": "2026-11-03T20:00:00Z",
+          "formatIds": ["master", "mega_halloween_2026"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-11-03",
+          "start": "2026-11-03T20:00:00Z",
+          "end": "2026-11-10T20:00:00Z",
+          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-11-10",
+          "start": "2026-11-10T20:00:00Z",
+          "end": "2026-11-17T20:00:00Z",
+          "formatIds": ["great", "ultra_mega", "laic_2026"],
+          "stardustBonus": false
+        },
+        {
+          "id": "2026-11-18",
+          "start": "2026-11-18T20:00:00Z",
+          "end": "2026-11-25T20:00:00Z",
+          "formatIds": ["ultra", "master_mega", "laic_2026"],
+          "stardustBonus": true
+        },
+        {
+          "id": "2026-11-24",
+          "start": "2026-11-24T20:00:00Z",
+          "end": "2026-12-01T20:00:00Z",
+          "formatIds": ["master", "mega_catch_2026"],
+          "stardustBonus": true
+        }
+      ],
+      "tournamentEvents": []
     }
   ]
 }

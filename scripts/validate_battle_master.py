@@ -60,6 +60,8 @@ def validate_pvpoke_movesets(pvpoke: dict, moves: dict) -> None:
 def validate_move_overrides(overrides: dict, moves: dict) -> None:
     require(overrides.get("schemaVersion") == 1, "move overrides schemaVersion must be 1")
     require(isinstance(overrides.get("updatedAt"), str), "move overrides updatedAt is required")
+    if "seasonId" in overrides:
+        require(isinstance(overrides["seasonId"], str) and overrides["seasonId"], "move overrides seasonId must be a non-empty string")
     entries = overrides.get("overrides")
     require(isinstance(entries, list), "move overrides must be an array")
     known_ids = set(moves)
