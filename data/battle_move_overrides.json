@@ -53,7 +53,7 @@
 {
 "moveId": "BUBBLE_BEAM",
 "power": 50,
-"energy": 45,
+"energy": 50,
 "energyGain": 0,
 "turns": 1,
 "energyGainIsEstimated": false,
