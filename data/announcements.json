@@ -3,7 +3,7 @@
   "announcements": [
     {
       "id": "2.7.2-377",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-09-02",
       "maximumBuild": 376,
       "maximumBuildAndroid": 0,
