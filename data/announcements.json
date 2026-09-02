@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.7.2-377",
+      "enabled": true,
+      "publishedAt": "2026-09-02",
+      "maximumBuild": 376,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 377,
+      "titleJa": "GBLBOX 2.7.2 の配信を開始しました",
+      "titleEn": "GBLBOX 2.7.2 Update",
+      "bodyJa": "GBLBOX 2.7.2 の配信を開始しました。\n\n・GBLの戦績をダッシュボードにまとめ、レートの増減や勝率、次にやることを確認できます\n・メガ前の個体から、メガシンカ後の育成候補と順位を確認できます（メガLv4も全リーグ対応）\n・ライブ読み取りの取りこぼしや重複登録を直しました\n\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.7.2 is now available.\n\n- Battle analytics in one dashboard: rating changes, win rate, and what to work on next\n- See Mega training targets and rankings from the pre-Mega Pokemon (Mega Lv4 in every league)\n- Fixed missed reads and duplicate entries in live scanning\n\nWe recommend updating to the latest version.",
+      "updatePromptJa": "GBLの戦績分析とメガシンカ対応を広げた2.7.2が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.2 expands battle analytics and Mega Evolution support. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.2へ更新",
+      "updateActionTitleEn": "Update to 2.7.2",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.7.1-331",
       "enabled": true,
       "publishedAt": "2026-08-25",
