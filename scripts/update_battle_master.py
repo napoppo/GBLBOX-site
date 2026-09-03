@@ -394,12 +394,26 @@ def build_twilight_trails_overrides(moves: dict[str, dict]) -> dict:
             if key in changes:
                 override[key] = changes[key]
         overrides.append(override)
-    return {
+    document = {
         "schemaVersion": 1,
         "updatedAt": "2026-08-31T00:00:00Z",
-        "seasonId": current_battle_season_id(),
         "overrides": overrides,
     }
+    if EMIT_SEASON_ID:
+        document["seasonId"] = current_battle_season_id()
+    return document
+
+
+# GBLBOX 2.7.3 以前は、この seasonId を「予定表の配信キャッシュ由来のシーズン」と
+# 突き合わせる。そのキャッシュを更新するのは GBL 予定画面だけなので、その画面を
+# しばらく開いていない端末では現行シーズンと一致せず、公式の技調整が丸ごと無効に
+# なる（配信中の威力・消費エネルギーが反映されず、対戦結果も動かない）。
+# 2.7.4 で「古いキャッシュはシーズン判定に使わない」よう直したが、それ以前の
+# バージョンは救えないため、当面は seasonId を出さず旧データ互換（キー無し＝常に
+# 有効）で配信する。
+# 再開の目安: 2.7.4 未満の利用がほぼ無くなったら True へ戻す。戻すと、シーズンを
+# またいだ古い調整値が適用され続けるのを防ぐガードが復活する。
+EMIT_SEASON_ID = False
 
 
 def current_battle_season_id() -> str:
