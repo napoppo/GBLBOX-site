@@ -484,8 +484,16 @@
           "nameEn": "Willpower Cup: Great League Edition",
           "league": "great",
           "cpCap": 1500,
-          "allowedTypes": ["fighting", "psychic", "dark"],
-          "bannedSpeciesIds": ["gardevoir", "zorua", "zoroark"],
+          "allowedTypes": [
+            "fighting",
+            "psychic",
+            "dark"
+          ],
+          "bannedSpeciesIds": [
+            "gardevoir",
+            "zorua",
+            "zoroark"
+          ],
           "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
           "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
         },
@@ -495,7 +503,11 @@
           "nameEn": "Retro Cup: Great League Edition",
           "league": "great",
           "cpCap": 1500,
-          "bannedTypes": ["dark", "steel", "fairy"],
+          "bannedTypes": [
+            "dark",
+            "steel",
+            "fairy"
+          ],
           "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
           "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
         },
@@ -505,7 +517,12 @@
           "nameEn": "Mega Color Cup: Great League Edition",
           "league": "great",
           "cpCap": 1500,
-          "allowedTypes": ["grass", "fire", "water", "electric"],
+          "allowedTypes": [
+            "grass",
+            "fire",
+            "water",
+            "electric"
+          ],
           "megaAllowed": true,
           "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
           "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
@@ -526,7 +543,11 @@
           "nameEn": "Fantasy Cup: Great League Edition",
           "league": "great",
           "cpCap": 1500,
-          "allowedTypes": ["dragon", "steel", "fairy"],
+          "allowedTypes": [
+            "dragon",
+            "steel",
+            "fairy"
+          ],
           "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
           "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
         },
@@ -536,7 +557,13 @@
           "nameEn": "Mega Halloween Cup: Great League Edition",
           "league": "great",
           "cpCap": 1500,
-          "allowedTypes": ["bug", "poison", "ghost", "dark", "fairy"],
+          "allowedTypes": [
+            "bug",
+            "poison",
+            "ghost",
+            "dark",
+            "fairy"
+          ],
           "megaAllowed": true,
           "officialUrlJa": "https://pokemongo.com/ja/news/go-battle-league-twilight-trails",
           "officialUrlEn": "https://pokemongo.com/news/go-battle-league-twilight-trails"
@@ -547,11 +574,27 @@
           "nameEn": "2026 GO LAIC Cup",
           "league": "great",
           "cpCap": 1500,
-          "bannedTypes": ["fire", "dark", "steel", "fairy"],
+          "bannedTypes": [
+            "fire",
+            "dark",
+            "steel",
+            "fairy"
+          ],
           "bannedSpeciesIds": [
-            "chansey", "snorlax", "furret", "wobbuffet", "corsola_galarian", "kingdra",
-            "medicham", "altaria", "dusclops", "jellicent", "araquanid", "oranguru",
-            "annihilape", "clodsire"
+            "chansey",
+            "snorlax",
+            "furret",
+            "wobbuffet",
+            "corsola_galarian",
+            "kingdra",
+            "medicham",
+            "altaria",
+            "dusclops",
+            "jellicent",
+            "araquanid",
+            "oranguru",
+            "annihilape",
+            "clodsire"
           ],
           "megaAllowed": false,
           "unsupportedNoteJa": "伝説・幻・ウルトラビーストの判定は種族データ未保持のため、手動確認してください。",
@@ -597,84 +640,129 @@
           "id": "2026-09-08",
           "start": "2026-09-08T20:00:00Z",
           "end": "2026-09-15T20:00:00Z",
-          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "formatIds": [
+            "great_mega",
+            "ultra_mega",
+            "master_mega"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-09-15",
           "start": "2026-09-15T20:00:00Z",
           "end": "2026-09-22T20:00:00Z",
-          "formatIds": ["great", "ultra_mega", "willpower_2026"],
+          "formatIds": [
+            "great",
+            "ultra_mega",
+            "willpower_2026"
+          ],
           "stardustBonus": false
         },
         {
           "id": "2026-09-22",
           "start": "2026-09-22T20:00:00Z",
           "end": "2026-09-29T20:00:00Z",
-          "formatIds": ["ultra", "master_mega", "retro_2026"],
+          "formatIds": [
+            "ultra",
+            "master_mega",
+            "retro_2026"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-09-29",
           "start": "2026-09-29T20:00:00Z",
           "end": "2026-10-06T20:00:00Z",
-          "formatIds": ["master", "mega_color_2026"],
+          "formatIds": [
+            "master",
+            "mega_color_2026"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-10-06",
           "start": "2026-10-06T20:00:00Z",
           "end": "2026-10-13T20:00:00Z",
-          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "formatIds": [
+            "great_mega",
+            "ultra_mega",
+            "master_mega"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-10-13",
           "start": "2026-10-13T20:00:00Z",
           "end": "2026-10-20T20:00:00Z",
-          "formatIds": ["great", "ultra_mega", "little_2026"],
+          "formatIds": [
+            "great",
+            "ultra_mega",
+            "little_2026"
+          ],
           "stardustBonus": false
         },
         {
           "id": "2026-10-20",
           "start": "2026-10-20T20:00:00Z",
           "end": "2026-10-27T20:00:00Z",
-          "formatIds": ["ultra", "master_mega", "fantasy_2026"],
+          "formatIds": [
+            "ultra",
+            "master_mega",
+            "fantasy_2026"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-10-27",
           "start": "2026-10-27T20:00:00Z",
           "end": "2026-11-03T20:00:00Z",
-          "formatIds": ["master", "mega_halloween_2026"],
+          "formatIds": [
+            "master",
+            "mega_halloween_2026"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-11-03",
           "start": "2026-11-03T20:00:00Z",
           "end": "2026-11-10T20:00:00Z",
-          "formatIds": ["great_mega", "ultra_mega", "master_mega"],
+          "formatIds": [
+            "great_mega",
+            "ultra_mega",
+            "master_mega"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-11-10",
           "start": "2026-11-10T20:00:00Z",
           "end": "2026-11-17T20:00:00Z",
-          "formatIds": ["great", "ultra_mega", "laic_2026"],
+          "formatIds": [
+            "great",
+            "ultra_mega",
+            "laic_2026"
+          ],
           "stardustBonus": false
         },
         {
-          "id": "2026-11-18",
-          "start": "2026-11-18T20:00:00Z",
-          "end": "2026-11-25T20:00:00Z",
-          "formatIds": ["ultra", "master_mega", "laic_2026"],
+          "id": "2026-11-17",
+          "start": "2026-11-17T20:00:00Z",
+          "end": "2026-11-24T20:00:00Z",
+          "formatIds": [
+            "ultra",
+            "master_mega",
+            "laic_2026"
+          ],
           "stardustBonus": true
         },
         {
           "id": "2026-11-24",
           "start": "2026-11-24T20:00:00Z",
           "end": "2026-12-01T20:00:00Z",
-          "formatIds": ["master", "mega_catch_2026"],
+          "formatIds": [
+            "master",
+            "mega_catch_2026"
+          ],
           "stardustBonus": true
         }
       ],
