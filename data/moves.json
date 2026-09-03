@@ -1304,6 +1304,36 @@
 "energyGain": 0,
 "turns": 1
 },
+"GULP_MISSILE_ARROKUDA": {
+"name": "Gulp Missile (Arrokuda)",
+"nameJa": "Gulp Missile (Arrokuda)",
+"type": "water",
+"power": 15,
+"energy": 0,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-1
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
+"GULP_MISSILE_PIKACHU": {
+"name": "Gulp Missile (Pikachu)",
+"nameJa": "Gulp Missile (Pikachu)",
+"type": "water",
+"power": 15,
+"energy": 0,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+-2,
+0
+],
+"buffTarget": "opponent",
+"buffChance": 1.0
+},
 "GUNK_SHOT": {
 "name": "Gunk Shot",
 "nameJa": "ダストシュート",
@@ -3688,7 +3718,7 @@
 },
 "AEGISLASH_CHARGE_AIR_SLASH": {
 "name": "Air Slash",
-"nameJa": "Air Slash",
+"nameJa": "エアスラッシュ",
 "type": "flying",
 "power": 0,
 "energy": 0,
@@ -3697,7 +3727,7 @@
 },
 "AEGISLASH_CHARGE_PSYCHO_CUT": {
 "name": "Psycho Cut",
-"nameJa": "Psycho Cut",
+"nameJa": "サイコカッター",
 "type": "psychic",
 "power": 0,
 "energy": 0,

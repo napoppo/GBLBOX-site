@@ -86,6 +86,9 @@
 "SOLAR_BEAM",
 "SLUDGE"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -115,6 +118,9 @@
 "SLUDGE_BOMB",
 "SOLAR_BEAM",
 "SLUDGE"
+],
+"eliteMoves": [
+"FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -175,6 +181,9 @@
 "FLAME_BURST",
 "FLAMETHROWER"
 ],
+"eliteMoves": [
+"SCRATCH"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -208,6 +217,13 @@
 "FLAMETHROWER",
 "OVERHEAT",
 "AIR_CUTTER"
+],
+"eliteMoves": [
+"EMBER",
+"WING_ATTACK",
+"BLAST_BURN",
+"FLAMETHROWER",
+"DRAGON_BREATH"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -243,6 +259,13 @@
 "OVERHEAT",
 "AIR_CUTTER"
 ],
+"eliteMoves": [
+"EMBER",
+"WING_ATTACK",
+"BLAST_BURN",
+"FLAMETHROWER",
+"DRAGON_BREATH"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -276,6 +299,13 @@
 "FLAMETHROWER",
 "OVERHEAT",
 "AIR_CUTTER"
+],
+"eliteMoves": [
+"EMBER",
+"WING_ATTACK",
+"BLAST_BURN",
+"FLAMETHROWER",
+"DRAGON_BREATH"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -365,6 +395,9 @@
 "ICE_BEAM",
 "SKULL_BASH"
 ],
+"eliteMoves": [
+"HYDRO_CANNON"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -394,6 +427,9 @@
 "HYDRO_PUMP",
 "ICE_BEAM",
 "SKULL_BASH"
+],
+"eliteMoves": [
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -477,6 +513,9 @@
 "BUG_BUZZ",
 "PSYCHIC",
 "SIGNAL_BEAM"
+],
+"eliteMoves": [
+"BUG_BITE"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -566,6 +605,10 @@
 "FELL_STINGER",
 "DRILL_RUN"
 ],
+"eliteMoves": [
+"BUG_BITE",
+"DRILL_RUN"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -596,6 +639,10 @@
 "SLUDGE_BOMB",
 "X_SCISSOR",
 "FELL_STINGER",
+"DRILL_RUN"
+],
+"eliteMoves": [
+"BUG_BITE",
 "DRILL_RUN"
 ],
 "secondMoveStardust": 10000,
@@ -692,6 +739,11 @@
 "HEAT_WAVE",
 "TWISTER"
 ],
+"eliteMoves": [
+"WING_ATTACK",
+"AIR_CUTTER",
+"GUST"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -725,6 +777,11 @@
 "FEATHER_DANCE",
 "HEAT_WAVE",
 "TWISTER"
+],
+"eliteMoves": [
+"WING_ATTACK",
+"AIR_CUTTER",
+"GUST"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -871,6 +928,9 @@
 "SKY_ATTACK",
 "TWISTER"
 ],
+"eliteMoves": [
+"TWISTER"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -902,6 +962,9 @@
 "FLY",
 "DRILL_PECK"
 ],
+"eliteMoves": [
+"TWISTER"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -931,6 +994,9 @@
 "POISON_FANG",
 "SLUDGE_BOMB",
 "WRAP"
+],
+"eliteMoves": [
+"GUNK_SHOT"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -996,6 +1062,11 @@
 "THUNDERBOLT",
 "WILD_CHARGE"
 ],
+"eliteMoves": [
+"PRESENT",
+"SURF",
+"THUNDER"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -1029,6 +1100,9 @@
 "TRAILBLAZE",
 "SURF",
 "VOLT_TACKLE"
+],
+"eliteMoves": [
+"THUNDER"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -1098,6 +1172,9 @@
 "SURF",
 "VOLT_TACKLE_PLUS"
 ],
+"eliteMoves": [
+"THUNDER"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -1132,6 +1209,9 @@
 "SURF",
 "ZAP_CANNON_PLUS"
 ],
+"eliteMoves": [
+"THUNDER"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -1162,6 +1242,9 @@
 "ROCK_SLIDE",
 "ROCK_TOMB",
 "SAND_TOMB"
+],
+"eliteMoves": [
+"ROCK_TOMB"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -1223,6 +1306,9 @@
 "NIGHT_SLASH",
 "SCORCHING_SANDS"
 ],
+"eliteMoves": [
+"NIGHT_SLASH"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -1254,6 +1340,9 @@
 "ICE_PUNCH",
 "DRILL_RUN",
 "AERIAL_ACE"
+],
+"eliteMoves": [
+"SHADOW_CLAW"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -1439,6 +1528,9 @@
 "SAND_TOMB",
 "AVALANCHE"
 ],
+"eliteMoves": [
+"FURY_CUTTER"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -1501,6 +1593,9 @@
 "PSYCHIC",
 "SWIFT",
 "DRAINING_KISS"
+],
+"eliteMoves": [
+"POUND"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -1596,6 +1691,12 @@
 "SCORCHING_SANDS",
 "ENERGY_BALL"
 ],
+"eliteMoves": [
+"EMBER",
+"FIRE_BLAST",
+"FLAMETHROWER",
+"ENERGY_BALL"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -1626,6 +1727,9 @@
 "ICE_BEAM",
 "PSYSHOCK",
 "WEATHER_BALL_ICE",
+"CHILLING_WATER"
+],
+"eliteMoves": [
 "CHILLING_WATER"
 ],
 "secondMoveStardust": 50000,
@@ -1660,6 +1764,10 @@
 "GYRO_BALL",
 "PLAY_ROUGH",
 "SWIFT"
+],
+"eliteMoves": [
+"PLAY_ROUGH",
+"BODY_SLAM"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -1725,6 +1833,9 @@
 "SLUDGE_BOMB",
 "SWIFT"
 ],
+"eliteMoves": [
+"SLUDGE_BOMB"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -1755,6 +1866,9 @@
 "OMINOUS_WIND",
 "POISON_FANG",
 "SHADOW_BALL"
+],
+"eliteMoves": [
+"OMINOUS_WIND"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -1905,6 +2019,9 @@
 "SOLAR_BEAM",
 "X_SCISSOR"
 ],
+"eliteMoves": [
+"BUG_BITE"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -1965,6 +2082,9 @@
 "POISON_FANG",
 "PSYCHIC",
 "SILVER_WIND"
+],
+"eliteMoves": [
+"BUG_BITE"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -2114,6 +2234,9 @@
 "FOUL_PLAY",
 "NIGHT_SLASH"
 ],
+"eliteMoves": [
+"BODY_SLAM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2203,6 +2326,9 @@
 "PLAY_ROUGH",
 "POWER_GEM",
 "PAYBACK"
+],
+"eliteMoves": [
+"NIGHT_SLASH"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -2355,6 +2481,11 @@
 "ICE_PUNCH",
 "RAGE_FIST"
 ],
+"eliteMoves": [
+"KARATE_CHOP",
+"CROSS_CHOP",
+"RAGE_FIST"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2447,6 +2578,10 @@
 "PSYCHIC_FANGS",
 "SCORCHING_SANDS"
 ],
+"eliteMoves": [
+"BITE",
+"BULLDOZE"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2537,6 +2672,9 @@
 "SCALD",
 "WATER_PULSE"
 ],
+"eliteMoves": [
+"SCALD"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2570,6 +2708,10 @@
 "POWER_UP_PUNCH",
 "SCALD",
 "ICY_WIND"
+],
+"eliteMoves": [
+"SUBMISSION",
+"COUNTER"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -2660,6 +2802,11 @@
 "PSYCHIC",
 "SHADOW_BALL"
 ],
+"eliteMoves": [
+"COUNTER",
+"DAZZLING_GLEAM",
+"PSYCHIC"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2691,6 +2838,11 @@
 "PSYCHIC",
 "SHADOW_BALL"
 ],
+"eliteMoves": [
+"COUNTER",
+"DAZZLING_GLEAM",
+"PSYCHIC"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2720,6 +2872,9 @@
 "BRICK_BREAK",
 "CROSS_CHOP",
 "LOW_SWEEP"
+],
+"eliteMoves": [
+"LOW_KICK"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -2751,6 +2906,9 @@
 "DYNAMIC_PUNCH",
 "SUBMISSION"
 ],
+"eliteMoves": [
+"CROSS_CHOP"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2780,6 +2938,12 @@
 "DYNAMIC_PUNCH",
 "HEAVY_SLAM",
 "ROCK_SLIDE",
+"STONE_EDGE",
+"SUBMISSION",
+"PAYBACK"
+],
+"eliteMoves": [
+"KARATE_CHOP",
 "STONE_EDGE",
 "SUBMISSION",
 "PAYBACK"
@@ -2845,6 +3009,9 @@
 "SEED_BOMB",
 "SLUDGE_BOMB"
 ],
+"eliteMoves": [
+"RAZOR_LEAF"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2877,6 +3044,9 @@
 "ACID_SPRAY",
 "LEAF_TORNADO"
 ],
+"eliteMoves": [
+"MAGICAL_LEAF"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -2908,6 +3078,9 @@
 "ACID_SPRAY",
 "LEAF_TORNADO",
 "ACID_SPRAY_PLUS"
+],
+"eliteMoves": [
+"MAGICAL_LEAF"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3063,6 +3236,9 @@
 "ROCK_SLIDE",
 "STONE_EDGE"
 ],
+"eliteMoves": [
+"ROCK_SLIDE"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -3152,6 +3328,9 @@
 "STONE_EDGE",
 "WILD_CHARGE"
 ],
+"eliteMoves": [
+"ROLLOUT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -3181,6 +3360,9 @@
 "FLAME_CHARGE",
 "FLAME_WHEEL",
 "STOMP"
+],
+"eliteMoves": [
+"FIRE_BLAST"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3243,6 +3425,10 @@
 "SCORCHING_SANDS",
 "WILD_CHARGE"
 ],
+"eliteMoves": [
+"EMBER",
+"WILD_CHARGE"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3273,6 +3459,9 @@
 "BODY_SLAM",
 "MEGAHORN",
 "HIGH_HORSEPOWER",
+"WILD_CHARGE"
+],
+"eliteMoves": [
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 50000,
@@ -3367,6 +3556,9 @@
 "SCALD",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"SURF"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3399,6 +3591,9 @@
 "BRUTAL_SWING",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"SURF"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3429,6 +3624,9 @@
 "SURF",
 "SCALD",
 "DRAIN_PUNCH"
+],
+"eliteMoves": [
+"SURF"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3525,6 +3723,9 @@
 "AIR_CUTTER",
 "LEAF_BLADE"
 ],
+"eliteMoves": [
+"CUT"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3585,6 +3786,9 @@
 "DRILL_PECK",
 "SWIFT"
 ],
+"eliteMoves": [
+"SWIFT"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3616,6 +3820,9 @@
 "DRILL_PECK",
 "TRAILBLAZE"
 ],
+"eliteMoves": [
+"AIR_CUTTER"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3646,6 +3853,10 @@
 "AQUA_TAIL",
 "AURORA_BEAM",
 "ICY_WIND"
+],
+"eliteMoves": [
+"WATER_GUN",
+"AQUA_JET"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3680,6 +3891,11 @@
 "DRILL_RUN",
 "LIQUIDATION"
 ],
+"eliteMoves": [
+"ICE_SHARD",
+"AQUA_JET",
+"ICY_WIND"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3709,6 +3925,9 @@
 "MUD_BOMB",
 "SLUDGE",
 "SLUDGE_BOMB"
+],
+"legacyMoves": [
+"ACID"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3770,6 +3989,12 @@
 "SLUDGE_WAVE",
 "THUNDER_PUNCH",
 "ACID_SPRAY"
+],
+"eliteMoves": [
+"LICK"
+],
+"legacyMoves": [
+"ACID"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3865,6 +4090,9 @@
 "LIQUIDATION",
 "RAZOR_SHELL"
 ],
+"eliteMoves": [
+"BLIZZARD"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -3896,6 +4124,10 @@
 "NIGHT_SHADE",
 "OMINOUS_WIND",
 "SLUDGE_BOMB"
+],
+"eliteMoves": [
+"SUCKER_PUNCH",
+"OMINOUS_WIND"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3929,6 +4161,9 @@
 "SHADOW_PUNCH",
 "SLUDGE_BOMB",
 "ICE_PUNCH"
+],
+"eliteMoves": [
+"LICK"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -3965,6 +4200,13 @@
 "SHADOW_PUNCH",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"LICK",
+"SLUDGE_WAVE",
+"DARK_PULSE",
+"PSYCHIC",
+"SHADOW_PUNCH"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4000,6 +4242,13 @@
 "SHADOW_PUNCH",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"LICK",
+"SLUDGE_WAVE",
+"DARK_PULSE",
+"PSYCHIC",
+"SHADOW_PUNCH"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4032,6 +4281,10 @@
 "SAND_TOMB",
 "STONE_EDGE",
 "BREAKING_SWIPE"
+],
+"eliteMoves": [
+"IRON_HEAD",
+"ROCK_SLIDE"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -4094,6 +4347,9 @@
 "ICE_PUNCH",
 "THUNDER_PUNCH"
 ],
+"eliteMoves": [
+"PSYSHOCK"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4154,6 +4410,9 @@
 "CRABHAMMER",
 "RAZOR_SHELL"
 ],
+"eliteMoves": [
+"MUD_SHOT"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4183,6 +4442,9 @@
 "GYRO_BALL",
 "SIGNAL_BEAM",
 "THUNDERBOLT"
+],
+"eliteMoves": [
+"SIGNAL_BEAM"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -4242,6 +4504,9 @@
 "HYPER_BEAM",
 "THUNDERBOLT",
 "FOUL_PLAY"
+],
+"eliteMoves": [
+"TACKLE"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -4331,6 +4596,9 @@
 "SEED_BOMB",
 "SOLAR_BEAM"
 ],
+"eliteMoves": [
+"ZEN_HEADBUTT"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4358,6 +4626,9 @@
 "DRAGON_PULSE",
 "SEED_BOMB",
 "SOLAR_BEAM",
+"DRACO_METEOR"
+],
+"eliteMoves": [
 "DRACO_METEOR"
 ],
 "secondMoveStardust": 50000,
@@ -4449,6 +4720,9 @@
 "FLAME_WHEEL",
 "SHADOW_BONE"
 ],
+"eliteMoves": [
+"SHADOW_BONE"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4479,6 +4753,10 @@
 "STOMP",
 "STONE_EDGE",
 "BLAZE_KICK"
+],
+"eliteMoves": [
+"STOMP",
+"BRICK_BREAK"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -4511,6 +4789,10 @@
 "THUNDER_PUNCH",
 "POWER_UP_PUNCH"
 ],
+"eliteMoves": [
+"ROCK_SMASH",
+"BRICK_BREAK"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -4542,6 +4824,9 @@
 "BODY_SLAM",
 "WRAP"
 ],
+"eliteMoves": [
+"BODY_SLAM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4572,6 +4857,9 @@
 "SLUDGE",
 "SLUDGE_BOMB"
 ],
+"legacyMoves": [
+"ACID"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4601,6 +4889,9 @@
 "SHADOW_BALL",
 "SLUDGE_BOMB",
 "THUNDERBOLT"
+],
+"legacyMoves": [
+"ACID"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -4694,6 +4985,9 @@
 "SURF",
 "BREAKING_SWIPE"
 ],
+"eliteMoves": [
+"MEGAHORN"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4723,6 +5017,9 @@
 "HYPER_BEAM",
 "PSYBEAM",
 "PSYCHIC"
+],
+"legacyMoves": [
+"PSYBEAM"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -4754,6 +5051,9 @@
 "SLUDGE_BOMB",
 "SOLAR_BEAM"
 ],
+"eliteMoves": [
+"POWER_WHIP"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4784,6 +5084,10 @@
 "STOMP",
 "POWER_UP_PUNCH"
 ],
+"eliteMoves": [
+"BRICK_BREAK",
+"STOMP"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4813,6 +5117,10 @@
 "OUTRAGE",
 "STOMP",
 "POWER_UP_PUNCH"
+],
+"eliteMoves": [
+"BRICK_BREAK",
+"STOMP"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -4873,6 +5181,9 @@
 "DRAGON_PULSE",
 "HYDRO_PUMP"
 ],
+"eliteMoves": [
+"BLIZZARD"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4932,6 +5243,11 @@
 "MEGAHORN",
 "WATER_PULSE"
 ],
+"eliteMoves": [
+"POISON_JAB",
+"ICY_WIND",
+"DRILL_RUN"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -4961,6 +5277,9 @@
 "BUBBLE_BEAM",
 "POWER_GEM",
 "SWIFT"
+],
+"legacyMoves": [
+"QUICK_ATTACK"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -5013,6 +5332,12 @@
 "SURF",
 "AQUA_JET"
 ],
+"eliteMoves": [
+"TACKLE"
+],
+"legacyMoves": [
+"QUICK_ATTACK"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -5064,6 +5389,12 @@
 "SURF",
 "AQUA_JET",
 "LIQUIDATION_PLUS"
+],
+"eliteMoves": [
+"TACKLE"
+],
+"legacyMoves": [
+"QUICK_ATTACK"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -5160,6 +5491,10 @@
 "X_SCISSOR",
 "TRAILBLAZE"
 ],
+"eliteMoves": [
+"STEEL_WING",
+"BUG_BUZZ"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -5190,6 +5525,10 @@
 "FOCUS_BLAST",
 "ICE_PUNCH",
 "PSYSHOCK"
+],
+"eliteMoves": [
+"POUND",
+"ICE_PUNCH"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -5280,6 +5619,9 @@
 "X_SCISSOR",
 "SUPER_POWER"
 ],
+"eliteMoves": [
+"SUBMISSION"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -5310,6 +5652,9 @@
 "VICE_GRIP",
 "X_SCISSOR",
 "SUPER_POWER"
+],
+"eliteMoves": [
+"SUBMISSION"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -5487,6 +5832,11 @@
 "TWISTER",
 "AQUA_TAIL"
 ],
+"eliteMoves": [
+"DRAGON_TAIL",
+"DRAGON_PULSE",
+"AQUA_TAIL"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -5518,6 +5868,11 @@
 "HYDRO_PUMP",
 "OUTRAGE",
 "TWISTER",
+"AQUA_TAIL"
+],
+"eliteMoves": [
+"DRAGON_TAIL",
+"DRAGON_PULSE",
 "AQUA_TAIL"
 ],
 "secondMoveStardust": 10000,
@@ -5553,6 +5908,11 @@
 "SURF",
 "SKULL_BASH",
 "SPARKLING_ARIA"
+],
+"eliteMoves": [
+"ICE_SHARD",
+"DRAGON_PULSE",
+"ICE_BEAM"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -5615,6 +5975,10 @@
 "LAST_RESORT",
 "SWIFT"
 ],
+"eliteMoves": [
+"LAST_RESORT",
+"BODY_SLAM"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -5643,6 +6007,10 @@
 "WATER_PULSE",
 "SCALD",
 "LIQUIDATION"
+],
+"eliteMoves": [
+"LAST_RESORT",
+"SCALD"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -5673,6 +6041,10 @@
 "THUNDERBOLT",
 "ZAP_CANNON"
 ],
+"eliteMoves": [
+"LAST_RESORT",
+"ZAP_CANNON"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -5701,6 +6073,11 @@
 "HEAT_WAVE",
 "LAST_RESORT",
 "OVERHEAT",
+"SUPER_POWER"
+],
+"eliteMoves": [
+"LAST_RESORT",
+"HEAT_WAVE",
 "SUPER_POWER"
 ],
 "secondMoveStardust": 75000,
@@ -5753,6 +6130,16 @@
 "SOLAR_BEAM",
 "ZAP_CANNON"
 ],
+"eliteMoves": [
+"TACKLE",
+"ZEN_HEADBUTT",
+"SIGNAL_BEAM",
+"PSYBEAM",
+"DISCHARGE"
+],
+"legacyMoves": [
+"QUICK_ATTACK"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -5785,6 +6172,10 @@
 "ROCK_BLAST",
 "ROCK_TOMB"
 ],
+"eliteMoves": [
+"ROCK_TOMB",
+"BRINE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -5813,6 +6204,10 @@
 "ANCIENT_POWER",
 "HYDRO_PUMP",
 "ROCK_BLAST",
+"ROCK_SLIDE"
+],
+"eliteMoves": [
+"ROCK_THROW",
 "ROCK_SLIDE"
 ],
 "secondMoveStardust": 75000,
@@ -5875,6 +6270,9 @@
 "STONE_EDGE",
 "WATER_PULSE",
 "AQUA_JET"
+],
+"eliteMoves": [
+"FURY_CUTTER"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -5974,6 +6372,9 @@
 "SKULL_BASH",
 "SUPER_POWER"
 ],
+"eliteMoves": [
+"YAWN"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -6005,6 +6406,9 @@
 "ICY_WIND",
 "ANCIENT_POWER",
 "TRIPLE_AXEL"
+],
+"eliteMoves": [
+"HURRICANE"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -6066,6 +6470,9 @@
 "DRILL_PECK",
 "HEAT_WAVE"
 ],
+"eliteMoves": [
+"THUNDER_SHOCK"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -6125,6 +6532,9 @@
 "SKY_ATTACK",
 "ANCIENT_POWER",
 "FLY"
+],
+"eliteMoves": [
+"SKY_ATTACK"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -6248,6 +6658,10 @@
 "SUPER_POWER",
 "THUNDER_PUNCH"
 ],
+"eliteMoves": [
+"DRACO_METEOR",
+"DRAGON_PULSE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -6283,6 +6697,10 @@
 "THUNDER_PUNCH",
 "OUTRAGE_PLUS"
 ],
+"eliteMoves": [
+"DRACO_METEOR",
+"DRAGON_PULSE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -6316,6 +6734,12 @@
 "THUNDERBOLT",
 "PSYSTRIKE"
 ],
+"eliteMoves": [
+"PSYSTRIKE",
+"SHADOW_BALL",
+"HYPER_BEAM",
+"COUNTER"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -6343,6 +6767,9 @@
 "ROCK_SLIDE",
 "EARTHQUAKE",
 "FUTURE_SIGHT",
+"PSYSTRIKE"
+],
+"eliteMoves": [
 "PSYSTRIKE"
 ],
 "secondMoveStardust": 100000,
@@ -6380,6 +6807,14 @@
 "PSYSTRIKE",
 "DYNAMIC_PUNCH_PLUS"
 ],
+"eliteMoves": [
+"PSYSTRIKE",
+"SHADOW_BALL",
+"HYPER_BEAM"
+],
+"legacyMoves": [
+"COUNTER"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -6413,6 +6848,14 @@
 "THUNDERBOLT",
 "PSYSTRIKE",
 "FUTURE_SIGHT_PLUS"
+],
+"eliteMoves": [
+"PSYSTRIKE",
+"SHADOW_BALL",
+"HYPER_BEAM"
+],
+"legacyMoves": [
+"COUNTER"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -6564,6 +7007,9 @@
 "PETAL_BLIZZARD",
 "SOLAR_BEAM"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -6651,6 +7097,9 @@
 "OVERHEAT",
 "SOLAR_BEAM",
 "THUNDER_PUNCH"
+],
+"eliteMoves": [
+"BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -6770,6 +7219,10 @@
 "HYDRO_CANNON",
 "HYDRO_PUMP",
 "ICE_BEAM"
+],
+"eliteMoves": [
+"WATER_GUN",
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -7131,6 +7584,9 @@
 "THUNDER_PUNCH",
 "THUNDERBOLT"
 ],
+"legacyMoves": [
+"QUICK_ATTACK"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -7163,6 +7619,10 @@
 "SIGNAL_BEAM",
 "SWIFT"
 ],
+"eliteMoves": [
+"PSYCHIC",
+"BODY_SLAM"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -7194,6 +7654,9 @@
 "SHADOW_BALL",
 "WILD_CHARGE",
 "SWIFT"
+],
+"eliteMoves": [
+"BODY_SLAM"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -7239,6 +7702,9 @@
 "ANCIENT_POWER",
 "DAZZLING_GLEAM",
 "PSYSHOCK"
+],
+"eliteMoves": [
+"ZEN_HEADBUTT"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -7290,6 +7756,10 @@
 "DRAINING_KISS",
 "PSYSHOCK",
 "HEAT_WAVE"
+],
+"eliteMoves": [
+"STEEL_WING",
+"ZEN_HEADBUTT"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -7444,6 +7914,9 @@
 "BRUTAL_SWING",
 "TRAILBLAZE"
 ],
+"eliteMoves": [
+"DRAGON_PULSE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -7476,6 +7949,9 @@
 "THUNDER_PUNCH",
 "BRUTAL_SWING",
 "TRAILBLAZE"
+],
+"eliteMoves": [
+"DRAGON_PULSE"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -7625,6 +8101,10 @@
 "ICE_BEAM",
 "SCALD"
 ],
+"eliteMoves": [
+"EARTHQUAKE",
+"ICE_BEAM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -7714,6 +8194,9 @@
 "ENERGY_BALL",
 "AERIAL_ACE",
 "SOLAR_BEAM",
+"ACROBATICS"
+],
+"eliteMoves": [
 "ACROBATICS"
 ],
 "secondMoveStardust": 50000,
@@ -7924,6 +8407,9 @@
 "AQUA_TAIL",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"AQUA_TAIL"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -7954,6 +8440,10 @@
 "SHADOW_BALL",
 "PSYCHIC_FANGS"
 ],
+"eliteMoves": [
+"LAST_RESORT",
+"SHADOW_BALL"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -7979,6 +8469,10 @@
 "chargedMoves": [
 "DARK_PULSE",
 "FOUL_PLAY",
+"LAST_RESORT",
+"PSYCHIC"
+],
+"eliteMoves": [
 "LAST_RESORT",
 "PSYCHIC"
 ],
@@ -8042,6 +8536,9 @@
 "SURF",
 "SCALD"
 ],
+"eliteMoves": [
+"SURF"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -8073,6 +8570,9 @@
 "SURF",
 "SCALD",
 "PSYSHOCK"
+],
+"eliteMoves": [
+"SURF"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -9044,6 +9544,9 @@
 "FLY",
 "TRIPLE_AXEL"
 ],
+"legacyMoves": [
+"QUICK_ATTACK"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -9254,6 +9757,9 @@
 "OCTAZOOKA",
 "SWIFT",
 "SURF"
+],
+"eliteMoves": [
+"WATER_GUN"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -9735,6 +10241,9 @@
 "ICE_PUNCH",
 "PSYSHOCK"
 ],
+"eliteMoves": [
+"FROST_BREATH"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -9765,6 +10274,9 @@
 "THUNDER_PUNCH",
 "THUNDERBOLT"
 ],
+"eliteMoves": [
+"THUNDERBOLT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -9793,6 +10305,9 @@
 "BRICK_BREAK",
 "FIRE_PUNCH",
 "FLAME_BURST",
+"FLAMETHROWER"
+],
+"eliteMoves": [
 "FLAMETHROWER"
 ],
 "secondMoveStardust": 10000,
@@ -9852,6 +10367,9 @@
 "DAZZLING_GLEAM",
 "HYPER_BEAM",
 "PSYCHIC",
+"WILD_CHARGE"
+],
+"eliteMoves": [
 "WILD_CHARGE"
 ],
 "secondMoveStardust": 75000,
@@ -9960,6 +10478,24 @@
 "WATER_PULSE",
 "SCALD"
 ],
+"eliteMoves": [
+"HIDDEN_POWER_BUG",
+"HIDDEN_POWER_DARK",
+"HIDDEN_POWER_DRAGON",
+"HIDDEN_POWER_ELECTRIC",
+"HIDDEN_POWER_FIGHTING",
+"HIDDEN_POWER_FIRE",
+"HIDDEN_POWER_FLYING",
+"HIDDEN_POWER_GHOST",
+"HIDDEN_POWER_GRASS",
+"HIDDEN_POWER_GROUND",
+"HIDDEN_POWER_ICE",
+"HIDDEN_POWER_POISON",
+"HIDDEN_POWER_PSYCHIC",
+"HIDDEN_POWER_ROCK",
+"HIDDEN_POWER_STEEL",
+"HIDDEN_POWER_WATER"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -10051,6 +10587,9 @@
 "STONE_EDGE",
 "BRUTAL_SWING"
 ],
+"eliteMoves": [
+"SMACK_DOWN"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -10082,6 +10621,9 @@
 "STONE_EDGE",
 "BRUTAL_SWING"
 ],
+"eliteMoves": [
+"SMACK_DOWN"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -10112,6 +10654,9 @@
 "AEROBLAST",
 "FLY",
 "EARTH_POWER"
+],
+"eliteMoves": [
+"AEROBLAST"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -10160,6 +10705,10 @@
 "EARTHQUAKE",
 "SACRED_FIRE"
 ],
+"eliteMoves": [
+"EARTHQUAKE",
+"SACRED_FIRE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -10191,6 +10740,9 @@
 "SEED_BOMB",
 "LEAF_STORM",
 "AURA_SPHERE"
+],
+"eliteMoves": [
+"MAGICAL_LEAF"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -10280,6 +10832,9 @@
 "DRAGON_CLAW",
 "BREAKING_SWIPE"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -10310,6 +10865,9 @@
 "FRENZY_PLANT",
 "DRAGON_CLAW",
 "BREAKING_SWIPE"
+],
+"eliteMoves": [
+"FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -10403,6 +10961,10 @@
 "BLAZE_KICK",
 "AURA_SPHERE"
 ],
+"eliteMoves": [
+"BLAST_BURN",
+"STONE_EDGE"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -10435,6 +10997,10 @@
 "BLAST_BURN",
 "BLAZE_KICK",
 "AURA_SPHERE"
+],
+"eliteMoves": [
+"BLAST_BURN",
+"STONE_EDGE"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -10526,6 +11092,9 @@
 "MUDDY_WATER",
 "SLUDGE"
 ],
+"eliteMoves": [
+"HYDRO_CANNON"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -10556,6 +11125,9 @@
 "HYDRO_CANNON",
 "MUDDY_WATER",
 "SLUDGE"
+],
+"eliteMoves": [
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -11058,6 +11630,9 @@
 "LEAF_BLADE",
 "LEAF_TORNADO"
 ],
+"eliteMoves": [
+"BULLET_SEED"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -11237,6 +11812,9 @@
 "DRAINING_KISS",
 "TRIPLE_AXEL"
 ],
+"legacyMoves": [
+"DRAINING_KISS"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -11269,6 +11847,9 @@
 "SYNCHRONOISE",
 "TRIPLE_AXEL"
 ],
+"eliteMoves": [
+"SYNCHRONOISE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -11300,6 +11881,9 @@
 "SHADOW_BALL",
 "SYNCHRONOISE",
 "TRIPLE_AXEL"
+],
+"eliteMoves": [
+"SYNCHRONOISE"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -11420,6 +12004,9 @@
 "SEED_BOMB",
 "SLUDGE_BOMB"
 ],
+"eliteMoves": [
+"GRASS_KNOT"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -11503,6 +12090,9 @@
 "EARTHQUAKE",
 "HYPER_BEAM",
 "PLAY_ROUGH",
+"BODY_SLAM"
+],
+"eliteMoves": [
 "BODY_SLAM"
 ],
 "secondMoveStardust": 75000,
@@ -11591,6 +12181,9 @@
 "AERIAL_ACE",
 "DIG",
 "SHADOW_SNEAK"
+],
+"eliteMoves": [
+"STRUGGLE_BUG"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -12937,6 +13530,9 @@
 "SAND_TOMB",
 "TWISTER"
 ],
+"eliteMoves": [
+"EARTH_POWER"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -13060,6 +13656,9 @@
 "MOONBLAST",
 "FLAMETHROWER"
 ],
+"eliteMoves": [
+"MOONBLAST"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -13089,6 +13688,9 @@
 "SKY_ATTACK",
 "MOONBLAST",
 "FLAMETHROWER"
+],
+"eliteMoves": [
+"MOONBLAST"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -13935,6 +14537,9 @@
 "PAYBACK",
 "BRUTAL_SWING"
 ],
+"eliteMoves": [
+"BRUTAL_SWING"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -13962,6 +14567,9 @@
 "MEGAHORN",
 "THUNDER",
 "PAYBACK",
+"BRUTAL_SWING"
+],
+"eliteMoves": [
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
@@ -14168,6 +14776,10 @@
 "BLIZZARD",
 "EARTHQUAKE",
 "WATER_PULSE",
+"ICICLE_SPEAR"
+],
+"eliteMoves": [
+"POWDER_SNOW",
 "ICICLE_SPEAR"
 ],
 "secondMoveStardust": 50000,
@@ -14400,6 +15012,9 @@
 "BRUTAL_SWING",
 "CRUNCH"
 ],
+"eliteMoves": [
+"OUTRAGE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -14432,6 +15047,9 @@
 "FLY",
 "BRUTAL_SWING",
 "CRUNCH"
+],
+"eliteMoves": [
+"OUTRAGE"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -14522,6 +15140,10 @@
 "METEOR_MASH",
 "PSYCHIC"
 ],
+"eliteMoves": [
+"METEOR_MASH",
+"SHADOW_CLAW"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -14553,6 +15175,10 @@
 "METEOR_MASH",
 "PSYCHIC"
 ],
+"eliteMoves": [
+"METEOR_MASH",
+"SHADOW_CLAW"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -14580,6 +15206,9 @@
 "FOCUS_BLAST",
 "STONE_EDGE",
 "ZAP_CANNON",
+"EARTHQUAKE"
+],
+"eliteMoves": [
 "EARTHQUAKE"
 ],
 "secondMoveStardust": 100000,
@@ -14611,6 +15240,9 @@
 "FOCUS_BLAST",
 "THUNDER"
 ],
+"eliteMoves": [
+"THUNDER"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -14638,6 +15270,9 @@
 "FLASH_CANNON",
 "FOCUS_BLAST",
 "HYPER_BEAM",
+"ZAP_CANNON"
+],
+"eliteMoves": [
 "ZAP_CANNON"
 ],
 "secondMoveStardust": 100000,
@@ -14671,6 +15306,9 @@
 "MIST_BALL",
 "AURA_SPHERE"
 ],
+"eliteMoves": [
+"MIST_BALL"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -14702,6 +15340,9 @@
 "MIST_BALL",
 "AURA_SPHERE"
 ],
+"eliteMoves": [
+"MIST_BALL"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -14731,6 +15372,9 @@
 "SOLAR_BEAM",
 "LUSTER_PURGE",
 "AURA_SPHERE"
+],
+"eliteMoves": [
+"LUSTER_PURGE"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -14762,6 +15406,9 @@
 "LUSTER_PURGE",
 "AURA_SPHERE"
 ],
+"eliteMoves": [
+"LUSTER_PURGE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -14790,6 +15437,9 @@
 "SURF",
 "ORIGIN_PULSE",
 "AVALANCHE"
+],
+"eliteMoves": [
+"ORIGIN_PULSE"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -14820,6 +15470,9 @@
 "ORIGIN_PULSE",
 "AVALANCHE"
 ],
+"eliteMoves": [
+"ORIGIN_PULSE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -14848,6 +15501,10 @@
 "SOLAR_BEAM",
 "FIRE_PUNCH",
 "PRECIPICE_BLADES"
+],
+"eliteMoves": [
+"PRECIPICE_BLADES",
+"FIRE_PUNCH"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -14878,6 +15535,10 @@
 "SOLAR_BEAM",
 "FIRE_PUNCH",
 "PRECIPICE_BLADES"
+],
+"eliteMoves": [
+"PRECIPICE_BLADES",
+"FIRE_PUNCH"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -14910,6 +15571,11 @@
 "BREAKING_SWIPE",
 "DRAGON_ASCENT"
 ],
+"eliteMoves": [
+"HURRICANE",
+"BREAKING_SWIPE",
+"DRAGON_ASCENT"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -14937,6 +15603,11 @@
 "AERIAL_ACE",
 "ANCIENT_POWER",
 "OUTRAGE",
+"HURRICANE",
+"BREAKING_SWIPE",
+"DRAGON_ASCENT"
+],
+"eliteMoves": [
 "HURRICANE",
 "BREAKING_SWIPE",
 "DRAGON_ASCENT"
@@ -15168,6 +15839,9 @@
 "STONE_EDGE",
 "FRENZY_PLANT"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -15254,6 +15928,9 @@
 "CLOSE_COMBAT",
 "FLAMETHROWER",
 "SOLAR_BEAM",
+"BLAST_BURN"
+],
+"eliteMoves": [
 "BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
@@ -15345,6 +16022,9 @@
 "HYDRO_PUMP",
 "HYDRO_CANNON",
 "DRILL_PECK"
+],
+"eliteMoves": [
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -15440,6 +16120,9 @@
 "HEAT_WAVE",
 "FLY"
 ],
+"eliteMoves": [
+"GUST"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -15468,6 +16151,12 @@
 "CRUNCH",
 "GRASS_KNOT",
 "HYPER_FANG",
+"ICE_BEAM",
+"THUNDERBOLT",
+"SHADOW_BALL",
+"SUPER_POWER"
+],
+"eliteMoves": [
 "ICE_BEAM",
 "THUNDERBOLT",
 "SHADOW_BALL",
@@ -15658,6 +16347,9 @@
 "WILD_CHARGE",
 "PSYCHIC_FANGS"
 ],
+"eliteMoves": [
+"PSYCHIC_FANGS"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -15735,6 +16427,10 @@
 "SOLAR_BEAM",
 "WEATHER_BALL_FIRE",
 "LEAF_STORM"
+],
+"eliteMoves": [
+"BULLET_SEED",
+"WEATHER_BALL_FIRE"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -17047,6 +17743,9 @@
 "BREAKING_SWIPE",
 "TWISTER"
 ],
+"eliteMoves": [
+"EARTH_POWER"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -17078,6 +17777,9 @@
 "EARTH_POWER",
 "BREAKING_SWIPE",
 "TWISTER"
+],
+"eliteMoves": [
+"EARTH_POWER"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -17173,6 +17875,9 @@
 "THUNDER_PUNCH",
 "METEOR_MASH"
 ],
+"eliteMoves": [
+"FORCE_PALM"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -17206,6 +17911,9 @@
 "BLAZE_KICK",
 "THUNDER_PUNCH",
 "METEOR_MASH"
+],
+"eliteMoves": [
+"FORCE_PALM"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -17693,6 +18401,9 @@
 "SHADOW_BALL",
 "BODY_SLAM"
 ],
+"eliteMoves": [
+"BODY_SLAM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -17725,6 +18436,9 @@
 "ROCK_WRECKER",
 "BREAKING_SWIPE",
 "DRILL_RUN"
+],
+"eliteMoves": [
+"ROCK_WRECKER"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -17784,6 +18498,9 @@
 "ICE_PUNCH",
 "FLAMETHROWER"
 ],
+"eliteMoves": [
+"FLAMETHROWER"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -17813,6 +18530,9 @@
 "PSYCHIC",
 "THUNDERBOLT",
 "SCORCHING_SANDS"
+],
+"eliteMoves": [
+"THUNDERBOLT"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -17861,6 +18581,9 @@
 "FLAMETHROWER",
 "AURA_SPHERE",
 "PSYSHOCK"
+],
+"eliteMoves": [
+"AURA_SPHERE"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -17919,6 +18642,10 @@
 "SOLAR_BEAM",
 "LAST_RESORT"
 ],
+"eliteMoves": [
+"LAST_RESORT",
+"BULLET_SEED"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -17945,6 +18672,10 @@
 "AVALANCHE",
 "ICE_BEAM",
 "ICY_WIND",
+"LAST_RESORT",
+"WATER_PULSE"
+],
+"eliteMoves": [
 "LAST_RESORT",
 "WATER_PULSE"
 ],
@@ -18010,6 +18741,9 @@
 "HIGH_HORSEPOWER",
 "ICICLE_SPEAR"
 ],
+"eliteMoves": [
+"ANCIENT_POWER"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -18055,6 +18789,9 @@
 "ZAP_CANNON",
 "TRI_ATTACK"
 ],
+"eliteMoves": [
+"TRI_ATTACK"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -18087,6 +18824,9 @@
 "SYNCHRONOISE",
 "SACRED_SWORD"
 ],
+"eliteMoves": [
+"SYNCHRONOISE"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -18116,6 +18856,9 @@
 "CLOSE_COMBAT",
 "LEAF_BLADE",
 "PSYCHIC",
+"SYNCHRONOISE"
+],
+"eliteMoves": [
 "SYNCHRONOISE"
 ],
 "secondMoveStardust": 75000,
@@ -18177,6 +18920,9 @@
 "POLTERGEIST",
 "SHADOW_PUNCH",
 "DYNAMIC_PUNCH"
+],
+"eliteMoves": [
+"SHADOW_BALL"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -18514,6 +19260,9 @@
 "THUNDER",
 "ROAR_OF_TIME"
 ],
+"legacyMoves": [
+"ROAR_OF_TIME"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -18573,6 +19322,9 @@
 "AQUA_TAIL",
 "SPACIAL_REND"
 ],
+"legacyMoves": [
+"SPACIAL_REND"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -18602,6 +19354,9 @@
 "STONE_EDGE",
 "FLAMETHROWER",
 "EARTH_POWER",
+"MAGMA_STORM"
+],
+"eliteMoves": [
 "MAGMA_STORM"
 ],
 "secondMoveStardust": 100000,
@@ -18647,6 +19402,9 @@
 "THUNDER",
 "CRUSH_GRIP"
 ],
+"eliteMoves": [
+"CRUSH_GRIP"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -18674,6 +19432,9 @@
 "ANCIENT_POWER",
 "DRAGON_CLAW",
 "SHADOW_SNEAK",
+"SHADOW_FORCE"
+],
+"eliteMoves": [
 "SHADOW_FORCE"
 ],
 "secondMoveStardust": 100000,
@@ -18705,6 +19466,9 @@
 "SHADOW_BALL",
 "SHADOW_FORCE"
 ],
+"eliteMoves": [
+"SHADOW_FORCE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -18731,6 +19495,9 @@
 "AURORA_BEAM",
 "FUTURE_SIGHT",
 "MOONBLAST",
+"GRASS_KNOT"
+],
+"eliteMoves": [
 "GRASS_KNOT"
 ],
 "secondMoveStardust": 100000,
@@ -18817,6 +19584,9 @@
 "SLUDGE_BOMB",
 "FOUL_PLAY"
 ],
+"eliteMoves": [
+"SLUDGE_BOMB"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -18859,6 +19629,9 @@
 "ENERGY_BALL",
 "GRASS_KNOT",
 "SOLAR_BEAM",
+"SEED_FLARE"
+],
+"eliteMoves": [
 "SEED_FLARE"
 ],
 "secondMoveStardust": 100000,
@@ -18904,6 +19677,9 @@
 "ENERGY_BALL",
 "GRASS_KNOT",
 "SOLAR_BEAM",
+"SEED_FLARE"
+],
+"eliteMoves": [
 "SEED_FLARE"
 ],
 "secondMoveStardust": 100000,
@@ -19508,6 +20284,9 @@
 "AERIAL_ACE",
 "FRENZY_PLANT"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -19597,6 +20376,9 @@
 "FLAME_CHARGE",
 "BLAST_BURN"
 ],
+"eliteMoves": [
+"BLAST_BURN"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -19684,6 +20466,9 @@
 "RAZOR_SHELL",
 "HYDRO_CANNON",
 "LIQUIDATION"
+],
+"eliteMoves": [
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -20374,6 +21159,9 @@
 "HEAVY_SLAM",
 "METEOR_BEAM"
 ],
+"eliteMoves": [
+"METEOR_BEAM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -20523,6 +21311,9 @@
 "HYPER_BEAM",
 "BODY_SLAM"
 ],
+"eliteMoves": [
+"BODY_SLAM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -20550,6 +21341,9 @@
 "DISARMING_VOICE",
 "DAZZLING_GLEAM",
 "HYPER_BEAM",
+"BODY_SLAM"
+],
+"eliteMoves": [
 "BODY_SLAM"
 ],
 "secondMoveStardust": 50000,
@@ -20637,6 +21431,9 @@
 "DYNAMIC_PUNCH",
 "FOCUS_BLAST",
 "STONE_EDGE",
+"BRUTAL_SWING"
+],
+"eliteMoves": [
 "BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
@@ -20872,6 +21669,9 @@
 "X_SCISSOR",
 "SILVER_WIND",
 "LEAF_STORM"
+],
+"eliteMoves": [
+"SHADOW_CLAW"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -22259,6 +23059,9 @@
 "THUNDER",
 "PSYSHOCK"
 ],
+"eliteMoves": [
+"CHARM"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -22404,6 +23207,9 @@
 "BLIZZARD",
 "FLASH_CANNON",
 "SIGNAL_BEAM",
+"AVALANCHE"
+],
+"eliteMoves": [
 "AVALANCHE"
 ],
 "secondMoveStardust": 50000,
@@ -22554,6 +23360,9 @@
 "ACID_SPRAY",
 "DRILL_RUN",
 "AERIAL_ACE",
+"RAZOR_SHELL"
+],
+"eliteMoves": [
 "RAZOR_SHELL"
 ],
 "secondMoveStardust": 50000,
@@ -23010,6 +23819,9 @@
 "DRAGON_CLAW",
 "LIQUIDATION"
 ],
+"eliteMoves": [
+"VOLT_SWITCH"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -23159,6 +23971,9 @@
 "FLAME_CHARGE",
 "POLTERGEIST"
 ],
+"eliteMoves": [
+"POLTERGEIST"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -23244,6 +24059,9 @@
 "SURF",
 "NIGHT_SLASH",
 "EARTHQUAKE",
+"BREAKING_SWIPE"
+],
+"eliteMoves": [
 "BREAKING_SWIPE"
 ],
 "secondMoveStardust": 75000,
@@ -23391,6 +24209,9 @@
 "FOCUS_BLAST",
 "ENERGY_BALL"
 ],
+"eliteMoves": [
+"ENERGY_BALL"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -23478,6 +24299,9 @@
 "FOCUS_BLAST",
 "HIGH_JUMP_KICK",
 "DRAIN_PUNCH"
+],
+"eliteMoves": [
+"HIGH_JUMP_KICK"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -23981,6 +24805,9 @@
 "BRUTAL_SWING",
 "FLY"
 ],
+"eliteMoves": [
+"BRUTAL_SWING"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -24070,6 +24897,9 @@
 "STONE_EDGE",
 "SACRED_SWORD"
 ],
+"eliteMoves": [
+"SACRED_SWORD"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -24100,6 +24930,9 @@
 "ROCK_SLIDE",
 "SACRED_SWORD"
 ],
+"eliteMoves": [
+"SACRED_SWORD"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -24128,6 +24961,9 @@
 "CLOSE_COMBAT",
 "LEAF_BLADE",
 "STONE_EDGE",
+"SACRED_SWORD"
+],
+"eliteMoves": [
 "SACRED_SWORD"
 ],
 "secondMoveStardust": 100000,
@@ -24185,6 +25021,9 @@
 "PSYCHIC",
 "FOCUS_BLAST",
 "HURRICANE",
+"BLEAKWIND_STORM"
+],
+"eliteMoves": [
 "BLEAKWIND_STORM"
 ],
 "secondMoveStardust": 100000,
@@ -24246,6 +25085,9 @@
 "THUNDERBOLT",
 "WILDBOLT_STORM"
 ],
+"eliteMoves": [
+"WILDBOLT_STORM"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -24276,6 +25118,9 @@
 "STONE_EDGE",
 "FUSION_FLARE"
 ],
+"eliteMoves": [
+"FUSION_FLARE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -24304,6 +25149,9 @@
 "WILD_CHARGE",
 "FLASH_CANNON",
 "CRUNCH",
+"FUSION_BOLT"
+],
+"eliteMoves": [
 "FUSION_BOLT"
 ],
 "secondMoveStardust": 100000,
@@ -24365,6 +25213,9 @@
 "BULLDOZE",
 "SANDSEAR_STORM"
 ],
+"eliteMoves": [
+"SANDSEAR_STORM"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -24392,6 +25243,9 @@
 "DRAGON_CLAW",
 "BLIZZARD",
 "DRACO_METEOR",
+"GLACIATE"
+],
+"eliteMoves": [
 "GLACIATE"
 ],
 "secondMoveStardust": 100000,
@@ -24425,6 +25279,9 @@
 "FUSION_BOLT",
 "FREEZE_SHOCK"
 ],
+"legacyMoves": [
+"FREEZE_SHOCK"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -24455,6 +25312,9 @@
 "ANCIENT_POWER",
 "FOCUS_BLAST",
 "FUSION_FLARE",
+"ICE_BURN"
+],
+"legacyMoves": [
 "ICE_BURN"
 ],
 "secondMoveStardust": 100000,
@@ -24515,6 +25375,9 @@
 "CLOSE_COMBAT",
 "HYDRO_PUMP",
 "X_SCISSOR",
+"SECRET_SWORD"
+],
+"eliteMoves": [
 "SECRET_SWORD"
 ],
 "secondMoveStardust": 100000,
@@ -24602,6 +25465,9 @@
 "X_SCISSOR",
 "MAGNET_BOMB",
 "HYPER_BEAM",
+"TECHNO_BLAST_NORMAL"
+],
+"eliteMoves": [
 "TECHNO_BLAST_NORMAL"
 ],
 "secondMoveStardust": 100000,
@@ -24694,6 +25560,9 @@
 "FRENZY_PLANT",
 "THUNDER_PUNCH"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -24726,6 +25595,9 @@
 "FRENZY_PLANT",
 "THUNDER_PUNCH",
 "SEED_BOMB_PLUS"
+],
+"eliteMoves": [
+"FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -24818,6 +25690,9 @@
 "MYSTICAL_FIRE",
 "PSYSHOCK"
 ],
+"eliteMoves": [
+"BLAST_BURN"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -24851,6 +25726,9 @@
 "MYSTICAL_FIRE",
 "PSYSHOCK",
 "MYSTICAL_FIRE_PLUS"
+],
+"eliteMoves": [
+"BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -24942,6 +25820,9 @@
 "HYDRO_CANNON",
 "BRUTAL_SWING"
 ],
+"eliteMoves": [
+"HYDRO_CANNON"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -24973,6 +25854,9 @@
 "HYDRO_PUMP",
 "HYDRO_CANNON",
 "SURF_PLUS"
+],
+"eliteMoves": [
+"HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -25127,6 +26011,9 @@
 "FLAME_CHARGE",
 "HURRICANE",
 "FLY"
+],
+"eliteMoves": [
+"INCINERATE"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -25362,6 +26249,9 @@
 "PSYCHIC",
 "DISARMING_VOICE",
 "TRAILBLAZE",
+"CHILLING_WATER"
+],
+"eliteMoves": [
 "CHILLING_WATER"
 ],
 "secondMoveStardust": 50000,
@@ -26315,6 +27205,10 @@
 "PSYSHOCK",
 "SHADOW_BALL"
 ],
+"eliteMoves": [
+"LAST_RESORT",
+"PSYSHOCK"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -26489,6 +27383,9 @@
 "MUDDY_WATER",
 "POWER_WHIP",
 "AQUA_TAIL",
+"THUNDER_PUNCH"
+],
+"eliteMoves": [
 "THUNDER_PUNCH"
 ],
 "secondMoveStardust": 75000,
@@ -26971,6 +27868,9 @@
 "PSYCHIC",
 "BOOMBURST"
 ],
+"eliteMoves": [
+"BOOMBURST"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -27000,6 +27900,9 @@
 "CLOSE_COMBAT",
 "GIGA_IMPACT",
 "THUNDER"
+],
+"eliteMoves": [
+"GEOMANCY"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -27031,6 +27934,9 @@
 "FOCUS_BLAST",
 "HYPER_BEAM",
 "PSYCHIC",
+"OBLIVION_WING"
+],
+"eliteMoves": [
 "OBLIVION_WING"
 ],
 "secondMoveStardust": 100000,
@@ -27364,6 +28270,9 @@
 "FRENZY_PLANT",
 "SPIRIT_SHACKLE"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -27486,6 +28395,9 @@
 "BRUTAL_SWING",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"BLAST_BURN"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -27575,6 +28487,9 @@
 "HYDRO_CANNON",
 "SPARKLING_ARIA"
 ],
+"eliteMoves": [
+"HYDRO_CANNON"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -27663,6 +28578,9 @@
 "DRILL_PECK",
 "ROCK_BLAST",
 "FLASH_CANNON",
+"BEAK_BLAST"
+],
+"eliteMoves": [
 "BEAK_BLAST"
 ],
 "secondMoveStardust": 10000,
@@ -27781,6 +28699,9 @@
 "DISCHARGE",
 "CRUNCH"
 ],
+"eliteMoves": [
+"VOLT_SWITCH"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -27811,6 +28732,9 @@
 "DISCHARGE",
 "CRUNCH",
 "FLY"
+],
+"eliteMoves": [
+"VOLT_SWITCH"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -28624,6 +29548,9 @@
 "STOMP",
 "DRAIN_PUNCH"
 ],
+"eliteMoves": [
+"DRAIN_PUNCH"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -28711,6 +29638,9 @@
 "GRASS_KNOT",
 "STOMP",
 "TRIPLE_AXEL",
+"HIGH_JUMP_KICK"
+],
+"eliteMoves": [
 "HIGH_JUMP_KICK"
 ],
 "secondMoveStardust": 10000,
@@ -29866,6 +30796,9 @@
 "CLANGING_SCALES",
 "UPPER_HAND"
 ],
+"eliteMoves": [
+"CLANGING_SCALES"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -29894,6 +30827,9 @@
 "DAZZLING_GLEAM",
 "BRAVE_BIRD",
 "THUNDER",
+"NATURES_MADNESS"
+],
+"eliteMoves": [
 "NATURES_MADNESS"
 ],
 "secondMoveStardust": 100000,
@@ -29927,6 +30863,9 @@
 "NATURES_MADNESS",
 "DRAINING_KISS"
 ],
+"eliteMoves": [
+"NATURES_MADNESS"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -29955,6 +30894,9 @@
 "DAZZLING_GLEAM",
 "MEGAHORN",
 "SOLAR_BEAM",
+"NATURES_MADNESS"
+],
+"eliteMoves": [
 "NATURES_MADNESS"
 ],
 "secondMoveStardust": 100000,
@@ -30000,6 +30942,9 @@
 "MOONBLAST",
 "ICE_BEAM",
 "HYDRO_PUMP",
+"NATURES_MADNESS"
+],
+"eliteMoves": [
 "NATURES_MADNESS"
 ],
 "secondMoveStardust": 100000,
@@ -30613,6 +31558,9 @@
 "OVERHEAT",
 "MIND_BLOWN"
 ],
+"eliteMoves": [
+"MIND_BLOWN"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -30699,6 +31647,9 @@
 "DOUBLE_IRON_BASH",
 "DYNAMIC_PUNCH"
 ],
+"eliteMoves": [
+"DOUBLE_IRON_BASH"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -30782,6 +31733,9 @@
 "GRASS_KNOT",
 "EARTH_POWER",
 "DRUM_BEATING",
+"FRENZY_PLANT"
+],
+"eliteMoves": [
 "FRENZY_PLANT"
 ],
 "secondMoveStardust": 10000,
@@ -30869,6 +31823,9 @@
 "PYRO_BALL",
 "BLAST_BURN"
 ],
+"eliteMoves": [
+"BLAST_BURN"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -30952,6 +31909,9 @@
 "SURF",
 "SHADOW_BALL",
 "SNIPE_SHOT",
+"HYDRO_CANNON"
+],
+"eliteMoves": [
 "HYDRO_CANNON"
 ],
 "secondMoveStardust": 10000,
@@ -31101,6 +32061,10 @@
 "IRON_HEAD",
 "AIR_CUTTER"
 ],
+"eliteMoves": [
+"IRON_HEAD",
+"AIR_CUTTER"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -31240,6 +32204,9 @@
 "chargedMoves": [
 "NIGHT_SLASH",
 "PLAY_ROUGH",
+"ICY_WIND"
+],
+"eliteMoves": [
 "ICY_WIND"
 ],
 "secondMoveStardust": 10000,
@@ -32283,6 +33250,9 @@
 "GUNK_SHOT",
 "OBSTRUCT"
 ],
+"eliteMoves": [
+"OBSTRUCT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -33130,6 +34100,9 @@
 "GIGA_IMPACT",
 "BEHEMOTH_BLADE"
 ],
+"legacyMoves": [
+"BEHEMOTH_BLADE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -33187,6 +34160,9 @@
 "MOONBLAST",
 "CLOSE_COMBAT",
 "GIGA_IMPACT",
+"BEHEMOTH_BASH"
+],
+"legacyMoves": [
 "BEHEMOTH_BASH"
 ],
 "secondMoveStardust": 100000,
@@ -33247,6 +34223,9 @@
 "FLAMETHROWER",
 "DYNAMAX_CANNON",
 "DRAGON_PULSE"
+],
+"eliteMoves": [
+"DYNAMAX_CANNON"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -33423,6 +34402,9 @@
 "HYPER_BEAM",
 "THUNDER_CAGE"
 ],
+"eliteMoves": [
+"THUNDER_CAGE"
+],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
 },
@@ -33452,6 +34434,10 @@
 "BREAKING_SWIPE",
 "DRAGON_ENERGY",
 "VICE_GRIP"
+],
+"eliteMoves": [
+"DRAGON_BREATH",
+"DRAGON_ENERGY"
 ],
 "secondMoveStardust": 100000,
 "secondMoveCandy": 100
@@ -33658,6 +34644,9 @@
 "TRAILBLAZE",
 "SWIFT",
 "PLAY_ROUGH"
+],
+"eliteMoves": [
+"HIGH_HORSEPOWER"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -33916,6 +34905,9 @@
 "FRENZY_PLANT",
 "FLOWER_TRICK"
 ],
+"eliteMoves": [
+"FRENZY_PLANT"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -34005,6 +34997,9 @@
 "SHADOW_BALL",
 "BLAST_BURN",
 "TORCH_SONG"
+],
+"eliteMoves": [
+"BLAST_BURN"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -34096,6 +35091,9 @@
 "AQUA_STEP",
 "HYDRO_CANNON"
 ],
+"eliteMoves": [
+"HYDRO_CANNON"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -34154,6 +35152,9 @@
 "BODY_SLAM",
 "TRAILBLAZE"
 ],
+"eliteMoves": [
+"MUD_SLAP"
+],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
 },
@@ -34181,6 +35182,9 @@
 "DIG",
 "BODY_SLAM",
 "TRAILBLAZE"
+],
+"eliteMoves": [
+"MUD_SLAP"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -34392,6 +35396,9 @@
 "WILD_CHARGE",
 "CLOSE_COMBAT",
 "THUNDER_PUNCH",
+"BRICK_BREAK"
+],
+"eliteMoves": [
 "BRICK_BREAK"
 ],
 "secondMoveStardust": 75000,
@@ -35440,6 +36447,9 @@
 "BULLDOZE",
 "GIGATON_HAMMER"
 ],
+"eliteMoves": [
+"GIGATON_HAMMER"
+],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
 },
@@ -36053,6 +37063,9 @@
 "SHADOW_BALL",
 "RAGE_FIST"
 ],
+"eliteMoves": [
+"RAGE_FIST"
+],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
 },
@@ -36082,6 +37095,9 @@
 "STONE_EDGE",
 "ACID_SPRAY",
 "WATER_PULSE",
+"MEGAHORN"
+],
+"eliteMoves": [
 "MEGAHORN"
 ],
 "secondMoveStardust": 50000,
@@ -36567,6 +37583,9 @@
 "OUTRAGE",
 "BLIZZARD",
 "ICY_WIND",
+"GLAIVE_RUSH"
+],
+"eliteMoves": [
 "GLAIVE_RUSH"
 ],
 "secondMoveStardust": 75000,

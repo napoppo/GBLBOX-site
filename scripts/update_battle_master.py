@@ -220,6 +220,14 @@ def load_move_ja():
                 if ident in ja_by_ident:
                     return ja_by_ident[ident]
             parts = parts[:-1]
+        # 種族名が頭に付く技（AEGISLASH_CHARGE_PSYCHO_CUT など）は後ろから削っても
+        # 技名にたどり着けない。右からの一致が全滅したときだけ、頭を削って引き直す。
+        parts = move_id.lower().split("_")[1:]
+        while parts:
+            for ident in ("-".join(parts), "".join(parts)):
+                if ident in ja_by_ident:
+                    return ja_by_ident[ident]
+            parts = parts[1:]
         return None
 
     return lookup
@@ -276,6 +284,17 @@ def build_pokedex(pvpoke_gamemaster: dict, ja_names: dict[int, str]) -> list[dic
         for move_id in availability.get("chargedMoves", []):
             if move_id not in entry["chargedMoves"]:
                 entry["chargedMoves"].append(move_id)
+        # 習得手段が特殊な技。fastMoves/chargedMoves にも含まれる（そこから除くのではなく印だけ付ける）。
+        #   eliteMoves : すごいわざマシンでのみ習得可能
+        #   legacyMoves: 現在は入手手段が無い（過去イベント等の名残）
+        # 大会のチームリストや育成計画で「そのわざマシンを持っているか」が判断材料になるため持たせる。
+        # データ量を抑えるため、空の種族にはキー自体を出さない。iOS tools/build_data.py と同じ扱い。
+        elite_moves = pokemon.get("eliteMoves") or []
+        legacy_moves = pokemon.get("legacyMoves") or []
+        if elite_moves:
+            entry["eliteMoves"] = elite_moves
+        if legacy_moves:
+            entry["legacyMoves"] = legacy_moves
         third_move_cost = pokemon.get("thirdMoveCost")
         if isinstance(third_move_cost, int) and third_move_cost > 0:
             entry["secondMoveStardust"] = third_move_cost

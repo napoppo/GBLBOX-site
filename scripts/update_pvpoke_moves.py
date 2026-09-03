@@ -47,14 +47,35 @@ def fetch_json(source: LeagueSource) -> tuple[list[dict], str | None]:
     return json.loads(data.decode("utf-8")), None
 
 
+def normalized_move_id(value: object) -> str | None:
+    """空き枠を None に寄せる。
+
+    上流は「2つ目のゲージ技が無い」種族（わるあがきだけの Unown など）に対して、
+    枠を省略せず文字列 "none" を入れてくることがある。枠が無い場合と同じ扱いに
+    しないと、存在しない技IDとして配信データの検証で落ちる。
+    """
+    if not isinstance(value, str):
+        return None
+    value = value.strip()
+    if not value or value.lower() == "none":
+        return None
+    return value
+
+
 def moveset_from_entry(entry: dict) -> dict | None:
     moveset = entry.get("moveset") or []
     if len(moveset) < 2:
         return None
+    fast_id = normalized_move_id(moveset[0])
+    charged_id1 = normalized_move_id(moveset[1])
+    charged_id2 = normalized_move_id(moveset[2]) if len(moveset) >= 3 else None
+    # 通常技と1つ目のゲージ技が揃わない構成は、アプリ側で使えないので採用しない。
+    if fast_id is None or charged_id1 is None:
+        return None
     return {
-        "fastId": moveset[0],
-        "chargedId1": moveset[1],
-        "chargedId2": moveset[2] if len(moveset) >= 3 else None,
+        "fastId": fast_id,
+        "chargedId1": charged_id1,
+        "chargedId2": charged_id2,
     }
 
 

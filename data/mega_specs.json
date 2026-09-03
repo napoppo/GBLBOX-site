@@ -3,7 +3,7 @@
   "source": "PokeMiners Game Master",
   "sourceURL": "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json",
   "sourceVersion": "1787902550208",
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-03",
   "entries": [
     {
       "speciesId": "altaria_mega",
@@ -18,7 +18,7 @@
         2,
         3
       ],
-      "sourceVersion": "1776386930700"
+      "sourceVersion": "1787902550208"
     },
     {
       "speciesId": "banette_mega",
@@ -33,7 +33,7 @@
         2,
         3
       ],
-      "sourceVersion": "1776386930700"
+      "sourceVersion": "1787902550208"
     },
     {
       "speciesId": "beedrill_mega",
@@ -48,342 +48,7 @@
         2,
         3
       ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "diancie_mega",
-      "dexNo": 719,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "dragonite_mega",
-      "dexNo": 149,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 4,
-      "powerLevelBonus": 2,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "garchomp_mega",
-      "dexNo": 445,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "groudon_primal",
-      "dexNo": 383,
-      "form": "Primal",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "gyarados_mega",
-      "dexNo": 130,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "houndoom_mega",
-      "dexNo": 229,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "kyogre_primal",
-      "dexNo": 382,
-      "form": "Primal",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "latias_mega",
-      "dexNo": 380,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "latios_mega",
-      "dexNo": 381,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "malamar_mega",
-      "dexNo": 687,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 4,
-      "powerLevelBonus": 2,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "manectric_mega",
-      "dexNo": 310,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "medicham_mega",
-      "dexNo": 308,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "metagross_mega",
-      "dexNo": 376,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "mewtwo_mega_x",
-      "dexNo": 150,
-      "form": "MegaX",
-      "released": true,
-      "megaMaxLevel": 4,
-      "powerLevelBonus": 2,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "mewtwo_mega_y",
-      "dexNo": 150,
-      "form": "MegaY",
-      "released": true,
-      "megaMaxLevel": 4,
-      "powerLevelBonus": 2,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "pidgeot_mega",
-      "dexNo": 18,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "rayquaza_mega",
-      "dexNo": 384,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "sableye_mega",
-      "dexNo": 302,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "salamence_mega",
-      "dexNo": 373,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "slowbro_mega",
-      "dexNo": 80,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "tyranitar_mega",
-      "dexNo": 248,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "sourceVersion": "1776386930700"
-    },
-    {
-      "speciesId": "victreebel_mega",
-      "dexNo": 71,
-      "form": "Mega",
-      "released": true,
-      "megaMaxLevel": 4,
-      "powerLevelBonus": 2,
-      "levelsAvailable": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ],
-      "sourceVersion": "1776386930700"
+      "sourceVersion": "1787902550208"
     },
     {
       "speciesId": "chesnaught_mega",
@@ -418,6 +83,37 @@
       "sourceVersion": "1787902550208"
     },
     {
+      "speciesId": "diancie_mega",
+      "dexNo": 719,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "dragonite_mega",
+      "dexNo": 149,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
       "speciesId": "falinks_mega",
       "dexNo": 870,
       "form": "Mega",
@@ -434,6 +130,21 @@
       "sourceVersion": "1787902550208"
     },
     {
+      "speciesId": "garchomp_mega",
+      "dexNo": 445,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
       "speciesId": "greninja_mega",
       "dexNo": 658,
       "form": "Mega",
@@ -446,6 +157,204 @@
         2,
         3,
         4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "groudon_primal",
+      "dexNo": 383,
+      "form": "Primal",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "gyarados_mega",
+      "dexNo": 130,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "houndoom_mega",
+      "dexNo": 229,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "kyogre_primal",
+      "dexNo": 382,
+      "form": "Primal",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "latias_mega",
+      "dexNo": 380,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "latios_mega",
+      "dexNo": 381,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "malamar_mega",
+      "dexNo": 687,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "manectric_mega",
+      "dexNo": 310,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "medicham_mega",
+      "dexNo": 308,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "metagross_mega",
+      "dexNo": 376,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "mewtwo_mega_x",
+      "dexNo": 150,
+      "form": "MegaX",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "mewtwo_mega_y",
+      "dexNo": 150,
+      "form": "MegaY",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "pidgeot_mega",
+      "dexNo": 18,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
       ],
       "sourceVersion": "1787902550208"
     },
@@ -482,6 +391,51 @@
       "sourceVersion": "1787902550208"
     },
     {
+      "speciesId": "rayquaza_mega",
+      "dexNo": 384,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "sableye_mega",
+      "dexNo": 302,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "salamence_mega",
+      "dexNo": 373,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
       "speciesId": "skarmory_mega",
       "dexNo": 227,
       "form": "Mega",
@@ -498,8 +452,54 @@
       "sourceVersion": "1787902550208"
     },
     {
+      "speciesId": "slowbro_mega",
+      "dexNo": 80,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
       "speciesId": "starmie_mega",
       "dexNo": 121,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "tyranitar_mega",
+      "dexNo": 248,
+      "form": "Mega",
+      "released": true,
+      "megaMaxLevel": 3,
+      "powerLevelBonus": null,
+      "levelsAvailable": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sourceVersion": "1787902550208"
+    },
+    {
+      "speciesId": "victreebel_mega",
+      "dexNo": 71,
       "form": "Mega",
       "released": true,
       "megaMaxLevel": 4,
