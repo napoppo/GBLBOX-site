@@ -22,6 +22,10 @@ from secure_fetch import fetch_bytes
 HERE = os.path.dirname(os.path.abspath(__file__))
 # GitHub Pages 配信先（data/）。アプリ同梱版は pokemongo_iv_manager/tools 側で生成する。
 OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_movesets.json"))
+# 採用順（技ごとの使用数の多い順）。pvpoke_movesets.json とは別ファイルにする。
+# アプリ側の検証はキー完全一致で、既存ファイルにキーを足すと配信済みの
+# バージョンがファイルごと弾いてしまうため、増やすときは新しいファイルにする。
+USAGE_OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_move_usage.json"))
 BASE_URL = "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall"
 
 
@@ -97,6 +101,36 @@ def build_league_map(rankings: list[dict]) -> dict[str, dict]:
     return dict(sorted(out.items()))
 
 
+def build_move_usage(rankings: list[dict]) -> dict[str, dict]:
+    """技ごとの使用数の多い順に並べた技IDを、種族別に返す。
+
+    アプリはこの順で技の選択肢を並べる。上流の moveset は上位2つしか無く、
+    3つ目以降は強さの目安式に落ちて実際の採用順と食い違っていた。
+    """
+    out: dict[str, dict] = {}
+    for entry in rankings:
+        species_id = entry.get("speciesId")
+        if not species_id:
+            continue
+        moves = entry.get("moves") or {}
+        usage = {}
+        for key, out_key in (("fastMoves", "fastIds"), ("chargedMoves", "chargedIds")):
+            ranked = sorted(moves.get(key) or [],
+                            key=lambda m: -(m.get("uses") or 0))
+            ids = [normalized_move_id(m.get("moveId")) for m in ranked]
+            usage[out_key] = [i for i in ids if i]
+        if not usage["fastIds"] and not usage["chargedIds"]:
+            continue
+
+        # シャドウは通常種族へ統合する（build_league_map と同じ扱い）。
+        base_id = species_id.removesuffix("_shadow")
+        if species_id == base_id:
+            out[base_id] = usage
+        else:
+            out.setdefault(base_id, usage)
+    return dict(sorted(out.items()))
+
+
 def build_rankings(rankings: list[dict]) -> list[dict]:
     """使用率(PvPoke)順を保持したランキング。シャドウは通常種族に統合し重複を除く。"""
     out: list[dict] = []
@@ -120,15 +154,18 @@ def build_rankings(rankings: list[dict]) -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Update bundled PvPoke moveset recommendations.")
     parser.add_argument("--output", default=OUT, help="Output JSON path")
+    parser.add_argument("--usage-output", default=USAGE_OUT, help="Move usage JSON path")
     args = parser.parse_args()
 
     leagues: dict[str, dict] = {}
     rankings_out: dict[str, list] = {}
+    usage_out: dict[str, dict] = {}
     sources: list[dict] = []
     for source in LEAGUES:
         rankings, last_modified = fetch_json(source)
         leagues[source.key] = build_league_map(rankings)
         rankings_out[source.key] = build_rankings(rankings)
+        usage_out[source.key] = build_move_usage(rankings)
         sources.append({
             "league": source.key,
             "url": source.url,
@@ -144,9 +181,20 @@ def main() -> None:
         "rankings": rankings_out,
     }
 
+    usage_payload = {
+        "schemaVersion": 1,
+        "updatedAt": payload["updatedAt"],
+        "leagues": usage_out,
+    }
+
     os.makedirs(os.path.dirname(os.path.abspath(args.output)), exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+
+    os.makedirs(os.path.dirname(os.path.abspath(args.usage_output)), exist_ok=True)
+    with open(args.usage_output, "w", encoding="utf-8") as f:
+        json.dump(usage_payload, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
     print(f"wrote {args.output}")
 
