@@ -1,0 +1,258 @@
+{
+"schemaVersion": 1,
+"moves": {
+"AIR_CUTTER": {
+"declared": {
+"buffChance": 0.2,
+"energy": 45,
+"power": 60
+},
+"masterThen": {
+"buffChance": 0.3,
+"energy": 35,
+"power": 45
+}
+},
+"BULLDOZE": {
+"declared": {
+"buffChance": 1.0,
+"energy": 60,
+"power": 80
+},
+"masterThen": {
+"buffChance": 0.5,
+"energy": 45,
+"power": 45
+}
+},
+"BODY_SLAM": {
+"declared": {
+"energy": 45,
+"power": 65
+},
+"masterThen": {
+"energy": 35,
+"power": 55
+}
+},
+"SAND_TOMB": {
+"declared": {
+"energy": 45,
+"power": 55
+},
+"masterThen": {
+"energy": 40,
+"power": 40
+}
+},
+"BRINE": {
+"declared": {
+"energy": 65,
+"power": 100
+},
+"masterThen": {
+"energy": 50,
+"power": 60
+}
+},
+"BUBBLE_BEAM": {
+"declared": {
+"energy": 50,
+"power": 50
+},
+"masterThen": {
+"energy": 40,
+"power": 25
+}
+},
+"MIRROR_COAT": {
+"declared": {
+"energy": 45,
+"power": 75
+},
+"masterThen": {
+"energy": 55,
+"power": 60
+}
+},
+"HIGH_HORSEPOWER": {
+"declared": {
+"energy": 55
+},
+"masterThen": {
+"energy": 60
+}
+},
+"CHARGE_BEAM": {
+"declared": {
+"power": 6
+},
+"masterThen": {
+"power": 5
+}
+},
+"BLAZE_KICK": {
+"declared": {
+"energy": 35
+},
+"masterThen": {
+"energy": 40
+}
+},
+"IRON_HEAD": {
+"declared": {
+"power": 85
+},
+"masterThen": {
+"power": 70
+}
+},
+"DRAINING_KISS": {
+"declared": {
+"buffChance": 1.0,
+"buffTarget": "self",
+"buffs": [
+0,
+1
+],
+"power": 80
+},
+"masterThen": {
+"buffChance": null,
+"buffTarget": null,
+"buffs": null,
+"power": 60
+}
+},
+"POISON_FANG": {
+"declared": {
+"power": 50
+},
+"masterThen": {
+"power": 45
+}
+},
+"LUNGE": {
+"declared": {
+"power": 70
+},
+"masterThen": {
+"power": 60
+}
+},
+"BITE": {
+"declared": {
+"energyGain": 4,
+"power": 2
+},
+"masterThen": {
+"energyGain": 2,
+"power": 4
+}
+},
+"INFESTATION": {
+"declared": {
+"power": 10
+},
+"masterThen": {
+"power": 6
+}
+},
+"TAKE_DOWN": {
+"declared": {
+"energyGain": 9,
+"power": 14
+},
+"masterThen": {
+"energyGain": 8,
+"power": 5
+}
+},
+"SCRATCH": {
+"declared": {
+"energyGain": 4,
+"power": 3
+},
+"masterThen": {
+"energyGain": 2,
+"power": 4
+}
+},
+"MOONBLAST": {
+"declared": {
+"energy": 50,
+"power": 90
+},
+"masterThen": {
+"energy": 60,
+"power": 110
+}
+},
+"SHADOW_BALL": {
+"declared": {
+"power": 90
+},
+"masterThen": {
+"power": 100
+}
+},
+"DARK_PULSE": {
+"declared": {
+"energy": 45
+},
+"masterThen": {
+"energy": 50
+}
+},
+"PSYCHO_BOOST": {
+"declared": {
+"power": 85
+},
+"masterThen": {
+"power": 70
+}
+},
+"RAGE_FIST": {
+"declared": {
+"energy": 40,
+"power": 55
+},
+"masterThen": {
+"energy": 35,
+"power": 50
+}
+},
+"MAGNET_BOMB": {
+"declared": {
+"energy": 40
+},
+"masterThen": {
+"energy": 45
+}
+},
+"DOUBLE_IRON_BASH": {
+"declared": {
+"power": 70
+},
+"masterThen": {
+"power": 55
+}
+},
+"SHADOW_FORCE": {
+"declared": {
+"energy": 55
+},
+"masterThen": {
+"energy": 90
+}
+},
+"LOW_KICK": {
+"declared": {
+"power": 6
+},
+"masterThen": {
+"power": 5
+}
+}
+}
+}

@@ -377,13 +377,68 @@ def write_json(path: str, payload) -> None:
         handle.write("\n")
 
 
-def build_twilight_trails_overrides(moves: dict[str, dict]) -> dict:
+def load_baseline(path: str) -> dict[str, dict]:
+    """調整値を出し続けてよいかの判断材料を読む。
+
+    技ごとに「調整表に書いた内容」と「発表前のマスター値」を控える。マスターが
+    その値から動いたら、ゲーム側が取り込んだ合図とみなして配信から落とす。
+    energy などは予想値で、外れていれば永久にマスターと一致しない。だから
+    「マスターと一致したか」ではなく「マスターが動いたか」で判断する。
+    """
+    try:
+        with open(path, encoding="utf-8") as handle:
+            data = json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        return {}
+    entries = data.get("moves") if isinstance(data, dict) else None
+    return entries if isinstance(entries, dict) else {}
+
+
+def master_slice(base: dict, fields) -> dict:
+    """調整表で指定しているフィールドだけを切り出す。
+
+    全フィールドを見ると、調整と無関係な項目の変化で「反映済み」と誤判定する。
+    """
+    return {key: base.get(key) for key in sorted(fields)}
+
+
+def build_twilight_trails_overrides(moves: dict[str, dict],
+                                    baseline: dict[str, dict]) -> tuple[dict, dict]:
     """Create the separate adjustment document without changing moves.json."""
     overrides = []
+    next_baseline: dict[str, dict] = {}
     for move_id, changes in TWILIGHT_TRAILS_MOVE_OVERRIDES.items():
         base = moves.get(move_id)
         if base is None:
-            raise ValueError(f"missing move for adjustment override: {move_id}")
+            # マスターから消えた技のために生成ごと止めない。止めると pokedex/moves だけが
+            # 新しくなり、調整値は古いまま残る（一番ややこしい状態になる）。
+            print(f"warning: skipped adjustment override for missing move: {move_id}")
+            continue
+
+        declared = {key: changes[key] for key in sorted(changes)}
+        current = master_slice(base, declared)
+        record = baseline.get(move_id)
+        known = isinstance(record, dict) and record.get("declared") == declared
+
+        if current == declared:
+            # マスターが調整表と同じ値になった。上書きしても何も変わらないので出さない。
+            next_baseline[move_id] = {"declared": declared, "masterThen": current, "retired": True}
+            continue
+        if known and record.get("retired"):
+            next_baseline[move_id] = record
+            continue
+        if known and record.get("masterThen") != current:
+            # 発表前の値から動いた＝ゲーム側が取り込んだ。予想の当たり外れに関係なく落とす。
+            next_baseline[move_id] = {"declared": declared,
+                                      "masterThen": record.get("masterThen"),
+                                      "retired": True}
+            continue
+
+        # 未反映、または調整表を書き換えた直後。控えを取り直して配信する。
+        # 表を書き換えたときに控えも作り直さないと、前回の調整が反映済みの技へ
+        # 新しい調整を足しても「もう動いた」と見なして出せなくなる。
+        next_baseline[move_id] = {"declared": declared,
+                                  "masterThen": record.get("masterThen") if known else current}
         override = {
             "moveId": move_id,
             "power": changes.get("power", base["power"]),
@@ -404,7 +459,7 @@ def build_twilight_trails_overrides(moves: dict[str, dict]) -> dict:
     }
     if EMIT_SEASON_ID:
         document["seasonId"] = current_battle_season_id()
-    return document
+    return document, {"schemaVersion": 1, "moves": next_baseline}
 
 
 # GBLBOX 2.7.3 以前は、この seasonId を「予定表の配信キャッシュ由来のシーズン」と
@@ -439,16 +494,19 @@ def main() -> int:
     pokedex = build_pokedex(pvpoke_gamemaster, load_ja_names())
     moves = build_moves(pvpoke_gamemaster, load_move_ja())
 
+    baseline_path = os.path.join(args.output_dir, "battle_move_overrides.baseline.json")
+    overrides_document, next_baseline = build_twilight_trails_overrides(moves, load_baseline(baseline_path))
+
     write_json(os.path.join(args.output_dir, "pokedex.json"), pokedex)
     write_json(os.path.join(args.output_dir, "moves.json"), moves)
-    write_json(
-        os.path.join(args.output_dir, "battle_move_overrides.json"),
-        build_twilight_trails_overrides(moves),
-    )
+    write_json(os.path.join(args.output_dir, "battle_move_overrides.json"), overrides_document)
+    write_json(baseline_path, next_baseline)
 
     released_count = sum(1 for entry in pokedex if entry["released"])
     print(f"pokedex.json: {len(pokedex)} species (released={released_count})")
     print(f"moves.json: {len(moves)} moves")
+    retired = sum(1 for entry in next_baseline["moves"].values() if entry.get("retired"))
+    print(f"battle_move_overrides.json: {len(overrides_document['overrides'])} active, {retired} retired")
     return 0
 
 
