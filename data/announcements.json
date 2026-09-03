@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.7.3-379",
+      "enabled": true,
+      "publishedAt": "2026-09-03",
+      "maximumBuild": 378,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 379,
+      "titleJa": "GBLBOX 2.7.3 の配信を開始しました",
+      "titleEn": "GBLBOX 2.7.3 Update",
+      "bodyJa": "GBLBOX 2.7.3 の配信を開始しました。お知らせを出していなかった 2.7.2 の内容もまとめています。\n\n■ 2.7.3 の修正\n・スクリーンショット解析で、おすすめの育成先にメガが選ばれても、そのカードが選択された状態にならなかったのを直しました\n・リーグの切り替えボタンに出る順位とおすすめの印を、メガを含めた判定にそろえました。上のおすすめと食い違わなくなります\n\n■ 2.7.2 で追加した機能\n・GBLの戦績をダッシュボードにまとめ、レートの増減、勝率、直近の調子、次にやることを確認できます\n・対策知識と自分の戦績を照合し、対策候補の裏目や次の改善行動を確認できます\n・メガシンカ前の個体から、メガ後の育成候補と順位を確認できます。メガLv4は全リーグに対応し、スーパー・ハイパーでは対戦時にリーグ上限へ収まるPLで順位を出します\n・技の調整をシミュレータ、技カウント、ブレイクで共通化し、技カウントは使用率上位50匹まで広げました\n・GBLの予定画面で、保存されている過去シーズンも確認できます\n\n■ 2.7.2 の修正\n・ライブ読み取りの取りこぼしと二重登録を直し、登録済みの個体では読み取り回数を消費しないようにしました\n・ライブ読み取りでメガの方が上位なら、メガを育成先として登録するようにしました\n・キラの判定を「キラポケモン」の表示で行うようにし、誤判定を減らしました\n\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.7.3 is now available. This note also covers version 2.7.2, which had no in-app announcement.\n\n■ Fixed in 2.7.3\n- When a Mega form is the recommended training target, its card is now actually selected in screenshot analysis\n- League buttons now rank and mark the recommendation with Mega forms included, so they no longer disagree with the recommendation above\n\n■ Added in 2.7.2\n- Battle analytics in one dashboard: rating changes, win rate, recent form, and what to work on next\n- Compare battle knowledge with your own history, including counterplay risks and the next improvement action\n- See Mega training targets and rankings from the pre-Mega Pokemon. Mega Lv4 is supported in every league, and Great and Ultra rank Mega Pokemon at a power level that fits the league cap\n- Move tuning is shared across the simulator, Move Counts, and Breakpoints, and Move Counts now covers the top 50 usage picks\n- The GBL schedule now includes saved past seasons\n\n■ Fixed in 2.7.2\n- Fixed missed reads and duplicate entries in live scanning; already-registered Pokemon no longer use up a scan\n- Live scanning now registers the Mega form when it ranks higher\n- Lucky is now detected from the \"Lucky Pokemon\" label, which reduces false positives\n\nWe recommend updating to the latest version.",
+      "updatePromptJa": "メガの育成先まわりを直した2.7.3が利用できます。GBLの戦績分析とメガ対応を広げた2.7.2の内容も含みます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.3 fixes Mega training targets and includes the 2.7.2 battle analytics and Mega updates. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.3へ更新",
+      "updateActionTitleEn": "Update to 2.7.3",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.7.2-377",
       "enabled": false,
       "publishedAt": "2026-09-02",
