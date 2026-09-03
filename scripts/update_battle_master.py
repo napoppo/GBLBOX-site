@@ -139,12 +139,15 @@ ATTACK_AVAILABILITY_OVERRIDES = {
 # 公式発表で威力や効果が確定している項目と、発表文が増減だけに留まる
 # エネルギー値の予想を分離して保持する。energy/energyGain の予想値は
 # battle_move_overrides.json 側で isEstimated を付けて公開する。
+# 数値は 9/1 に実測（動画計測）で更新した data/battle_move_overrides.json に合わせている。
+# 配信ファイルは毎日の更新でコミットされないため、この表だけ古いと、生成し直した人が
+# 実測値を黙って巻き戻してしまう。値を変えるときは両方を一緒に動かすこと。
 TWILIGHT_TRAILS_MOVE_OVERRIDES = {
-    "AIR_CUTTER": {"power": 60, "energy": 40, "buffChance": 0.1},
-    "BULLDOZE": {"power": 80, "energy": 55, "buffChance": 1.0},
-    "BODY_SLAM": {"power": 65, "energy": 40},
+    "AIR_CUTTER": {"power": 60, "energy": 45, "buffChance": 0.2},
+    "BULLDOZE": {"power": 80, "energy": 60, "buffChance": 1.0},
+    "BODY_SLAM": {"power": 65, "energy": 45},
     "SAND_TOMB": {"power": 55, "energy": 45},
-    "BRINE": {"power": 100, "energy": 60},
+    "BRINE": {"power": 100, "energy": 65},
     "BUBBLE_BEAM": {"power": 50, "energy": 50},
     "MIRROR_COAT": {"power": 75, "energy": 45},
     "HIGH_HORSEPOWER": {"energy": 55},
@@ -165,7 +168,7 @@ TWILIGHT_TRAILS_MOVE_OVERRIDES = {
     "RAGE_FIST": {"power": 55, "energy": 40},
     "MAGNET_BOMB": {"energy": 40},
     "DOUBLE_IRON_BASH": {"power": 70},
-    "SHADOW_FORCE": {"energy": 60},
+    "SHADOW_FORCE": {"energy": 55},
     "LOW_KICK": {"power": 6},
 }
 
