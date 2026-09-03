@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.7.3-379",
+      "id": "2.7.4-385",
       "enabled": true,
+      "publishedAt": "2026-09-04",
+      "maximumBuild": 384,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 385,
+      "titleJa": "GBLBOX 2.7.4 の配信を開始しました",
+      "titleEn": "GBLBOX 2.7.4 is now available",
+      "bodyJa": "GBLBOX 2.7.4 の配信を開始しました。\n\n■ 新しくできること\n・シミュレータ・技カウント・ブレイク探索で、メガ形態のカップを選べるようになりました。メガの技のおすすめも、PvPokeのメガ版使用率データを新しく取り込み、実際の採用順に合わせています\n・シミュレータ・技カウント・ブレイク探索のリーグ・カップ選択を上部の共通ヘッダーへまとめ、3画面で同じ選択として切り替えられるようにしました\n・ブレイク探索の相手初期セット（使用率上位）も、カップ別に分けました\n\n■ 修正\n・技カウントで、スペシャル技が2つのまま残っていたカードを、開いたときに自動で3つ目を補うようにしました\n・シミュレータのメガレベルの初期値を4にしました\n・技カウントの「…」ボタンに「その他」の文字を添えて、何のボタンか分かりやすくしました\n\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.7.4 is now available.\n\n■ New\n- The simulator, Move Counts, and Breakpoints now support Mega-form cups. Mega move recommendations now use newly added PvPoke Mega usage data, matching how they are actually used\n- League and cup selection for the simulator, Move Counts, and Breakpoints is now shared in one header at the top, so switching applies across all three screens\n- Breakpoint's default opponent set (top usage picks) is now split by cup as well\n\n■ Fixed\n- Move Count cards that were stuck with only two charged moves now get their third move filled in automatically when opened\n- The simulator's default Mega level is now 4\n- The Move Count \"...\" (more actions) button now has a text label so it's clear what it does\n\nWe recommend updating to the latest version.",
+      "updatePromptJa": "メガのカップ対応とメガ技のおすすめ精度を上げた2.7.4が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.4 adds Mega cup support and improves Mega move recommendations. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.4へ更新",
+      "updateActionTitleEn": "Update to 2.7.4",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.7.3-379",
+      "enabled": false,
       "publishedAt": "2026-09-03",
       "maximumBuild": 378,
       "maximumBuildAndroid": 0,
