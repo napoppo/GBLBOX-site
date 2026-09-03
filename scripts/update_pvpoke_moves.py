@@ -26,7 +26,16 @@ OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_movesets.json"))
 # アプリ側の検証はキー完全一致で、既存ファイルにキーを足すと配信済みの
 # バージョンがファイルごと弾いてしまうため、増やすときは新しいファイルにする。
 USAGE_OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_move_usage.json"))
+# メガバージョンの使用率順。採用順ファイルへキーを足すと、キー完全一致で検証している
+# 配信済みのバージョンがファイルごと弾いてしまうため、別ファイルにする。
+# 技の採用順（leagues の中身）はメガ形態を足すだけで形が変わらないので同じファイルでよい。
+MEGA_RANKINGS_OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_mega_rankings.json"))
 BASE_URL = "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall"
+# メガバージョン用のランキング。通常リーグの方にはメガ形態が入っていないため、
+# メガを含む形式の技カウントを出すにはこちらが要る。
+MEGA_BASE_URL = "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/mega/overall"
+# 上位だけで足りる（技カウントは上位50件を出す）。全件持つと配信が重くなる。
+MEGA_RANKING_LIMIT = 200
 
 
 @dataclass(frozen=True)
@@ -37,6 +46,10 @@ class LeagueSource:
     @property
     def url(self) -> str:
         return f"{BASE_URL}/{self.file_name}"
+
+    @property
+    def mega_url(self) -> str:
+        return f"{MEGA_BASE_URL}/{self.file_name}"
 
 
 LEAGUES = [
@@ -101,6 +114,40 @@ def build_league_map(rankings: list[dict]) -> dict[str, dict]:
     return dict(sorted(out.items()))
 
 
+def fetch_mega_json(source: LeagueSource) -> list[dict]:
+    return json.loads(fetch_bytes(source.mega_url).decode("utf-8"))
+
+
+def build_mega_rankings(rankings: list[dict], limit: int = MEGA_RANKING_LIMIT) -> list[str]:
+    """メガバージョンの使用率順。シャドウは通常種族へ統合して重複を除く。"""
+    out: list[str] = []
+    seen: set[str] = set()
+    for entry in rankings:
+        species_id = entry.get("speciesId")
+        if not species_id:
+            continue
+        base_id = species_id.removesuffix("_shadow")
+        if base_id in seen:
+            continue
+        seen.add(base_id)
+        out.append(base_id)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def merge_missing_move_usage(base: dict[str, dict], extra: dict[str, dict]) -> dict[str, dict]:
+    """通常リーグに無い種族（＝メガ形態）だけ足す。
+
+    通常種族の採用順は通常リーグ側を正とする。メガ版の数字で上書きすると、
+    メガ以外の形式で見たときの並びが変わってしまう。
+    """
+    merged = dict(base)
+    for species_id, usage in extra.items():
+        merged.setdefault(species_id, usage)
+    return dict(sorted(merged.items()))
+
+
 def build_move_usage(rankings: list[dict]) -> dict[str, dict]:
     """技ごとの使用数の多い順に並べた技IDを、種族別に返す。
 
@@ -160,18 +207,23 @@ def main() -> None:
     leagues: dict[str, dict] = {}
     rankings_out: dict[str, list] = {}
     usage_out: dict[str, dict] = {}
+    mega_rankings_out: dict[str, list] = {}
     sources: list[dict] = []
     for source in LEAGUES:
         rankings, last_modified = fetch_json(source)
         leagues[source.key] = build_league_map(rankings)
         rankings_out[source.key] = build_rankings(rankings)
-        usage_out[source.key] = build_move_usage(rankings)
+        mega_rankings = fetch_mega_json(source)
+        usage_out[source.key] = merge_missing_move_usage(build_move_usage(rankings),
+                                                         build_move_usage(mega_rankings))
+        mega_rankings_out[source.key] = build_mega_rankings(mega_rankings)
         sources.append({
             "league": source.key,
             "url": source.url,
             "lastModified": last_modified,
         })
-        print(f"{source.key}: {len(leagues[source.key])} movesets, {len(rankings_out[source.key])} ranked")
+        print(f"{source.key}: {len(leagues[source.key])} movesets, {len(rankings_out[source.key])} ranked, "
+              f"{len(mega_rankings_out[source.key])} mega ranked")
 
     payload = {
         "source": "PvPoke",
@@ -186,6 +238,11 @@ def main() -> None:
         "updatedAt": payload["updatedAt"],
         "leagues": usage_out,
     }
+    mega_rankings_payload = {
+        "schemaVersion": 1,
+        "updatedAt": payload["updatedAt"],
+        "leagues": mega_rankings_out,
+    }
 
     os.makedirs(os.path.dirname(os.path.abspath(args.output)), exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
@@ -195,6 +252,10 @@ def main() -> None:
     os.makedirs(os.path.dirname(os.path.abspath(args.usage_output)), exist_ok=True)
     with open(args.usage_output, "w", encoding="utf-8") as f:
         json.dump(usage_payload, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+
+    with open(MEGA_RANKINGS_OUT, "w", encoding="utf-8") as f:
+        json.dump(mega_rankings_payload, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
     print(f"wrote {args.output}")
 

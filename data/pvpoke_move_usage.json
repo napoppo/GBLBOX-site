@@ -16,7 +16,34 @@
           "RAZOR_LEAF"
         ]
       },
+      "abomasnow_mega": {
+        "chargedIds": [
+          "WEATHER_BALL_ICE",
+          "ENERGY_BALL",
+          "ICY_WIND",
+          "OUTRAGE",
+          "BLIZZARD"
+        ],
+        "fastIds": [
+          "POWDER_SNOW",
+          "LEAFAGE",
+          "RAZOR_LEAF"
+        ]
+      },
       "absol": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "MEGAHORN",
+          "THUNDER",
+          "DARK_PULSE",
+          "PAYBACK"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "SNARL"
+        ]
+      },
+      "absol_mega": {
         "chargedIds": [
           "BRUTAL_SWING",
           "MEGAHORN",
@@ -70,7 +97,37 @@
           "BITE"
         ]
       },
+      "aerodactyl_mega": {
+        "chargedIds": [
+          "ROCK_SLIDE",
+          "EARTH_POWER",
+          "ANCIENT_POWER",
+          "IRON_HEAD",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "ROCK_THROW",
+          "STEEL_WING",
+          "BITE"
+        ]
+      },
       "aggron": {
+        "chargedIds": [
+          "METEOR_BEAM",
+          "ROCK_TOMB",
+          "HEAVY_SLAM",
+          "THUNDER",
+          "STONE_EDGE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "METAL_SOUND",
+          "SMACK_DOWN",
+          "IRON_TAIL"
+        ]
+      },
+      "aggron_mega": {
         "chargedIds": [
           "METEOR_BEAM",
           "ROCK_TOMB",
@@ -112,6 +169,21 @@
           "COUNTER"
         ]
       },
+      "alakazam_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "FIRE_PUNCH",
+          "DAZZLING_GLEAM",
+          "FUTURE_SIGHT",
+          "FOCUS_BLAST",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
+        ]
+      },
       "alomomola": {
         "chargedIds": [
           "HYDRO_PUMP",
@@ -146,6 +218,19 @@
           "MOONBLAST",
           "DAZZLING_GLEAM",
           "RETURN"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "PECK"
+        ]
+      },
+      "altaria_mega": {
+        "chargedIds": [
+          "MOONBLAST",
+          "DAZZLING_GLEAM",
+          "DRAGON_PULSE",
+          "FLAMETHROWER",
+          "SKY_ATTACK"
         ],
         "fastIds": [
           "DRAGON_BREATH",
@@ -197,6 +282,22 @@
           "POWER_GEM",
           "FOCUS_BLAST",
           "DRAGON_PULSE",
+          "THUNDER",
+          "ZAP_CANNON"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "CHARGE_BEAM"
+        ]
+      },
+      "ampharos_mega": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "THUNDER_PUNCH",
+          "TRAILBLAZE",
+          "POWER_GEM",
+          "DRAGON_PULSE",
+          "FOCUS_BLAST",
           "THUNDER",
           "ZAP_CANNON"
         ],
@@ -452,6 +553,18 @@
           "POUND"
         ]
       },
+      "audino_mega": {
+        "chargedIds": [
+          "BODY_SLAM",
+          "DISARMING_VOICE",
+          "DAZZLING_GLEAM",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "ZEN_HEADBUTT",
+          "POUND"
+        ]
+      },
       "aurorus": {
         "chargedIds": [
           "WEATHER_BALL_ICE",
@@ -534,6 +647,17 @@
           "DAZZLING_GLEAM",
           "THUNDER",
           "RETURN"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "HEX"
+        ]
+      },
+      "banette_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "DAZZLING_GLEAM",
+          "THUNDER"
         ],
         "fastIds": [
           "SHADOW_CLAW",
@@ -655,6 +779,21 @@
           "INFESTATION"
         ]
       },
+      "beedrill_mega": {
+        "chargedIds": [
+          "DRILL_RUN",
+          "X_SCISSOR",
+          "SLUDGE_BOMB",
+          "AERIAL_ACE",
+          "FELL_STINGER"
+        ],
+        "fastIds": [
+          "POISON_STING",
+          "POISON_JAB",
+          "BUG_BITE",
+          "INFESTATION"
+        ]
+      },
       "beheeyem": {
         "chargedIds": [
           "ROCK_SLIDE",
@@ -767,7 +906,38 @@
           "BITE"
         ]
       },
+      "blastoise_mega": {
+        "chargedIds": [
+          "HYDRO_CANNON",
+          "ICE_BEAM",
+          "SKULL_BASH",
+          "FLASH_CANNON",
+          "RETURN",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "ROLLOUT",
+          "WATER_GUN",
+          "BITE"
+        ]
+      },
       "blaziken": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "BLAST_BURN",
+          "BRAVE_BIRD",
+          "BLAZE_KICK",
+          "STONE_EDGE",
+          "OVERHEAT",
+          "FOCUS_BLAST"
+        ],
+        "fastIds": [
+          "EMBER",
+          "FIRE_SPIN",
+          "COUNTER"
+        ]
+      },
+      "blaziken_mega": {
         "chargedIds": [
           "AURA_SPHERE",
           "BLAST_BURN",
@@ -1232,6 +1402,40 @@
           "AIR_SLASH"
         ]
       },
+      "charizard_mega_x": {
+        "chargedIds": [
+          "BLAST_BURN",
+          "AIR_CUTTER",
+          "DRAGON_CLAW",
+          "FLAMETHROWER",
+          "OVERHEAT",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "EMBER",
+          "FIRE_SPIN",
+          "WING_ATTACK",
+          "AIR_SLASH"
+        ]
+      },
+      "charizard_mega_y": {
+        "chargedIds": [
+          "BLAST_BURN",
+          "AIR_CUTTER",
+          "DRAGON_CLAW",
+          "FLAMETHROWER",
+          "OVERHEAT",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "EMBER",
+          "DRAGON_BREATH",
+          "WING_ATTACK",
+          "FIRE_SPIN",
+          "AIR_SLASH"
+        ]
+      },
       "charjabug": {
         "chargedIds": [
           "X_SCISSOR",
@@ -1296,6 +1500,21 @@
         "chargedIds": [
           "FRENZY_PLANT",
           "SUPER_POWER",
+          "THUNDER_PUNCH",
+          "GYRO_BALL",
+          "ENERGY_BALL",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "VINE_WHIP",
+          "SMACK_DOWN"
+        ]
+      },
+      "chesnaught_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "FRENZY_PLANT",
           "THUNDER_PUNCH",
           "GYRO_BALL",
           "ENERGY_BALL",
@@ -1960,6 +2179,22 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "delphox_mega": {
+        "chargedIds": [
+          "PSYSHOCK",
+          "BLAST_BURN",
+          "MYSTICAL_FIRE",
+          "FLAME_CHARGE",
+          "FLAMETHROWER",
+          "PSYCHIC",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "FIRE_SPIN",
+          "SCRATCH",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "deoxys_defense": {
         "chargedIds": [
           "PSYCHO_BOOST",
@@ -2038,6 +2273,17 @@
         ]
       },
       "diancie": {
+        "chargedIds": [
+          "ROCK_SLIDE",
+          "MOONBLAST",
+          "POWER_GEM"
+        ],
+        "fastIds": [
+          "ROCK_THROW",
+          "TACKLE"
+        ]
+      },
+      "diancie_mega": {
         "chargedIds": [
           "ROCK_SLIDE",
           "MOONBLAST",
@@ -2191,6 +2437,23 @@
         ]
       },
       "dragonite": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "THUNDER_PUNCH",
+          "HURRICANE",
+          "DRAGON_CLAW",
+          "OUTRAGE",
+          "DRAGON_PULSE",
+          "HYPER_BEAM",
+          "DRACO_METEOR"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "DRAGON_TAIL",
+          "STEEL_WING"
+        ]
+      },
+      "dragonite_mega": {
         "chargedIds": [
           "SUPER_POWER",
           "THUNDER_PUNCH",
@@ -2780,6 +3043,17 @@
           "ROCK_SMASH"
         ]
       },
+      "falinks_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "MEGAHORN",
+          "BRICK_BREAK"
+        ],
+        "fastIds": [
+          "COUNTER",
+          "ROCK_SMASH"
+        ]
+      },
       "farfetchd": {
         "chargedIds": [
           "LEAF_BLADE",
@@ -3150,6 +3424,20 @@
           "CHARM"
         ]
       },
+      "gallade_mega": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "LEAF_BLADE",
+          "SYNCHRONOISE",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "LOW_KICK",
+          "CONFUSION",
+          "CHARM"
+        ]
+      },
       "galvantula": {
         "chargedIds": [
           "DISCHARGE",
@@ -3192,12 +3480,42 @@
           "MUD_SHOT"
         ]
       },
+      "garchomp_mega": {
+        "chargedIds": [
+          "TWISTER",
+          "EARTH_POWER",
+          "SAND_TOMB",
+          "OUTRAGE",
+          "FIRE_BLAST",
+          "EARTHQUAKE",
+          "BREAKING_SWIPE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "MUD_SHOT"
+        ]
+      },
       "gardevoir": {
         "chargedIds": [
           "SHADOW_BALL",
           "TRIPLE_AXEL",
           "SYNCHRONOISE",
           "DAZZLING_GLEAM",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "CONFUSION",
+          "CHARM",
+          "MAGICAL_LEAF",
+          "CHARGE_BEAM"
+        ]
+      },
+      "gardevoir_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "TRIPLE_AXEL",
+          "DAZZLING_GLEAM",
+          "SYNCHRONOISE",
           "PSYCHIC"
         ],
         "fastIds": [
@@ -3258,6 +3576,24 @@
         ]
       },
       "gengar": {
+        "chargedIds": [
+          "SHADOW_PUNCH",
+          "SLUDGE_BOMB",
+          "DRAIN_PUNCH",
+          "SHADOW_BALL",
+          "DARK_PULSE",
+          "FOCUS_BLAST",
+          "PSYCHIC",
+          "SLUDGE_WAVE"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "HEX",
+          "SUCKER_PUNCH",
+          "LICK"
+        ]
+      },
+      "gengar_mega": {
         "chargedIds": [
           "SHADOW_PUNCH",
           "SLUDGE_BOMB",
@@ -3384,6 +3720,19 @@
           "SHADOW_BALL",
           "GYRO_BALL",
           "RETURN"
+        ],
+        "fastIds": [
+          "POWDER_SNOW",
+          "ROLLOUT",
+          "ICE_SHARD",
+          "FROST_BREATH"
+        ]
+      },
+      "glalie_mega": {
+        "chargedIds": [
+          "AVALANCHE",
+          "SHADOW_BALL",
+          "GYRO_BALL"
         ],
         "fastIds": [
           "POWDER_SNOW",
@@ -3778,6 +4127,20 @@
           "FEINT_ATTACK"
         ]
       },
+      "greninja_mega": {
+        "chargedIds": [
+          "NIGHT_SLASH",
+          "HYDRO_CANNON",
+          "AERIAL_ACE",
+          "SURF",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "WATER_SHURIKEN",
+          "BUBBLE",
+          "FEINT_ATTACK"
+        ]
+      },
       "grimer": {
         "chargedIds": [
           "SLUDGE",
@@ -3942,6 +4305,22 @@
           "BITE"
         ]
       },
+      "gyarados_mega": {
+        "chargedIds": [
+          "AQUA_TAIL",
+          "CRUNCH",
+          "TWISTER",
+          "OUTRAGE",
+          "DRAGON_PULSE",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "WATERFALL",
+          "DRAGON_TAIL",
+          "BITE"
+        ]
+      },
       "hakamo_o": {
         "chargedIds": [
           "BRICK_BREAK",
@@ -4072,6 +4451,21 @@
         ]
       },
       "heracross": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "UPPER_HAND",
+          "ROCK_TOMB",
+          "MEGAHORN",
+          "ROCK_BLAST",
+          "EARTHQUAKE"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "COUNTER",
+          "STRUGGLE_BUG"
+        ]
+      },
+      "heracross_mega": {
         "chargedIds": [
           "CLOSE_COMBAT",
           "UPPER_HAND",
@@ -4236,6 +4630,18 @@
         ]
       },
       "houndoom": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "FLAMETHROWER",
+          "CRUNCH",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "SNARL",
+          "FIRE_FANG"
+        ]
+      },
+      "houndoom_mega": {
         "chargedIds": [
           "FOUL_PLAY",
           "FLAMETHROWER",
@@ -4514,6 +4920,20 @@
         ]
       },
       "kangaskhan": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "CRUNCH",
+          "STOMP",
+          "EARTHQUAKE",
+          "OUTRAGE",
+          "POWER_UP_PUNCH"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "MUD_SLAP"
+        ]
+      },
+      "kangaskhan_mega": {
         "chargedIds": [
           "BRICK_BREAK",
           "CRUNCH",
@@ -4890,7 +5310,34 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "latias_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "MIST_BALL",
+          "OUTRAGE",
+          "THUNDER",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "CHARM",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "latios": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "LUSTER_PURGE",
+          "DRAGON_CLAW",
+          "PSYCHIC",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "ZEN_HEADBUTT"
+        ]
+      },
+      "latios_mega": {
         "chargedIds": [
           "AURA_SPHERE",
           "LUSTER_PURGE",
@@ -5115,6 +5562,21 @@
           "POUND"
         ]
       },
+      "lopunny_mega": {
+        "chargedIds": [
+          "TRIPLE_AXEL",
+          "SHADOW_BALL",
+          "THUNDER_PUNCH",
+          "FIRE_PUNCH",
+          "FOCUS_BLAST",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DOUBLE_KICK",
+          "LOW_KICK",
+          "POUND"
+        ]
+      },
       "loudred": {
         "chargedIds": [
           "DISARMING_VOICE",
@@ -5128,6 +5590,23 @@
         ]
       },
       "lucario": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "METEOR_MASH",
+          "SHADOW_BALL",
+          "CLOSE_COMBAT",
+          "THUNDER_PUNCH",
+          "BLAZE_KICK",
+          "POWER_UP_PUNCH",
+          "FLASH_CANNON"
+        ],
+        "fastIds": [
+          "FORCE_PALM",
+          "BULLET_PUNCH",
+          "COUNTER"
+        ]
+      },
+      "lucario_mega": {
         "chargedIds": [
           "AURA_SPHERE",
           "METEOR_MASH",
@@ -5443,6 +5922,19 @@
           "PECK"
         ]
       },
+      "malamar_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "SUPER_POWER",
+          "HYPER_BEAM",
+          "PSYBEAM"
+        ],
+        "fastIds": [
+          "PSYWAVE",
+          "PSYCHO_CUT",
+          "PECK"
+        ]
+      },
       "mamoswine": {
         "chargedIds": [
           "AVALANCHE",
@@ -5475,6 +5967,20 @@
           "PSYCHIC_FANGS",
           "OVERHEAT",
           "RETURN",
+          "THUNDER",
+          "FLAME_BURST"
+        ],
+        "fastIds": [
+          "SNARL",
+          "THUNDER_FANG",
+          "CHARGE_BEAM"
+        ]
+      },
+      "manectric_mega": {
+        "chargedIds": [
+          "WILD_CHARGE",
+          "PSYCHIC_FANGS",
+          "OVERHEAT",
           "THUNDER",
           "FLAME_BURST"
         ],
@@ -5613,7 +6119,35 @@
           "BITE"
         ]
       },
+      "mawile_mega": {
+        "chargedIds": [
+          "VICE_GRIP",
+          "IRON_HEAD",
+          "PLAY_ROUGH",
+          "POWER_UP_PUNCH",
+          "RETURN"
+        ],
+        "fastIds": [
+          "FAIRY_WIND",
+          "ASTONISH",
+          "ICE_FANG",
+          "FIRE_FANG",
+          "BITE"
+        ]
+      },
       "medicham": {
+        "chargedIds": [
+          "DYNAMIC_PUNCH",
+          "ICE_PUNCH",
+          "PSYCHIC",
+          "POWER_UP_PUNCH"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "COUNTER"
+        ]
+      },
+      "medicham_mega": {
         "chargedIds": [
           "DYNAMIC_PUNCH",
           "ICE_PUNCH",
@@ -5711,6 +6245,20 @@
         ]
       },
       "metagross": {
+        "chargedIds": [
+          "METEOR_MASH",
+          "EARTHQUAKE",
+          "PSYCHIC",
+          "FLASH_CANNON"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "SHADOW_CLAW",
+          "BULLET_PUNCH",
+          "ZEN_HEADBUTT"
+        ]
+      },
+      "metagross_mega": {
         "chargedIds": [
           "METEOR_MASH",
           "EARTHQUAKE",
@@ -6726,6 +7274,23 @@
           "STEEL_WING"
         ]
       },
+      "pidgeot_mega": {
+        "chargedIds": [
+          "BRAVE_BIRD",
+          "AIR_CUTTER",
+          "TWISTER",
+          "HEAT_WAVE",
+          "HURRICANE",
+          "AERIAL_ACE",
+          "FEATHER_DANCE"
+        ],
+        "fastIds": [
+          "GUST",
+          "WING_ATTACK",
+          "AIR_SLASH",
+          "STEEL_WING"
+        ]
+      },
       "pidgeotto": {
         "chargedIds": [
           "AIR_CUTTER",
@@ -6777,6 +7342,20 @@
         ]
       },
       "pinsir": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "X_SCISSOR",
+          "VICE_GRIP",
+          "SUPER_POWER",
+          "SUBMISSION"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BUG_BITE",
+          "ROCK_SMASH"
+        ]
+      },
+      "pinsir_mega": {
         "chargedIds": [
           "CLOSE_COMBAT",
           "X_SCISSOR",
@@ -7283,6 +7862,40 @@
           "SPARK"
         ]
       },
+      "raichu_mega_x": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "TRAILBLAZE",
+          "SURF",
+          "WILD_CHARGE",
+          "THUNDER_PUNCH",
+          "SKULL_BASH",
+          "THUNDER"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "THUNDER_SHOCK",
+          "SPARK",
+          "CHARM"
+        ]
+      },
+      "raichu_mega_y": {
+        "chargedIds": [
+          "THUNDER_PUNCH",
+          "BRICK_BREAK",
+          "TRAILBLAZE",
+          "WILD_CHARGE",
+          "SURF",
+          "SKULL_BASH",
+          "THUNDER"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "THUNDER_SHOCK",
+          "SPARK",
+          "CHARM"
+        ]
+      },
       "raikou": {
         "chargedIds": [
           "WILD_CHARGE",
@@ -7761,7 +8374,37 @@
           "FEINT_ATTACK"
         ]
       },
+      "sableye_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "POWER_GEM",
+          "SHADOW_SNEAK",
+          "DRAIN_PUNCH",
+          "DAZZLING_GLEAM",
+          "RETURN"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "FEINT_ATTACK"
+        ]
+      },
       "salamence": {
+        "chargedIds": [
+          "FLY",
+          "BRUTAL_SWING",
+          "OUTRAGE",
+          "CRUNCH",
+          "HYDRO_PUMP",
+          "FIRE_BLAST",
+          "DRACO_METEOR"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "FIRE_FANG",
+          "BITE"
+        ]
+      },
+      "salamence_mega": {
         "chargedIds": [
           "FLY",
           "BRUTAL_SWING",
@@ -7938,7 +8581,33 @@
           "BULLET_SEED"
         ]
       },
+      "sceptile_mega": {
+        "chargedIds": [
+          "LEAF_BLADE",
+          "DRAGON_CLAW",
+          "FRENZY_PLANT",
+          "AERIAL_ACE",
+          "EARTHQUAKE",
+          "BREAKING_SWIPE"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BULLET_SEED"
+        ]
+      },
       "scizor": {
+        "chargedIds": [
+          "X_SCISSOR",
+          "NIGHT_SLASH",
+          "TRAILBLAZE",
+          "IRON_HEAD"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BULLET_PUNCH"
+        ]
+      },
+      "scizor_mega": {
         "chargedIds": [
           "X_SCISSOR",
           "NIGHT_SLASH",
@@ -8108,6 +8777,18 @@
         ]
       },
       "sharpedo": {
+        "chargedIds": [
+          "CRUNCH",
+          "POISON_FANG",
+          "HYDRO_PUMP",
+          "RETURN"
+        ],
+        "fastIds": [
+          "WATERFALL",
+          "BITE"
+        ]
+      },
+      "sharpedo_mega": {
         "chargedIds": [
           "CRUNCH",
           "POISON_FANG",
@@ -8321,6 +9002,18 @@
           "STEEL_WING"
         ]
       },
+      "skarmory_mega": {
+        "chargedIds": [
+          "BRAVE_BIRD",
+          "FLASH_CANNON",
+          "SKY_ATTACK",
+          "RETURN"
+        ],
+        "fastIds": [
+          "AIR_SLASH",
+          "STEEL_WING"
+        ]
+      },
       "skeledirge": {
         "chargedIds": [
           "BLAST_BURN",
@@ -8435,6 +9128,20 @@
         "fastIds": [
           "CONFUSION",
           "POISON_JAB"
+        ]
+      },
+      "slowbro_mega": {
+        "chargedIds": [
+          "SURF",
+          "ICE_BEAM",
+          "DRAIN_PUNCH",
+          "SCALD",
+          "PSYCHIC",
+          "WATER_PULSE"
+        ],
+        "fastIds": [
+          "CONFUSION",
+          "WATER_GUN"
         ]
       },
       "slowking": {
@@ -8785,6 +9492,40 @@
           "HIDDEN_POWER_POISON"
         ]
       },
+      "starmie_mega": {
+        "chargedIds": [
+          "POWER_GEM",
+          "AQUA_JET",
+          "ICE_BEAM",
+          "THUNDER",
+          "SURF",
+          "PSYCHIC",
+          "HYDRO_PUMP",
+          "PSYBEAM"
+        ],
+        "fastIds": [
+          "PSYWAVE",
+          "QUICK_ATTACK",
+          "WATER_GUN",
+          "TACKLE",
+          "HIDDEN_POWER_WATER",
+          "HIDDEN_POWER_PSYCHIC",
+          "HIDDEN_POWER_GROUND",
+          "HIDDEN_POWER_ICE",
+          "HIDDEN_POWER_ROCK",
+          "HIDDEN_POWER_FIRE",
+          "HIDDEN_POWER_ELECTRIC",
+          "HIDDEN_POWER_FIGHTING",
+          "HIDDEN_POWER_FLYING",
+          "HIDDEN_POWER_GRASS",
+          "HIDDEN_POWER_GHOST",
+          "HIDDEN_POWER_DARK",
+          "HIDDEN_POWER_DRAGON",
+          "HIDDEN_POWER_STEEL",
+          "HIDDEN_POWER_BUG",
+          "HIDDEN_POWER_POISON"
+        ]
+      },
       "steelix": {
         "chargedIds": [
           "PSYCHIC_FANGS",
@@ -8793,6 +9534,20 @@
           "HEAVY_SLAM",
           "BREAKING_SWIPE",
           "RETURN"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "THUNDER_FANG",
+          "IRON_TAIL"
+        ]
+      },
+      "steelix_mega": {
+        "chargedIds": [
+          "PSYCHIC_FANGS",
+          "EARTHQUAKE",
+          "CRUNCH",
+          "HEAVY_SLAM",
+          "BREAKING_SWIPE"
         ],
         "fastIds": [
           "DRAGON_TAIL",
@@ -8955,6 +9710,20 @@
         ]
       },
       "swampert": {
+        "chargedIds": [
+          "HYDRO_CANNON",
+          "SLUDGE",
+          "EARTHQUAKE",
+          "MUDDY_WATER",
+          "SURF",
+          "SLUDGE_WAVE"
+        ],
+        "fastIds": [
+          "MUD_SHOT",
+          "WATER_GUN"
+        ]
+      },
+      "swampert_mega": {
         "chargedIds": [
           "HYDRO_CANNON",
           "SLUDGE",
@@ -9678,6 +10447,20 @@
           "IRON_TAIL"
         ]
       },
+      "tyranitar_mega": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "STONE_EDGE",
+          "CRUNCH",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "SMACK_DOWN",
+          "BITE",
+          "IRON_TAIL"
+        ]
+      },
       "tyrantrum": {
         "chargedIds": [
           "METEOR_BEAM",
@@ -9896,6 +10679,19 @@
           "RAZOR_LEAF"
         ]
       },
+      "venusaur_mega": {
+        "chargedIds": [
+          "FRENZY_PLANT",
+          "SLUDGE",
+          "SLUDGE_BOMB",
+          "PETAL_BLIZZARD",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "VINE_WHIP",
+          "RAZOR_LEAF"
+        ]
+      },
       "vespiquen": {
         "chargedIds": [
           "X_SCISSOR",
@@ -9944,6 +10740,20 @@
           "SLUDGE_BOMB",
           "LEAF_TORNADO",
           "RETURN",
+          "SOLAR_BEAM",
+          "ACID_SPRAY"
+        ],
+        "fastIds": [
+          "ACID",
+          "MAGICAL_LEAF",
+          "RAZOR_LEAF"
+        ]
+      },
+      "victreebel_mega": {
+        "chargedIds": [
+          "LEAF_BLADE",
+          "SLUDGE_BOMB",
+          "LEAF_TORNADO",
           "SOLAR_BEAM",
           "ACID_SPRAY"
         ],
@@ -10450,6 +11260,35 @@
       }
     },
     "master": {
+      "abomasnow_mega": {
+        "chargedIds": [
+          "WEATHER_BALL_ICE",
+          "ENERGY_BALL",
+          "ICY_WIND",
+          "OUTRAGE",
+          "RETURN",
+          "BLIZZARD"
+        ],
+        "fastIds": [
+          "POWDER_SNOW",
+          "LEAFAGE",
+          "RAZOR_LEAF"
+        ]
+      },
+      "absol_mega": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "MEGAHORN",
+          "THUNDER",
+          "DARK_PULSE",
+          "PAYBACK",
+          "RETURN"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "SNARL"
+        ]
+      },
       "aerodactyl": {
         "chargedIds": [
           "ROCK_SLIDE",
@@ -10457,6 +11296,21 @@
           "IRON_HEAD",
           "ANCIENT_POWER",
           "RETURN",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "ROCK_THROW",
+          "STEEL_WING",
+          "BITE"
+        ]
+      },
+      "aerodactyl_mega": {
+        "chargedIds": [
+          "ROCK_SLIDE",
+          "EARTH_POWER",
+          "ANCIENT_POWER",
+          "IRON_HEAD",
           "HYPER_BEAM"
         ],
         "fastIds": [
@@ -10482,6 +11336,22 @@
           "IRON_TAIL"
         ]
       },
+      "aggron_mega": {
+        "chargedIds": [
+          "METEOR_BEAM",
+          "ROCK_TOMB",
+          "HEAVY_SLAM",
+          "THUNDER",
+          "RETURN",
+          "STONE_EDGE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "METAL_SOUND",
+          "SMACK_DOWN",
+          "IRON_TAIL"
+        ]
+      },
       "alakazam": {
         "chargedIds": [
           "SHADOW_BALL",
@@ -10498,6 +11368,35 @@
           "COUNTER"
         ]
       },
+      "alakazam_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "FIRE_PUNCH",
+          "DAZZLING_GLEAM",
+          "FOCUS_BLAST",
+          "FUTURE_SIGHT",
+          "PSYCHIC",
+          "RETURN"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
+        ]
+      },
+      "altaria_mega": {
+        "chargedIds": [
+          "MOONBLAST",
+          "DAZZLING_GLEAM",
+          "DRAGON_PULSE",
+          "FLAMETHROWER",
+          "SKY_ATTACK"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "PECK"
+        ]
+      },
       "ampharos": {
         "chargedIds": [
           "BRUTAL_SWING",
@@ -10505,6 +11404,23 @@
           "TRAILBLAZE",
           "POWER_GEM",
           "DRAGON_PULSE",
+          "FOCUS_BLAST",
+          "RETURN",
+          "THUNDER",
+          "ZAP_CANNON"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "CHARGE_BEAM"
+        ]
+      },
+      "ampharos_mega": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "THUNDER_PUNCH",
+          "TRAILBLAZE",
+          "DRAGON_PULSE",
+          "POWER_GEM",
           "FOCUS_BLAST",
           "RETURN",
           "THUNDER",
@@ -10639,6 +11555,18 @@
           "CONFUSION"
         ]
       },
+      "audino_mega": {
+        "chargedIds": [
+          "BODY_SLAM",
+          "DISARMING_VOICE",
+          "DAZZLING_GLEAM",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "POUND",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "aurorus": {
         "chargedIds": [
           "WEATHER_BALL_ICE",
@@ -10693,6 +11621,18 @@
           "EXTRASENSORY"
         ]
       },
+      "banette_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "DAZZLING_GLEAM",
+          "THUNDER",
+          "RETURN"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "HEX"
+        ]
+      },
       "barbaracle": {
         "chargedIds": [
           "CROSS_CHOP",
@@ -10731,6 +11671,22 @@
         "fastIds": [
           "POWDER_SNOW",
           "CHARM"
+        ]
+      },
+      "beedrill_mega": {
+        "chargedIds": [
+          "DRILL_RUN",
+          "X_SCISSOR",
+          "SLUDGE_BOMB",
+          "AERIAL_ACE",
+          "RETURN",
+          "FELL_STINGER"
+        ],
+        "fastIds": [
+          "POISON_STING",
+          "POISON_JAB",
+          "BUG_BITE",
+          "INFESTATION"
         ]
       },
       "bellibolt": {
@@ -10796,6 +11752,38 @@
           "ROLLOUT",
           "WATER_GUN",
           "BITE"
+        ]
+      },
+      "blastoise_mega": {
+        "chargedIds": [
+          "HYDRO_CANNON",
+          "ICE_BEAM",
+          "SKULL_BASH",
+          "RETURN",
+          "FLASH_CANNON",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "ROLLOUT",
+          "WATER_GUN",
+          "BITE"
+        ]
+      },
+      "blaziken_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "BLAST_BURN",
+          "BRAVE_BIRD",
+          "BLAZE_KICK",
+          "STONE_EDGE",
+          "RETURN",
+          "FOCUS_BLAST",
+          "OVERHEAT"
+        ],
+        "fastIds": [
+          "EMBER",
+          "COUNTER",
+          "FIRE_SPIN"
         ]
       },
       "blissey": {
@@ -10971,7 +11959,59 @@
           "AIR_SLASH"
         ]
       },
+      "charizard_mega_x": {
+        "chargedIds": [
+          "BLAST_BURN",
+          "DRAGON_CLAW",
+          "AIR_CUTTER",
+          "RETURN",
+          "FLAMETHROWER",
+          "OVERHEAT",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "EMBER",
+          "WING_ATTACK",
+          "FIRE_SPIN",
+          "AIR_SLASH"
+        ]
+      },
+      "charizard_mega_y": {
+        "chargedIds": [
+          "AIR_CUTTER",
+          "BLAST_BURN",
+          "DRAGON_CLAW",
+          "RETURN",
+          "FLAMETHROWER",
+          "OVERHEAT",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "EMBER",
+          "WING_ATTACK",
+          "FIRE_SPIN",
+          "AIR_SLASH"
+        ]
+      },
       "chesnaught": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "FRENZY_PLANT",
+          "THUNDER_PUNCH",
+          "GYRO_BALL",
+          "ENERGY_BALL",
+          "RETURN",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "VINE_WHIP",
+          "SMACK_DOWN"
+        ]
+      },
+      "chesnaught_mega": {
         "chargedIds": [
           "SUPER_POWER",
           "FRENZY_PLANT",
@@ -11200,6 +12240,23 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "delphox_mega": {
+        "chargedIds": [
+          "PSYSHOCK",
+          "BLAST_BURN",
+          "MYSTICAL_FIRE",
+          "RETURN",
+          "FLAME_CHARGE",
+          "FLAMETHROWER",
+          "PSYCHIC",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "FIRE_SPIN",
+          "SCRATCH",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "deoxys_defense": {
         "chargedIds": [
           "PSYCHO_BOOST",
@@ -11271,6 +12328,17 @@
           "TACKLE"
         ]
       },
+      "diancie_mega": {
+        "chargedIds": [
+          "ROCK_SLIDE",
+          "MOONBLAST",
+          "POWER_GEM"
+        ],
+        "fastIds": [
+          "ROCK_THROW",
+          "TACKLE"
+        ]
+      },
       "dondozo": {
         "chargedIds": [
           "LIQUIDATION",
@@ -11317,6 +12385,24 @@
           "THUNDER_PUNCH",
           "DRAGON_CLAW",
           "HURRICANE",
+          "OUTRAGE",
+          "DRAGON_PULSE",
+          "RETURN",
+          "DRACO_METEOR",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "DRAGON_TAIL",
+          "STEEL_WING"
+        ]
+      },
+      "dragonite_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "THUNDER_PUNCH",
+          "HURRICANE",
+          "DRAGON_CLAW",
           "OUTRAGE",
           "DRAGON_PULSE",
           "RETURN",
@@ -11544,6 +12630,17 @@
           "BULLET_SEED"
         ]
       },
+      "falinks_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "MEGAHORN",
+          "BRICK_BREAK"
+        ],
+        "fastIds": [
+          "COUNTER",
+          "ROCK_SMASH"
+        ]
+      },
       "feraligatr": {
         "chargedIds": [
           "HYDRO_CANNON",
@@ -11605,6 +12702,21 @@
           "CHARM"
         ]
       },
+      "gallade_mega": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "LEAF_BLADE",
+          "SYNCHRONOISE",
+          "RETURN",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "CHARM"
+        ]
+      },
       "garchomp": {
         "chargedIds": [
           "TWISTER",
@@ -11621,7 +12733,38 @@
           "MUD_SHOT"
         ]
       },
+      "garchomp_mega": {
+        "chargedIds": [
+          "TWISTER",
+          "EARTH_POWER",
+          "SAND_TOMB",
+          "OUTRAGE",
+          "EARTHQUAKE",
+          "FIRE_BLAST",
+          "BREAKING_SWIPE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "MUD_SHOT"
+        ]
+      },
       "gardevoir": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "TRIPLE_AXEL",
+          "DAZZLING_GLEAM",
+          "SYNCHRONOISE",
+          "RETURN",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "CONFUSION",
+          "CHARM",
+          "MAGICAL_LEAF",
+          "CHARGE_BEAM"
+        ]
+      },
+      "gardevoir_mega": {
         "chargedIds": [
           "SHADOW_BALL",
           "TRIPLE_AXEL",
@@ -11708,6 +12851,24 @@
           "METAL_CLAW"
         ]
       },
+      "gengar_mega": {
+        "chargedIds": [
+          "SHADOW_PUNCH",
+          "DRAIN_PUNCH",
+          "SHADOW_BALL",
+          "SLUDGE_BOMB",
+          "DARK_PULSE",
+          "FOCUS_BLAST",
+          "PSYCHIC",
+          "SLUDGE_WAVE"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "HEX",
+          "SUCKER_PUNCH",
+          "LICK"
+        ]
+      },
       "gholdengo": {
         "chargedIds": [
           "SHADOW_BALL",
@@ -11769,6 +12930,19 @@
           "ICE_BEAM"
         ],
         "fastIds": [
+          "ICE_SHARD",
+          "FROST_BREATH"
+        ]
+      },
+      "glalie_mega": {
+        "chargedIds": [
+          "AVALANCHE",
+          "SHADOW_BALL",
+          "GYRO_BALL"
+        ],
+        "fastIds": [
+          "POWDER_SNOW",
+          "ROLLOUT",
           "ICE_SHARD",
           "FROST_BREATH"
         ]
@@ -11910,6 +13084,21 @@
           "RAZOR_LEAF"
         ]
       },
+      "greninja_mega": {
+        "chargedIds": [
+          "NIGHT_SLASH",
+          "HYDRO_CANNON",
+          "AERIAL_ACE",
+          "SURF",
+          "RETURN",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "WATER_SHURIKEN",
+          "BUBBLE",
+          "FEINT_ATTACK"
+        ]
+      },
       "grimmsnarl": {
         "chargedIds": [
           "FOUL_PLAY",
@@ -11930,6 +13119,19 @@
           "RETURN",
           "EARTHQUAKE",
           "SOLAR_BEAM",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "MUD_SHOT",
+          "DRAGON_TAIL"
+        ]
+      },
+      "groudon_primal": {
+        "chargedIds": [
+          "PRECIPICE_BLADES",
+          "FIRE_PUNCH",
+          "SOLAR_BEAM",
+          "EARTHQUAKE",
           "FIRE_BLAST"
         ],
         "fastIds": [
@@ -11963,6 +13165,23 @@
           "DRAGON_BREATH",
           "WATERFALL",
           "DRAGON_TAIL",
+          "BITE"
+        ]
+      },
+      "gyarados_mega": {
+        "chargedIds": [
+          "AQUA_TAIL",
+          "TWISTER",
+          "CRUNCH",
+          "RETURN",
+          "OUTRAGE",
+          "DRAGON_PULSE",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "DRAGON_TAIL",
+          "WATERFALL",
           "BITE"
         ]
       },
@@ -12011,6 +13230,21 @@
         ]
       },
       "heracross": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "UPPER_HAND",
+          "ROCK_TOMB",
+          "MEGAHORN",
+          "ROCK_BLAST",
+          "EARTHQUAKE"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "COUNTER",
+          "STRUGGLE_BUG"
+        ]
+      },
+      "heracross_mega": {
         "chargedIds": [
           "CLOSE_COMBAT",
           "UPPER_HAND",
@@ -12096,6 +13330,19 @@
           "ASTONISH"
         ]
       },
+      "houndoom_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "FLAMETHROWER",
+          "CRUNCH",
+          "RETURN",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "SNARL",
+          "FIRE_FANG"
+        ]
+      },
       "hydrapple": {
         "chargedIds": [
           "SEED_BOMB",
@@ -12171,6 +13418,20 @@
           "STOMP",
           "EARTHQUAKE",
           "OUTRAGE",
+          "POWER_UP_PUNCH"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "MUD_SLAP"
+        ]
+      },
+      "kangaskhan_mega": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "STOMP",
+          "CRUNCH",
+          "OUTRAGE",
+          "EARTHQUAKE",
           "POWER_UP_PUNCH"
         ],
         "fastIds": [
@@ -12317,6 +13578,19 @@
           "WATERFALL"
         ]
       },
+      "kyogre_primal": {
+        "chargedIds": [
+          "AVALANCHE",
+          "SURF",
+          "THUNDER",
+          "ORIGIN_PULSE",
+          "HYDRO_PUMP",
+          "BLIZZARD"
+        ],
+        "fastIds": [
+          "WATERFALL"
+        ]
+      },
       "kyurem": {
         "chargedIds": [
           "GLACIATE",
@@ -12417,11 +13691,40 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "latias_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "MIST_BALL",
+          "OUTRAGE",
+          "THUNDER",
+          "PSYCHIC",
+          "RETURN"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "CHARM",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "latios": {
         "chargedIds": [
           "AURA_SPHERE",
           "LUSTER_PURGE",
           "DRAGON_CLAW",
+          "PSYCHIC",
+          "RETURN",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "ZEN_HEADBUTT"
+        ]
+      },
+      "latios_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "DRAGON_CLAW",
+          "LUSTER_PURGE",
           "PSYCHIC",
           "RETURN",
           "SOLAR_BEAM"
@@ -12456,6 +13759,38 @@
           "ROLLOUT",
           "LICK",
           "ZEN_HEADBUTT"
+        ]
+      },
+      "lopunny_mega": {
+        "chargedIds": [
+          "TRIPLE_AXEL",
+          "SHADOW_BALL",
+          "THUNDER_PUNCH",
+          "FOCUS_BLAST",
+          "FIRE_PUNCH",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DOUBLE_KICK",
+          "LOW_KICK",
+          "POUND"
+        ]
+      },
+      "lucario_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "METEOR_MASH",
+          "SHADOW_BALL",
+          "CLOSE_COMBAT",
+          "THUNDER_PUNCH",
+          "BLAZE_KICK",
+          "POWER_UP_PUNCH",
+          "FLASH_CANNON"
+        ],
+        "fastIds": [
+          "FORCE_PALM",
+          "BULLET_PUNCH",
+          "COUNTER"
         ]
       },
       "lugia": {
@@ -12562,6 +13897,20 @@
           "CHARGE_BEAM"
         ]
       },
+      "malamar_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "SUPER_POWER",
+          "RETURN",
+          "HYPER_BEAM",
+          "PSYBEAM"
+        ],
+        "fastIds": [
+          "PSYWAVE",
+          "PSYCHO_CUT",
+          "PECK"
+        ]
+      },
       "mamoswine": {
         "chargedIds": [
           "AVALANCHE",
@@ -12577,6 +13926,21 @@
           "MUD_SLAP"
         ]
       },
+      "manectric_mega": {
+        "chargedIds": [
+          "WILD_CHARGE",
+          "PSYCHIC_FANGS",
+          "OVERHEAT",
+          "RETURN",
+          "THUNDER",
+          "FLAME_BURST"
+        ],
+        "fastIds": [
+          "SNARL",
+          "THUNDER_FANG",
+          "CHARGE_BEAM"
+        ]
+      },
       "marshadow": {
         "chargedIds": [
           "CLOSE_COMBAT",
@@ -12590,6 +13954,34 @@
           "SUCKER_PUNCH",
           "COUNTER",
           "POISON_JAB"
+        ]
+      },
+      "mawile_mega": {
+        "chargedIds": [
+          "VICE_GRIP",
+          "PLAY_ROUGH",
+          "IRON_HEAD",
+          "POWER_UP_PUNCH",
+          "RETURN"
+        ],
+        "fastIds": [
+          "FAIRY_WIND",
+          "ASTONISH",
+          "ICE_FANG",
+          "FIRE_FANG",
+          "BITE"
+        ]
+      },
+      "medicham_mega": {
+        "chargedIds": [
+          "DYNAMIC_PUNCH",
+          "ICE_PUNCH",
+          "PSYCHIC",
+          "POWER_UP_PUNCH"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "COUNTER"
         ]
       },
       "melmetal": {
@@ -12630,6 +14022,21 @@
         ]
       },
       "metagross": {
+        "chargedIds": [
+          "METEOR_MASH",
+          "EARTHQUAKE",
+          "PSYCHIC",
+          "RETURN",
+          "FLASH_CANNON"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "FURY_CUTTER",
+          "BULLET_PUNCH",
+          "ZEN_HEADBUTT"
+        ]
+      },
+      "metagross_mega": {
         "chargedIds": [
           "METEOR_MASH",
           "EARTHQUAKE",
@@ -12718,6 +14125,42 @@
         "fastIds": [
           "CONFUSION",
           "IRON_TAIL"
+        ]
+      },
+      "mewtwo_mega_x": {
+        "chargedIds": [
+          "PSYSTRIKE",
+          "SHADOW_BALL",
+          "FOCUS_BLAST",
+          "ICE_BEAM",
+          "THUNDERBOLT",
+          "FLAMETHROWER",
+          "RETURN",
+          "PSYCHIC",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
+        ]
+      },
+      "mewtwo_mega_y": {
+        "chargedIds": [
+          "PSYSTRIKE",
+          "SHADOW_BALL",
+          "ICE_BEAM",
+          "THUNDERBOLT",
+          "FOCUS_BLAST",
+          "FLAMETHROWER",
+          "RETURN",
+          "PSYCHIC",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
         ]
       },
       "milotic": {
@@ -13056,12 +14499,44 @@
           "TAKE_DOWN"
         ]
       },
+      "pidgeot_mega": {
+        "chargedIds": [
+          "BRAVE_BIRD",
+          "TWISTER",
+          "AIR_CUTTER",
+          "HEAT_WAVE",
+          "HURRICANE",
+          "AERIAL_ACE",
+          "FEATHER_DANCE"
+        ],
+        "fastIds": [
+          "GUST",
+          "WING_ATTACK",
+          "AIR_SLASH",
+          "STEEL_WING"
+        ]
+      },
       "pinsir": {
         "chargedIds": [
           "CLOSE_COMBAT",
           "X_SCISSOR",
           "SUPER_POWER",
           "VICE_GRIP",
+          "RETURN",
+          "SUBMISSION"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BUG_BITE",
+          "ROCK_SMASH"
+        ]
+      },
+      "pinsir_mega": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "X_SCISSOR",
+          "VICE_GRIP",
+          "SUPER_POWER",
           "RETURN",
           "SUBMISSION"
         ],
@@ -13203,6 +14678,40 @@
           "WATER_GUN"
         ]
       },
+      "raichu_mega_x": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "SURF",
+          "TRAILBLAZE",
+          "WILD_CHARGE",
+          "THUNDER_PUNCH",
+          "SKULL_BASH",
+          "THUNDER"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "THUNDER_SHOCK",
+          "SPARK",
+          "CHARM"
+        ]
+      },
+      "raichu_mega_y": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "THUNDER_PUNCH",
+          "SURF",
+          "TRAILBLAZE",
+          "WILD_CHARGE",
+          "SKULL_BASH",
+          "THUNDER"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "THUNDER_SHOCK",
+          "SPARK",
+          "CHARM"
+        ]
+      },
       "raikou": {
         "chargedIds": [
           "WILD_CHARGE",
@@ -13230,6 +14739,20 @@
         ]
       },
       "rayquaza": {
+        "chargedIds": [
+          "DRAGON_ASCENT",
+          "OUTRAGE",
+          "ANCIENT_POWER",
+          "BREAKING_SWIPE",
+          "HURRICANE",
+          "AERIAL_ACE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "AIR_SLASH"
+        ]
+      },
+      "rayquaza_mega": {
         "chargedIds": [
           "DRAGON_ASCENT",
           "OUTRAGE",
@@ -13455,6 +14978,20 @@
           "RAZOR_LEAF"
         ]
       },
+      "sableye_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "SHADOW_SNEAK",
+          "POWER_GEM",
+          "DRAIN_PUNCH",
+          "DAZZLING_GLEAM",
+          "RETURN"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "FEINT_ATTACK"
+        ]
+      },
       "salamence": {
         "chargedIds": [
           "FLY",
@@ -13464,6 +15001,23 @@
           "CRUNCH",
           "FIRE_BLAST",
           "RETURN",
+          "DRACO_METEOR"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "FIRE_FANG",
+          "BITE"
+        ]
+      },
+      "salamence_mega": {
+        "chargedIds": [
+          "FLY",
+          "BRUTAL_SWING",
+          "OUTRAGE",
+          "HYDRO_PUMP",
+          "CRUNCH",
+          "RETURN",
+          "FIRE_BLAST",
           "DRACO_METEOR"
         ],
         "fastIds": [
@@ -13513,7 +15067,35 @@
           "MUD_SHOT"
         ]
       },
+      "sceptile_mega": {
+        "chargedIds": [
+          "LEAF_BLADE",
+          "DRAGON_CLAW",
+          "FRENZY_PLANT",
+          "EARTHQUAKE",
+          "AERIAL_ACE",
+          "RETURN",
+          "BREAKING_SWIPE"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BULLET_SEED"
+        ]
+      },
       "scizor": {
+        "chargedIds": [
+          "NIGHT_SLASH",
+          "X_SCISSOR",
+          "TRAILBLAZE",
+          "IRON_HEAD",
+          "RETURN"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BULLET_PUNCH"
+        ]
+      },
+      "scizor_mega": {
         "chargedIds": [
           "NIGHT_SLASH",
           "X_SCISSOR",
@@ -13536,6 +15118,18 @@
         "fastIds": [
           "MUD_SHOT",
           "BUBBLE"
+        ]
+      },
+      "sharpedo_mega": {
+        "chargedIds": [
+          "CRUNCH",
+          "POISON_FANG",
+          "HYDRO_PUMP",
+          "RETURN"
+        ],
+        "fastIds": [
+          "WATERFALL",
+          "BITE"
         ]
       },
       "shaymin_land": {
@@ -13617,6 +15211,18 @@
           "COUNTER"
         ]
       },
+      "skarmory_mega": {
+        "chargedIds": [
+          "BRAVE_BIRD",
+          "FLASH_CANNON",
+          "SKY_ATTACK",
+          "RETURN"
+        ],
+        "fastIds": [
+          "AIR_SLASH",
+          "STEEL_WING"
+        ]
+      },
       "skeledirge": {
         "chargedIds": [
           "SHADOW_BALL",
@@ -13653,6 +15259,20 @@
           "PSYCHIC",
           "WATER_PULSE",
           "RETURN"
+        ],
+        "fastIds": [
+          "CONFUSION",
+          "WATER_GUN"
+        ]
+      },
+      "slowbro_mega": {
+        "chargedIds": [
+          "SURF",
+          "DRAIN_PUNCH",
+          "ICE_BEAM",
+          "SCALD",
+          "PSYCHIC",
+          "WATER_PULSE"
         ],
         "fastIds": [
           "CONFUSION",
@@ -13741,6 +15361,41 @@
           "TAKE_DOWN"
         ]
       },
+      "starmie_mega": {
+        "chargedIds": [
+          "POWER_GEM",
+          "ICE_BEAM",
+          "AQUA_JET",
+          "THUNDER",
+          "SURF",
+          "PSYCHIC",
+          "RETURN",
+          "HYDRO_PUMP",
+          "PSYBEAM"
+        ],
+        "fastIds": [
+          "PSYWAVE",
+          "QUICK_ATTACK",
+          "WATER_GUN",
+          "TACKLE",
+          "HIDDEN_POWER_WATER",
+          "HIDDEN_POWER_ICE",
+          "HIDDEN_POWER_GROUND",
+          "HIDDEN_POWER_FIGHTING",
+          "HIDDEN_POWER_ROCK",
+          "HIDDEN_POWER_GHOST",
+          "HIDDEN_POWER_ELECTRIC",
+          "HIDDEN_POWER_PSYCHIC",
+          "HIDDEN_POWER_DRAGON",
+          "HIDDEN_POWER_DARK",
+          "HIDDEN_POWER_GRASS",
+          "HIDDEN_POWER_FIRE",
+          "HIDDEN_POWER_FLYING",
+          "HIDDEN_POWER_BUG",
+          "HIDDEN_POWER_STEEL",
+          "HIDDEN_POWER_POISON"
+        ]
+      },
       "steelix": {
         "chargedIds": [
           "EARTHQUAKE",
@@ -13749,6 +15404,20 @@
           "HEAVY_SLAM",
           "BREAKING_SWIPE",
           "RETURN"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "THUNDER_FANG",
+          "IRON_TAIL"
+        ]
+      },
+      "steelix_mega": {
+        "chargedIds": [
+          "EARTHQUAKE",
+          "CRUNCH",
+          "PSYCHIC_FANGS",
+          "HEAVY_SLAM",
+          "BREAKING_SWIPE"
         ],
         "fastIds": [
           "DRAGON_TAIL",
@@ -13812,6 +15481,21 @@
         ]
       },
       "swampert": {
+        "chargedIds": [
+          "HYDRO_CANNON",
+          "SLUDGE",
+          "EARTHQUAKE",
+          "MUDDY_WATER",
+          "SURF",
+          "RETURN",
+          "SLUDGE_WAVE"
+        ],
+        "fastIds": [
+          "MUD_SHOT",
+          "WATER_GUN"
+        ]
+      },
+      "swampert_mega": {
         "chargedIds": [
           "HYDRO_CANNON",
           "SLUDGE",
@@ -14172,6 +15856,21 @@
           "IRON_TAIL"
         ]
       },
+      "tyranitar_mega": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "STONE_EDGE",
+          "CRUNCH",
+          "RETURN",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "SMACK_DOWN",
+          "BITE",
+          "IRON_TAIL"
+        ]
+      },
       "tyrantrum": {
         "chargedIds": [
           "METEOR_BEAM",
@@ -14309,6 +16008,20 @@
           "RAZOR_LEAF"
         ]
       },
+      "venusaur_mega": {
+        "chargedIds": [
+          "FRENZY_PLANT",
+          "SLUDGE",
+          "RETURN",
+          "SLUDGE_BOMB",
+          "PETAL_BLIZZARD",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "VINE_WHIP",
+          "RAZOR_LEAF"
+        ]
+      },
       "victini": {
         "chargedIds": [
           "V_CREATE",
@@ -14320,6 +16033,21 @@
         "fastIds": [
           "CONFUSION",
           "QUICK_ATTACK"
+        ]
+      },
+      "victreebel_mega": {
+        "chargedIds": [
+          "LEAF_BLADE",
+          "SLUDGE_BOMB",
+          "LEAF_TORNADO",
+          "RETURN",
+          "SOLAR_BEAM",
+          "ACID_SPRAY"
+        ],
+        "fastIds": [
+          "ACID",
+          "MAGICAL_LEAF",
+          "RAZOR_LEAF"
         ]
       },
       "vikavolt": {
@@ -14629,7 +16357,36 @@
           "RAZOR_LEAF"
         ]
       },
+      "abomasnow_mega": {
+        "chargedIds": [
+          "WEATHER_BALL_ICE",
+          "ENERGY_BALL",
+          "ICY_WIND",
+          "OUTRAGE",
+          "RETURN",
+          "BLIZZARD"
+        ],
+        "fastIds": [
+          "POWDER_SNOW",
+          "LEAFAGE",
+          "RAZOR_LEAF"
+        ]
+      },
       "absol": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "MEGAHORN",
+          "THUNDER",
+          "DARK_PULSE",
+          "PAYBACK",
+          "RETURN"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "SNARL"
+        ]
+      },
+      "absol_mega": {
         "chargedIds": [
           "BRUTAL_SWING",
           "MEGAHORN",
@@ -14685,6 +16442,21 @@
           "BITE"
         ]
       },
+      "aerodactyl_mega": {
+        "chargedIds": [
+          "ROCK_SLIDE",
+          "EARTH_POWER",
+          "ANCIENT_POWER",
+          "IRON_HEAD",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "ROCK_THROW",
+          "STEEL_WING",
+          "BITE"
+        ]
+      },
       "aggron": {
         "chargedIds": [
           "METEOR_BEAM",
@@ -14693,6 +16465,21 @@
           "THUNDER",
           "STONE_EDGE",
           "RETURN"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "METAL_SOUND",
+          "SMACK_DOWN",
+          "IRON_TAIL"
+        ]
+      },
+      "aggron_mega": {
+        "chargedIds": [
+          "METEOR_BEAM",
+          "ROCK_TOMB",
+          "HEAVY_SLAM",
+          "THUNDER",
+          "STONE_EDGE"
         ],
         "fastIds": [
           "DRAGON_TAIL",
@@ -14710,6 +16497,21 @@
           "PSYCHIC",
           "FOCUS_BLAST",
           "RETURN"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
+        ]
+      },
+      "alakazam_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "FIRE_PUNCH",
+          "DAZZLING_GLEAM",
+          "FUTURE_SIGHT",
+          "PSYCHIC",
+          "FOCUS_BLAST"
         ],
         "fastIds": [
           "PSYCHO_CUT",
@@ -14757,6 +16559,19 @@
           "PECK"
         ]
       },
+      "altaria_mega": {
+        "chargedIds": [
+          "MOONBLAST",
+          "DAZZLING_GLEAM",
+          "DRAGON_PULSE",
+          "FLAMETHROWER",
+          "SKY_ATTACK"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "PECK"
+        ]
+      },
       "ambipom": {
         "chargedIds": [
           "AERIAL_ACE",
@@ -14790,6 +16605,22 @@
           "DRAGON_PULSE",
           "FOCUS_BLAST",
           "RETURN",
+          "THUNDER",
+          "ZAP_CANNON"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "CHARGE_BEAM"
+        ]
+      },
+      "ampharos_mega": {
+        "chargedIds": [
+          "THUNDER_PUNCH",
+          "BRUTAL_SWING",
+          "TRAILBLAZE",
+          "POWER_GEM",
+          "DRAGON_PULSE",
+          "FOCUS_BLAST",
           "THUNDER",
           "ZAP_CANNON"
         ],
@@ -15000,6 +16831,18 @@
           "POUND"
         ]
       },
+      "audino_mega": {
+        "chargedIds": [
+          "BODY_SLAM",
+          "DISARMING_VOICE",
+          "DAZZLING_GLEAM",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "ZEN_HEADBUTT",
+          "POUND"
+        ]
+      },
       "aurorus": {
         "chargedIds": [
           "WEATHER_BALL_ICE",
@@ -15066,6 +16909,18 @@
         ]
       },
       "banette": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "DAZZLING_GLEAM",
+          "THUNDER",
+          "RETURN"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "HEX"
+        ]
+      },
+      "banette_mega": {
         "chargedIds": [
           "SHADOW_BALL",
           "DAZZLING_GLEAM",
@@ -15153,6 +17008,22 @@
         ]
       },
       "beedrill": {
+        "chargedIds": [
+          "DRILL_RUN",
+          "X_SCISSOR",
+          "SLUDGE_BOMB",
+          "AERIAL_ACE",
+          "RETURN",
+          "FELL_STINGER"
+        ],
+        "fastIds": [
+          "POISON_STING",
+          "POISON_JAB",
+          "BUG_BITE",
+          "INFESTATION"
+        ]
+      },
+      "beedrill_mega": {
         "chargedIds": [
           "DRILL_RUN",
           "X_SCISSOR",
@@ -15271,6 +17142,21 @@
           "BITE"
         ]
       },
+      "blastoise_mega": {
+        "chargedIds": [
+          "HYDRO_CANNON",
+          "ICE_BEAM",
+          "SKULL_BASH",
+          "FLASH_CANNON",
+          "RETURN",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "ROLLOUT",
+          "WATER_GUN",
+          "BITE"
+        ]
+      },
       "blaziken": {
         "chargedIds": [
           "AURA_SPHERE",
@@ -15279,6 +17165,22 @@
           "BLAZE_KICK",
           "STONE_EDGE",
           "RETURN",
+          "OVERHEAT",
+          "FOCUS_BLAST"
+        ],
+        "fastIds": [
+          "EMBER",
+          "FIRE_SPIN",
+          "COUNTER"
+        ]
+      },
+      "blaziken_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "BLAST_BURN",
+          "BRAVE_BIRD",
+          "BLAZE_KICK",
+          "STONE_EDGE",
           "OVERHEAT",
           "FOCUS_BLAST"
         ],
@@ -15614,6 +17516,41 @@
           "AIR_SLASH"
         ]
       },
+      "charizard_mega_x": {
+        "chargedIds": [
+          "BLAST_BURN",
+          "AIR_CUTTER",
+          "DRAGON_CLAW",
+          "FLAMETHROWER",
+          "RETURN",
+          "OVERHEAT",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "EMBER",
+          "FIRE_SPIN",
+          "WING_ATTACK",
+          "AIR_SLASH"
+        ]
+      },
+      "charizard_mega_y": {
+        "chargedIds": [
+          "BLAST_BURN",
+          "AIR_CUTTER",
+          "DRAGON_CLAW",
+          "FLAMETHROWER",
+          "OVERHEAT",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "EMBER",
+          "DRAGON_BREATH",
+          "WING_ATTACK",
+          "FIRE_SPIN",
+          "AIR_SLASH"
+        ]
+      },
       "cherrim_overcast": {
         "chargedIds": [
           "DAZZLING_GLEAM",
@@ -15641,6 +17578,22 @@
         "chargedIds": [
           "FRENZY_PLANT",
           "SUPER_POWER",
+          "THUNDER_PUNCH",
+          "GYRO_BALL",
+          "ENERGY_BALL",
+          "RETURN",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "VINE_WHIP",
+          "SMACK_DOWN"
+        ]
+      },
+      "chesnaught_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "FRENZY_PLANT",
           "THUNDER_PUNCH",
           "GYRO_BALL",
           "ENERGY_BALL",
@@ -16106,6 +18059,23 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "delphox_mega": {
+        "chargedIds": [
+          "PSYSHOCK",
+          "BLAST_BURN",
+          "MYSTICAL_FIRE",
+          "FLAME_CHARGE",
+          "RETURN",
+          "FLAMETHROWER",
+          "PSYCHIC",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "FIRE_SPIN",
+          "SCRATCH",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "deoxys_defense": {
         "chargedIds": [
           "PSYCHO_BOOST",
@@ -16183,6 +18153,17 @@
         ]
       },
       "diancie": {
+        "chargedIds": [
+          "ROCK_SLIDE",
+          "MOONBLAST",
+          "POWER_GEM"
+        ],
+        "fastIds": [
+          "ROCK_THROW",
+          "TACKLE"
+        ]
+      },
+      "diancie_mega": {
         "chargedIds": [
           "ROCK_SLIDE",
           "MOONBLAST",
@@ -16297,6 +18278,23 @@
           "RETURN",
           "DRACO_METEOR",
           "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "DRAGON_TAIL",
+          "STEEL_WING"
+        ]
+      },
+      "dragonite_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "THUNDER_PUNCH",
+          "HURRICANE",
+          "DRAGON_CLAW",
+          "OUTRAGE",
+          "DRAGON_PULSE",
+          "HYPER_BEAM",
+          "DRACO_METEOR"
         ],
         "fastIds": [
           "DRAGON_BREATH",
@@ -16695,6 +18693,17 @@
           "ROCK_SMASH"
         ]
       },
+      "falinks_mega": {
+        "chargedIds": [
+          "SUPER_POWER",
+          "MEGAHORN",
+          "BRICK_BREAK"
+        ],
+        "fastIds": [
+          "COUNTER",
+          "ROCK_SMASH"
+        ]
+      },
       "fearow": {
         "chargedIds": [
           "DRILL_PECK",
@@ -16927,6 +18936,20 @@
           "CHARM"
         ]
       },
+      "gallade_mega": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "LEAF_BLADE",
+          "SYNCHRONOISE",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "LOW_KICK",
+          "CONFUSION",
+          "CHARM"
+        ]
+      },
       "galvantula": {
         "chargedIds": [
           "DISCHARGE",
@@ -16970,6 +18993,21 @@
           "MUD_SHOT"
         ]
       },
+      "garchomp_mega": {
+        "chargedIds": [
+          "TWISTER",
+          "EARTH_POWER",
+          "SAND_TOMB",
+          "FIRE_BLAST",
+          "OUTRAGE",
+          "EARTHQUAKE",
+          "BREAKING_SWIPE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "MUD_SHOT"
+        ]
+      },
       "gardevoir": {
         "chargedIds": [
           "SHADOW_BALL",
@@ -16977,6 +19015,21 @@
           "DAZZLING_GLEAM",
           "SYNCHRONOISE",
           "RETURN",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "CONFUSION",
+          "CHARM",
+          "MAGICAL_LEAF",
+          "CHARGE_BEAM"
+        ]
+      },
+      "gardevoir_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "TRIPLE_AXEL",
+          "DAZZLING_GLEAM",
+          "SYNCHRONOISE",
           "PSYCHIC"
         ],
         "fastIds": [
@@ -17103,6 +19156,24 @@
           "LICK"
         ]
       },
+      "gengar_mega": {
+        "chargedIds": [
+          "SHADOW_PUNCH",
+          "SLUDGE_BOMB",
+          "DRAIN_PUNCH",
+          "SHADOW_BALL",
+          "DARK_PULSE",
+          "FOCUS_BLAST",
+          "PSYCHIC",
+          "SLUDGE_WAVE"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "HEX",
+          "SUCKER_PUNCH",
+          "LICK"
+        ]
+      },
       "gholdengo": {
         "chargedIds": [
           "SHADOW_BALL",
@@ -17189,6 +19260,19 @@
           "SHADOW_BALL",
           "GYRO_BALL",
           "RETURN"
+        ],
+        "fastIds": [
+          "POWDER_SNOW",
+          "ROLLOUT",
+          "ICE_SHARD",
+          "FROST_BREATH"
+        ]
+      },
+      "glalie_mega": {
+        "chargedIds": [
+          "AVALANCHE",
+          "SHADOW_BALL",
+          "GYRO_BALL"
         ],
         "fastIds": [
           "POWDER_SNOW",
@@ -17516,6 +19600,21 @@
           "FEINT_ATTACK"
         ]
       },
+      "greninja_mega": {
+        "chargedIds": [
+          "NIGHT_SLASH",
+          "HYDRO_CANNON",
+          "AERIAL_ACE",
+          "SURF",
+          "RETURN",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "WATER_SHURIKEN",
+          "BUBBLE",
+          "FEINT_ATTACK"
+        ]
+      },
       "grimmsnarl": {
         "chargedIds": [
           "FOUL_PLAY",
@@ -17545,6 +19644,19 @@
         "chargedIds": [
           "PRECIPICE_BLADES",
           "FIRE_PUNCH",
+          "EARTHQUAKE",
+          "SOLAR_BEAM",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "MUD_SHOT",
+          "DRAGON_TAIL"
+        ]
+      },
+      "groudon_primal": {
+        "chargedIds": [
+          "FIRE_PUNCH",
+          "PRECIPICE_BLADES",
           "EARTHQUAKE",
           "SOLAR_BEAM",
           "FIRE_BLAST"
@@ -17609,6 +19721,22 @@
           "TWISTER",
           "CRUNCH",
           "RETURN",
+          "OUTRAGE",
+          "DRAGON_PULSE",
+          "HYDRO_PUMP"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "WATERFALL",
+          "DRAGON_TAIL",
+          "BITE"
+        ]
+      },
+      "gyarados_mega": {
+        "chargedIds": [
+          "AQUA_TAIL",
+          "CRUNCH",
+          "TWISTER",
           "OUTRAGE",
           "DRAGON_PULSE",
           "HYDRO_PUMP"
@@ -17716,6 +19844,21 @@
         ]
       },
       "heracross": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "UPPER_HAND",
+          "ROCK_TOMB",
+          "MEGAHORN",
+          "ROCK_BLAST",
+          "EARTHQUAKE"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "COUNTER",
+          "STRUGGLE_BUG"
+        ]
+      },
+      "heracross_mega": {
         "chargedIds": [
           "CLOSE_COMBAT",
           "UPPER_HAND",
@@ -17860,6 +20003,19 @@
         ]
       },
       "houndoom": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "FLAMETHROWER",
+          "CRUNCH",
+          "RETURN",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "SNARL",
+          "FIRE_FANG"
+        ]
+      },
+      "houndoom_mega": {
         "chargedIds": [
           "FOUL_PLAY",
           "FLAMETHROWER",
@@ -18107,6 +20263,20 @@
           "MUD_SLAP"
         ]
       },
+      "kangaskhan_mega": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "CRUNCH",
+          "STOMP",
+          "EARTHQUAKE",
+          "OUTRAGE",
+          "POWER_UP_PUNCH"
+        ],
+        "fastIds": [
+          "LOW_KICK",
+          "MUD_SLAP"
+        ]
+      },
       "kartana": {
         "chargedIds": [
           "LEAF_BLADE",
@@ -18332,6 +20502,19 @@
           "WATERFALL"
         ]
       },
+      "kyogre_primal": {
+        "chargedIds": [
+          "AVALANCHE",
+          "SURF",
+          "ORIGIN_PULSE",
+          "THUNDER",
+          "HYDRO_PUMP",
+          "BLIZZARD"
+        ],
+        "fastIds": [
+          "WATERFALL"
+        ]
+      },
       "kyurem": {
         "chargedIds": [
           "GLACIATE",
@@ -18459,6 +20642,20 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "latias_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "MIST_BALL",
+          "OUTRAGE",
+          "THUNDER",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "CHARM",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "latios": {
         "chargedIds": [
           "AURA_SPHERE",
@@ -18466,6 +20663,19 @@
           "DRAGON_CLAW",
           "PSYCHIC",
           "RETURN",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "ZEN_HEADBUTT"
+        ]
+      },
+      "latios_mega": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "LUSTER_PURGE",
+          "DRAGON_CLAW",
+          "PSYCHIC",
           "SOLAR_BEAM"
         ],
         "fastIds": [
@@ -18580,7 +20790,39 @@
           "POUND"
         ]
       },
+      "lopunny_mega": {
+        "chargedIds": [
+          "SHADOW_BALL",
+          "TRIPLE_AXEL",
+          "THUNDER_PUNCH",
+          "FIRE_PUNCH",
+          "FOCUS_BLAST",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "DOUBLE_KICK",
+          "LOW_KICK",
+          "POUND"
+        ]
+      },
       "lucario": {
+        "chargedIds": [
+          "AURA_SPHERE",
+          "METEOR_MASH",
+          "SHADOW_BALL",
+          "THUNDER_PUNCH",
+          "CLOSE_COMBAT",
+          "BLAZE_KICK",
+          "POWER_UP_PUNCH",
+          "FLASH_CANNON"
+        ],
+        "fastIds": [
+          "FORCE_PALM",
+          "BULLET_PUNCH",
+          "COUNTER"
+        ]
+      },
+      "lucario_mega": {
         "chargedIds": [
           "AURA_SPHERE",
           "METEOR_MASH",
@@ -18864,6 +21106,20 @@
           "PECK"
         ]
       },
+      "malamar_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "SUPER_POWER",
+          "RETURN",
+          "PSYBEAM",
+          "HYPER_BEAM"
+        ],
+        "fastIds": [
+          "PSYWAVE",
+          "PSYCHO_CUT",
+          "PECK"
+        ]
+      },
       "mamoswine": {
         "chargedIds": [
           "AVALANCHE",
@@ -18892,6 +21148,21 @@
         ]
       },
       "manectric": {
+        "chargedIds": [
+          "WILD_CHARGE",
+          "PSYCHIC_FANGS",
+          "OVERHEAT",
+          "RETURN",
+          "THUNDER",
+          "FLAME_BURST"
+        ],
+        "fastIds": [
+          "SNARL",
+          "THUNDER_FANG",
+          "CHARGE_BEAM"
+        ]
+      },
+      "manectric_mega": {
         "chargedIds": [
           "WILD_CHARGE",
           "PSYCHIC_FANGS",
@@ -19011,6 +21282,34 @@
           "TAKE_DOWN"
         ]
       },
+      "mawile_mega": {
+        "chargedIds": [
+          "VICE_GRIP",
+          "IRON_HEAD",
+          "PLAY_ROUGH",
+          "POWER_UP_PUNCH",
+          "RETURN"
+        ],
+        "fastIds": [
+          "FAIRY_WIND",
+          "ASTONISH",
+          "ICE_FANG",
+          "FIRE_FANG",
+          "BITE"
+        ]
+      },
+      "medicham_mega": {
+        "chargedIds": [
+          "DYNAMIC_PUNCH",
+          "ICE_PUNCH",
+          "PSYCHIC",
+          "POWER_UP_PUNCH"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "COUNTER"
+        ]
+      },
       "meganium": {
         "chargedIds": [
           "FRENZY_PLANT",
@@ -19114,6 +21413,21 @@
           "ZEN_HEADBUTT"
         ]
       },
+      "metagross_mega": {
+        "chargedIds": [
+          "METEOR_MASH",
+          "EARTHQUAKE",
+          "PSYCHIC",
+          "RETURN",
+          "FLASH_CANNON"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "FURY_CUTTER",
+          "BULLET_PUNCH",
+          "ZEN_HEADBUTT"
+        ]
+      },
       "metang": {
         "chargedIds": [
           "PSYSHOCK",
@@ -19200,6 +21514,40 @@
         "fastIds": [
           "CONFUSION",
           "IRON_TAIL"
+        ]
+      },
+      "mewtwo_mega_x": {
+        "chargedIds": [
+          "PSYSTRIKE",
+          "SHADOW_BALL",
+          "FOCUS_BLAST",
+          "ICE_BEAM",
+          "FLAMETHROWER",
+          "THUNDERBOLT",
+          "HYPER_BEAM",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
+        ]
+      },
+      "mewtwo_mega_y": {
+        "chargedIds": [
+          "PSYSTRIKE",
+          "SHADOW_BALL",
+          "ICE_BEAM",
+          "FLAMETHROWER",
+          "THUNDERBOLT",
+          "FOCUS_BLAST",
+          "HYPER_BEAM",
+          "PSYCHIC"
+        ],
+        "fastIds": [
+          "PSYCHO_CUT",
+          "CONFUSION",
+          "COUNTER"
         ]
       },
       "mienshao": {
@@ -19912,6 +22260,23 @@
           "STEEL_WING"
         ]
       },
+      "pidgeot_mega": {
+        "chargedIds": [
+          "BRAVE_BIRD",
+          "AIR_CUTTER",
+          "TWISTER",
+          "HEAT_WAVE",
+          "HURRICANE",
+          "AERIAL_ACE",
+          "FEATHER_DANCE"
+        ],
+        "fastIds": [
+          "GUST",
+          "WING_ATTACK",
+          "AIR_SLASH",
+          "STEEL_WING"
+        ]
+      },
       "pignite": {
         "chargedIds": [
           "ROCK_TOMB",
@@ -19945,6 +22310,20 @@
           "SUPER_POWER",
           "VICE_GRIP",
           "RETURN",
+          "SUBMISSION"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BUG_BITE",
+          "ROCK_SMASH"
+        ]
+      },
+      "pinsir_mega": {
+        "chargedIds": [
+          "CLOSE_COMBAT",
+          "X_SCISSOR",
+          "VICE_GRIP",
+          "SUPER_POWER",
           "SUBMISSION"
         ],
         "fastIds": [
@@ -20220,6 +22599,40 @@
           "SPARK"
         ]
       },
+      "raichu_mega_x": {
+        "chargedIds": [
+          "BRICK_BREAK",
+          "WILD_CHARGE",
+          "SURF",
+          "TRAILBLAZE",
+          "THUNDER_PUNCH",
+          "SKULL_BASH",
+          "THUNDER"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "THUNDER_SHOCK",
+          "SPARK",
+          "CHARM"
+        ]
+      },
+      "raichu_mega_y": {
+        "chargedIds": [
+          "THUNDER_PUNCH",
+          "BRICK_BREAK",
+          "WILD_CHARGE",
+          "SURF",
+          "TRAILBLAZE",
+          "SKULL_BASH",
+          "THUNDER"
+        ],
+        "fastIds": [
+          "VOLT_SWITCH",
+          "THUNDER_SHOCK",
+          "SPARK",
+          "CHARM"
+        ]
+      },
       "raikou": {
         "chargedIds": [
           "WILD_CHARGE",
@@ -20291,6 +22704,20 @@
         ]
       },
       "rayquaza": {
+        "chargedIds": [
+          "DRAGON_ASCENT",
+          "OUTRAGE",
+          "ANCIENT_POWER",
+          "BREAKING_SWIPE",
+          "HURRICANE",
+          "AERIAL_ACE"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "AIR_SLASH"
+        ]
+      },
+      "rayquaza_mega": {
         "chargedIds": [
           "DRAGON_ASCENT",
           "OUTRAGE",
@@ -20618,6 +23045,20 @@
           "ASTONISH"
         ]
       },
+      "sableye_mega": {
+        "chargedIds": [
+          "FOUL_PLAY",
+          "POWER_GEM",
+          "SHADOW_SNEAK",
+          "DRAIN_PUNCH",
+          "DAZZLING_GLEAM",
+          "RETURN"
+        ],
+        "fastIds": [
+          "SHADOW_CLAW",
+          "FEINT_ATTACK"
+        ]
+      },
       "salamence": {
         "chargedIds": [
           "FLY",
@@ -20627,6 +23068,22 @@
           "FIRE_BLAST",
           "HYDRO_PUMP",
           "RETURN",
+          "DRACO_METEOR"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "FIRE_FANG",
+          "BITE"
+        ]
+      },
+      "salamence_mega": {
+        "chargedIds": [
+          "FLY",
+          "BRUTAL_SWING",
+          "OUTRAGE",
+          "CRUNCH",
+          "FIRE_BLAST",
+          "HYDRO_PUMP",
           "DRACO_METEOR"
         ],
         "fastIds": [
@@ -20760,6 +23217,20 @@
           "BULLET_SEED"
         ]
       },
+      "sceptile_mega": {
+        "chargedIds": [
+          "LEAF_BLADE",
+          "DRAGON_CLAW",
+          "FRENZY_PLANT",
+          "AERIAL_ACE",
+          "EARTHQUAKE",
+          "BREAKING_SWIPE"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BULLET_SEED"
+        ]
+      },
       "scizor": {
         "chargedIds": [
           "NIGHT_SLASH",
@@ -20767,6 +23238,18 @@
           "TRAILBLAZE",
           "IRON_HEAD",
           "RETURN"
+        ],
+        "fastIds": [
+          "FURY_CUTTER",
+          "BULLET_PUNCH"
+        ]
+      },
+      "scizor_mega": {
+        "chargedIds": [
+          "NIGHT_SLASH",
+          "X_SCISSOR",
+          "TRAILBLAZE",
+          "IRON_HEAD"
         ],
         "fastIds": [
           "FURY_CUTTER",
@@ -20893,6 +23376,18 @@
         ]
       },
       "sharpedo": {
+        "chargedIds": [
+          "CRUNCH",
+          "POISON_FANG",
+          "HYDRO_PUMP",
+          "RETURN"
+        ],
+        "fastIds": [
+          "WATERFALL",
+          "BITE"
+        ]
+      },
+      "sharpedo_mega": {
         "chargedIds": [
           "CRUNCH",
           "POISON_FANG",
@@ -21079,6 +23574,18 @@
           "STEEL_WING"
         ]
       },
+      "skarmory_mega": {
+        "chargedIds": [
+          "BRAVE_BIRD",
+          "FLASH_CANNON",
+          "SKY_ATTACK",
+          "RETURN"
+        ],
+        "fastIds": [
+          "AIR_SLASH",
+          "STEEL_WING"
+        ]
+      },
       "skeledirge": {
         "chargedIds": [
           "BLAST_BURN",
@@ -21160,6 +23667,20 @@
         "fastIds": [
           "CONFUSION",
           "POISON_JAB"
+        ]
+      },
+      "slowbro_mega": {
+        "chargedIds": [
+          "SURF",
+          "DRAIN_PUNCH",
+          "ICE_BEAM",
+          "PSYCHIC",
+          "SCALD",
+          "WATER_PULSE"
+        ],
+        "fastIds": [
+          "CONFUSION",
+          "WATER_GUN"
         ]
       },
       "slowking": {
@@ -21380,6 +23901,41 @@
           "HIDDEN_POWER_POISON"
         ]
       },
+      "starmie_mega": {
+        "chargedIds": [
+          "POWER_GEM",
+          "AQUA_JET",
+          "ICE_BEAM",
+          "THUNDER",
+          "PSYCHIC",
+          "SURF",
+          "RETURN",
+          "HYDRO_PUMP",
+          "PSYBEAM"
+        ],
+        "fastIds": [
+          "PSYWAVE",
+          "QUICK_ATTACK",
+          "WATER_GUN",
+          "TACKLE",
+          "HIDDEN_POWER_WATER",
+          "HIDDEN_POWER_PSYCHIC",
+          "HIDDEN_POWER_GROUND",
+          "HIDDEN_POWER_ICE",
+          "HIDDEN_POWER_FIRE",
+          "HIDDEN_POWER_ROCK",
+          "HIDDEN_POWER_ELECTRIC",
+          "HIDDEN_POWER_FIGHTING",
+          "HIDDEN_POWER_FLYING",
+          "HIDDEN_POWER_GHOST",
+          "HIDDEN_POWER_DARK",
+          "HIDDEN_POWER_DRAGON",
+          "HIDDEN_POWER_GRASS",
+          "HIDDEN_POWER_STEEL",
+          "HIDDEN_POWER_BUG",
+          "HIDDEN_POWER_POISON"
+        ]
+      },
       "steelix": {
         "chargedIds": [
           "PSYCHIC_FANGS",
@@ -21388,6 +23944,20 @@
           "HEAVY_SLAM",
           "BREAKING_SWIPE",
           "RETURN"
+        ],
+        "fastIds": [
+          "DRAGON_TAIL",
+          "THUNDER_FANG",
+          "IRON_TAIL"
+        ]
+      },
+      "steelix_mega": {
+        "chargedIds": [
+          "PSYCHIC_FANGS",
+          "EARTHQUAKE",
+          "CRUNCH",
+          "HEAVY_SLAM",
+          "BREAKING_SWIPE"
         ],
         "fastIds": [
           "DRAGON_TAIL",
@@ -21522,6 +24092,20 @@
           "MUDDY_WATER",
           "SURF",
           "RETURN",
+          "SLUDGE_WAVE"
+        ],
+        "fastIds": [
+          "MUD_SHOT",
+          "WATER_GUN"
+        ]
+      },
+      "swampert_mega": {
+        "chargedIds": [
+          "HYDRO_CANNON",
+          "SLUDGE",
+          "EARTHQUAKE",
+          "MUDDY_WATER",
+          "SURF",
           "SLUDGE_WAVE"
         ],
         "fastIds": [
@@ -22150,6 +24734,20 @@
           "IRON_TAIL"
         ]
       },
+      "tyranitar_mega": {
+        "chargedIds": [
+          "BRUTAL_SWING",
+          "STONE_EDGE",
+          "CRUNCH",
+          "FIRE_BLAST"
+        ],
+        "fastIds": [
+          "DRAGON_BREATH",
+          "SMACK_DOWN",
+          "BITE",
+          "IRON_TAIL"
+        ]
+      },
       "tyrantrum": {
         "chargedIds": [
           "METEOR_BEAM",
@@ -22314,6 +24912,20 @@
           "RAZOR_LEAF"
         ]
       },
+      "venusaur_mega": {
+        "chargedIds": [
+          "FRENZY_PLANT",
+          "SLUDGE",
+          "SLUDGE_BOMB",
+          "RETURN",
+          "PETAL_BLIZZARD",
+          "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "VINE_WHIP",
+          "RAZOR_LEAF"
+        ]
+      },
       "vespiquen": {
         "chargedIds": [
           "X_SCISSOR",
@@ -22350,6 +24962,21 @@
           "RETURN",
           "ACID_SPRAY",
           "SOLAR_BEAM"
+        ],
+        "fastIds": [
+          "ACID",
+          "MAGICAL_LEAF",
+          "RAZOR_LEAF"
+        ]
+      },
+      "victreebel_mega": {
+        "chargedIds": [
+          "LEAF_BLADE",
+          "SLUDGE_BOMB",
+          "LEAF_TORNADO",
+          "RETURN",
+          "SOLAR_BEAM",
+          "ACID_SPRAY"
         ],
         "fastIds": [
           "ACID",
