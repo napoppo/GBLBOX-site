@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.7.4-384",
+      "id": "2.7.5-387",
       "enabled": true,
+      "publishedAt": "2026-09-05",
+      "maximumBuild": 386,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 387,
+      "titleJa": "GBLBOX 2.7.5 の配信を開始しました",
+      "titleEn": "GBLBOX 2.7.5 is now available",
+      "bodyJa": "GBLBOX 2.7.5 の配信を開始しました。\n\n・ボックスのタブに切り替えるたびに画面が1秒ほど固まっていたのを直しました。ほかのタブを開くときの引っかかりも軽くなります\n・メガバージョンのカップで、メガ形態が候補や技の並びに出るようになりました。通常リーグの使用率にメガが入っておらず、これまで出てきませんでした\n・シミュレータとブレイク探索でもカップを選べるようになり、リーグ・カップの選択を3画面で共通にしました\n\nそのほか、ブレイク探索と技カウントの細かな不具合を直しています。\n\n気になる点は、設定内の「かんたんフィードバック」からお知らせください。",
+      "bodyEn": "GBLBOX 2.7.5 is now available.\n\n- Fixed the app freezing for about a second when switching to the Box tab. Other tabs open more smoothly too\n- Mega forms now appear in the suggestions and move order for Mega Edition cups. They were missing because regular league usage data does not include Mega forms\n- League and cup selection moved to a shared header across the simulator, Move Counts, and Breakpoints\n\nVarious smaller fixes in Breakpoints and Move Counts are also included.\n\nIf something looks off, please let us know from Quick Feedback in Settings.",
+      "updatePromptJa": "タブ切り替えの引っかかりを解消し、メガバージョンのカップに対応した2.7.5が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.5 removes the tab-switch stutter and adds Mega Edition cup support. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.5へ更新",
+      "updateActionTitleEn": "Update to 2.7.5",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.7.4-384",
+      "enabled": false,
       "publishedAt": "2026-09-04",
       "maximumBuild": 383,
       "maximumBuildAndroid": 0,
