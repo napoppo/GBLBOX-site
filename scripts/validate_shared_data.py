@@ -297,9 +297,15 @@ def android_config_from_site(android: dict[str, Any], site: dict[str, Any]) -> d
     """Update Android's offline fallback without importing iOS force-update copy."""
     merged = copy.deepcopy(android)
     merged["schemaVersion"] = site["schemaVersion"]
+    android_billing_enabled = android.get("billing", {}).get("enabled")
     for section in ("analytics", "billing", "proTrial", "paywall"):
         if section in site:
             merged[section] = overlay_shared_values(merged.get(section), site[section])
+    # Android は住所公開を避けるため Google Play で収益化しておらず（ANDROID_OPEN_ACCESS）、
+    # 同梱 fallback の billing.enabled は意図して false にしてある。site は iOS 向けに true
+    # なので、そのまま被せると無料開放の設定を戻してしまう。商品IDだけ site から取り込む。
+    if android_billing_enabled is not None:
+        merged.setdefault("billing", {})["enabled"] = android_billing_enabled
 
     site_force = site["forceUpdate"]
     android_force = merged.setdefault("forceUpdate", {})
@@ -315,11 +321,16 @@ def android_config_from_site(android: dict[str, Any], site: dict[str, Any]) -> d
 
 
 def shared_android_config_projection(document: dict[str, Any]) -> dict[str, Any]:
-    """Fields whose online/offline values are shared by the Android runtime."""
+    """Fields whose online/offline values are shared by the Android runtime.
+
+    billing.enabled は含めない。Android は 524b62d「Android版を全機能無料開放に切り替え」
+    以降 Google Play で収益化しておらず、同梱 fallback は意図的に false、site は iOS 向けに
+    true で、食い違っているのが正しい状態になった。ここで比べると恒常的に赤くなり、
+    本物のズレを覆い隠す。
+    """
     return {
         "schemaVersion": document["schemaVersion"],
         "analytics": document["analytics"],
-        "billing": {"enabled": document["billing"]["enabled"]},
         "proTrial": {
             key: document["proTrial"][key]
             for key in ("freeUseLimit", "resetGeneration", "freeIndividualLimit")
