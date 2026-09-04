@@ -39,8 +39,8 @@ bodyJa:
 GBLBOX 2.7.5 の配信を開始しました。
 
 ・ボックスのタブに切り替えるたびに画面が1秒ほど固まっていたのを直しました。ほかのタブを開くときの引っかかりも軽くなります
-・メガ形態のカップに対応しました。技のおすすめも実際の採用順に合わせています
-・リーグ・カップの選択を上部にまとめ、シミュレータ・技カウント・ブレイク探索で共通にしました
+・メガバージョンのカップで、メガ形態が候補や技の並びに出るようになりました。通常リーグの使用率にメガが入っておらず、これまで出てきませんでした
+・シミュレータとブレイク探索でもカップを選べるようになり、リーグ・カップの選択を3画面で共通にしました
 
 そのほか、ブレイク探索と技カウントの細かな不具合を直しています。
 
@@ -53,7 +53,7 @@ bodyEn:
 GBLBOX 2.7.5 is now available.
 
 - Fixed the app freezing for about a second when switching to the Box tab. Other tabs open more smoothly too
-- Added support for Mega-form cups, with move suggestions based on actual usage
+- Mega forms now appear in the suggestions and move order for Mega Edition cups. They were missing because regular league usage data does not include Mega forms
 - League and cup selection moved to a shared header across the simulator, Move Counts, and Breakpoints
 
 Various smaller fixes in Breakpoints and Move Counts are also included.
