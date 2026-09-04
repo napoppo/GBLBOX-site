@@ -16,6 +16,7 @@ import json
 import os
 from dataclasses import dataclass
 
+from json_output import write_text_if_changed
 from secure_fetch import fetch_bytes
 
 
@@ -244,20 +245,18 @@ def main() -> None:
         "leagues": mega_rankings_out,
     }
 
-    os.makedirs(os.path.dirname(os.path.abspath(args.output)), exist_ok=True)
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2, sort_keys=True)
-        f.write("\n")
-
-    os.makedirs(os.path.dirname(os.path.abspath(args.usage_output)), exist_ok=True)
-    with open(args.usage_output, "w", encoding="utf-8") as f:
-        json.dump(usage_payload, f, ensure_ascii=False, indent=2, sort_keys=True)
-        f.write("\n")
-
-    with open(MEGA_RANKINGS_OUT, "w", encoding="utf-8") as f:
-        json.dump(mega_rankings_payload, f, ensure_ascii=False, indent=2, sort_keys=True)
-        f.write("\n")
-    print(f"wrote {args.output}")
+    # PvPoke に変化が無い日でも updatedAt だけが動くため、日付以外が同じなら書かない。
+    # 毎日の無意味なコミットと、それによる validate_shared_data の恒常的な赤を防ぐ。
+    for path, document in (
+        (args.output, payload),
+        (args.usage_output, usage_payload),
+        (MEGA_RANKINGS_OUT, mega_rankings_payload),
+    ):
+        text = json.dumps(document, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+        if write_text_if_changed(path, text):
+            print(f"wrote {path}")
+        else:
+            print(f"unchanged {path}")
 
 
 if __name__ == "__main__":

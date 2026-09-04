@@ -10,6 +10,7 @@ import os
 import re
 from pathlib import Path
 
+from json_output import drop_keys, write_text_if_changed
 from secure_fetch import fetch_bytes
 
 
@@ -125,6 +126,14 @@ def build_specs(pokedex: list[dict], game_master: dict, source_version: str) -> 
     }
 
 
+def without_provenance(document: object) -> object:
+    """メガ仕様の中身だけを比べるため、版情報（updatedAt / sourceVersion）を落とす。"""
+    stripped = drop_keys(document, ("updatedAt", "sourceVersion"))
+    if isinstance(stripped, dict) and isinstance(stripped.get("entries"), list):
+        stripped["entries"] = [drop_keys(entry, ("sourceVersion",)) for entry in stripped["entries"]]
+    return stripped
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--pokedex", default=str(Path(__file__).resolve().parents[1] / "data" / "pokedex.json"))
@@ -134,10 +143,14 @@ def main() -> int:
     game_master = json.loads(fetch_bytes(GAME_MASTER_URL).decode("utf-8"))
     timestamp = fetch_bytes(GAME_MASTER_TIMESTAMP_URL).decode("utf-8").strip()
     payload = build_specs(load_json(Path(args.pokedex)), game_master, timestamp)
-    output = Path(args.output)
-    output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"mega_specs.json: {len(payload['entries'])} forms, source={timestamp}")
+    # Game Master は毎日のように版が上がるが、メガの仕様自体はめったに変わらない。
+    # updatedAt と sourceVersion（トップレベル・各entry）だけの差分では書き換えず、
+    # 無意味な日次コミットを出さない。凍結後の値は「最後に中身が変わった版」を指す。
+    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    if write_text_if_changed(str(args.output), text, normalize=without_provenance):
+        print(f"mega_specs.json: {len(payload['entries'])} forms, source={timestamp}")
+    else:
+        print(f"mega_specs.json: unchanged ({len(payload['entries'])} forms, source={timestamp})")
     return 0
 
 

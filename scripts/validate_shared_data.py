@@ -34,7 +34,9 @@ SITE_ROOT = Path(__file__).resolve().parents[1]
 IOS_ROOT = SITE_ROOT.parent / "pokemongo_iv_manager"
 ANDROID_ROOT = SITE_ROOT.parent / "GBLBox-android"
 
-REMOTE_BATTLE_FILES = ("moves.json", "pokedex.json", "pvpoke_movesets.json")
+# アプリが gblbox.com から取得し、同梱コピーをオフライン時の fallback に使うファイル。
+# mega_specs.json は照合対象から漏れていたため Android 同梱分がメガ8種ぶん古いまま気づかれなかった。
+REMOTE_BATTLE_FILES = ("moves.json", "pokedex.json", "pvpoke_movesets.json", "mega_specs.json")
 APP_ONLY_SHARED_FILES = ("cpm.json", "power_up_costs.json")
 BUILD_FIELDS = (
     "minimumBuild",

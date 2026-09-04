@@ -28,6 +28,7 @@ jobs:
       - name: Validate schemas and references
         run: |
           python3 -m unittest scripts/test_validate_shared_data.py
+          python3 -m unittest scripts/test_json_output.py
           python3 scripts/validate_battle_master.py data/pokedex.json data/moves.json data/pvpoke_movesets.json
           python3 scripts/validate_pvpoke_movesets.py data/pvpoke_movesets.json
           python3 scripts/validate_gbl_schedule.py
