@@ -20,7 +20,7 @@
     },
     {
       "id": "2.7.5-387",
-      "enabled": true,
+      "enabled": false,
       "publishedAt": "2026-09-05",
       "maximumBuild": 386,
       "maximumBuildAndroid": 0,
