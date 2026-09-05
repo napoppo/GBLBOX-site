@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "announcements": [
     {
+      "id": "2.7.6-390",
+      "enabled": true,
+      "publishedAt": "2026-09-06",
+      "maximumBuild": 389,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 390,
+      "titleJa": "GBLBOX 2.7.6 の配信を開始しました",
+      "titleEn": "GBLBOX 2.7.6 is now available",
+      "bodyJa": "GBLBOX 2.7.6の配信を開始しました。\n\nライブ読み取りで、通知が届かない、読み取ったポケモンがボックスに登録されないことがある問題を中心に修正しました。\n\n【修正】\n・ライブ読み取りの完了通知が届かない問題を修正\n・続けて読み取ったときに、結果を取りこぼす問題を修正\n・Pro・買い切り利用時に、無料枠として扱われる問題を修正\n・ライブ読み取りが対戦結果の記録として動くことがある問題を修正\n・読み取り後のスクリーンショットが端末に残り続ける問題を修正\n\n【変更】\n・「通知が出ないとき」の案内から、通知をその場で許可できるようにしました\n・「このアプリについて」にサポートIDを追加しました\n\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.7.6 is now available.\n\nThis update focuses on Live Scan issues, including missing notifications and scanned Pokemon not being saved to the Box.\n\n【Fixes】\n- Fixed missing Live Scan completion notifications\n- Fixed results being missed during consecutive scans\n- Fixed Pro and lifetime purchases being treated as free-tier usage\n- Fixed Live Scan sometimes acting as battle-result recording\n- Fixed screenshots remaining on the device after scanning\n\n【Changes】\n- Notifications can now be allowed directly from the \"When notifications do not appear\" guide\n- Added a support ID to About This App\n\nWe recommend updating to the latest version.",
+      "updatePromptJa": "ライブ読み取りの通知と登録の問題を修正した2.7.6が利用できます。アップデートをおすすめします。",
+      "updatePromptEn": "Version 2.7.6 fixes Live Scan notification and saving issues. We recommend updating.",
+      "updateActionTitleJa": "App Storeで2.7.6へ更新",
+      "updateActionTitleEn": "Update to 2.7.6",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
       "id": "2.7.5-387",
       "enabled": true,
       "publishedAt": "2026-09-05",
