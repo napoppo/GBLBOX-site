@@ -14,6 +14,7 @@ import argparse
 import datetime as dt
 import json
 import os
+import pathlib
 from dataclasses import dataclass
 
 from json_output import write_text_if_changed
@@ -31,6 +32,11 @@ USAGE_OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_move_usage
 # 配信済みのバージョンがファイルごと弾いてしまうため、別ファイルにする。
 # 技の採用順（leagues の中身）はメガ形態を足すだけで形が変わらないので同じファイルでよい。
 MEGA_RANKINGS_OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_mega_rankings.json"))
+# リトル（CP500）。既存3ファイルへ little を足すと、リーグキーを突き合わせている
+# 配信済みのバージョンがファイルごと弾くため、別ファイルにする。
+# 対応したバージョン（2.8.0以降）だけがこれを取りに行く。
+LITTLE_OUT = os.path.normpath(os.path.join(HERE, "..", "data", "pvpoke_little.json"))
+LITTLE_FILE_NAME = "rankings-500.json"
 BASE_URL = "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall"
 # メガバージョン用のランキング。通常リーグの方にはメガ形態が入っていないため、
 # メガを含む形式の技カウントを出すにはこちらが要る。
@@ -97,13 +103,96 @@ def moveset_from_entry(entry: dict) -> dict | None:
     }
 
 
+POKEDEX = os.path.normpath(os.path.join(HERE, "..", "data", "pokedex.json"))
+# シャドウ/リトレーン専用。種族の技表には載らないが、実際には使える。
+SPECIAL_CHARGED_MOVES = frozenset({"RETURN", "FRUSTRATION"})
+
+
+def learnable_moves() -> dict[str, tuple[frozenset[str], frozenset[str]]]:
+    """Game Master 由来の覚えられる技。PvPoke 側の誤りを落とすために使う。
+
+    実例: メェークル(skiddo) に PvPoke は ROCK_SLIDE を載せているが、
+    Game Master の cinematicMoves は BRICK_BREAK と SEED_BOMB だけ。
+    そのまま配信するとアプリ側で推奨構成が無効と判定され、
+    使用率とは無関係な組み合わせへフォールバックしていた。
+    """
+    document = json.loads(pathlib.Path(POKEDEX).read_text(encoding="utf-8"))
+    species = document["species"] if isinstance(document, dict) and "species" in document else document
+    return {
+        entry["speciesId"]: (frozenset(entry.get("fastMoves") or []),
+                             frozenset(entry.get("chargedMoves") or []))
+        for entry in species
+        if entry.get("speciesId")
+    }
+
+
+def keeping_learnable_moveset(species_id: str, moveset: dict,
+                              learnable: dict[str, tuple[frozenset[str], frozenset[str]]],
+                              charged_by_usage: list[str]) -> dict | None:
+    """覚えられない技を落とした技構成。通常技が無い／ゲージ技が全滅したら None。
+
+    落とした枠は、その種族の採用順（使用数の多い順）から埋め直す。埋めずに空けると
+    ゲージ技が1つだけの推奨構成になり、アプリ側のフォールバックより悪くなる。
+
+    アプリ側の別名解決（pvpoke ID → アプリの種族ID）はここでは持たないため、
+    図鑑に無いIDはそのまま通す。アプリが実行時に無効な構成を弾く。
+    """
+    known = learnable.get(species_id)
+    if known is None:
+        return moveset
+    fast_moves, charged_moves = known
+    if moveset["fastId"] not in fast_moves:
+        return None
+
+    def usable(move: str | None) -> bool:
+        return bool(move) and (move in charged_moves or move in SPECIAL_CHARGED_MOVES)
+
+    kept = [move for move in (moveset["chargedId1"], moveset["chargedId2"]) if usable(move)]
+    for move in charged_by_usage:
+        if len(kept) >= 2:
+            break
+        if usable(move) and move not in kept:
+            kept.append(move)
+    if not kept:
+        return None
+    return {
+        "fastId": moveset["fastId"],
+        "chargedId1": kept[0],
+        "chargedId2": kept[1] if len(kept) > 1 else None,
+    }
+
+
+def keeping_learnable_usage(species_id: str, usage: dict,
+                            learnable: dict[str, tuple[frozenset[str], frozenset[str]]]) -> dict | None:
+    """覚えられない技を落とした採用順。両方空になったら None。"""
+    known = learnable.get(species_id)
+    if known is None:
+        return usage
+    fast_moves, charged_moves = known
+    fast_ids = [move for move in usage["fastIds"] if move in fast_moves]
+    charged_ids = [move for move in usage["chargedIds"]
+                   if move in charged_moves or move in SPECIAL_CHARGED_MOVES]
+    if not fast_ids and not charged_ids:
+        return None
+    return {"fastIds": fast_ids, "chargedIds": charged_ids}
+
+
+def charged_ids_by_usage(entry: dict) -> list[str]:
+    """その種族のゲージ技を採用数の多い順に並べたID。落とした枠の埋め直しに使う。"""
+    ranked = sorted((entry.get("moves") or {}).get("chargedMoves") or [],
+                    key=lambda m: -(m.get("uses") or 0))
+    return [move for move in (normalized_move_id(m.get("moveId")) for m in ranked) if move]
+
+
 def build_league_map(rankings: list[dict]) -> dict[str, dict]:
     out: dict[str, dict] = {}
+    usage_order: dict[str, list[str]] = {}
     for entry in rankings:
         species_id = entry.get("speciesId")
         moveset = moveset_from_entry(entry)
         if not species_id or not moveset:
             continue
+        usage_order.setdefault(species_id.removesuffix("_shadow"), charged_ids_by_usage(entry))
 
         # アプリ側はシャドウを種族とは別管理しているため、通常種族を優先しつつ
         # 通常種族がランキング外の場合だけシャドウの技構成をフォールバックにする。
@@ -112,7 +201,14 @@ def build_league_map(rankings: list[dict]) -> dict[str, dict]:
             out[base_id] = moveset
         else:
             out.setdefault(base_id, moveset)
-    return dict(sorted(out.items()))
+    learnable = learnable_moves()
+    kept = {}
+    for base_id, moveset in out.items():
+        filtered = keeping_learnable_moveset(base_id, moveset, learnable,
+                                             usage_order.get(base_id, []))
+        if filtered is not None:
+            kept[base_id] = filtered
+    return dict(sorted(kept.items()))
 
 
 def fetch_mega_json(source: LeagueSource) -> list[dict]:
@@ -176,7 +272,13 @@ def build_move_usage(rankings: list[dict]) -> dict[str, dict]:
             out[base_id] = usage
         else:
             out.setdefault(base_id, usage)
-    return dict(sorted(out.items()))
+    learnable = learnable_moves()
+    kept = {}
+    for base_id, usage in out.items():
+        filtered = keeping_learnable_usage(base_id, usage, learnable)
+        if filtered is not None:
+            kept[base_id] = filtered
+    return dict(sorted(kept.items()))
 
 
 def build_rankings(rankings: list[dict]) -> list[dict]:
@@ -245,12 +347,30 @@ def main() -> None:
         "leagues": mega_rankings_out,
     }
 
+    # リトル（CP500）。PvPoke のメガ版には CP500 が無く（メガは CP500 に出られない）、
+    # メガ順位は作らない。
+    little_source = LeagueSource("little", LITTLE_FILE_NAME)
+    little_rankings, _ = fetch_json(little_source)
+    little_payload = {
+        "schemaVersion": 1,
+        "updatedAt": payload["updatedAt"],
+        "source": "PvPoke",
+        "url": little_source.url,
+        "movesets": build_league_map(little_rankings),
+        "rankings": build_rankings(little_rankings),
+        "moveUsage": build_move_usage(little_rankings),
+    }
+    print(f"little: {len(little_payload['movesets'])} movesets, "
+          f"{len(little_payload['rankings'])} ranked, "
+          f"{len(little_payload['moveUsage'])} usage")
+
     # PvPoke に変化が無い日でも updatedAt だけが動くため、日付以外が同じなら書かない。
     # 毎日の無意味なコミットと、それによる validate_shared_data の恒常的な赤を防ぐ。
     for path, document in (
         (args.output, payload),
         (args.usage_output, usage_payload),
         (MEGA_RANKINGS_OUT, mega_rankings_payload),
+        (LITTLE_OUT, little_payload),
     ):
         text = json.dumps(document, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
         if write_text_if_changed(path, text):

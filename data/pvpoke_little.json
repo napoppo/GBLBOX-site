@@ -1,0 +1,2594 @@
+{
+  "moveUsage": {
+    "applin": {
+      "chargedIds": [
+        "STRUGGLE"
+      ],
+      "fastIds": [
+        "ASTONISH"
+      ]
+    },
+    "barboach": {
+      "chargedIds": [
+        "MUD_BOMB",
+        "AQUA_TAIL",
+        "ICE_BEAM",
+        "RETURN",
+        "SCALD"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "WATER_GUN"
+      ]
+    },
+    "basculin": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "AQUA_JET",
+        "MUDDY_WATER"
+      ],
+      "fastIds": [
+        "TACKLE",
+        "WATER_GUN"
+      ]
+    },
+    "bellsprout": {
+      "chargedIds": [
+        "POWER_WHIP",
+        "SLUDGE_BOMB",
+        "WRAP"
+      ],
+      "fastIds": [
+        "ACID",
+        "VINE_WHIP"
+      ]
+    },
+    "binacle": {
+      "chargedIds": [
+        "ANCIENT_POWER",
+        "CROSS_CHOP",
+        "DIG"
+      ],
+      "fastIds": [
+        "MUD_SLAP",
+        "SCRATCH"
+      ]
+    },
+    "bounsweet": {
+      "chargedIds": [
+        "ENERGY_BALL",
+        "DRAINING_KISS"
+      ],
+      "fastIds": [
+        "RAZOR_LEAF",
+        "CHARM"
+      ]
+    },
+    "budew": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "RAZOR_LEAF",
+        "HIDDEN_POWER_GRASS",
+        "HIDDEN_POWER_ELECTRIC",
+        "HIDDEN_POWER_POISON",
+        "HIDDEN_POWER_ROCK",
+        "HIDDEN_POWER_FLYING",
+        "HIDDEN_POWER_GHOST",
+        "HIDDEN_POWER_DARK",
+        "HIDDEN_POWER_PSYCHIC",
+        "HIDDEN_POWER_GROUND",
+        "HIDDEN_POWER_BUG",
+        "HIDDEN_POWER_DRAGON",
+        "HIDDEN_POWER_ICE",
+        "HIDDEN_POWER_FIRE",
+        "HIDDEN_POWER_FIGHTING",
+        "HIDDEN_POWER_WATER",
+        "HIDDEN_POWER_STEEL"
+      ]
+    },
+    "buizel": {
+      "chargedIds": [
+        "SWIFT",
+        "AQUA_JET",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "QUICK_ATTACK",
+        "WATER_GUN"
+      ]
+    },
+    "bulbasaur": {
+      "chargedIds": [
+        "POWER_WHIP",
+        "SLUDGE_BOMB",
+        "SEED_BOMB"
+      ],
+      "fastIds": [
+        "VINE_WHIP",
+        "TACKLE"
+      ]
+    },
+    "cacnea": {
+      "chargedIds": [
+        "TRAILBLAZE",
+        "PAYBACK",
+        "GRASS_KNOT",
+        "BRICK_BREAK",
+        "SEED_BOMB"
+      ],
+      "fastIds": [
+        "SUCKER_PUNCH",
+        "POISON_STING",
+        "SAND_ATTACK"
+      ]
+    },
+    "carvanha": {
+      "chargedIds": [
+        "CRUNCH",
+        "AQUA_JET",
+        "POISON_FANG"
+      ],
+      "fastIds": [
+        "SNARL",
+        "BITE"
+      ]
+    },
+    "charcadet": {
+      "chargedIds": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER",
+        "HEAT_WAVE"
+      ],
+      "fastIds": [
+        "INCINERATE",
+        "EMBER"
+      ]
+    },
+    "charmander": {
+      "chargedIds": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER",
+        "FLAME_BURST"
+      ],
+      "fastIds": [
+        "EMBER",
+        "SCRATCH"
+      ]
+    },
+    "cherubi": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "DAZZLING_GLEAM",
+        "PETAL_BLIZZARD"
+      ],
+      "fastIds": [
+        "BULLET_SEED",
+        "TACKLE"
+      ]
+    },
+    "chespin": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "BODY_SLAM",
+        "GYRO_BALL"
+      ],
+      "fastIds": [
+        "VINE_WHIP",
+        "TAKE_DOWN"
+      ]
+    },
+    "chikorita": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "BODY_SLAM",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "VINE_WHIP",
+        "MAGICAL_LEAF",
+        "TACKLE"
+      ]
+    },
+    "chimchar": {
+      "chargedIds": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER",
+        "FLAME_WHEEL"
+      ],
+      "fastIds": [
+        "EMBER",
+        "SCRATCH"
+      ]
+    },
+    "chinchou": {
+      "chargedIds": [
+        "THUNDERBOLT",
+        "WATER_PULSE",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "SPARK",
+        "BUBBLE"
+      ]
+    },
+    "clamperl": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "ICE_BEAM",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN"
+      ]
+    },
+    "clauncher": {
+      "chargedIds": [
+        "AQUA_JET",
+        "CRABHAMMER",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "SMACK_DOWN",
+        "WATER_GUN"
+      ]
+    },
+    "corphish": {
+      "chargedIds": [
+        "AQUA_JET",
+        "RAZOR_SHELL",
+        "VICE_GRIP",
+        "SCALD",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "BUBBLE",
+        "ROCK_SMASH"
+      ]
+    },
+    "cottonee": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "RAZOR_LEAF",
+        "CHARM"
+      ]
+    },
+    "cyndaquil": {
+      "chargedIds": [
+        "SWIFT",
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "EMBER",
+        "TACKLE"
+      ]
+    },
+    "darumaka": {
+      "chargedIds": [
+        "FIRE_PUNCH",
+        "FLAME_CHARGE"
+      ],
+      "fastIds": [
+        "FIRE_FANG",
+        "TACKLE"
+      ]
+    },
+    "deerling": {
+      "chargedIds": [
+        "WILD_CHARGE",
+        "TRAILBLAZE",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "TACKLE",
+        "TAKE_DOWN"
+      ]
+    },
+    "dewpider": {
+      "chargedIds": [
+        "WATER_PULSE",
+        "MIRROR_COAT",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "BUG_BITE",
+        "INFESTATION"
+      ]
+    },
+    "ducklett": {
+      "chargedIds": [
+        "BRAVE_BIRD",
+        "AERIAL_ACE",
+        "RETURN",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "WING_ATTACK",
+        "WATER_GUN"
+      ]
+    },
+    "exeggcute": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "ANCIENT_POWER",
+        "PSYCHIC"
+      ],
+      "fastIds": [
+        "CONFUSION",
+        "BULLET_SEED"
+      ]
+    },
+    "feebas": {
+      "chargedIds": [
+        "MIRROR_COAT"
+      ],
+      "fastIds": [
+        "TACKLE",
+        "SPLASH"
+      ]
+    },
+    "fennekin": {
+      "chargedIds": [
+        "PSYSHOCK",
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "EMBER",
+        "SCRATCH"
+      ]
+    },
+    "ferroseed": {
+      "chargedIds": [
+        "IRON_HEAD",
+        "FLASH_CANNON",
+        "GYRO_BALL"
+      ],
+      "fastIds": [
+        "TACKLE",
+        "METAL_CLAW"
+      ]
+    },
+    "finneon": {
+      "chargedIds": [
+        "SILVER_WIND",
+        "ICE_BEAM",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "POUND"
+      ]
+    },
+    "fomantis": {
+      "chargedIds": [
+        "LEAF_BLADE",
+        "TRAILBLAZE",
+        "GRASS_KNOT",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "FURY_CUTTER",
+        "LEAFAGE",
+        "RAZOR_LEAF"
+      ]
+    },
+    "foongus": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "BODY_SLAM",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "FEINT_ATTACK"
+      ]
+    },
+    "frillish": {
+      "chargedIds": [
+        "NIGHT_SHADE",
+        "ICE_BEAM",
+        "OMINOUS_WIND"
+      ],
+      "fastIds": [
+        "HEX",
+        "BUBBLE"
+      ]
+    },
+    "froakie": {
+      "chargedIds": [
+        "AERIAL_ACE",
+        "SURF",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "BUBBLE",
+        "POUND"
+      ]
+    },
+    "fuecoco": {
+      "chargedIds": [
+        "CRUNCH",
+        "DISARMING_VOICE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "INCINERATE",
+        "BITE"
+      ]
+    },
+    "goldeen": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "HORN_ATTACK",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "PECK"
+      ]
+    },
+    "gossifleur": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "BULLET_SEED",
+        "RAZOR_LEAF"
+      ]
+    },
+    "grookey": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "RAZOR_LEAF",
+        "SCRATCH"
+      ]
+    },
+    "growlithe": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "FLAMETHROWER",
+        "FLAME_WHEEL"
+      ],
+      "fastIds": [
+        "EMBER",
+        "BITE"
+      ]
+    },
+    "growlithe_hisuian": {
+      "chargedIds": [
+        "ROCK_SLIDE",
+        "CRUNCH",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "EMBER",
+        "BITE"
+      ]
+    },
+    "hoppip": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "SEED_BOMB",
+        "DAZZLING_GLEAM",
+        "RETURN"
+      ],
+      "fastIds": [
+        "BULLET_SEED",
+        "TACKLE"
+      ]
+    },
+    "horsea": {
+      "chargedIds": [
+        "DRAGON_PULSE",
+        "BUBBLE_BEAM",
+        "FLASH_CANNON"
+      ],
+      "fastIds": [
+        "BUBBLE",
+        "WATER_GUN"
+      ]
+    },
+    "houndour": {
+      "chargedIds": [
+        "CRUNCH",
+        "FLAMETHROWER",
+        "DARK_PULSE"
+      ],
+      "fastIds": [
+        "EMBER",
+        "FEINT_ATTACK"
+      ]
+    },
+    "kabuto": {
+      "chargedIds": [
+        "ROCK_TOMB",
+        "ANCIENT_POWER",
+        "AQUA_JET"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "SCRATCH"
+      ]
+    },
+    "krabby": {
+      "chargedIds": [
+        "RAZOR_SHELL",
+        "VICE_GRIP",
+        "WATER_PULSE",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "BUBBLE"
+      ]
+    },
+    "larvesta": {
+      "chargedIds": [
+        "BUG_BUZZ",
+        "FLAME_CHARGE",
+        "FLAME_WHEEL"
+      ],
+      "fastIds": [
+        "BUG_BITE",
+        "EMBER"
+      ]
+    },
+    "lileep": {
+      "chargedIds": [
+        "ANCIENT_POWER",
+        "GRASS_KNOT",
+        "MIRROR_COAT"
+      ],
+      "fastIds": [
+        "ACID",
+        "BULLET_SEED",
+        "INFESTATION"
+      ]
+    },
+    "litleo": {
+      "chargedIds": [
+        "CRUNCH",
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "INCINERATE",
+        "EMBER",
+        "FIRE_FANG",
+        "TACKLE"
+      ]
+    },
+    "litten": {
+      "chargedIds": [
+        "CRUNCH",
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "EMBER",
+        "SCRATCH"
+      ]
+    },
+    "litwick": {
+      "chargedIds": [
+        "MYSTICAL_FIRE",
+        "FLAME_CHARGE",
+        "FLAME_BURST",
+        "HEAT_WAVE"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "EMBER"
+      ]
+    },
+    "lotad": {
+      "chargedIds": [
+        "ENERGY_BALL",
+        "SCALD",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "RAZOR_LEAF"
+      ]
+    },
+    "magby": {
+      "chargedIds": [
+        "FIRE_PUNCH",
+        "BRICK_BREAK",
+        "FLAMETHROWER",
+        "FLAME_BURST"
+      ],
+      "fastIds": [
+        "KARATE_CHOP",
+        "EMBER"
+      ]
+    },
+    "magikarp": {
+      "chargedIds": [
+        "RETURN",
+        "STRUGGLE"
+      ],
+      "fastIds": [
+        "SPLASH"
+      ]
+    },
+    "mantyke": {
+      "chargedIds": [
+        "AERIAL_ACE",
+        "WATER_PULSE",
+        "ICE_BEAM"
+      ],
+      "fastIds": [
+        "BUBBLE",
+        "TACKLE"
+      ]
+    },
+    "mareanie": {
+      "chargedIds": [
+        "SLUDGE_WAVE",
+        "BRINE",
+        "GUNK_SHOT"
+      ],
+      "fastIds": [
+        "POISON_STING",
+        "BITE"
+      ]
+    },
+    "morelull": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "DAZZLING_GLEAM"
+      ],
+      "fastIds": [
+        "ASTONISH"
+      ]
+    },
+    "mudkip": {
+      "chargedIds": [
+        "SLUDGE",
+        "DIG",
+        "STOMP"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "TACKLE"
+      ]
+    },
+    "numel": {
+      "chargedIds": [
+        "STOMP",
+        "BULLDOZE",
+        "HEAT_WAVE"
+      ],
+      "fastIds": [
+        "EMBER",
+        "TACKLE"
+      ]
+    },
+    "oddish": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "SLUDGE_BOMB",
+        "MOONBLAST"
+      ],
+      "fastIds": [
+        "ACID",
+        "RAZOR_LEAF"
+      ]
+    },
+    "omanyte": {
+      "chargedIds": [
+        "ROCK_TOMB",
+        "ROCK_BLAST",
+        "ANCIENT_POWER",
+        "BRINE",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "WATER_GUN"
+      ]
+    },
+    "oshawott": {
+      "chargedIds": [
+        "NIGHT_SLASH",
+        "AQUA_TAIL",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "TACKLE"
+      ]
+    },
+    "panpour": {
+      "chargedIds": [
+        "CRUNCH",
+        "SURF",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "SCRATCH"
+      ]
+    },
+    "pansage": {
+      "chargedIds": [
+        "CRUNCH",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "VINE_WHIP",
+        "SCRATCH"
+      ]
+    },
+    "pansear": {
+      "chargedIds": [
+        "CRUNCH",
+        "FLAME_CHARGE",
+        "FLAME_BURST"
+      ],
+      "fastIds": [
+        "FIRE_SPIN",
+        "SCRATCH"
+      ]
+    },
+    "paras": {
+      "chargedIds": [
+        "X_SCISSOR",
+        "CROSS_POISON",
+        "SEED_BOMB"
+      ],
+      "fastIds": [
+        "BUG_BITE",
+        "SCRATCH"
+      ]
+    },
+    "petilil": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "HIDDEN_POWER_GRASS",
+        "HIDDEN_POWER_ELECTRIC",
+        "HIDDEN_POWER_ROCK",
+        "HIDDEN_POWER_FLYING",
+        "HIDDEN_POWER_GROUND",
+        "HIDDEN_POWER_GHOST",
+        "HIDDEN_POWER_DARK",
+        "HIDDEN_POWER_PSYCHIC",
+        "CHARM",
+        "HIDDEN_POWER_BUG",
+        "HIDDEN_POWER_POISON",
+        "HIDDEN_POWER_DRAGON",
+        "HIDDEN_POWER_ICE",
+        "HIDDEN_POWER_FIRE",
+        "HIDDEN_POWER_FIGHTING",
+        "HIDDEN_POWER_WATER",
+        "HIDDEN_POWER_STEEL"
+      ]
+    },
+    "phantump": {
+      "chargedIds": [
+        "SHADOW_BALL",
+        "SEED_BOMB",
+        "FOUL_PLAY"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "TACKLE"
+      ]
+    },
+    "piplup": {
+      "chargedIds": [
+        "DRILL_PECK",
+        "ICY_WIND",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "BUBBLE",
+        "POUND"
+      ]
+    },
+    "poliwag": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "MUD_BOMB",
+        "BUBBLE_BEAM",
+        "RETURN"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "BUBBLE"
+      ]
+    },
+    "ponyta": {
+      "chargedIds": [
+        "STOMP",
+        "FLAME_CHARGE",
+        "FIRE_BLAST",
+        "FLAME_WHEEL"
+      ],
+      "fastIds": [
+        "EMBER",
+        "TACKLE"
+      ]
+    },
+    "popplio": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "AQUA_JET",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "POUND"
+      ]
+    },
+    "psyduck": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "CROSS_CHOP",
+        "PSYBEAM"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "ZEN_HEADBUTT"
+      ]
+    },
+    "pumpkaboo_average": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "FOUL_PLAY",
+        "SHADOW_SNEAK"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ]
+    },
+    "pumpkaboo_large": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "FOUL_PLAY",
+        "SHADOW_SNEAK"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ]
+    },
+    "pumpkaboo_small": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "FOUL_PLAY",
+        "SHADOW_SNEAK"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ]
+    },
+    "pumpkaboo_super": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "FOUL_PLAY",
+        "SHADOW_SNEAK"
+      ],
+      "fastIds": [
+        "ASTONISH",
+        "RAZOR_LEAF"
+      ]
+    },
+    "quaxly": {
+      "chargedIds": [
+        "AERIAL_ACE",
+        "AQUA_JET",
+        "LIQUIDATION"
+      ],
+      "fastIds": [
+        "WING_ATTACK",
+        "WATER_GUN"
+      ]
+    },
+    "remoraid": {
+      "chargedIds": [
+        "ROCK_BLAST",
+        "WATER_PULSE",
+        "AURORA_BEAM"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "WATER_GUN"
+      ]
+    },
+    "rowlet": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "LEAFAGE",
+        "MAGICAL_LEAF",
+        "TACKLE",
+        "RAZOR_LEAF"
+      ]
+    },
+    "salandit": {
+      "chargedIds": [
+        "POISON_FANG",
+        "FLAMETHROWER",
+        "DRAGON_PULSE"
+      ],
+      "fastIds": [
+        "POISON_JAB",
+        "EMBER"
+      ]
+    },
+    "scorbunny": {
+      "chargedIds": [
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "FIRE_SPIN",
+        "TACKLE"
+      ]
+    },
+    "seedot": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "FOUL_PLAY",
+        "RETURN",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "BULLET_SEED",
+        "QUICK_ATTACK"
+      ]
+    },
+    "seel": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "ICY_WIND",
+        "AQUA_JET",
+        "AURORA_BEAM"
+      ],
+      "fastIds": [
+        "LICK",
+        "WATER_GUN",
+        "ICE_SHARD"
+      ]
+    },
+    "sewaddle": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "SILVER_WIND",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "BUG_BITE",
+        "STRUGGLE_BUG"
+      ]
+    },
+    "shellder": {
+      "chargedIds": [
+        "ICY_WIND",
+        "RAZOR_SHELL",
+        "WATER_PULSE",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "ICE_SHARD",
+        "TACKLE"
+      ]
+    },
+    "shellos": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "MUD_BOMB",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "MUD_SLAP",
+        "HIDDEN_POWER_ELECTRIC",
+        "HIDDEN_POWER_ROCK",
+        "HIDDEN_POWER_FLYING",
+        "HIDDEN_POWER_GRASS",
+        "HIDDEN_POWER_GHOST",
+        "HIDDEN_POWER_DARK",
+        "HIDDEN_POWER_GROUND",
+        "HIDDEN_POWER_PSYCHIC",
+        "HIDDEN_POWER_POISON",
+        "HIDDEN_POWER_DRAGON",
+        "HIDDEN_POWER_BUG",
+        "HIDDEN_POWER_WATER",
+        "HIDDEN_POWER_ICE",
+        "HIDDEN_POWER_FIRE",
+        "HIDDEN_POWER_FIGHTING",
+        "HIDDEN_POWER_STEEL"
+      ]
+    },
+    "shroomish": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "BULLET_SEED",
+        "TACKLE"
+      ]
+    },
+    "sizzlipede": {
+      "chargedIds": [
+        "CRUNCH",
+        "BUG_BUZZ",
+        "HEAT_WAVE"
+      ],
+      "fastIds": [
+        "BUG_BITE",
+        "EMBER"
+      ]
+    },
+    "skiddo": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "BRICK_BREAK"
+      ],
+      "fastIds": [
+        "ROCK_SMASH",
+        "ZEN_HEADBUTT"
+      ]
+    },
+    "skrelp": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "SLUDGE_BOMB",
+        "TWISTER",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "ACID",
+        "WATER_GUN"
+      ]
+    },
+    "slowpoke": {
+      "chargedIds": [
+        "PSYSHOCK",
+        "WATER_PULSE",
+        "PSYCHIC"
+      ],
+      "fastIds": [
+        "CONFUSION",
+        "WATER_GUN"
+      ]
+    },
+    "slugma": {
+      "chargedIds": [
+        "ROCK_SLIDE",
+        "FLAME_CHARGE",
+        "FLAME_BURST"
+      ],
+      "fastIds": [
+        "EMBER",
+        "ROCK_THROW"
+      ]
+    },
+    "smoliv": {
+      "chargedIds": [
+        "TRAILBLAZE",
+        "EARTH_POWER",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "TACKLE",
+        "RAZOR_LEAF"
+      ]
+    },
+    "snivy": {
+      "chargedIds": [
+        "SEED_BOMB",
+        "WRAP",
+        "ENERGY_BALL",
+        "RETURN"
+      ],
+      "fastIds": [
+        "VINE_WHIP",
+        "TACKLE"
+      ]
+    },
+    "snover": {
+      "chargedIds": [
+        "ENERGY_BALL",
+        "ICE_BEAM",
+        "STOMP"
+      ],
+      "fastIds": [
+        "LEAFAGE",
+        "POWDER_SNOW",
+        "ICE_SHARD"
+      ]
+    },
+    "sobble": {
+      "chargedIds": [
+        "SURF",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "POUND"
+      ]
+    },
+    "spheal": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "WATER_PULSE",
+        "AURORA_BEAM"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "ROCK_SMASH"
+      ]
+    },
+    "sprigatito": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "ENERGY_BALL",
+        "PLAY_ROUGH"
+      ],
+      "fastIds": [
+        "LEAFAGE",
+        "CHARM"
+      ]
+    },
+    "squirtle": {
+      "chargedIds": [
+        "AQUA_TAIL",
+        "AQUA_JET",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "BUBBLE",
+        "TACKLE"
+      ]
+    },
+    "staryu": {
+      "chargedIds": [
+        "SWIFT",
+        "POWER_GEM",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "QUICK_ATTACK",
+        "WATER_GUN",
+        "TACKLE"
+      ]
+    },
+    "sunkern": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "RAZOR_LEAF",
+        "CUT"
+      ]
+    },
+    "surskit": {
+      "chargedIds": [
+        "AQUA_JET",
+        "SIGNAL_BEAM",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "BUG_BITE",
+        "BUBBLE"
+      ]
+    },
+    "tangela": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "SLUDGE_BOMB",
+        "POWER_WHIP",
+        "SOLAR_BEAM"
+      ],
+      "fastIds": [
+        "VINE_WHIP",
+        "INFESTATION"
+      ]
+    },
+    "tentacool": {
+      "chargedIds": [
+        "WRAP",
+        "WATER_PULSE",
+        "BUBBLE_BEAM"
+      ],
+      "fastIds": [
+        "POISON_STING",
+        "BUBBLE"
+      ]
+    },
+    "tepig": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "EMBER",
+        "TACKLE"
+      ]
+    },
+    "tirtouga": {
+      "chargedIds": [
+        "ANCIENT_POWER",
+        "BODY_SLAM",
+        "SURF"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "BITE"
+      ]
+    },
+    "torchic": {
+      "chargedIds": [
+        "ROCK_TOMB",
+        "FLAME_CHARGE",
+        "FLAMETHROWER"
+      ],
+      "fastIds": [
+        "EMBER",
+        "SCRATCH"
+      ]
+    },
+    "totodile": {
+      "chargedIds": [
+        "CRUNCH",
+        "AQUA_JET",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "WATER_GUN",
+        "SCRATCH"
+      ]
+    },
+    "treecko": {
+      "chargedIds": [
+        "GRASS_KNOT",
+        "AERIAL_ACE",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "BULLET_SEED",
+        "POUND"
+      ]
+    },
+    "turtwig": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "SEED_BOMB",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "RAZOR_LEAF",
+        "TACKLE"
+      ]
+    },
+    "tympole": {
+      "chargedIds": [
+        "MUD_BOMB",
+        "SLUDGE_WAVE",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "BUBBLE"
+      ]
+    },
+    "voltorb_hisuian": {
+      "chargedIds": [
+        "THUNDERBOLT",
+        "SWIFT",
+        "ENERGY_BALL"
+      ],
+      "fastIds": [
+        "CHARGE_BEAM",
+        "TACKLE"
+      ]
+    },
+    "vulpix": {
+      "chargedIds": [
+        "WEATHER_BALL_FIRE",
+        "BODY_SLAM",
+        "FLAME_CHARGE",
+        "FLAMETHROWER",
+        "RETURN"
+      ],
+      "fastIds": [
+        "EMBER",
+        "QUICK_ATTACK"
+      ]
+    },
+    "wailmer": {
+      "chargedIds": [
+        "BODY_SLAM",
+        "SCALD",
+        "HEAVY_SLAM",
+        "WATER_PULSE"
+      ],
+      "fastIds": [
+        "ROLLOUT",
+        "WATER_GUN",
+        "SPLASH"
+      ]
+    },
+    "wiglett": {
+      "chargedIds": [
+        "LIQUIDATION",
+        "DIG",
+        "SURF"
+      ],
+      "fastIds": [
+        "MUD_SLAP",
+        "WATER_GUN"
+      ]
+    },
+    "wimpod": {
+      "chargedIds": [
+        "BUG_BUZZ"
+      ],
+      "fastIds": [
+        "STRUGGLE_BUG"
+      ]
+    },
+    "wingull": {
+      "chargedIds": [
+        "AIR_CUTTER",
+        "WATER_PULSE",
+        "ICE_BEAM"
+      ],
+      "fastIds": [
+        "QUICK_ATTACK",
+        "WATER_GUN"
+      ]
+    },
+    "wooper": {
+      "chargedIds": [
+        "MUD_BOMB",
+        "BODY_SLAM",
+        "DIG",
+        "RETURN"
+      ],
+      "fastIds": [
+        "MUD_SHOT",
+        "WATER_GUN"
+      ]
+    }
+  },
+  "movesets": {
+    "applin": {
+      "chargedId1": "STRUGGLE",
+      "chargedId2": null,
+      "fastId": "ASTONISH"
+    },
+    "barboach": {
+      "chargedId1": "MUD_BOMB",
+      "chargedId2": "AQUA_TAIL",
+      "fastId": "MUD_SHOT"
+    },
+    "basculin": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "AQUA_JET",
+      "fastId": "TACKLE"
+    },
+    "bellsprout": {
+      "chargedId1": "POWER_WHIP",
+      "chargedId2": "SLUDGE_BOMB",
+      "fastId": "ACID"
+    },
+    "binacle": {
+      "chargedId1": "ANCIENT_POWER",
+      "chargedId2": "CROSS_CHOP",
+      "fastId": "MUD_SLAP"
+    },
+    "bounsweet": {
+      "chargedId1": "ENERGY_BALL",
+      "chargedId2": "DRAINING_KISS",
+      "fastId": "RAZOR_LEAF"
+    },
+    "budew": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "ENERGY_BALL",
+      "fastId": "RAZOR_LEAF"
+    },
+    "buizel": {
+      "chargedId1": "SWIFT",
+      "chargedId2": "AQUA_JET",
+      "fastId": "QUICK_ATTACK"
+    },
+    "bulbasaur": {
+      "chargedId1": "POWER_WHIP",
+      "chargedId2": "SLUDGE_BOMB",
+      "fastId": "VINE_WHIP"
+    },
+    "cacnea": {
+      "chargedId1": "TRAILBLAZE",
+      "chargedId2": "PAYBACK",
+      "fastId": "SUCKER_PUNCH"
+    },
+    "carvanha": {
+      "chargedId1": "AQUA_JET",
+      "chargedId2": "POISON_FANG",
+      "fastId": "BITE"
+    },
+    "charcadet": {
+      "chargedId1": "FLAME_CHARGE",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "INCINERATE"
+    },
+    "charmander": {
+      "chargedId1": "FLAME_CHARGE",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "EMBER"
+    },
+    "cherubi": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "DAZZLING_GLEAM",
+      "fastId": "BULLET_SEED"
+    },
+    "chespin": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "BODY_SLAM",
+      "fastId": "VINE_WHIP"
+    },
+    "chikorita": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "GRASS_KNOT",
+      "fastId": "VINE_WHIP"
+    },
+    "chimchar": {
+      "chargedId1": "FLAME_CHARGE",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "EMBER"
+    },
+    "chinchou": {
+      "chargedId1": "THUNDERBOLT",
+      "chargedId2": "BUBBLE_BEAM",
+      "fastId": "SPARK"
+    },
+    "clamperl": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "ICE_BEAM",
+      "fastId": "WATER_GUN"
+    },
+    "clauncher": {
+      "chargedId1": "AQUA_JET",
+      "chargedId2": "CRABHAMMER",
+      "fastId": "SMACK_DOWN"
+    },
+    "corphish": {
+      "chargedId1": "AQUA_JET",
+      "chargedId2": "RAZOR_SHELL",
+      "fastId": "BUBBLE"
+    },
+    "cottonee": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "CHARM"
+    },
+    "cyndaquil": {
+      "chargedId1": "SWIFT",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "darumaka": {
+      "chargedId1": "FIRE_PUNCH",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "FIRE_FANG"
+    },
+    "deerling": {
+      "chargedId1": "WILD_CHARGE",
+      "chargedId2": "TRAILBLAZE",
+      "fastId": "TACKLE"
+    },
+    "dewpider": {
+      "chargedId1": "MIRROR_COAT",
+      "chargedId2": "BUBBLE_BEAM",
+      "fastId": "BUG_BITE"
+    },
+    "ducklett": {
+      "chargedId1": "BRAVE_BIRD",
+      "chargedId2": "AERIAL_ACE",
+      "fastId": "WING_ATTACK"
+    },
+    "exeggcute": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "ANCIENT_POWER",
+      "fastId": "CONFUSION"
+    },
+    "feebas": {
+      "chargedId1": "MIRROR_COAT",
+      "chargedId2": null,
+      "fastId": "TACKLE"
+    },
+    "fennekin": {
+      "chargedId1": "PSYSHOCK",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "ferroseed": {
+      "chargedId1": "IRON_HEAD",
+      "chargedId2": "FLASH_CANNON",
+      "fastId": "TACKLE"
+    },
+    "finneon": {
+      "chargedId1": "SILVER_WIND",
+      "chargedId2": "ICE_BEAM",
+      "fastId": "WATER_GUN"
+    },
+    "fomantis": {
+      "chargedId1": "LEAF_BLADE",
+      "chargedId2": "TRAILBLAZE",
+      "fastId": "FURY_CUTTER"
+    },
+    "foongus": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "GRASS_KNOT",
+      "fastId": "ASTONISH"
+    },
+    "frillish": {
+      "chargedId1": "NIGHT_SHADE",
+      "chargedId2": "ICE_BEAM",
+      "fastId": "HEX"
+    },
+    "froakie": {
+      "chargedId1": "AERIAL_ACE",
+      "chargedId2": "SURF",
+      "fastId": "BUBBLE"
+    },
+    "fuecoco": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "DISARMING_VOICE",
+      "fastId": "INCINERATE"
+    },
+    "goldeen": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "HORN_ATTACK",
+      "fastId": "MUD_SHOT"
+    },
+    "gossifleur": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "ENERGY_BALL",
+      "fastId": "BULLET_SEED"
+    },
+    "grookey": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "ENERGY_BALL",
+      "fastId": "RAZOR_LEAF"
+    },
+    "growlithe": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "EMBER"
+    },
+    "growlithe_hisuian": {
+      "chargedId1": "ROCK_SLIDE",
+      "chargedId2": "CRUNCH",
+      "fastId": "EMBER"
+    },
+    "hoppip": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "BULLET_SEED"
+    },
+    "horsea": {
+      "chargedId1": "DRAGON_PULSE",
+      "chargedId2": "BUBBLE_BEAM",
+      "fastId": "BUBBLE"
+    },
+    "houndour": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "EMBER"
+    },
+    "kabuto": {
+      "chargedId1": "ROCK_TOMB",
+      "chargedId2": "ANCIENT_POWER",
+      "fastId": "MUD_SHOT"
+    },
+    "krabby": {
+      "chargedId1": "RAZOR_SHELL",
+      "chargedId2": "VICE_GRIP",
+      "fastId": "MUD_SHOT"
+    },
+    "larvesta": {
+      "chargedId1": "BUG_BUZZ",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "BUG_BITE"
+    },
+    "lileep": {
+      "chargedId1": "ANCIENT_POWER",
+      "chargedId2": "GRASS_KNOT",
+      "fastId": "ACID"
+    },
+    "litleo": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "INCINERATE"
+    },
+    "litten": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "litwick": {
+      "chargedId1": "MYSTICAL_FIRE",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "ASTONISH"
+    },
+    "lotad": {
+      "chargedId1": "ENERGY_BALL",
+      "chargedId2": "SCALD",
+      "fastId": "WATER_GUN"
+    },
+    "magby": {
+      "chargedId1": "FIRE_PUNCH",
+      "chargedId2": "BRICK_BREAK",
+      "fastId": "KARATE_CHOP"
+    },
+    "magikarp": {
+      "chargedId1": "RETURN",
+      "chargedId2": "STRUGGLE",
+      "fastId": "SPLASH"
+    },
+    "mantyke": {
+      "chargedId1": "AERIAL_ACE",
+      "chargedId2": "ICE_BEAM",
+      "fastId": "BUBBLE"
+    },
+    "mareanie": {
+      "chargedId1": "SLUDGE_WAVE",
+      "chargedId2": "BRINE",
+      "fastId": "POISON_STING"
+    },
+    "morelull": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "DAZZLING_GLEAM",
+      "fastId": "ASTONISH"
+    },
+    "mudkip": {
+      "chargedId1": "SLUDGE",
+      "chargedId2": "DIG",
+      "fastId": "WATER_GUN"
+    },
+    "numel": {
+      "chargedId1": "STOMP",
+      "chargedId2": "BULLDOZE",
+      "fastId": "EMBER"
+    },
+    "oddish": {
+      "chargedId1": "SLUDGE_BOMB",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "RAZOR_LEAF"
+    },
+    "omanyte": {
+      "chargedId1": "ROCK_TOMB",
+      "chargedId2": "ROCK_BLAST",
+      "fastId": "MUD_SHOT"
+    },
+    "oshawott": {
+      "chargedId1": "NIGHT_SLASH",
+      "chargedId2": "AQUA_TAIL",
+      "fastId": "WATER_GUN"
+    },
+    "panpour": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "SURF",
+      "fastId": "WATER_GUN"
+    },
+    "pansage": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "VINE_WHIP"
+    },
+    "pansear": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "FIRE_SPIN"
+    },
+    "paras": {
+      "chargedId1": "X_SCISSOR",
+      "chargedId2": "CROSS_POISON",
+      "fastId": "BUG_BITE"
+    },
+    "petilil": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "ENERGY_BALL",
+      "fastId": "HIDDEN_POWER_GRASS"
+    },
+    "phantump": {
+      "chargedId1": "SHADOW_BALL",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "ASTONISH"
+    },
+    "piplup": {
+      "chargedId1": "DRILL_PECK",
+      "chargedId2": "ICY_WIND",
+      "fastId": "BUBBLE"
+    },
+    "poliwag": {
+      "chargedId1": "MUD_BOMB",
+      "chargedId2": "BODY_SLAM",
+      "fastId": "MUD_SHOT"
+    },
+    "ponyta": {
+      "chargedId1": "STOMP",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "popplio": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "AQUA_JET",
+      "fastId": "WATER_GUN"
+    },
+    "psyduck": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "CROSS_CHOP",
+      "fastId": "WATER_GUN"
+    },
+    "pumpkaboo_average": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "FOUL_PLAY",
+      "fastId": "ASTONISH"
+    },
+    "pumpkaboo_large": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "FOUL_PLAY",
+      "fastId": "ASTONISH"
+    },
+    "pumpkaboo_small": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "FOUL_PLAY",
+      "fastId": "ASTONISH"
+    },
+    "pumpkaboo_super": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "FOUL_PLAY",
+      "fastId": "ASTONISH"
+    },
+    "quaxly": {
+      "chargedId1": "AERIAL_ACE",
+      "chargedId2": "AQUA_JET",
+      "fastId": "WING_ATTACK"
+    },
+    "remoraid": {
+      "chargedId1": "ROCK_BLAST",
+      "chargedId2": "WATER_PULSE",
+      "fastId": "MUD_SHOT"
+    },
+    "rowlet": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "ENERGY_BALL",
+      "fastId": "LEAFAGE"
+    },
+    "salandit": {
+      "chargedId1": "POISON_FANG",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "POISON_JAB"
+    },
+    "scorbunny": {
+      "chargedId1": "FLAME_CHARGE",
+      "chargedId2": "FLAMETHROWER",
+      "fastId": "FIRE_SPIN"
+    },
+    "seedot": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "FOUL_PLAY",
+      "fastId": "BULLET_SEED"
+    },
+    "seel": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "ICY_WIND",
+      "fastId": "LICK"
+    },
+    "sewaddle": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "SILVER_WIND",
+      "fastId": "BUG_BITE"
+    },
+    "shellder": {
+      "chargedId1": "ICY_WIND",
+      "chargedId2": "RAZOR_SHELL",
+      "fastId": "ICE_SHARD"
+    },
+    "shellos": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "MUD_BOMB",
+      "fastId": "MUD_SLAP"
+    },
+    "shroomish": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "BULLET_SEED"
+    },
+    "sizzlipede": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "BUG_BUZZ",
+      "fastId": "BUG_BITE"
+    },
+    "skiddo": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "BRICK_BREAK",
+      "fastId": "ROCK_SMASH"
+    },
+    "skrelp": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "SLUDGE_BOMB",
+      "fastId": "ACID"
+    },
+    "slowpoke": {
+      "chargedId1": "PSYSHOCK",
+      "chargedId2": "WATER_PULSE",
+      "fastId": "CONFUSION"
+    },
+    "slugma": {
+      "chargedId1": "ROCK_SLIDE",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "smoliv": {
+      "chargedId1": "TRAILBLAZE",
+      "chargedId2": "EARTH_POWER",
+      "fastId": "TACKLE"
+    },
+    "snivy": {
+      "chargedId1": "SEED_BOMB",
+      "chargedId2": "WRAP",
+      "fastId": "VINE_WHIP"
+    },
+    "snover": {
+      "chargedId1": "ENERGY_BALL",
+      "chargedId2": "ICE_BEAM",
+      "fastId": "LEAFAGE"
+    },
+    "sobble": {
+      "chargedId1": "SURF",
+      "chargedId2": "WATER_PULSE",
+      "fastId": "WATER_GUN"
+    },
+    "spheal": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "WATER_PULSE",
+      "fastId": "WATER_GUN"
+    },
+    "sprigatito": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "ENERGY_BALL",
+      "fastId": "LEAFAGE"
+    },
+    "squirtle": {
+      "chargedId1": "AQUA_TAIL",
+      "chargedId2": "AQUA_JET",
+      "fastId": "BUBBLE"
+    },
+    "staryu": {
+      "chargedId1": "SWIFT",
+      "chargedId2": "POWER_GEM",
+      "fastId": "QUICK_ATTACK"
+    },
+    "sunkern": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "RAZOR_LEAF"
+    },
+    "surskit": {
+      "chargedId1": "AQUA_JET",
+      "chargedId2": "SIGNAL_BEAM",
+      "fastId": "BUG_BITE"
+    },
+    "tangela": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "SLUDGE_BOMB",
+      "fastId": "VINE_WHIP"
+    },
+    "tentacool": {
+      "chargedId1": "WRAP",
+      "chargedId2": "WATER_PULSE",
+      "fastId": "POISON_STING"
+    },
+    "tepig": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "tirtouga": {
+      "chargedId1": "ANCIENT_POWER",
+      "chargedId2": "BODY_SLAM",
+      "fastId": "WATER_GUN"
+    },
+    "torchic": {
+      "chargedId1": "ROCK_TOMB",
+      "chargedId2": "FLAME_CHARGE",
+      "fastId": "EMBER"
+    },
+    "totodile": {
+      "chargedId1": "CRUNCH",
+      "chargedId2": "AQUA_JET",
+      "fastId": "WATER_GUN"
+    },
+    "treecko": {
+      "chargedId1": "GRASS_KNOT",
+      "chargedId2": "AERIAL_ACE",
+      "fastId": "BULLET_SEED"
+    },
+    "turtwig": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "SEED_BOMB",
+      "fastId": "RAZOR_LEAF"
+    },
+    "tympole": {
+      "chargedId1": "MUD_BOMB",
+      "chargedId2": "SLUDGE_WAVE",
+      "fastId": "MUD_SHOT"
+    },
+    "voltorb_hisuian": {
+      "chargedId1": "THUNDERBOLT",
+      "chargedId2": "SWIFT",
+      "fastId": "CHARGE_BEAM"
+    },
+    "vulpix": {
+      "chargedId1": "WEATHER_BALL_FIRE",
+      "chargedId2": "BODY_SLAM",
+      "fastId": "EMBER"
+    },
+    "wailmer": {
+      "chargedId1": "BODY_SLAM",
+      "chargedId2": "SCALD",
+      "fastId": "ROLLOUT"
+    },
+    "wiglett": {
+      "chargedId1": "LIQUIDATION",
+      "chargedId2": "DIG",
+      "fastId": "MUD_SLAP"
+    },
+    "wimpod": {
+      "chargedId1": "BUG_BUZZ",
+      "chargedId2": null,
+      "fastId": "STRUGGLE_BUG"
+    },
+    "wingull": {
+      "chargedId1": "AIR_CUTTER",
+      "chargedId2": "WATER_PULSE",
+      "fastId": "QUICK_ATTACK"
+    },
+    "wooper": {
+      "chargedId1": "MUD_BOMB",
+      "chargedId2": "BODY_SLAM",
+      "fastId": "MUD_SHOT"
+    }
+  },
+  "rankings": [
+    {
+      "rating": 764,
+      "score": 95.9,
+      "speciesId": "skrelp"
+    },
+    {
+      "rating": 704,
+      "score": 93,
+      "speciesId": "ducklett"
+    },
+    {
+      "rating": 615,
+      "score": 89.9,
+      "speciesId": "carvanha"
+    },
+    {
+      "rating": 663,
+      "score": 89.4,
+      "speciesId": "fomantis"
+    },
+    {
+      "rating": 655,
+      "score": 88.9,
+      "speciesId": "pumpkaboo_super"
+    },
+    {
+      "rating": 675,
+      "score": 88.6,
+      "speciesId": "foongus"
+    },
+    {
+      "rating": 669,
+      "score": 87.6,
+      "speciesId": "frillish"
+    },
+    {
+      "rating": 747,
+      "score": 87.3,
+      "speciesId": "dewpider"
+    },
+    {
+      "rating": 647,
+      "score": 87.3,
+      "speciesId": "pumpkaboo_average"
+    },
+    {
+      "rating": 645,
+      "score": 87.2,
+      "speciesId": "pumpkaboo_large"
+    },
+    {
+      "rating": 640,
+      "score": 86.5,
+      "speciesId": "pumpkaboo_small"
+    },
+    {
+      "rating": 545,
+      "score": 86.3,
+      "speciesId": "lileep"
+    },
+    {
+      "rating": 607,
+      "score": 85.8,
+      "speciesId": "binacle"
+    },
+    {
+      "rating": 667,
+      "score": 85.6,
+      "speciesId": "litwick"
+    },
+    {
+      "rating": 703,
+      "score": 82.8,
+      "speciesId": "tentacool"
+    },
+    {
+      "rating": 567,
+      "score": 82.4,
+      "speciesId": "barboach"
+    },
+    {
+      "rating": 643,
+      "score": 81.4,
+      "speciesId": "shellos"
+    },
+    {
+      "rating": 603,
+      "score": 81.1,
+      "speciesId": "wooper"
+    },
+    {
+      "rating": 550,
+      "score": 80.9,
+      "speciesId": "ferroseed"
+    },
+    {
+      "rating": 605,
+      "score": 80.6,
+      "speciesId": "budew"
+    },
+    {
+      "rating": 640,
+      "score": 80.5,
+      "speciesId": "seel"
+    },
+    {
+      "rating": 595,
+      "score": 80.2,
+      "speciesId": "turtwig"
+    },
+    {
+      "rating": 602,
+      "score": 79.9,
+      "speciesId": "chikorita"
+    },
+    {
+      "rating": 614,
+      "score": 79.9,
+      "speciesId": "oddish"
+    },
+    {
+      "rating": 594,
+      "score": 78.1,
+      "speciesId": "wailmer"
+    },
+    {
+      "rating": 571,
+      "score": 77.9,
+      "speciesId": "grookey"
+    },
+    {
+      "rating": 594,
+      "score": 77.8,
+      "speciesId": "cyndaquil"
+    },
+    {
+      "rating": 599,
+      "score": 77.6,
+      "speciesId": "slowpoke"
+    },
+    {
+      "rating": 562,
+      "score": 77.4,
+      "speciesId": "fennekin"
+    },
+    {
+      "rating": 566,
+      "score": 76.7,
+      "speciesId": "chinchou"
+    },
+    {
+      "rating": 473,
+      "score": 76.7,
+      "speciesId": "tirtouga"
+    },
+    {
+      "rating": 615,
+      "score": 76.4,
+      "speciesId": "vulpix"
+    },
+    {
+      "rating": 624,
+      "score": 76.3,
+      "speciesId": "cottonee"
+    },
+    {
+      "rating": 561,
+      "score": 76.3,
+      "speciesId": "litleo"
+    },
+    {
+      "rating": 627,
+      "score": 76.3,
+      "speciesId": "sewaddle"
+    },
+    {
+      "rating": 650,
+      "score": 76.3,
+      "speciesId": "surskit"
+    },
+    {
+      "rating": 604,
+      "score": 75.5,
+      "speciesId": "mantyke"
+    },
+    {
+      "rating": 424,
+      "score": 75.5,
+      "speciesId": "omanyte"
+    },
+    {
+      "rating": 537,
+      "score": 75.3,
+      "speciesId": "numel"
+    },
+    {
+      "rating": 620,
+      "score": 75.2,
+      "speciesId": "larvesta"
+    },
+    {
+      "rating": 596,
+      "score": 74.9,
+      "speciesId": "snivy"
+    },
+    {
+      "rating": 592,
+      "score": 74.8,
+      "speciesId": "phantump"
+    },
+    {
+      "rating": 628,
+      "score": 74.8,
+      "speciesId": "salandit"
+    },
+    {
+      "rating": 625,
+      "score": 74.7,
+      "speciesId": "paras"
+    },
+    {
+      "rating": 576,
+      "score": 74.6,
+      "speciesId": "bounsweet"
+    },
+    {
+      "rating": 522,
+      "score": 74.5,
+      "speciesId": "pansage"
+    },
+    {
+      "rating": 559,
+      "score": 74.4,
+      "speciesId": "rowlet"
+    },
+    {
+      "rating": 570,
+      "score": 74.2,
+      "speciesId": "mareanie"
+    },
+    {
+      "rating": 553,
+      "score": 74,
+      "speciesId": "hoppip"
+    },
+    {
+      "rating": 533,
+      "score": 73.8,
+      "speciesId": "seedot"
+    },
+    {
+      "rating": 598,
+      "score": 73.6,
+      "speciesId": "tepig"
+    },
+    {
+      "rating": 620,
+      "score": 73.2,
+      "speciesId": "sizzlipede"
+    },
+    {
+      "rating": 654,
+      "score": 73.2,
+      "speciesId": "wingull"
+    },
+    {
+      "rating": 587,
+      "score": 73,
+      "speciesId": "growlithe"
+    },
+    {
+      "rating": 513,
+      "score": 72.5,
+      "speciesId": "bulbasaur"
+    },
+    {
+      "rating": 540,
+      "score": 72.2,
+      "speciesId": "poliwag"
+    },
+    {
+      "rating": 582,
+      "score": 71.5,
+      "speciesId": "exeggcute"
+    },
+    {
+      "rating": 568,
+      "score": 71.4,
+      "speciesId": "chespin"
+    },
+    {
+      "rating": 562,
+      "score": 71.4,
+      "speciesId": "shroomish"
+    },
+    {
+      "rating": 375,
+      "score": 70.7,
+      "speciesId": "kabuto"
+    },
+    {
+      "rating": 585,
+      "score": 70.4,
+      "speciesId": "magby"
+    },
+    {
+      "rating": 484,
+      "score": 70.2,
+      "speciesId": "treecko"
+    },
+    {
+      "rating": 513,
+      "score": 69.9,
+      "speciesId": "growlithe_hisuian"
+    },
+    {
+      "rating": 569,
+      "score": 69.8,
+      "speciesId": "deerling"
+    },
+    {
+      "rating": 539,
+      "score": 69.8,
+      "speciesId": "staryu"
+    },
+    {
+      "rating": 553,
+      "score": 69.5,
+      "speciesId": "fuecoco"
+    },
+    {
+      "rating": 480,
+      "score": 68.9,
+      "speciesId": "piplup"
+    },
+    {
+      "rating": 497,
+      "score": 68.6,
+      "speciesId": "oshawott"
+    },
+    {
+      "rating": 554,
+      "score": 68.3,
+      "speciesId": "darumaka"
+    },
+    {
+      "rating": 542,
+      "score": 68.2,
+      "speciesId": "pansear"
+    },
+    {
+      "rating": 484,
+      "score": 68.1,
+      "speciesId": "gossifleur"
+    },
+    {
+      "rating": 539,
+      "score": 68.1,
+      "speciesId": "sunkern"
+    },
+    {
+      "rating": 499,
+      "score": 67.9,
+      "speciesId": "houndour"
+    },
+    {
+      "rating": 514,
+      "score": 67.8,
+      "speciesId": "tympole"
+    },
+    {
+      "rating": 538,
+      "score": 67.7,
+      "speciesId": "morelull"
+    },
+    {
+      "rating": 513,
+      "score": 67.4,
+      "speciesId": "clauncher"
+    },
+    {
+      "rating": 513,
+      "score": 66.9,
+      "speciesId": "slugma"
+    },
+    {
+      "rating": 542,
+      "score": 66.8,
+      "speciesId": "buizel"
+    },
+    {
+      "rating": 446,
+      "score": 66.6,
+      "speciesId": "voltorb_hisuian"
+    },
+    {
+      "rating": 546,
+      "score": 66.5,
+      "speciesId": "charcadet"
+    },
+    {
+      "rating": 548,
+      "score": 66,
+      "speciesId": "applin"
+    },
+    {
+      "rating": 525,
+      "score": 66,
+      "speciesId": "chimchar"
+    },
+    {
+      "rating": 466,
+      "score": 66,
+      "speciesId": "quaxly"
+    },
+    {
+      "rating": 555,
+      "score": 65.8,
+      "speciesId": "smoliv"
+    },
+    {
+      "rating": 530,
+      "score": 65.6,
+      "speciesId": "ponyta"
+    },
+    {
+      "rating": 499,
+      "score": 64.7,
+      "speciesId": "psyduck"
+    },
+    {
+      "rating": 446,
+      "score": 64.6,
+      "speciesId": "basculin"
+    },
+    {
+      "rating": 506,
+      "score": 64.6,
+      "speciesId": "torchic"
+    },
+    {
+      "rating": 515,
+      "score": 64.2,
+      "speciesId": "litten"
+    },
+    {
+      "rating": 530,
+      "score": 64,
+      "speciesId": "cacnea"
+    },
+    {
+      "rating": 526,
+      "score": 63.9,
+      "speciesId": "charmander"
+    },
+    {
+      "rating": 531,
+      "score": 63.8,
+      "speciesId": "spheal"
+    },
+    {
+      "rating": 499,
+      "score": 63.5,
+      "speciesId": "popplio"
+    },
+    {
+      "rating": 474,
+      "score": 62.8,
+      "speciesId": "cherubi"
+    },
+    {
+      "rating": 529,
+      "score": 62.2,
+      "speciesId": "squirtle"
+    },
+    {
+      "rating": 478,
+      "score": 60.5,
+      "speciesId": "clamperl"
+    },
+    {
+      "rating": 479,
+      "score": 60.3,
+      "speciesId": "totodile"
+    },
+    {
+      "rating": 529,
+      "score": 60.2,
+      "speciesId": "bellsprout"
+    },
+    {
+      "rating": 481,
+      "score": 60.2,
+      "speciesId": "finneon"
+    },
+    {
+      "rating": 511,
+      "score": 60.2,
+      "speciesId": "scorbunny"
+    },
+    {
+      "rating": 475,
+      "score": 60,
+      "speciesId": "snover"
+    },
+    {
+      "rating": 491,
+      "score": 59.8,
+      "speciesId": "goldeen"
+    },
+    {
+      "rating": 450,
+      "score": 59.6,
+      "speciesId": "tangela"
+    },
+    {
+      "rating": 464,
+      "score": 59.1,
+      "speciesId": "panpour"
+    },
+    {
+      "rating": 426,
+      "score": 59.1,
+      "speciesId": "remoraid"
+    },
+    {
+      "rating": 466,
+      "score": 59,
+      "speciesId": "mudkip"
+    },
+    {
+      "rating": 473,
+      "score": 59,
+      "speciesId": "wiglett"
+    },
+    {
+      "rating": 477,
+      "score": 58.5,
+      "speciesId": "shellder"
+    },
+    {
+      "rating": 416,
+      "score": 58.4,
+      "speciesId": "froakie"
+    },
+    {
+      "rating": 468,
+      "score": 57.8,
+      "speciesId": "sprigatito"
+    },
+    {
+      "rating": 504,
+      "score": 57.3,
+      "speciesId": "lotad"
+    },
+    {
+      "rating": 440,
+      "score": 55.6,
+      "speciesId": "corphish"
+    },
+    {
+      "rating": 430,
+      "score": 53.9,
+      "speciesId": "petilil"
+    },
+    {
+      "rating": 398,
+      "score": 51.7,
+      "speciesId": "krabby"
+    },
+    {
+      "rating": 432,
+      "score": 51.6,
+      "speciesId": "sobble"
+    },
+    {
+      "rating": 453,
+      "score": 51.3,
+      "speciesId": "wimpod"
+    },
+    {
+      "rating": 391,
+      "score": 45.5,
+      "speciesId": "horsea"
+    },
+    {
+      "rating": 306,
+      "score": 40.3,
+      "speciesId": "feebas"
+    },
+    {
+      "rating": 349,
+      "score": 38.3,
+      "speciesId": "skiddo"
+    },
+    {
+      "rating": 54,
+      "score": 7.9,
+      "speciesId": "magikarp"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": "PvPoke",
+  "updatedAt": "2026-09-05",
+  "url": "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-500.json"
+}
