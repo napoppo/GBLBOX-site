@@ -37,6 +37,9 @@ SUPER_MAX_LEVEL_SPECIES = {
     "chesnaught_mega", "delphox_mega", "greninja_mega",
     "raichu_mega_x", "raichu_mega_y", "skarmory_mega", "falinks_mega",
     "starmie_mega", "victreebel_mega", "malamar_mega", "dragonite_mega",
+    # 2026-09-08 10:00（現地時間）Mega Squadsで解禁。
+    # https://pokemongo.com/en/news/mega-squads-2026
+    "beedrill_mega", "houndoom_mega",
 }
 
 # メガミュウツーはGame Master側にレベル4テンプレートが現れない期間が

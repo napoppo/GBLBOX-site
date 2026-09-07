@@ -3,7 +3,7 @@
   "source": "PokeMiners Game Master",
   "sourceURL": "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json",
   "sourceVersion": "1787902550208",
-  "updatedAt": "2026-09-04",
+  "updatedAt": "2026-09-07",
   "entries": [
     {
       "speciesId": "altaria_mega",
@@ -40,13 +40,14 @@
       "dexNo": 15,
       "form": "Mega",
       "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
       "levelsAvailable": [
         0,
         1,
         2,
-        3
+        3,
+        4
       ],
       "sourceVersion": "1787902550208"
     },
@@ -195,13 +196,14 @@
       "dexNo": 229,
       "form": "Mega",
       "released": true,
-      "megaMaxLevel": 3,
-      "powerLevelBonus": null,
+      "megaMaxLevel": 4,
+      "powerLevelBonus": 2,
       "levelsAvailable": [
         0,
         1,
         2,
-        3
+        3,
+        4
       ],
       "sourceVersion": "1787902550208"
     },
