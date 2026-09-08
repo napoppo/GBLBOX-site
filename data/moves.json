@@ -3733,5 +3733,29 @@
 "energy": 0,
 "energyGain": 6,
 "turns": 2
+},
+"FELL_STINGER_PLUS": {
+"name": "Fell Stinger+",
+"nameJa": "とどめばり",
+"type": "bug",
+"power": 40,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"DARK_PULSE_PLUS": {
+"name": "Dark Pulse+",
+"nameJa": "あくのはどう",
+"type": "dark",
+"power": 60,
+"energy": 50,
+"energyGain": 0,
+"turns": 1
 }
 }

@@ -81,6 +81,8 @@ SECOND_MOVE_CANDY = {10000: 25, 50000: 50, 75000: 75, 100000: 100}
 # 2026-08-31 GO Fest: Mega Finaleで追加された、メガ進化中の追加チャージ技。
 # 上流のポケモン別技リスト反映が遅れても配信側で保持する。
 ADDITIONAL_CHARGED_MOVE_OVERRIDES = {
+    "beedrill_mega": "FELL_STINGER_PLUS",
+    "houndoom_mega": "DARK_PULSE_PLUS",
     "mewtwo_mega_x": "DYNAMIC_PUNCH_PLUS",
     "mewtwo_mega_y": "FUTURE_SIGHT_PLUS",
     "chesnaught_mega": "SEED_BOMB_PLUS",
@@ -355,6 +357,13 @@ def build_moves(pvpoke_gamemaster: dict, move_ja) -> dict[str, dict]:
 
     # 追加技の定義自体が上流から一時的に消えた場合も、種族側の参照を壊さない。
     additional_moves = {
+        # 2026-09-08: 威力・習得先・攻撃上昇は公式告知、energyはGO HubのPvP欄。
+        # https://pokemongo.com/en/news/mega-squads-2026
+        # https://db.pokemongohub.net/nl/move/2001500
+        # https://db.pokemongohub.net/move/2022900
+        # レベル補正前の威力。メガレベル補正はクライアント側で適用する。
+        "FELL_STINGER_PLUS": {"name": "Fell Stinger+", "nameJa": "とどめばり", "type": "bug", "power": 40, "energy": 35, "energyGain": 0, "turns": 1, "buffs": [1, 0], "buffTarget": "self", "buffChance": 1.0},
+        "DARK_PULSE_PLUS": {"name": "Dark Pulse+", "nameJa": "あくのはどう", "type": "dark", "power": 60, "energy": 50, "energyGain": 0, "turns": 1},
         "ACID_SPRAY_PLUS": {"name": "Acid Spray+", "nameJa": "アシッドボム", "type": "poison", "power": 20, "energy": 40, "energyGain": 0, "turns": 1},
         "BRICK_BREAK_PLUS": {"name": "Brick Break+", "nameJa": "かわらわり", "type": "fighting", "power": 40, "energy": 35, "energyGain": 0, "turns": 1},
         "DRILL_PECK_PLUS": {"name": "Drill Peck+", "nameJa": "ドリルくちばし", "type": "flying", "power": 60, "energy": 35, "energyGain": 0, "turns": 1},

@@ -639,7 +639,8 @@
 "SLUDGE_BOMB",
 "X_SCISSOR",
 "FELL_STINGER",
-"DRILL_RUN"
+"DRILL_RUN",
+"FELL_STINGER_PLUS"
 ],
 "eliteMoves": [
 "BUG_BITE",
@@ -9724,7 +9725,8 @@
 "CRUNCH",
 "FIRE_BLAST",
 "FLAMETHROWER",
-"FOUL_PLAY"
+"FOUL_PLAY",
+"DARK_PULSE_PLUS"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
