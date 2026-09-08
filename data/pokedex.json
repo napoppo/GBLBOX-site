@@ -1171,6 +1171,7 @@
 "SKULL_BASH",
 "TRAILBLAZE",
 "SURF",
+"VOLT_TACKLE",
 "VOLT_TACKLE_PLUS"
 ],
 "eliteMoves": [
@@ -1208,6 +1209,7 @@
 "SKULL_BASH",
 "TRAILBLAZE",
 "SURF",
+"VOLT_TACKLE",
 "ZAP_CANNON_PLUS"
 ],
 "eliteMoves": [
@@ -3070,7 +3072,8 @@
 "fastMoves": [
 "ACID",
 "RAZOR_LEAF",
-"MAGICAL_LEAF"
+"MAGICAL_LEAF",
+"SUCKER_PUNCH"
 ],
 "chargedMoves": [
 "LEAF_BLADE",
@@ -6338,7 +6341,8 @@
 "HYPER_BEAM",
 "IRON_HEAD",
 "ROCK_SLIDE",
-"EARTH_POWER"
+"EARTH_POWER",
+"BRUTAL_SWING"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -9635,6 +9639,7 @@
 "BRAVE_BIRD",
 "FLASH_CANNON",
 "SKY_ATTACK",
+"DRILL_RUN",
 "DRILL_PECK_PLUS"
 ],
 "secondMoveStardust": 75000,
@@ -9719,13 +9724,15 @@
 "evolutions": [],
 "fastMoves": [
 "FIRE_FANG",
-"SNARL"
+"SNARL",
+"INCINERATE"
 ],
 "chargedMoves": [
 "CRUNCH",
 "FIRE_BLAST",
 "FLAMETHROWER",
 "FOUL_PLAY",
+"TRAILBLAZE",
 "DARK_PULSE_PLUS"
 ],
 "secondMoveStardust": 50000,
@@ -12698,7 +12705,8 @@
 "STONE_EDGE",
 "THUNDER",
 "ROCK_TOMB",
-"METEOR_BEAM"
+"METEOR_BEAM",
+"BRICK_BREAK"
 ],
 "secondMoveStardust": 10000,
 "secondMoveCandy": 25
@@ -12989,8 +12997,8 @@
 "BUG_BUZZ",
 "DAZZLING_GLEAM",
 "SILVER_WIND",
-"LUNGE",
-"SHADOW_BALL"
+"SHADOW_BALL",
+"LUNGE"
 ],
 "secondMoveStardust": 50000,
 "secondMoveCandy": 50
@@ -16129,6 +16137,40 @@
 "secondMoveCandy": 25
 },
 {
+"speciesId": "staraptor_mega",
+"dexNo": 398,
+"nameEn": "Staraptor (Mega)",
+"nameJa": "ムクホーク",
+"form": "Mega",
+"baseAttack": 278,
+"baseDefense": 207,
+"baseStamina": 198,
+"types": [
+"fighting",
+"flying"
+],
+"shadowAvailable": true,
+"released": false,
+"evolutions": [],
+"fastMoves": [
+"QUICK_ATTACK",
+"WING_ATTACK",
+"GUST",
+"SAND_ATTACK"
+],
+"chargedMoves": [
+"BRAVE_BIRD",
+"CLOSE_COMBAT",
+"HEAT_WAVE",
+"FLY"
+],
+"eliteMoves": [
+"GUST"
+],
+"secondMoveStardust": 10000,
+"secondMoveCandy": 25
+},
+{
 "speciesId": "bidoof",
 "dexNo": 399,
 "nameEn": "Bidoof",
@@ -18858,7 +18900,8 @@
 "CLOSE_COMBAT",
 "LEAF_BLADE",
 "PSYCHIC",
-"SYNCHRONOISE"
+"SYNCHRONOISE",
+"SACRED_SWORD"
 ],
 "eliteMoves": [
 "SYNCHRONOISE"
@@ -21337,7 +21380,8 @@
 "evolutions": [],
 "fastMoves": [
 "POUND",
-"ZEN_HEADBUTT"
+"ZEN_HEADBUTT",
+"CHARGE_BEAM"
 ],
 "chargedMoves": [
 "DISARMING_VOICE",
@@ -22750,7 +22794,8 @@
 "evolutions": [],
 "fastMoves": [
 "SHADOW_CLAW",
-"SNARL"
+"SNARL",
+"SUCKER_PUNCH"
 ],
 "chargedMoves": [
 "FOUL_PLAY",
@@ -25855,6 +25900,7 @@
 "SURF",
 "HYDRO_PUMP",
 "HYDRO_CANNON",
+"BRUTAL_SWING",
 "SURF_PLUS"
 ],
 "eliteMoves": [
@@ -32807,7 +32853,8 @@
 "ACID_SPRAY",
 "DISCHARGE",
 "WILD_CHARGE",
-"POWER_UP_PUNCH"
+"POWER_UP_PUNCH",
+"SWIFT"
 ],
 "secondMoveStardust": 75000,
 "secondMoveCandy": 75
@@ -35954,7 +36001,7 @@
 ],
 "chargedMoves": [
 "CRUNCH",
-"PAYBACK",
+"PSYCHIC_FANGS",
 "DIG"
 ],
 "secondMoveStardust": 50000,
@@ -35981,7 +36028,7 @@
 ],
 "chargedMoves": [
 "CRUNCH",
-"PAYBACK",
+"PSYCHIC_FANGS",
 "DIG"
 ],
 "secondMoveStardust": 50000,

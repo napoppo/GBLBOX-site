@@ -75,8 +75,8 @@
 "name": "Air Cutter",
 "nameJa": "エアカッター",
 "type": "flying",
-"power": 45,
-"energy": 35,
+"power": 60,
+"energy": 40,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -84,7 +84,7 @@
 0
 ],
 "buffTarget": "self",
-"buffChance": 0.3
+"buffChance": 0.125
 },
 "AIR_SLASH": {
 "name": "Air Slash",
@@ -246,9 +246,9 @@
 "name": "Bite",
 "nameJa": "かみつく",
 "type": "dark",
-"power": 4,
+"power": 2,
 "energy": 0,
-"energyGain": 2,
+"energyGain": 4,
 "turns": 1
 },
 "BLAST_BURN": {
@@ -265,7 +265,7 @@
 "nameJa": "ブレイズキック",
 "type": "fire",
 "power": 60,
-"energy": 40,
+"energy": 35,
 "energyGain": 0,
 "turns": 1
 },
@@ -297,8 +297,8 @@
 "name": "Body Slam",
 "nameJa": "のしかかり",
 "type": "normal",
-"power": 55,
-"energy": 35,
+"power": 65,
+"energy": 40,
 "energyGain": 0,
 "turns": 1
 },
@@ -384,8 +384,8 @@
 "name": "Brine",
 "nameJa": "しおみず",
 "type": "water",
-"power": 60,
-"energy": 50,
+"power": 100,
+"energy": 60,
 "energyGain": 0,
 "turns": 1
 },
@@ -411,8 +411,8 @@
 "name": "Bubble Beam",
 "nameJa": "バブルこうせん",
 "type": "water",
-"power": 25,
-"energy": 40,
+"power": 50,
+"energy": 50,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -450,8 +450,8 @@
 "name": "Bulldoze",
 "nameJa": "じならし",
 "type": "ground",
-"power": 45,
-"energy": 45,
+"power": 80,
+"energy": 55,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -459,7 +459,7 @@
 -1
 ],
 "buffTarget": "opponent",
-"buffChance": 0.5
+"buffChance": 1.0
 },
 "BULLET_PUNCH": {
 "name": "Bullet Punch",
@@ -483,7 +483,7 @@
 "name": "Charge Beam",
 "nameJa": "チャージビーム",
 "type": "electric",
-"power": 5,
+"power": 6,
 "energy": 0,
 "energyGain": 11,
 "turns": 3
@@ -646,7 +646,7 @@
 "nameJa": "あくのはどう",
 "type": "dark",
 "power": 80,
-"energy": 50,
+"energy": 45,
 "energyGain": 0,
 "turns": 1
 },
@@ -708,7 +708,7 @@
 "name": "Double Iron Bash",
 "nameJa": "ダブルパンツァー",
 "type": "steel",
-"power": 55,
+"power": 70,
 "energy": 35,
 "energyGain": 0,
 "turns": 1
@@ -801,10 +801,16 @@
 "name": "Draining Kiss",
 "nameJa": "ドレインキッス",
 "type": "fairy",
-"power": 60,
+"power": 80,
 "energy": 55,
 "energyGain": 0,
-"turns": 1
+"turns": 1,
+"buffs": [
+0,
+1
+],
+"buffTarget": "self",
+"buffChance": 1.0
 },
 "DRAIN_PUNCH": {
 "name": "Drain Punch",
@@ -985,6 +991,21 @@
 "nameJa": "とどめばり",
 "type": "bug",
 "power": 20,
+"energy": 35,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+1,
+0
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
+"FELL_STINGER_PLUS": {
+"name": "Fell Stinger",
+"nameJa": "とどめばり",
+"type": "bug",
+"power": 40,
 "energy": 35,
 "energyGain": 0,
 "turns": 1,
@@ -1555,7 +1576,7 @@
 "nameJa": "１０まんばりき",
 "type": "ground",
 "power": 100,
-"energy": 60,
+"energy": 55,
 "energyGain": 0,
 "turns": 1
 },
@@ -1725,7 +1746,7 @@
 "name": "Infestation",
 "nameJa": "まとわりつく",
 "type": "bug",
-"power": 6,
+"power": 10,
 "energy": 0,
 "energyGain": 12,
 "turns": 3
@@ -1734,7 +1755,7 @@
 "name": "Iron Head",
 "nameJa": "アイアンヘッド",
 "type": "steel",
-"power": 70,
+"power": 85,
 "energy": 50,
 "energyGain": 0,
 "turns": 1
@@ -1866,7 +1887,7 @@
 "name": "Low Kick",
 "nameJa": "けたぐり",
 "type": "fighting",
-"power": 5,
+"power": 6,
 "energy": 0,
 "energyGain": 8,
 "turns": 2
@@ -1884,7 +1905,7 @@
 "name": "Lunge",
 "nameJa": "とびかかる",
 "type": "bug",
-"power": 60,
+"power": 70,
 "energy": 45,
 "energyGain": 0,
 "turns": 1,
@@ -1933,7 +1954,7 @@
 "nameJa": "マグネットボム",
 "type": "steel",
 "power": 70,
-"energy": 45,
+"energy": 40,
 "energyGain": 0,
 "turns": 1
 },
@@ -2016,8 +2037,8 @@
 "name": "Mirror Coat",
 "nameJa": "ミラーコート",
 "type": "psychic",
-"power": 60,
-"energy": 55,
+"power": 75,
+"energy": 45,
 "energyGain": 0,
 "turns": 1
 },
@@ -2055,8 +2076,8 @@
 "name": "Moonblast",
 "nameJa": "ムーンフォース",
 "type": "fairy",
-"power": 110,
-"energy": 60,
+"power": 90,
+"energy": 50,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -2352,7 +2373,7 @@
 "name": "Poison Fang",
 "nameJa": "どくどくのキバ",
 "type": "poison",
-"power": 45,
+"power": 50,
 "energy": 40,
 "energyGain": 0,
 "turns": 1,
@@ -2511,7 +2532,7 @@
 "name": "Psycho Boost",
 "nameJa": "サイコブースト",
 "type": "psychic",
-"power": 70,
+"power": 85,
 "energy": 35,
 "energyGain": 0,
 "turns": 1,
@@ -2580,8 +2601,8 @@
 "name": "Rage Fist",
 "nameJa": "ふんどのこぶし",
 "type": "ghost",
-"power": 50,
-"energy": 35,
+"power": 55,
+"energy": 40,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -2763,8 +2784,8 @@
 "name": "Sand Tomb",
 "nameJa": "すなじごく",
 "type": "ground",
-"power": 40,
-"energy": 40,
+"power": 55,
+"energy": 45,
 "energyGain": 0,
 "turns": 1,
 "buffs": [
@@ -2808,9 +2829,9 @@
 "name": "Scratch",
 "nameJa": "ひっかく",
 "type": "normal",
-"power": 4,
+"power": 3,
 "energy": 0,
-"energyGain": 2,
+"energyGain": 4,
 "turns": 1
 },
 "SECRET_SWORD": {
@@ -2859,7 +2880,7 @@
 "name": "Shadow Ball",
 "nameJa": "シャドーボール",
 "type": "ghost",
-"power": 100,
+"power": 90,
 "energy": 50,
 "energyGain": 0,
 "turns": 1
@@ -2893,7 +2914,7 @@
 "nameJa": "シャドーダイブ",
 "type": "ghost",
 "power": 120,
-"energy": 90,
+"energy": 65,
 "energyGain": 0,
 "turns": 1
 },
@@ -3240,9 +3261,9 @@
 "name": "Take Down",
 "nameJa": "とっしん",
 "type": "normal",
-"power": 5,
+"power": 14,
 "energy": 0,
-"energyGain": 8,
+"energyGain": 9,
 "turns": 3
 },
 "TECHNO_BLAST_BURN": {
@@ -3733,21 +3754,6 @@
 "energy": 0,
 "energyGain": 6,
 "turns": 2
-},
-"FELL_STINGER_PLUS": {
-"name": "Fell Stinger+",
-"nameJa": "とどめばり",
-"type": "bug",
-"power": 40,
-"energy": 35,
-"energyGain": 0,
-"turns": 1,
-"buffs": [
-1,
-0
-],
-"buffTarget": "self",
-"buffChance": 1.0
 },
 "DARK_PULSE_PLUS": {
 "name": "Dark Pulse+",
