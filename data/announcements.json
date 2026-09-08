@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.8.0-394",
+      "id": "2.9.0-404",
       "enabled": true,
+      "publishedAt": "2026-09-09",
+      "maximumBuild": 403,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 404,
+      "titleJa": "GBLBOX 2.9.0 の配信を開始しました",
+      "titleEn": "GBLBOX 2.9.0 is now available",
+      "bodyJa": "GBLBOX 2.9.0を公開しました。\n\nリトル（CP500）に対応し、ボックスの個体詳細を左右スワイプで切り替えられるようになりました。画面の見やすさや操作性も改善しました。\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.9.0 is now available.\n\nAdded Little (CP500) support and swiping between Pokemon in Box details. Improved readability and ease of use.\nWe recommend updating to the latest version.",
+      "updatePromptJa": "新機能と操作性の改善を含む2.9.0へのアップデートをおすすめします。",
+      "updatePromptEn": "We recommend updating to version 2.9.0 for new features and usability improvements.",
+      "updateActionTitleJa": "App Storeで2.9.0へ更新",
+      "updateActionTitleEn": "Update to 2.9.0",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.8.0-394",
+      "enabled": false,
       "publishedAt": "2026-09-08",
       "maximumBuild": 393,
       "maximumBuildAndroid": 0,
