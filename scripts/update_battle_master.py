@@ -185,6 +185,10 @@ RELEASED_OVERRIDES = {
     "cramorant": True,
     "arrokuda": True,
     "barraskewda": True,
+    # 2026-09-08 チームメガでGO実装。
+    # https://pokemongo.com/en/news/mega-squads-2026
+    "maschiff": True,
+    "mabosstiff": True,
 }
 
 
