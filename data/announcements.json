@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.9.0-404",
+      "id": "2.9.1-411",
       "enabled": true,
+      "publishedAt": "2026-09-11",
+      "maximumBuild": 410,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 411,
+      "titleJa": "GBLBOX 2.9.1 の配信を開始しました",
+      "titleEn": "GBLBOX 2.9.1 is now available",
+      "bodyJa": "GBLBOX 2.9.1を公開しました。\n\n個体値の読み取りを修正し、ライブ読み取りの確認・保存やスクショ選択を改善しました。個体値表や戦績も見やすくしました。\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.9.1 is now available.\n\nFixed IV recognition and improved Live Scan review and saving, screenshot selection, IV tables, and battle record displays.\nWe recommend updating to the latest version.",
+      "updatePromptJa": "読み取りの修正と使いやすさの改善を含む2.9.1へのアップデートをおすすめします。",
+      "updatePromptEn": "We recommend updating to version 2.9.1 for scanning fixes and usability improvements.",
+      "updateActionTitleJa": "App Storeで2.9.1へ更新",
+      "updateActionTitleEn": "Update to 2.9.1",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.9.0-404",
+      "enabled": false,
       "publishedAt": "2026-09-09",
       "maximumBuild": 403,
       "maximumBuildAndroid": 0,
