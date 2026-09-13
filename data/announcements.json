@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.9.1-411",
+      "id": "2.9.2-415",
       "enabled": true,
+      "publishedAt": "2026-09-14",
+      "maximumBuild": 414,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 415,
+      "titleJa": "GBLBOX 2.9.2 の配信を開始しました",
+      "titleEn": "GBLBOX 2.9.2 is now available",
+      "bodyJa": "GBLBOX 2.9.2を公開しました。\n\nライブ読み取りの合図をバイブでも受け取れるようになりました。読み取り・保存や画面操作も改善しました。\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.9.2 is now available.\n\nLive Scan can now alert you with vibration. We also improved scanning, saving, and screen controls.\nWe recommend updating to the latest version.",
+      "updatePromptJa": "ライブ読み取りと操作性を改善した2.9.2へのアップデートをおすすめします。",
+      "updatePromptEn": "We recommend updating to version 2.9.2 for Live Scan and usability improvements.",
+      "updateActionTitleJa": "App Storeで2.9.2へ更新",
+      "updateActionTitleEn": "Update to 2.9.2",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.9.1-411",
+      "enabled": false,
       "publishedAt": "2026-09-11",
       "maximumBuild": 410,
       "maximumBuildAndroid": 0,
