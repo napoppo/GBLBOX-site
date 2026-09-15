@@ -62,8 +62,8 @@
         "fastId": "SCRATCH"
       },
       "amoonguss": {
-        "chargedId1": "GRASS_KNOT",
-        "chargedId2": "FOUL_PLAY",
+        "chargedId1": "FOUL_PLAY",
+        "chargedId2": "GRASS_KNOT",
         "fastId": "ASTONISH"
       },
       "ampharos": {
@@ -247,8 +247,8 @@
         "fastId": "INFESTATION"
       },
       "beheeyem": {
-        "chargedId1": "DARK_PULSE",
-        "chargedId2": "ROCK_SLIDE",
+        "chargedId1": "ROCK_SLIDE",
+        "chargedId2": "DARK_PULSE",
         "fastId": "CONFUSION"
       },
       "bellibolt": {
@@ -319,7 +319,7 @@
       "bonsly": {
         "chargedId1": "ROCK_TOMB",
         "chargedId2": "ROCK_SLIDE",
-        "fastId": "COUNTER"
+        "fastId": "ROCK_THROW"
       },
       "bouffalant": {
         "chargedId1": "STOMP",
@@ -648,7 +648,7 @@
       },
       "cranidos": {
         "chargedId1": "ROCK_TOMB",
-        "chargedId2": "BULLDOZE",
+        "chargedId2": "ANCIENT_POWER",
         "fastId": "TAKE_DOWN"
       },
       "crawdaunt": {
@@ -668,7 +668,7 @@
       },
       "crocalor": {
         "chargedId1": "CRUNCH",
-        "chargedId2": "DISARMING_VOICE",
+        "chargedId2": "FLAMETHROWER",
         "fastId": "INCINERATE"
       },
       "croconaw": {
@@ -688,7 +688,7 @@
       },
       "cubone": {
         "chargedId1": "BONE_CLUB",
-        "chargedId2": "BULLDOZE",
+        "chargedId2": "RETURN",
         "fastId": "MUD_SLAP"
       },
       "cursola": {
@@ -703,7 +703,7 @@
       },
       "darmanitan_galarian_standard": {
         "chargedId1": "AVALANCHE",
-        "chargedId2": "SUPER_POWER",
+        "chargedId2": "ICE_PUNCH",
         "fastId": "ICE_FANG"
       },
       "darmanitan_standard": {
@@ -787,8 +787,8 @@
         "fastId": "DRAGON_BREATH"
       },
       "diancie": {
-        "chargedId1": "MOONBLAST",
-        "chargedId2": "ROCK_SLIDE",
+        "chargedId1": "ROCK_SLIDE",
+        "chargedId2": "MOONBLAST",
         "fastId": "ROCK_THROW"
       },
       "diggersby": {
@@ -1008,7 +1008,7 @@
       },
       "emboar": {
         "chargedId1": "BLAST_BURN",
-        "chargedId2": "HEAT_WAVE",
+        "chargedId2": "ROCK_SLIDE",
         "fastId": "EMBER"
       },
       "emolga": {
@@ -1113,7 +1113,7 @@
       },
       "flabebe": {
         "chargedId1": "DAZZLING_GLEAM",
-        "chargedId2": "PETAL_BLIZZARD",
+        "chargedId2": "PSYCHIC",
         "fastId": "VINE_WHIP"
       },
       "flamigo": {
@@ -1127,8 +1127,8 @@
         "fastId": "DRAGON_BREATH"
       },
       "flareon": {
-        "chargedId1": "SUPER_POWER",
-        "chargedId2": "HEAT_WAVE",
+        "chargedId1": "HEAT_WAVE",
+        "chargedId2": "SUPER_POWER",
         "fastId": "EMBER"
       },
       "fletchinder": {
@@ -1143,7 +1143,7 @@
       },
       "floette": {
         "chargedId1": "DAZZLING_GLEAM",
-        "chargedId2": "PETAL_BLIZZARD",
+        "chargedId2": "PSYCHIC",
         "fastId": "VINE_WHIP"
       },
       "floragato": {
@@ -1153,7 +1153,7 @@
       },
       "florges": {
         "chargedId1": "CHILLING_WATER",
-        "chargedId2": "DISARMING_VOICE",
+        "chargedId2": "MOONBLAST",
         "fastId": "FAIRY_WIND"
       },
       "flygon": {
@@ -1198,7 +1198,7 @@
       },
       "fuecoco": {
         "chargedId1": "CRUNCH",
-        "chargedId2": "DISARMING_VOICE",
+        "chargedId2": "FLAMETHROWER",
         "fastId": "INCINERATE"
       },
       "furfrou": {
@@ -1577,8 +1577,8 @@
         "fastId": "FURY_CUTTER"
       },
       "herdier": {
-        "chargedId1": "DIG",
-        "chargedId2": "THUNDERBOLT",
+        "chargedId1": "THUNDERBOLT",
+        "chargedId2": "DIG",
         "fastId": "TAKE_DOWN"
       },
       "hippopotas": {
@@ -1888,7 +1888,7 @@
       },
       "leafeon": {
         "chargedId1": "LEAF_BLADE",
-        "chargedId2": "ENERGY_BALL",
+        "chargedId2": "LAST_RESORT",
         "fastId": "QUICK_ATTACK"
       },
       "leavanny": {
@@ -1962,8 +1962,8 @@
         "fastId": "LOW_KICK"
       },
       "loudred": {
-        "chargedId1": "STOMP",
-        "chargedId2": "DISARMING_VOICE",
+        "chargedId1": "DISARMING_VOICE",
+        "chargedId2": "STOMP",
         "fastId": "BITE"
       },
       "lucario": {
@@ -2019,7 +2019,7 @@
       "lycanroc_midnight": {
         "chargedId1": "STONE_EDGE",
         "chargedId2": "TRAILBLAZE",
-        "fastId": "COUNTER"
+        "fastId": "ROCK_THROW"
       },
       "mabosstiff": {
         "chargedId1": "CRUNCH",
@@ -2167,13 +2167,13 @@
         "fastId": "THUNDER_SHOCK"
       },
       "meltan": {
-        "chargedId1": "FLASH_CANNON",
-        "chargedId2": "THUNDERBOLT",
+        "chargedId1": "THUNDERBOLT",
+        "chargedId2": "FLASH_CANNON",
         "fastId": "THUNDER_SHOCK"
       },
       "meowscarada": {
-        "chargedId1": "FRENZY_PLANT",
-        "chargedId2": "NIGHT_SLASH",
+        "chargedId1": "NIGHT_SLASH",
+        "chargedId2": "FRENZY_PLANT",
         "fastId": "LEAFAGE"
       },
       "meowstic": {
@@ -2368,7 +2368,7 @@
       },
       "nidorino": {
         "chargedId1": "SLUDGE_BOMB",
-        "chargedId2": "DIG",
+        "chargedId2": "ICE_BEAM",
         "fastId": "POISON_STING"
       },
       "ninetales": {
@@ -2382,8 +2382,8 @@
         "fastId": "POWDER_SNOW"
       },
       "ninjask": {
-        "chargedId1": "AERIAL_ACE",
-        "chargedId2": "SHADOW_BALL",
+        "chargedId1": "SHADOW_BALL",
+        "chargedId2": "AERIAL_ACE",
         "fastId": "FURY_CUTTER"
       },
       "noctowl": {
@@ -2487,7 +2487,7 @@
         "fastId": "POISON_STING"
       },
       "pachirisu": {
-        "chargedId1": "HYPER_FANG",
+        "chargedId1": "THUNDERBOLT",
         "chargedId2": "THUNDER_PUNCH",
         "fastId": "VOLT_SWITCH"
       },
@@ -2539,7 +2539,7 @@
       "pawniard": {
         "chargedId1": "NIGHT_SLASH",
         "chargedId2": "IRON_HEAD",
-        "fastId": "FURY_CUTTER"
+        "fastId": "SCRATCH"
       },
       "pelipper": {
         "chargedId1": "WEATHER_BALL_WATER",
@@ -2819,7 +2819,7 @@
       "regigigas": {
         "chargedId1": "CRUSH_GRIP",
         "chargedId2": "THUNDER",
-        "fastId": "HIDDEN_POWER_GROUND"
+        "fastId": "HIDDEN_POWER_ROCK"
       },
       "regirock": {
         "chargedId1": "STONE_EDGE",
@@ -2883,7 +2883,7 @@
       },
       "roselia": {
         "chargedId1": "SLUDGE_BOMB",
-        "chargedId2": "PETAL_BLIZZARD",
+        "chargedId2": "DAZZLING_GLEAM",
         "fastId": "POISON_JAB"
       },
       "roserade": {
@@ -2977,8 +2977,8 @@
         "fastId": "POWDER_SNOW"
       },
       "sandslash": {
-        "chargedId1": "NIGHT_SLASH",
-        "chargedId2": "ROCK_TOMB",
+        "chargedId1": "ROCK_TOMB",
+        "chargedId2": "NIGHT_SLASH",
         "fastId": "SAND_ATTACK"
       },
       "sandslash_alolan": {
@@ -3027,8 +3027,8 @@
         "fastId": "FEINT_ATTACK"
       },
       "scyther": {
-        "chargedId1": "X_SCISSOR",
-        "chargedId2": "NIGHT_SLASH",
+        "chargedId1": "NIGHT_SLASH",
+        "chargedId2": "X_SCISSOR",
         "fastId": "FURY_CUTTER"
       },
       "seadra": {
@@ -3147,8 +3147,8 @@
         "fastId": "INCINERATE"
       },
       "skiddo": {
-        "chargedId1": "SEED_BOMB",
-        "chargedId2": "BRICK_BREAK",
+        "chargedId1": "BRICK_BREAK",
+        "chargedId2": "SEED_BOMB",
         "fastId": "ROCK_SMASH"
       },
       "skorupi": {
@@ -3793,7 +3793,7 @@
       },
       "watchog": {
         "chargedId1": "CRUNCH",
-        "chargedId2": "GRASS_KNOT",
+        "chargedId2": "HYPER_FANG",
         "fastId": "LOW_KICK"
       },
       "weavile": {
@@ -8380,124 +8380,124 @@
   "rankings": {
     "great": [
       {
-        "rating": 699,
-        "score": 93,
-        "speciesId": "tinkaton"
-      },
-      {
-        "rating": 697,
-        "score": 92.1,
-        "speciesId": "ninetales"
-      },
-      {
-        "rating": 664,
-        "score": 91.4,
-        "speciesId": "corsola_galarian"
-      },
-      {
-        "rating": 704,
-        "score": 91.4,
-        "speciesId": "corviknight"
-      },
-      {
-        "rating": 713,
-        "score": 91.3,
-        "speciesId": "cramorant"
-      },
-      {
-        "rating": 685,
-        "score": 91.3,
-        "speciesId": "quagsire"
-      },
-      {
-        "rating": 662,
-        "score": 91.1,
-        "speciesId": "altaria"
-      },
-      {
-        "rating": 714,
-        "score": 91.1,
+        "rating": 715,
+        "score": 94.5,
         "speciesId": "melmetal"
       },
       {
-        "rating": 673,
-        "score": 90.9,
-        "speciesId": "empoleon"
-      },
-      {
-        "rating": 662,
-        "score": 90.9,
-        "speciesId": "mantine"
-      },
-      {
         "rating": 660,
-        "score": 90.9,
-        "speciesId": "snorlax"
+        "score": 93,
+        "speciesId": "altaria"
       },
       {
-        "rating": 646,
-        "score": 90.8,
-        "speciesId": "florges"
+        "rating": 696,
+        "score": 93,
+        "speciesId": "ninetales"
       },
       {
-        "rating": 668,
-        "score": 90.8,
-        "speciesId": "thievul"
+        "rating": 712,
+        "score": 92.4,
+        "speciesId": "cramorant"
       },
       {
-        "rating": 793,
-        "score": 90.7,
+        "rating": 699,
+        "score": 92.2,
+        "speciesId": "tinkaton"
+      },
+      {
+        "rating": 791,
+        "score": 92.1,
         "speciesId": "mimikyu"
       },
       {
-        "rating": 633,
-        "score": 90.6,
-        "speciesId": "feraligatr"
+        "rating": 704,
+        "score": 92,
+        "speciesId": "corviknight"
       },
       {
-        "rating": 660,
-        "score": 90.6,
-        "speciesId": "jellicent"
+        "rating": 663,
+        "score": 91.8,
+        "speciesId": "corsola_galarian"
+      },
+      {
+        "rating": 663,
+        "score": 91.4,
+        "speciesId": "florges"
+      },
+      {
+        "rating": 686,
+        "score": 91.4,
+        "speciesId": "quagsire"
+      },
+      {
+        "rating": 668,
+        "score": 90.9,
+        "speciesId": "thievul"
       },
       {
         "rating": 667,
-        "score": 90.5,
+        "score": 90.8,
         "speciesId": "araquanid"
       },
       {
-        "rating": 648,
-        "score": 90.4,
-        "speciesId": "furret"
-      },
-      {
-        "rating": 609,
-        "score": 90.3,
-        "speciesId": "azumarill"
-      },
-      {
         "rating": 664,
-        "score": 90.3,
+        "score": 90.8,
         "speciesId": "clodsire"
+      },
+      {
+        "rating": 727,
+        "score": 90.7,
+        "speciesId": "sableye"
+      },
+      {
+        "rating": 635,
+        "score": 90.6,
+        "speciesId": "marowak"
+      },
+      {
+        "rating": 631,
+        "score": 90.6,
+        "speciesId": "stunfisk"
+      },
+      {
+        "rating": 646,
+        "score": 90.6,
+        "speciesId": "vigoroth"
+      },
+      {
+        "rating": 661,
+        "score": 90.5,
+        "speciesId": "jellicent"
+      },
+      {
+        "rating": 674,
+        "score": 90.4,
+        "speciesId": "empoleon"
+      },
+      {
+        "rating": 661,
+        "score": 90.4,
+        "speciesId": "fearow"
       },
       {
         "rating": 661,
         "score": 90.3,
-        "speciesId": "fearow"
+        "speciesId": "mantine"
       },
       {
-        "rating": 645,
+        "rating": 661,
         "score": 90.3,
-        "speciesId": "vigoroth"
+        "speciesId": "snorlax"
       },
       {
-        "rating": 610,
-        "score": 90.2,
-        "speciesId": "deoxys_defense"
+        "rating": 634,
+        "score": 90.3,
+        "speciesId": "umbreon"
       },
       {
         "rating": 633,
         "score": 90.2,
-        "speciesId": "marowak"
+        "speciesId": "feraligatr"
       },
       {
         "rating": 689,
@@ -8505,144 +8505,154 @@
         "speciesId": "annihilape"
       },
       {
-        "rating": 697,
+        "rating": 610,
         "score": 90.1,
-        "speciesId": "malamar"
+        "speciesId": "azumarill"
       },
       {
-        "rating": 727,
+        "rating": 610,
         "score": 90.1,
-        "speciesId": "sableye"
+        "speciesId": "deoxys_defense"
       },
       {
-        "rating": 599,
-        "score": 90,
+        "rating": 600,
+        "score": 90.1,
         "speciesId": "electrode_hisuian"
       },
       {
+        "rating": 658,
+        "score": 90.1,
+        "speciesId": "rillaboom"
+      },
+      {
         "rating": 659,
-        "score": 89.9,
+        "score": 90,
         "speciesId": "lapras"
       },
       {
-        "rating": 633,
+        "rating": 630,
         "score": 89.9,
-        "speciesId": "umbreon"
+        "speciesId": "charjabug"
       },
       {
-        "rating": 603,
+        "rating": 698,
+        "score": 89.9,
+        "speciesId": "malamar"
+      },
+      {
+        "rating": 648,
         "score": 89.8,
-        "speciesId": "dondozo"
+        "speciesId": "furret"
       },
       {
-        "rating": 666,
+        "rating": 667,
         "score": 89.8,
         "speciesId": "guzzlord"
       },
       {
-        "rating": 623,
-        "score": 89.8,
-        "speciesId": "mandibuzz"
+        "rating": 633,
+        "score": 89.7,
+        "speciesId": "carbink"
       },
       {
-        "rating": 706,
-        "score": 89.5,
-        "speciesId": "kingdra"
+        "rating": 628,
+        "score": 89.7,
+        "speciesId": "forretress"
       },
       {
-        "rating": 643,
-        "score": 89.4,
+        "rating": 603,
+        "score": 89.6,
+        "speciesId": "dondozo"
+      },
+      {
+        "rating": 644,
+        "score": 89.6,
         "speciesId": "hippowdon"
       },
       {
-        "rating": 666,
-        "score": 89.3,
+        "rating": 622,
+        "score": 89.6,
+        "speciesId": "mandibuzz"
+      },
+      {
+        "rating": 691,
+        "score": 89.6,
+        "speciesId": "morpeko_full_belly"
+      },
+      {
+        "rating": 681,
+        "score": 89.5,
+        "speciesId": "medicham"
+      },
+      {
+        "rating": 665,
+        "score": 89.4,
         "speciesId": "jumpluff"
       },
       {
-        "rating": 615,
+        "rating": 720,
+        "score": 89.3,
+        "speciesId": "hydreigon"
+      },
+      {
+        "rating": 706,
+        "score": 89.3,
+        "speciesId": "kingdra"
+      },
+      {
+        "rating": 616,
         "score": 89.2,
         "speciesId": "blastoise"
       },
       {
-        "rating": 719,
+        "rating": 627,
         "score": 89.2,
-        "speciesId": "hydreigon"
-      },
-      {
-        "rating": 632,
-        "score": 89.1,
-        "speciesId": "carbink"
-      },
-      {
-        "rating": 681,
-        "score": 89.1,
-        "speciesId": "medicham"
-      },
-      {
-        "rating": 638,
-        "score": 89,
-        "speciesId": "forretress"
-      },
-      {
-        "rating": 607,
-        "score": 89,
-        "speciesId": "moltres_galarian"
-      },
-      {
-        "rating": 643,
-        "score": 89,
-        "speciesId": "spidops"
-      },
-      {
-        "rating": 717,
-        "score": 88.9,
-        "speciesId": "dragonair"
+        "speciesId": "diggersby"
       },
       {
         "rating": 639,
-        "score": 88.9,
+        "score": 89.1,
         "speciesId": "turtonator"
       },
       {
         "rating": 630,
-        "score": 88.8,
-        "speciesId": "charjabug"
+        "score": 89,
+        "speciesId": "pachirisu"
       },
       {
-        "rating": 639,
-        "score": 88.8,
+        "rating": 640,
+        "score": 88.9,
         "speciesId": "cradily"
       },
       {
-        "rating": 626,
-        "score": 88.8,
-        "speciesId": "diggersby"
+        "rating": 718,
+        "score": 88.9,
+        "speciesId": "dragonair"
       },
       {
-        "rating": 672,
-        "score": 88.8,
+        "rating": 671,
+        "score": 88.9,
         "speciesId": "ninetales_alolan"
       },
       {
-        "rating": 650,
-        "score": 88.7,
-        "speciesId": "swampert"
-      },
-      {
         "rating": 596,
-        "score": 88.6,
+        "score": 88.8,
         "speciesId": "dewgong"
       },
       {
-        "rating": 664,
-        "score": 88.6,
+        "rating": 663,
+        "score": 88.8,
         "speciesId": "dusclops"
       },
       {
-        "rating": 657,
-        "score": 88.6,
-        "speciesId": "rillaboom"
+        "rating": 606,
+        "score": 88.8,
+        "speciesId": "moltres_galarian"
+      },
+      {
+        "rating": 641,
+        "score": 88.7,
+        "speciesId": "spidops"
       },
       {
         "rating": 724,
@@ -8650,49 +8660,49 @@
         "speciesId": "doublade"
       },
       {
-        "rating": 646,
+        "rating": 669,
+        "score": 88.4,
+        "speciesId": "dusknoir"
+      },
+      {
+        "rating": 651,
+        "score": 88.3,
+        "speciesId": "swampert"
+      },
+      {
+        "rating": 647,
         "score": 88.2,
         "speciesId": "aegislash_shield"
       },
       {
         "rating": 631,
-        "score": 88,
+        "score": 88.1,
+        "speciesId": "dunsparce"
+      },
+      {
+        "rating": 633,
+        "score": 88.1,
         "speciesId": "seismitoad"
       },
       {
-        "rating": 616,
-        "score": 87.9,
-        "speciesId": "gourgeist_large"
-      },
-      {
-        "rating": 614,
-        "score": 87.8,
-        "speciesId": "gourgeist_super"
-      },
-      {
-        "rating": 669,
-        "score": 87.7,
-        "speciesId": "dusknoir"
-      },
-      {
-        "rating": 613,
-        "score": 87.7,
-        "speciesId": "gourgeist_average"
-      },
-      {
-        "rating": 646,
-        "score": 87.7,
-        "speciesId": "grumpig"
-      },
-      {
-        "rating": 575,
-        "score": 87.7,
+        "rating": 572,
+        "score": 88,
         "speciesId": "talonflame"
       },
       {
-        "rating": 704,
+        "rating": 666,
+        "score": 87.8,
+        "speciesId": "stunfisk_galarian"
+      },
+      {
+        "rating": 634,
+        "score": 87.7,
+        "speciesId": "steelix"
+      },
+      {
+        "rating": 615,
         "score": 87.6,
-        "speciesId": "regidrago"
+        "speciesId": "gourgeist_large"
       },
       {
         "rating": 622,
@@ -8700,14 +8710,19 @@
         "speciesId": "registeel"
       },
       {
-        "rating": 607,
-        "score": 87.4,
-        "speciesId": "gourgeist_small"
+        "rating": 613,
+        "score": 87.5,
+        "speciesId": "gourgeist_super"
       },
       {
-        "rating": 691,
-        "score": 87.4,
-        "speciesId": "morpeko_full_belly"
+        "rating": 647,
+        "score": 87.5,
+        "speciesId": "grumpig"
+      },
+      {
+        "rating": 669,
+        "score": 87.5,
+        "speciesId": "shelgon"
       },
       {
         "rating": 655,
@@ -8715,1884 +8730,1864 @@
         "speciesId": "clefable"
       },
       {
+        "rating": 611,
+        "score": 87.3,
+        "speciesId": "gourgeist_average"
+      },
+      {
+        "rating": 650,
+        "score": 87.3,
+        "speciesId": "oranguru"
+      },
+      {
+        "rating": 704,
+        "score": 87.3,
+        "speciesId": "regidrago"
+      },
+      {
+        "rating": 657,
+        "score": 87.3,
+        "speciesId": "sealeo"
+      },
+      {
         "rating": 683,
         "score": 87.2,
         "speciesId": "drapion"
       },
       {
-        "rating": 631,
-        "score": 87.2,
-        "speciesId": "dunsparce"
-      },
-      {
-        "rating": 649,
-        "score": 87.1,
-        "speciesId": "oranguru"
-      },
-      {
-        "rating": 644,
-        "score": 87.1,
-        "speciesId": "samurott"
-      },
-      {
-        "rating": 632,
-        "score": 87.1,
-        "speciesId": "steelix"
-      },
-      {
-        "rating": 673,
-        "score": 86.9,
-        "speciesId": "aromatisse"
-      },
-      {
-        "rating": 681,
-        "score": 86.9,
-        "speciesId": "goodra"
-      },
-      {
-        "rating": 666,
-        "score": 86.9,
-        "speciesId": "stunfisk_galarian"
-      },
-      {
-        "rating": 629,
-        "score": 86.7,
-        "speciesId": "seaking"
-      },
-      {
         "rating": 669,
-        "score": 86.7,
-        "speciesId": "shelgon"
-      },
-      {
-        "rating": 601,
-        "score": 86.6,
-        "speciesId": "pachirisu"
-      },
-      {
-        "rating": 613,
-        "score": 86.5,
-        "speciesId": "cresselia"
-      },
-      {
-        "rating": 655,
-        "score": 86.5,
-        "speciesId": "golisopod"
-      },
-      {
-        "rating": 668,
-        "score": 86.5,
+        "score": 87.2,
         "speciesId": "muk_alolan"
       },
       {
-        "rating": 599,
-        "score": 86.5,
-        "speciesId": "wigglytuff"
-      },
-      {
-        "rating": 627,
-        "score": 86.4,
-        "speciesId": "morgrem"
-      },
-      {
-        "rating": 623,
-        "score": 86.4,
+        "rating": 624,
+        "score": 87.2,
         "speciesId": "wartortle"
       },
       {
-        "rating": 640,
-        "score": 86.3,
-        "speciesId": "castform_sunny"
+        "rating": 606,
+        "score": 87.1,
+        "speciesId": "gourgeist_small"
       },
       {
-        "rating": 606,
-        "score": 86.3,
-        "speciesId": "oinkologne_female"
+        "rating": 645,
+        "score": 86.9,
+        "speciesId": "samurott"
       },
       {
         "rating": 630,
-        "score": 86.3,
-        "speciesId": "stunfisk"
+        "score": 86.9,
+        "speciesId": "seaking"
       },
       {
-        "rating": 693,
+        "rating": 639,
+        "score": 86.8,
+        "speciesId": "castform_sunny"
+      },
+      {
+        "rating": 681,
+        "score": 86.8,
+        "speciesId": "goodra"
+      },
+      {
+        "rating": 599,
+        "score": 86.8,
+        "speciesId": "wigglytuff"
+      },
+      {
+        "rating": 680,
+        "score": 86.7,
+        "speciesId": "gligar"
+      },
+      {
+        "rating": 614,
+        "score": 86.7,
+        "speciesId": "miltank"
+      },
+      {
+        "rating": 612,
+        "score": 86.5,
+        "speciesId": "bellibolt"
+      },
+      {
+        "rating": 606,
+        "score": 86.5,
+        "speciesId": "oinkologne_female"
+      },
+      {
+        "rating": 595,
+        "score": 86.5,
+        "speciesId": "toxapex"
+      },
+      {
+        "rating": 648,
+        "score": 86.3,
+        "speciesId": "persian"
+      },
+      {
+        "rating": 673,
+        "score": 86.2,
+        "speciesId": "aromatisse"
+      },
+      {
+        "rating": 692,
         "score": 86.2,
         "speciesId": "pelipper"
       },
       {
-        "rating": 656,
+        "rating": 627,
+        "score": 86.1,
+        "speciesId": "morgrem"
+      },
+      {
+        "rating": 650,
+        "score": 86.1,
+        "speciesId": "walrein"
+      },
+      {
+        "rating": 613,
+        "score": 86,
+        "speciesId": "cresselia"
+      },
+      {
+        "rating": 660,
+        "score": 85.9,
+        "speciesId": "politoed"
+      },
+      {
+        "rating": 642,
+        "score": 85.9,
+        "speciesId": "torkoal"
+      },
+      {
+        "rating": 650,
         "score": 85.8,
-        "speciesId": "sealeo"
+        "speciesId": "milotic"
       },
       {
-        "rating": 671,
+        "rating": 662,
         "score": 85.8,
-        "speciesId": "sliggoo"
+        "speciesId": "murkrow"
       },
       {
-        "rating": 653,
-        "score": 85.7,
-        "speciesId": "flamigo"
-      },
-      {
-        "rating": 688,
+        "rating": 689,
         "score": 85.7,
         "speciesId": "greninja"
       },
       {
-        "rating": 613,
+        "rating": 601,
         "score": 85.7,
-        "speciesId": "miltank"
+        "speciesId": "lickilicky"
       },
       {
-        "rating": 663,
+        "rating": 634,
         "score": 85.7,
-        "speciesId": "murkrow"
+        "speciesId": "piloswine"
       },
       {
-        "rating": 679,
-        "score": 85.7,
-        "speciesId": "togekiss"
-      },
-      {
-        "rating": 650,
-        "score": 85.7,
-        "speciesId": "walrein"
-      },
-      {
-        "rating": 630,
+        "rating": 671,
         "score": 85.6,
+        "speciesId": "sliggoo"
+      },
+      {
+        "rating": 631,
+        "score": 85.5,
         "speciesId": "orthworm"
       },
       {
-        "rating": 595,
-        "score": 85.6,
-        "speciesId": "toxapex"
-      },
-      {
-        "rating": 680,
-        "score": 85.5,
-        "speciesId": "gligar"
-      },
-      {
-        "rating": 670,
-        "score": 85.4,
-        "speciesId": "crustle"
-      },
-      {
-        "rating": 649,
-        "score": 85.4,
-        "speciesId": "milotic"
-      },
-      {
-        "rating": 623,
-        "score": 85.4,
-        "speciesId": "spiritomb"
-      },
-      {
-        "rating": 673,
+        "rating": 616,
         "score": 85.3,
-        "speciesId": "qwilfish_hisuian"
+        "speciesId": "klefki"
       },
       {
-        "rating": 655,
+        "rating": 657,
         "score": 85.3,
         "speciesId": "toucannon"
       },
       {
-        "rating": 660,
+        "rating": 623,
+        "score": 85.2,
+        "speciesId": "spiritomb"
+      },
+      {
+        "rating": 664,
         "score": 85.1,
-        "speciesId": "politoed"
-      },
-      {
-        "rating": 623,
-        "score": 85,
-        "speciesId": "cofagrigus"
-      },
-      {
-        "rating": 636,
-        "score": 85,
-        "speciesId": "giratina_altered"
-      },
-      {
-        "rating": 648,
-        "score": 85,
-        "speciesId": "persian"
-      },
-      {
-        "rating": 679,
-        "score": 85,
-        "speciesId": "zweilous"
-      },
-      {
-        "rating": 689,
-        "score": 84.9,
-        "speciesId": "metang"
-      },
-      {
-        "rating": 616,
-        "score": 84.9,
-        "speciesId": "wormadam_trash"
-      },
-      {
-        "rating": 619,
-        "score": 84.8,
-        "speciesId": "skarmory"
-      },
-      {
-        "rating": 640,
-        "score": 84.8,
-        "speciesId": "throh"
-      },
-      {
-        "rating": 615,
-        "score": 84.7,
-        "speciesId": "klefki"
-      },
-      {
-        "rating": 590,
-        "score": 84.7,
-        "speciesId": "wobbuffet"
-      },
-      {
-        "rating": 600,
-        "score": 84.6,
-        "speciesId": "lickilicky"
-      },
-      {
-        "rating": 612,
-        "score": 84.5,
-        "speciesId": "bellibolt"
-      },
-      {
-        "rating": 595,
-        "score": 84.5,
-        "speciesId": "dartrix"
-      },
-      {
-        "rating": 642,
-        "score": 84.5,
-        "speciesId": "dewott"
-      },
-      {
-        "rating": 619,
-        "score": 84.5,
-        "speciesId": "ludicolo"
-      },
-      {
-        "rating": 641,
-        "score": 84.5,
-        "speciesId": "lumineon"
-      },
-      {
-        "rating": 642,
-        "score": 84.4,
-        "speciesId": "kommo_o"
-      },
-      {
-        "rating": 650,
-        "score": 84.4,
-        "speciesId": "latias"
-      },
-      {
-        "rating": 574,
-        "score": 84.3,
-        "speciesId": "dubwool"
-      },
-      {
-        "rating": 652,
-        "score": 84.3,
-        "speciesId": "hakamo_o"
-      },
-      {
-        "rating": 645,
-        "score": 84.3,
-        "speciesId": "ledian"
-      },
-      {
-        "rating": 634,
-        "score": 84.3,
-        "speciesId": "piloswine"
-      },
-      {
-        "rating": 672,
-        "score": 84.3,
-        "speciesId": "weezing_galarian"
-      },
-      {
-        "rating": 684,
-        "score": 84.2,
-        "speciesId": "aurorus"
-      },
-      {
-        "rating": 675,
-        "score": 84.2,
-        "speciesId": "mawile"
-      },
-      {
-        "rating": 563,
-        "score": 84.1,
-        "speciesId": "lanturn"
-      },
-      {
-        "rating": 623,
-        "score": 84.1,
-        "speciesId": "poliwrath"
-      },
-      {
-        "rating": 655,
-        "score": 84.1,
-        "speciesId": "raikou"
-      },
-      {
-        "rating": 663,
-        "score": 84.1,
         "speciesId": "sandslash_alolan"
       },
       {
-        "rating": 614,
-        "score": 84.1,
-        "speciesId": "togetic"
+        "rating": 669,
+        "score": 85,
+        "speciesId": "crustle"
       },
       {
-        "rating": 673,
-        "score": 84,
-        "speciesId": "overqwil"
-      },
-      {
-        "rating": 643,
-        "score": 84,
-        "speciesId": "torkoal"
-      },
-      {
-        "rating": 666,
-        "score": 83.9,
-        "speciesId": "emolga"
-      },
-      {
-        "rating": 639,
-        "score": 83.9,
-        "speciesId": "swalot"
-      },
-      {
-        "rating": 668,
-        "score": 83.8,
-        "speciesId": "abomasnow"
-      },
-      {
-        "rating": 630,
-        "score": 83.8,
-        "speciesId": "runerigus"
-      },
-      {
-        "rating": 666,
-        "score": 83.7,
-        "speciesId": "dragalge"
-      },
-      {
-        "rating": 607,
-        "score": 83.7,
-        "speciesId": "primarina"
-      },
-      {
-        "rating": 580,
-        "score": 83.7,
-        "speciesId": "raichu"
-      },
-      {
-        "rating": 623,
-        "score": 83.7,
-        "speciesId": "rapidash"
-      },
-      {
-        "rating": 633,
-        "score": 83.6,
-        "speciesId": "sylveon"
-      },
-      {
-        "rating": 629,
-        "score": 83.6,
-        "speciesId": "volbeat"
-      },
-      {
-        "rating": 571,
-        "score": 83.5,
-        "speciesId": "bastiodon"
-      },
-      {
-        "rating": 621,
-        "score": 83.5,
+        "rating": 622,
+        "score": 85,
         "speciesId": "houndoom"
       },
       {
-        "rating": 572,
-        "score": 83.4,
-        "speciesId": "greedent"
-      },
-      {
-        "rating": 655,
-        "score": 83.4,
-        "speciesId": "hawlucha"
-      },
-      {
-        "rating": 611,
-        "score": 83.4,
-        "speciesId": "linoone"
-      },
-      {
-        "rating": 597,
-        "score": 83.4,
-        "speciesId": "maushold"
-      },
-      {
-        "rating": 614,
-        "score": 83.3,
-        "speciesId": "golisopodsh"
-      },
-      {
-        "rating": 607,
-        "score": 83.2,
-        "speciesId": "gastrodon"
-      },
-      {
-        "rating": 586,
-        "score": 83.2,
-        "speciesId": "lopunny"
-      },
-      {
-        "rating": 726,
-        "score": 83.2,
-        "speciesId": "pangoro"
-      },
-      {
-        "rating": 674,
-        "score": 83.2,
-        "speciesId": "qwilfish"
-      },
-      {
-        "rating": 610,
-        "score": 83.2,
-        "speciesId": "slurpuff"
-      },
-      {
-        "rating": 678,
-        "score": 83.1,
-        "speciesId": "charizard"
-      },
-      {
-        "rating": 651,
-        "score": 83.1,
-        "speciesId": "dragonite"
-      },
-      {
-        "rating": 660,
-        "score": 83.1,
-        "speciesId": "marowak_alolan"
-      },
-      {
-        "rating": 656,
-        "score": 83,
-        "speciesId": "gyarados"
-      },
-      {
-        "rating": 683,
-        "score": 83,
-        "speciesId": "machamp"
-      },
-      {
-        "rating": 633,
-        "score": 82.9,
-        "speciesId": "bronzong"
-      },
-      {
-        "rating": 563,
-        "score": 82.8,
-        "speciesId": "castform_rainy"
-      },
-      {
-        "rating": 668,
-        "score": 82.8,
-        "speciesId": "scizor"
-      },
-      {
-        "rating": 585,
-        "score": 82.8,
-        "speciesId": "tentacruel"
+        "rating": 623,
+        "score": 84.9,
+        "speciesId": "cofagrigus"
       },
       {
         "rating": 643,
-        "score": 82.6,
-        "speciesId": "cetitan"
+        "score": 84.9,
+        "speciesId": "ledian"
       },
       {
-        "rating": 644,
-        "score": 82.6,
-        "speciesId": "dodrio"
+        "rating": 639,
+        "score": 84.9,
+        "speciesId": "swalot"
       },
       {
-        "rating": 607,
-        "score": 82.6,
+        "rating": 679,
+        "score": 84.9,
+        "speciesId": "zweilous"
+      },
+      {
+        "rating": 666,
+        "score": 84.8,
+        "speciesId": "dragalge"
+      },
+      {
+        "rating": 665,
+        "score": 84.8,
+        "speciesId": "emolga"
+      },
+      {
+        "rating": 635,
+        "score": 84.8,
+        "speciesId": "giratina_altered"
+      },
+      {
+        "rating": 675,
+        "score": 84.8,
+        "speciesId": "mawile"
+      },
+      {
+        "rating": 655,
+        "score": 84.8,
+        "speciesId": "raikou"
+      },
+      {
+        "rating": 684,
+        "score": 84.7,
+        "speciesId": "aurorus"
+      },
+      {
+        "rating": 653,
+        "score": 84.7,
+        "speciesId": "flamigo"
+      },
+      {
+        "rating": 689,
+        "score": 84.7,
+        "speciesId": "metang"
+      },
+      {
+        "rating": 609,
+        "score": 84.7,
         "speciesId": "ursaluna"
       },
       {
-        "rating": 589,
-        "score": 82.5,
-        "speciesId": "amoonguss"
+        "rating": 575,
+        "score": 84.6,
+        "speciesId": "dubwool"
       },
       {
-        "rating": 603,
-        "score": 82.5,
-        "speciesId": "bombirdier"
+        "rating": 654,
+        "score": 84.6,
+        "speciesId": "golisopod"
       },
       {
-        "rating": 624,
-        "score": 82.5,
-        "speciesId": "croconaw"
+        "rating": 564,
+        "score": 84.6,
+        "speciesId": "lanturn"
       },
       {
-        "rating": 693,
-        "score": 82.5,
-        "speciesId": "machoke"
+        "rating": 580,
+        "score": 84.6,
+        "speciesId": "raichu"
       },
       {
-        "rating": 628,
-        "score": 82.5,
-        "speciesId": "raichu_alolan"
+        "rating": 677,
+        "score": 84.6,
+        "speciesId": "togekiss"
       },
       {
-        "rating": 576,
-        "score": 82.4,
+        "rating": 574,
+        "score": 84.5,
+        "speciesId": "bastiodon"
+      },
+      {
+        "rating": 643,
+        "score": 84.5,
+        "speciesId": "kommo_o"
+      },
+      {
+        "rating": 577,
+        "score": 84.5,
         "speciesId": "lickitung"
       },
       {
+        "rating": 672,
+        "score": 84.5,
+        "speciesId": "qwilfish_hisuian"
+      },
+      {
+        "rating": 613,
+        "score": 84.5,
+        "speciesId": "togetic"
+      },
+      {
+        "rating": 659,
+        "score": 84.4,
+        "speciesId": "marowak_alolan"
+      },
+      {
+        "rating": 597,
+        "score": 84.4,
+        "speciesId": "maushold"
+      },
+      {
+        "rating": 674,
+        "score": 84.4,
+        "speciesId": "qwilfish"
+      },
+      {
+        "rating": 620,
+        "score": 84.2,
+        "speciesId": "ludicolo"
+      },
+      {
         "rating": 616,
-        "score": 82.4,
-        "speciesId": "nidoqueen"
+        "score": 84.2,
+        "speciesId": "wormadam_trash"
       },
       {
-        "rating": 587,
-        "score": 82.4,
-        "speciesId": "noctowl"
+        "rating": 642,
+        "score": 84.1,
+        "speciesId": "dewott"
       },
       {
-        "rating": 610,
-        "score": 82.3,
-        "speciesId": "ampharos"
+        "rating": 671,
+        "score": 84.1,
+        "speciesId": "weezing_galarian"
       },
       {
-        "rating": 602,
-        "score": 82.3,
-        "speciesId": "pidgeot"
+        "rating": 573,
+        "score": 84,
+        "speciesId": "greedent"
       },
       {
-        "rating": 606,
-        "score": 82.2,
-        "speciesId": "bellossom"
+        "rating": 650,
+        "score": 84,
+        "speciesId": "latias"
       },
       {
-        "rating": 619,
-        "score": 82.2,
-        "speciesId": "gogoat"
+        "rating": 618,
+        "score": 84,
+        "speciesId": "skarmory"
       },
       {
-        "rating": 624,
-        "score": 82.2,
-        "speciesId": "quaquaval"
+        "rating": 593,
+        "score": 83.9,
+        "speciesId": "dartrix"
       },
       {
-        "rating": 623,
-        "score": 82.1,
-        "speciesId": "articuno"
+        "rating": 640,
+        "score": 83.9,
+        "speciesId": "throh"
       },
       {
-        "rating": 575,
-        "score": 81.9,
+        "rating": 633,
+        "score": 83.8,
+        "speciesId": "bronzong"
+      },
+      {
+        "rating": 649,
+        "score": 83.8,
+        "speciesId": "dragonite"
+      },
+      {
+        "rating": 653,
+        "score": 83.8,
+        "speciesId": "hakamo_o"
+      },
+      {
+        "rating": 643,
+        "score": 83.8,
+        "speciesId": "lumineon"
+      },
+      {
+        "rating": 683,
+        "score": 83.8,
+        "speciesId": "machamp"
+      },
+      {
+        "rating": 585,
+        "score": 83.8,
+        "speciesId": "tentacruel"
+      },
+      {
+        "rating": 678,
+        "score": 83.7,
+        "speciesId": "abomasnow"
+      },
+      {
+        "rating": 576,
+        "score": 83.7,
         "speciesId": "kecleon"
       },
       {
-        "rating": 619,
-        "score": 81.8,
+        "rating": 587,
+        "score": 83.7,
+        "speciesId": "lopunny"
+      },
+      {
+        "rating": 630,
+        "score": 83.7,
+        "speciesId": "runerigus"
+      },
+      {
+        "rating": 624,
+        "score": 83.6,
+        "speciesId": "poliwrath"
+      },
+      {
+        "rating": 677,
+        "score": 83.5,
+        "speciesId": "charizard"
+      },
+      {
+        "rating": 612,
+        "score": 83.5,
+        "speciesId": "linoone"
+      },
+      {
+        "rating": 633,
+        "score": 83.5,
+        "speciesId": "sylveon"
+      },
+      {
+        "rating": 613,
+        "score": 83.4,
+        "speciesId": "rapidash"
+      },
+      {
+        "rating": 588,
+        "score": 83.3,
+        "speciesId": "amoonguss"
+      },
+      {
+        "rating": 616,
+        "score": 83.2,
+        "speciesId": "nidoqueen"
+      },
+      {
+        "rating": 672,
+        "score": 83.2,
+        "speciesId": "overqwil"
+      },
+      {
+        "rating": 590,
+        "score": 83.2,
+        "speciesId": "wobbuffet"
+      },
+      {
+        "rating": 564,
+        "score": 83.1,
+        "speciesId": "castform_rainy"
+      },
+      {
+        "rating": 643,
+        "score": 83.1,
+        "speciesId": "cetitan"
+      },
+      {
+        "rating": 607,
+        "score": 83.1,
+        "speciesId": "magcargo"
+      },
+      {
+        "rating": 611,
+        "score": 83,
+        "speciesId": "ampharos"
+      },
+      {
+        "rating": 586,
+        "score": 83,
+        "speciesId": "noctowl"
+      },
+      {
+        "rating": 600,
+        "score": 82.9,
+        "speciesId": "pidgeot"
+      },
+      {
+        "rating": 620,
+        "score": 82.8,
+        "speciesId": "articuno"
+      },
+      {
+        "rating": 625,
+        "score": 82.8,
+        "speciesId": "croconaw"
+      },
+      {
+        "rating": 601,
+        "score": 82.8,
+        "speciesId": "probopass"
+      },
+      {
+        "rating": 627,
+        "score": 82.8,
+        "speciesId": "raichu_alolan"
+      },
+      {
+        "rating": 590,
+        "score": 82.7,
+        "speciesId": "castform"
+      },
+      {
+        "rating": 668,
+        "score": 82.7,
+        "speciesId": "zapdos"
+      },
+      {
+        "rating": 608,
+        "score": 82.5,
+        "speciesId": "gastrodon"
+      },
+      {
+        "rating": 602,
+        "score": 82.4,
+        "speciesId": "bombirdier"
+      },
+      {
+        "rating": 613,
+        "score": 82.4,
+        "speciesId": "golisopodsh"
+      },
+      {
+        "rating": 611,
+        "score": 82.4,
+        "speciesId": "grafaiai"
+      },
+      {
+        "rating": 693,
+        "score": 82.3,
+        "speciesId": "machoke"
+      },
+      {
+        "rating": 615,
+        "score": 82.3,
+        "speciesId": "zeraora"
+      },
+      {
+        "rating": 682,
+        "score": 82.2,
+        "speciesId": "blaziken"
+      },
+      {
+        "rating": 682,
+        "score": 82.2,
+        "speciesId": "solrock"
+      },
+      {
+        "rating": 682,
+        "score": 82.2,
+        "speciesId": "toxtricity"
+      },
+      {
+        "rating": 607,
+        "score": 82.1,
+        "speciesId": "primarina"
+      },
+      {
+        "rating": 726,
+        "score": 82,
+        "speciesId": "pangoro"
+      },
+      {
+        "rating": 611,
+        "score": 82,
+        "speciesId": "slurpuff"
+      },
+      {
+        "rating": 655,
+        "score": 81.9,
+        "speciesId": "hawlucha"
+      },
+      {
+        "rating": 618,
+        "score": 81.9,
         "speciesId": "victreebel"
       },
       {
-        "rating": 605,
+        "rating": 601,
+        "score": 81.8,
+        "speciesId": "coalossal"
+      },
+      {
+        "rating": 687,
+        "score": 81.8,
+        "speciesId": "lunatone"
+      },
+      {
+        "rating": 594,
         "score": 81.7,
-        "speciesId": "grimmsnarl"
+        "speciesId": "castform_snowy"
+      },
+      {
+        "rating": 643,
+        "score": 81.7,
+        "speciesId": "dodrio"
+      },
+      {
+        "rating": 563,
+        "score": 81.7,
+        "speciesId": "fletchinder"
+      },
+      {
+        "rating": 634,
+        "score": 81.7,
+        "speciesId": "trumbeak"
+      },
+      {
+        "rating": 684,
+        "score": 81.6,
+        "speciesId": "gyarados"
       },
       {
         "rating": 625,
         "score": 81.6,
-        "speciesId": "gurdurr"
-      },
-      {
-        "rating": 682,
-        "score": 81.5,
-        "speciesId": "blaziken"
-      },
-      {
-        "rating": 588,
-        "score": 81.5,
-        "speciesId": "claydol"
-      },
-      {
-        "rating": 664,
-        "score": 81.5,
-        "speciesId": "gallade"
-      },
-      {
-        "rating": 682,
-        "score": 81.5,
-        "speciesId": "solrock"
-      },
-      {
-        "rating": 633,
-        "score": 81.5,
         "speciesId": "starmie"
       },
       {
-        "rating": 682,
+        "rating": 635,
         "score": 81.5,
-        "speciesId": "toxtricity"
+        "speciesId": "electivire"
+      },
+      {
+        "rating": 610,
+        "score": 81.5,
+        "speciesId": "hypno"
+      },
+      {
+        "rating": 566,
+        "score": 81.5,
+        "speciesId": "rufflet"
+      },
+      {
+        "rating": 596,
+        "score": 81.3,
+        "speciesId": "dedenne"
       },
       {
         "rating": 613,
+        "score": 81.3,
+        "speciesId": "jirachi"
+      },
+      {
+        "rating": 625,
         "score": 81.3,
         "speciesId": "mightyena"
       },
       {
-        "rating": 580,
+        "rating": 663,
         "score": 81.3,
-        "speciesId": "toedscruel"
+        "speciesId": "primeape"
       },
       {
-        "rating": 611,
+        "rating": 593,
         "score": 81.3,
-        "speciesId": "trevenant"
+        "speciesId": "regirock"
       },
       {
-        "rating": 576,
+        "rating": 681,
+        "score": 81.3,
+        "speciesId": "scizor"
+      },
+      {
+        "rating": 609,
         "score": 81.2,
-        "speciesId": "munchlax"
+        "speciesId": "klang"
+      },
+      {
+        "rating": 651,
+        "score": 81.1,
+        "speciesId": "amaura"
+      },
+      {
+        "rating": 636,
+        "score": 81.1,
+        "speciesId": "gliscor"
+      },
+      {
+        "rating": 627,
+        "score": 81.1,
+        "speciesId": "gurdurr"
+      },
+      {
+        "rating": 628,
+        "score": 81.1,
+        "speciesId": "volbeat"
+      },
+      {
+        "rating": 625,
+        "score": 81,
+        "speciesId": "quaquaval"
+      },
+      {
+        "rating": 672,
+        "score": 81,
+        "speciesId": "teddiursa"
       },
       {
         "rating": 604,
-        "score": 81.2,
-        "speciesId": "swanna"
-      },
-      {
-        "rating": 634,
-        "score": 81.2,
-        "speciesId": "trumbeak"
-      },
-      {
-        "rating": 614,
-        "score": 81.2,
-        "speciesId": "zeraora"
-      },
-      {
-        "rating": 596,
         "score": 81,
-        "speciesId": "dedenne"
+        "speciesId": "typhlosion"
       },
       {
-        "rating": 610,
-        "score": 81,
-        "speciesId": "hypno"
-      },
-      {
-        "rating": 687,
-        "score": 81,
-        "speciesId": "lunatone"
-      },
-      {
-        "rating": 614,
-        "score": 81,
-        "speciesId": "timburr"
-      },
-      {
-        "rating": 613,
-        "score": 81,
-        "speciesId": "tinkatuff"
-      },
-      {
-        "rating": 616,
+        "rating": 600,
         "score": 80.9,
-        "speciesId": "arctibax"
+        "speciesId": "drifblim"
       },
       {
-        "rating": 590,
+        "rating": 664,
         "score": 80.9,
-        "speciesId": "castform"
+        "speciesId": "gallade"
+      },
+      {
+        "rating": 637,
+        "score": 80.9,
+        "speciesId": "magnemite"
+      },
+      {
+        "rating": 576,
+        "score": 80.9,
+        "speciesId": "munchlax"
+      },
+      {
+        "rating": 600,
+        "score": 80.9,
+        "speciesId": "nidorina"
+      },
+      {
+        "rating": 636,
+        "score": 80.9,
+        "speciesId": "pawmot"
       },
       {
         "rating": 612,
         "score": 80.9,
-        "speciesId": "jirachi"
-      },
-      {
-        "rating": 568,
-        "score": 80.9,
-        "speciesId": "rufflet"
-      },
-      {
-        "rating": 616,
-        "score": 80.9,
-        "speciesId": "uxie"
-      },
-      {
-        "rating": 669,
-        "score": 80.9,
-        "speciesId": "zapdos"
-      },
-      {
-        "rating": 575,
-        "score": 80.8,
-        "speciesId": "chesnaught"
-      },
-      {
-        "rating": 662,
-        "score": 80.8,
-        "speciesId": "primeape"
-      },
-      {
-        "rating": 646,
-        "score": 80.7,
-        "speciesId": "kingambit"
-      },
-      {
-        "rating": 608,
-        "score": 80.7,
-        "speciesId": "klang"
+        "speciesId": "trevenant"
       },
       {
         "rating": 619,
-        "score": 80.7,
-        "speciesId": "lurantis"
+        "score": 80.8,
+        "speciesId": "armarouge"
       },
       {
-        "rating": 671,
-        "score": 80.7,
-        "speciesId": "teddiursa"
+        "rating": 588,
+        "score": 80.8,
+        "speciesId": "claydol"
       },
       {
-        "rating": 610,
+        "rating": 602,
+        "score": 80.8,
+        "speciesId": "swanna"
+      },
+      {
+        "rating": 616,
+        "score": 80.7,
+        "speciesId": "arctibax"
+      },
+      {
+        "rating": 553,
+        "score": 80.7,
+        "speciesId": "dudunsparce"
+      },
+      {
+        "rating": 556,
         "score": 80.6,
-        "speciesId": "grafaiai"
+        "speciesId": "hippopotas"
       },
       {
-        "rating": 637,
+        "rating": 605,
         "score": 80.5,
-        "speciesId": "gliscor"
+        "speciesId": "grimmsnarl"
+      },
+      {
+        "rating": 613,
+        "score": 80.5,
+        "speciesId": "tinkatuff"
+      },
+      {
+        "rating": 581,
+        "score": 80.5,
+        "speciesId": "toedscruel"
+      },
+      {
+        "rating": 607,
+        "score": 80.4,
+        "speciesId": "bellossom"
+      },
+      {
+        "rating": 586,
+        "score": 80.4,
+        "speciesId": "raticate_alolan"
       },
       {
         "rating": 645,
-        "score": 80.4,
+        "score": 80.3,
         "speciesId": "aipom"
       },
       {
-        "rating": 594,
-        "score": 80.4,
-        "speciesId": "castform_snowy"
-      },
-      {
-        "rating": 595,
+        "rating": 645,
         "score": 80.3,
-        "speciesId": "ariados"
+        "speciesId": "arbok"
       },
       {
-        "rating": 606,
+        "rating": 620,
         "score": 80.3,
-        "speciesId": "magcargo"
+        "speciesId": "gogoat"
       },
       {
-        "rating": 673,
-        "score": 80.3,
-        "speciesId": "samurott_hisuian"
-      },
-      {
-        "rating": 598,
-        "score": 80.3,
-        "speciesId": "urshifu_single_strike"
-      },
-      {
-        "rating": 583,
+        "rating": 531,
         "score": 80.2,
-        "speciesId": "lokix"
+        "speciesId": "audino"
       },
       {
-        "rating": 636,
+        "rating": 623,
         "score": 80.2,
-        "speciesId": "pawmot"
+        "speciesId": "cetoddle"
       },
       {
-        "rating": 594,
+        "rating": 591,
         "score": 80.2,
-        "speciesId": "venusaur"
+        "speciesId": "mamoswine"
       },
       {
-        "rating": 644,
+        "rating": 559,
+        "score": 80.2,
+        "speciesId": "oinkologne"
+      },
+      {
+        "rating": 642,
         "score": 80.2,
         "speciesId": "vespiquen"
       },
       {
+        "rating": 593,
+        "score": 80.2,
+        "speciesId": "vikavolt"
+      },
+      {
+        "rating": 587,
+        "score": 80.2,
+        "speciesId": "wailmer"
+      },
+      {
         "rating": 659,
         "score": 80.1,
-        "speciesId": "genesect"
+        "speciesId": "salamence"
       },
       {
-        "rating": 521,
+        "rating": 615,
         "score": 80.1,
-        "speciesId": "meganium"
+        "speciesId": "timburr"
       },
       {
-        "rating": 610,
-        "score": 80.1,
-        "speciesId": "mew"
-      },
-      {
-        "rating": 570,
-        "score": 80.1,
-        "speciesId": "servine"
-      },
-      {
-        "rating": 631,
-        "score": 80.1,
-        "speciesId": "whimsicott"
-      },
-      {
-        "rating": 651,
-        "score": 80,
-        "speciesId": "amaura"
-      },
-      {
-        "rating": 607,
+        "rating": 604,
         "score": 80,
         "speciesId": "centiskorch"
       },
       {
-        "rating": 554,
+        "rating": 580,
         "score": 80,
-        "speciesId": "fletchinder"
-      },
-      {
-        "rating": 616,
-        "score": 79.9,
-        "speciesId": "arbok"
-      },
-      {
-        "rating": 602,
-        "score": 79.9,
-        "speciesId": "drifblim"
-      },
-      {
-        "rating": 618,
-        "score": 79.9,
-        "speciesId": "orbeetle"
-      },
-      {
-        "rating": 586,
-        "score": 79.9,
-        "speciesId": "persian_alolan"
-      },
-      {
-        "rating": 559,
-        "score": 79.8,
-        "speciesId": "oinkologne"
-      },
-      {
-        "rating": 591,
-        "score": 79.8,
-        "speciesId": "regirock"
-      },
-      {
-        "rating": 570,
-        "score": 79.8,
-        "speciesId": "scrafty"
-      },
-      {
-        "rating": 605,
-        "score": 79.8,
-        "speciesId": "typhlosion"
-      },
-      {
-        "rating": 579,
-        "score": 79.7,
         "speciesId": "lileep"
       },
       {
-        "rating": 596,
-        "score": 79.7,
-        "speciesId": "whiscash"
-      },
-      {
-        "rating": 621,
-        "score": 79.6,
-        "speciesId": "armarouge"
-      },
-      {
-        "rating": 623,
-        "score": 79.6,
-        "speciesId": "cetoddle"
-      },
-      {
-        "rating": 634,
-        "score": 79.6,
-        "speciesId": "electivire"
-      },
-      {
-        "rating": 600,
-        "score": 79.6,
-        "speciesId": "nidorina"
-      },
-      {
-        "rating": 584,
-        "score": 79.6,
-        "speciesId": "raticate_alolan"
-      },
-      {
-        "rating": 672,
-        "score": 79.6,
-        "speciesId": "ursaring"
-      },
-      {
-        "rating": 668,
-        "score": 79.5,
-        "speciesId": "drampa"
-      },
-      {
-        "rating": 564,
-        "score": 79.5,
-        "speciesId": "froslass"
-      },
-      {
-        "rating": 602,
-        "score": 79.5,
-        "speciesId": "marshtomp"
-      },
-      {
-        "rating": 660,
-        "score": 79.5,
-        "speciesId": "salamence"
-      },
-      {
-        "rating": 529,
-        "score": 79.5,
-        "speciesId": "serperior"
-      },
-      {
-        "rating": 557,
-        "score": 79.5,
+        "rating": 558,
+        "score": 80,
         "speciesId": "skuntank"
       },
       {
-        "rating": 603,
-        "score": 79.4,
-        "speciesId": "conkeldurr"
+        "rating": 582,
+        "score": 79.8,
+        "speciesId": "lokix"
       },
       {
-        "rating": 614,
-        "score": 79.4,
-        "speciesId": "heracross"
-      },
-      {
-        "rating": 636,
-        "score": 79.4,
-        "speciesId": "magnemite"
-      },
-      {
-        "rating": 591,
-        "score": 79.4,
-        "speciesId": "mamoswine"
-      },
-      {
-        "rating": 586,
-        "score": 79.4,
-        "speciesId": "wailmer"
-      },
-      {
-        "rating": 552,
-        "score": 79.3,
-        "speciesId": "dudunsparce"
-      },
-      {
-        "rating": 657,
-        "score": 79.3,
-        "speciesId": "palkia"
-      },
-      {
-        "rating": 608,
-        "score": 79.2,
-        "speciesId": "golbat"
-      },
-      {
-        "rating": 570,
-        "score": 79.2,
-        "speciesId": "shiinotic"
-      },
-      {
-        "rating": 600,
-        "score": 79.1,
-        "speciesId": "coalossal"
-      },
-      {
-        "rating": 555,
-        "score": 79.1,
-        "speciesId": "hippopotas"
-      },
-      {
-        "rating": 530,
-        "score": 79,
-        "speciesId": "audino"
-      },
-      {
-        "rating": 565,
-        "score": 78.9,
-        "speciesId": "spinda"
-      },
-      {
-        "rating": 625,
-        "score": 78.8,
-        "speciesId": "latios"
-      },
-      {
-        "rating": 645,
-        "score": 78.8,
+        "rating": 647,
+        "score": 79.8,
         "speciesId": "magneton"
       },
       {
-        "rating": 650,
+        "rating": 648,
+        "score": 79.7,
+        "speciesId": "kingambit"
+      },
+      {
+        "rating": 658,
+        "score": 79.7,
+        "speciesId": "palkia"
+      },
+      {
+        "rating": 602,
+        "score": 79.7,
+        "speciesId": "salazzle"
+      },
+      {
+        "rating": 569,
+        "score": 79.7,
+        "speciesId": "servine"
+      },
+      {
+        "rating": 615,
+        "score": 79.7,
+        "speciesId": "thundurus_incarnate"
+      },
+      {
+        "rating": 616,
+        "score": 79.7,
+        "speciesId": "uxie"
+      },
+      {
+        "rating": 565,
+        "score": 79.7,
+        "speciesId": "victini"
+      },
+      {
+        "rating": 581,
+        "score": 79.6,
+        "speciesId": "electrode"
+      },
+      {
+        "rating": 606,
+        "score": 79.6,
+        "speciesId": "golbat"
+      },
+      {
+        "rating": 647,
+        "score": 79.5,
+        "speciesId": "magnezone"
+      },
+      {
+        "rating": 565,
+        "score": 79.5,
+        "speciesId": "spinda"
+      },
+      {
+        "rating": 611,
+        "score": 79.4,
+        "speciesId": "mew"
+      },
+      {
+        "rating": 674,
+        "score": 79.4,
+        "speciesId": "ursaring"
+      },
+      {
+        "rating": 599,
+        "score": 79.4,
+        "speciesId": "urshifu_single_strike"
+      },
+      {
+        "rating": 608,
+        "score": 79.3,
+        "speciesId": "slowbro"
+      },
+      {
+        "rating": 669,
+        "score": 79.1,
+        "speciesId": "drampa"
+      },
+      {
+        "rating": 563,
+        "score": 79.1,
+        "speciesId": "froslass"
+      },
+      {
+        "rating": 675,
+        "score": 79.1,
+        "speciesId": "samurott_hisuian"
+      },
+      {
+        "rating": 598,
+        "score": 79.1,
+        "speciesId": "whiscash"
+      },
+      {
+        "rating": 659,
+        "score": 79,
+        "speciesId": "genesect"
+      },
+      {
+        "rating": 580,
+        "score": 78.9,
+        "speciesId": "kangaskhan"
+      },
+      {
+        "rating": 576,
+        "score": 78.9,
+        "speciesId": "naclstack"
+      },
+      {
+        "rating": 621,
+        "score": 78.9,
+        "speciesId": "nidoking"
+      },
+      {
+        "rating": 530,
+        "score": 78.9,
+        "speciesId": "serperior"
+      },
+      {
+        "rating": 570,
+        "score": 78.9,
+        "speciesId": "shiinotic"
+      },
+      {
+        "rating": 584,
+        "score": 78.9,
+        "speciesId": "skeledirge"
+      },
+      {
+        "rating": 631,
+        "score": 78.9,
+        "speciesId": "whimsicott"
+      },
+      {
+        "rating": 593,
+        "score": 78.8,
+        "speciesId": "ariados"
+      },
+      {
+        "rating": 574,
+        "score": 78.8,
+        "speciesId": "chesnaught"
+      },
+      {
+        "rating": 599,
+        "score": 78.8,
+        "speciesId": "conkeldurr"
+      },
+      {
+        "rating": 654,
         "score": 78.8,
         "speciesId": "pawniard"
       },
       {
-        "rating": 609,
+        "rating": 571,
         "score": 78.8,
-        "speciesId": "slowbro"
-      },
-      {
-        "rating": 595,
-        "score": 78.8,
-        "speciesId": "vikavolt"
-      },
-      {
-        "rating": 580,
-        "score": 78.7,
-        "speciesId": "kangaskhan"
-      },
-      {
-        "rating": 619,
-        "score": 78.6,
-        "speciesId": "golurk"
-      },
-      {
-        "rating": 569,
-        "score": 78.6,
-        "speciesId": "illumise"
-      },
-      {
-        "rating": 631,
-        "score": 78.5,
-        "speciesId": "hitmonlee"
-      },
-      {
-        "rating": 646,
-        "score": 78.5,
-        "speciesId": "magnezone"
-      },
-      {
-        "rating": 582,
-        "score": 78.4,
-        "speciesId": "pumpkaboo_super"
-      },
-      {
-        "rating": 624,
-        "score": 78.4,
-        "speciesId": "slowking_galarian"
-      },
-      {
-        "rating": 537,
-        "score": 78.4,
-        "speciesId": "squawkabilly"
-      },
-      {
-        "rating": 566,
-        "score": 78.4,
-        "speciesId": "victini"
-      },
-      {
-        "rating": 606,
-        "score": 78.3,
-        "speciesId": "crobat"
-      },
-      {
-        "rating": 592,
-        "score": 78.3,
-        "speciesId": "electrode"
-      },
-      {
-        "rating": 618,
-        "score": 78.3,
-        "speciesId": "farfetchd_galarian"
-      },
-      {
-        "rating": 570,
-        "score": 78.3,
         "speciesId": "wailord"
       },
       {
-        "rating": 602,
-        "score": 78.2,
-        "speciesId": "decidueye_hisuian"
-      },
-      {
-        "rating": 599,
-        "score": 78.2,
-        "speciesId": "drilbur"
-      },
-      {
-        "rating": 568,
-        "score": 78.2,
+        "rating": 567,
+        "score": 78.7,
         "speciesId": "galvantula"
       },
       {
-        "rating": 616,
+        "rating": 566,
+        "score": 78.6,
+        "speciesId": "camerupt"
+      },
+      {
+        "rating": 604,
+        "score": 78.6,
+        "speciesId": "crobat"
+      },
+      {
+        "rating": 521,
+        "score": 78.6,
+        "speciesId": "meganium"
+      },
+      {
+        "rating": 653,
+        "score": 78.6,
+        "speciesId": "sandshrew_alolan"
+      },
+      {
+        "rating": 536,
+        "score": 78.6,
+        "speciesId": "squawkabilly"
+      },
+      {
+        "rating": 603,
+        "score": 78.5,
+        "speciesId": "delphox"
+      },
+      {
+        "rating": 600,
+        "score": 78.5,
+        "speciesId": "drilbur"
+      },
+      {
+        "rating": 578,
+        "score": 78.5,
+        "speciesId": "incineroar"
+      },
+      {
+        "rating": 617,
+        "score": 78.5,
+        "speciesId": "orbeetle"
+      },
+      {
+        "rating": 572,
+        "score": 78.4,
+        "speciesId": "garganacl"
+      },
+      {
+        "rating": 632,
+        "score": 78.4,
+        "speciesId": "hitmonlee"
+      },
+      {
+        "rating": 603,
+        "score": 78.4,
+        "speciesId": "marshtomp"
+      },
+      {
+        "rating": 513,
         "score": 78.2,
-        "speciesId": "thundurus_incarnate"
-      },
-      {
-        "rating": 598,
-        "score": 78.1,
-        "speciesId": "probopass"
-      },
-      {
-        "rating": 580,
-        "score": 78.1,
-        "speciesId": "tropius"
-      },
-      {
-        "rating": 512,
-        "score": 78,
         "speciesId": "furfrou"
       },
       {
-        "rating": 557,
+        "rating": 608,
+        "score": 78.2,
+        "speciesId": "latios"
+      },
+      {
+        "rating": 619,
+        "score": 78.2,
+        "speciesId": "lurantis"
+      },
+      {
+        "rating": 717,
+        "score": 78.2,
+        "speciesId": "togedemaru"
+      },
+      {
+        "rating": 678,
+        "score": 78.1,
+        "speciesId": "aerodactyl"
+      },
+      {
+        "rating": 587,
+        "score": 78,
+        "speciesId": "persian_alolan"
+      },
+      {
+        "rating": 561,
+        "score": 78,
+        "speciesId": "sandslash"
+      },
+      {
+        "rating": 578,
+        "score": 78,
+        "speciesId": "tropius"
+      },
+      {
+        "rating": 593,
+        "score": 78,
+        "speciesId": "venusaur"
+      },
+      {
+        "rating": 555,
         "score": 78,
         "speciesId": "vullaby"
       },
       {
-        "rating": 624,
+        "rating": 619,
         "score": 77.9,
-        "speciesId": "dhelmise"
+        "speciesId": "farfetchd_galarian"
       },
       {
-        "rating": 612,
-        "score": 77.9,
-        "speciesId": "farfetchd"
-      },
-      {
-        "rating": 566,
-        "score": 77.9,
-        "speciesId": "hariyama"
-      },
-      {
-        "rating": 614,
-        "score": 77.9,
-        "speciesId": "kartana"
-      },
-      {
-        "rating": 585,
-        "score": 77.9,
-        "speciesId": "skeledirge"
-      },
-      {
-        "rating": 505,
-        "score": 77.9,
-        "speciesId": "tapu_fini"
-      },
-      {
-        "rating": 605,
+        "rating": 568,
         "score": 77.8,
-        "speciesId": "delphox"
-      },
-      {
-        "rating": 631,
-        "score": 77.8,
-        "speciesId": "girafarig"
-      },
-      {
-        "rating": 584,
-        "score": 77.8,
-        "speciesId": "lucario"
-      },
-      {
-        "rating": 679,
-        "score": 77.7,
-        "speciesId": "aerodactyl"
-      },
-      {
-        "rating": 645,
-        "score": 77.7,
-        "speciesId": "barbaracle"
-      },
-      {
-        "rating": 652,
-        "score": 77.7,
-        "speciesId": "sandshrew_alolan"
-      },
-      {
-        "rating": 593,
-        "score": 77.6,
-        "speciesId": "flygon"
-      },
-      {
-        "rating": 621,
-        "score": 77.6,
-        "speciesId": "nidoking"
-      },
-      {
-        "rating": 575,
-        "score": 77.5,
-        "speciesId": "glalie"
-      },
-      {
-        "rating": 613,
-        "score": 77.5,
-        "speciesId": "mismagius"
-      },
-      {
-        "rating": 574,
-        "score": 77.5,
-        "speciesId": "naclstack"
-      },
-      {
-        "rating": 537,
-        "score": 77.4,
-        "speciesId": "ferrothorn"
-      },
-      {
-        "rating": 602,
-        "score": 77.4,
-        "speciesId": "salazzle"
-      },
-      {
-        "rating": 600,
-        "score": 77.4,
-        "speciesId": "toxicroak"
-      },
-      {
-        "rating": 524,
-        "score": 77.3,
-        "speciesId": "blacephalon"
-      },
-      {
-        "rating": 603,
-        "score": 77.3,
-        "speciesId": "lampent"
-      },
-      {
-        "rating": 611,
-        "score": 77.3,
-        "speciesId": "sceptile"
-      },
-      {
-        "rating": 641,
-        "score": 77.2,
-        "speciesId": "gengar"
-      },
-      {
-        "rating": 579,
-        "score": 77.2,
-        "speciesId": "incineroar"
-      },
-      {
-        "rating": 571,
-        "score": 77.2,
-        "speciesId": "zygarde"
-      },
-      {
-        "rating": 570,
-        "score": 77.1,
-        "speciesId": "garganacl"
-      },
-      {
-        "rating": 608,
-        "score": 77.1,
-        "speciesId": "meowscarada"
-      },
-      {
-        "rating": 566,
-        "score": 77,
-        "speciesId": "camerupt"
-      },
-      {
-        "rating": 549,
-        "score": 76.9,
-        "speciesId": "dachsbun"
-      },
-      {
-        "rating": 567,
-        "score": 76.7,
         "speciesId": "frillish"
       },
       {
-        "rating": 637,
-        "score": 76.7,
-        "speciesId": "machop"
+        "rating": 624,
+        "score": 77.8,
+        "speciesId": "slowking_galarian"
       },
       {
-        "rating": 559,
-        "score": 76.7,
-        "speciesId": "sandslash"
+        "rating": 623,
+        "score": 77.7,
+        "speciesId": "dhelmise"
       },
       {
-        "rating": 716,
-        "score": 76.7,
-        "speciesId": "togedemaru"
+        "rating": 575,
+        "score": 77.7,
+        "speciesId": "glalie"
       },
       {
         "rating": 621,
-        "score": 76.7,
-        "speciesId": "xatu"
+        "score": 77.6,
+        "speciesId": "girafarig"
       },
       {
-        "rating": 569,
-        "score": 76.6,
-        "speciesId": "pumpkaboo_large"
-      },
-      {
-        "rating": 569,
-        "score": 76.6,
-        "speciesId": "quaxwell"
-      },
-      {
-        "rating": 638,
-        "score": 76.5,
-        "speciesId": "bruxish"
-      },
-      {
-        "rating": 551,
-        "score": 76.5,
-        "speciesId": "muk"
-      },
-      {
-        "rating": 562,
-        "score": 76.5,
-        "speciesId": "perrserker"
-      },
-      {
-        "rating": 528,
-        "score": 76.5,
-        "speciesId": "zapdos_galarian"
-      },
-      {
-        "rating": 649,
-        "score": 76.4,
+        "rating": 648,
+        "score": 77.6,
         "speciesId": "zoroark_hisuian"
       },
       {
-        "rating": 541,
-        "score": 76.2,
-        "speciesId": "grimer"
-      },
-      {
-        "rating": 645,
-        "score": 76.2,
-        "speciesId": "roserade"
-      },
-      {
-        "rating": 586,
-        "score": 76.2,
-        "speciesId": "sawk"
-      },
-      {
-        "rating": 543,
-        "score": 76.1,
-        "speciesId": "lugia"
-      },
-      {
-        "rating": 569,
-        "score": 76.1,
-        "speciesId": "quilladin"
-      },
-      {
-        "rating": 627,
-        "score": 76,
-        "speciesId": "excadrill"
-      },
-      {
-        "rating": 595,
-        "score": 76,
-        "speciesId": "kabutops"
-      },
-      {
-        "rating": 579,
-        "score": 76,
-        "speciesId": "pancham"
-      },
-      {
-        "rating": 559,
-        "score": 76,
-        "speciesId": "relicanth"
-      },
-      {
         "rating": 523,
-        "score": 75.9,
-        "speciesId": "honchkrow"
-      },
-      {
-        "rating": 637,
-        "score": 75.9,
-        "speciesId": "sirfetchd"
-      },
-      {
-        "rating": 577,
-        "score": 75.8,
-        "speciesId": "garchomp"
-      },
-      {
-        "rating": 605,
-        "score": 75.8,
-        "speciesId": "leavanny"
-      },
-      {
-        "rating": 576,
-        "score": 75.7,
-        "speciesId": "druddigon"
-      },
-      {
-        "rating": 573,
-        "score": 75.7,
-        "speciesId": "larvesta"
-      },
-      {
-        "rating": 580,
-        "score": 75.6,
-        "speciesId": "barraskewda"
-      },
-      {
-        "rating": 596,
-        "score": 75.6,
-        "speciesId": "rapidash_galarian"
-      },
-      {
-        "rating": 531,
-        "score": 75.6,
-        "speciesId": "torterra"
-      },
-      {
-        "rating": 605,
-        "score": 75.5,
-        "speciesId": "beedrill"
-      },
-      {
-        "rating": 545,
-        "score": 75.5,
-        "speciesId": "passimian"
-      },
-      {
-        "rating": 629,
-        "score": 75.5,
-        "speciesId": "scolipede"
-      },
-      {
-        "rating": 560,
-        "score": 75.4,
-        "speciesId": "dipplin"
+        "score": 77.5,
+        "speciesId": "blacephalon"
       },
       {
         "rating": 549,
-        "score": 75.4,
-        "speciesId": "rayquaza"
+        "score": 77.5,
+        "speciesId": "dachsbun"
       },
       {
-        "rating": 525,
-        "score": 75.3,
-        "speciesId": "grimer_alolan"
+        "rating": 640,
+        "score": 77.5,
+        "speciesId": "gengar"
       },
       {
-        "rating": 527,
-        "score": 75.3,
-        "speciesId": "vaporeon"
+        "rating": 567,
+        "score": 77.5,
+        "speciesId": "hariyama"
       },
       {
-        "rating": 601,
-        "score": 75.2,
-        "speciesId": "aggron"
+        "rating": 551,
+        "score": 77.5,
+        "speciesId": "muk"
       },
       {
-        "rating": 578,
-        "score": 75.2,
+        "rating": 594,
+        "score": 77.4,
+        "speciesId": "flygon"
+      },
+      {
+        "rating": 613,
+        "score": 77.4,
+        "speciesId": "heracross"
+      },
+      {
+        "rating": 620,
+        "score": 77.3,
+        "speciesId": "golurk"
+      },
+      {
+        "rating": 541,
+        "score": 77.3,
+        "speciesId": "grimer"
+      },
+      {
+        "rating": 571,
+        "score": 77.3,
+        "speciesId": "scrafty"
+      },
+      {
+        "rating": 505,
+        "score": 77.3,
+        "speciesId": "tapu_fini"
+      },
+      {
+        "rating": 646,
+        "score": 77.2,
+        "speciesId": "barbaracle"
+      },
+      {
+        "rating": 581,
+        "score": 77.2,
+        "speciesId": "pumpkaboo_super"
+      },
+      {
+        "rating": 580,
+        "score": 77.1,
         "speciesId": "avalugg_hisuian"
       },
       {
-        "rating": 591,
-        "score": 75.2,
-        "speciesId": "decidueye"
+        "rating": 628,
+        "score": 77.1,
+        "speciesId": "excadrill"
       },
       {
-        "rating": 633,
-        "score": 75.2,
-        "speciesId": "swoobat"
+        "rating": 603,
+        "score": 77,
+        "speciesId": "decidueye_hisuian"
       },
       {
-        "rating": 530,
-        "score": 75.1,
+        "rating": 611,
+        "score": 77,
+        "speciesId": "sceptile"
+      },
+      {
+        "rating": 612,
+        "score": 76.9,
+        "speciesId": "mismagius"
+      },
+      {
+        "rating": 561,
+        "score": 76.9,
+        "speciesId": "relicanth"
+      },
+      {
+        "rating": 610,
+        "score": 76.7,
+        "speciesId": "farfetchd"
+      },
+      {
+        "rating": 601,
+        "score": 76.7,
+        "speciesId": "lampent"
+      },
+      {
+        "rating": 609,
+        "score": 76.6,
+        "speciesId": "meowscarada"
+      },
+      {
+        "rating": 619,
+        "score": 76.6,
+        "speciesId": "xatu"
+      },
+      {
+        "rating": 571,
+        "score": 76.6,
+        "speciesId": "zygarde"
+      },
+      {
+        "rating": 537,
+        "score": 76.5,
+        "speciesId": "ferrothorn"
+      },
+      {
+        "rating": 578,
+        "score": 76.5,
+        "speciesId": "garchomp"
+      },
+      {
+        "rating": 569,
+        "score": 76.5,
+        "speciesId": "illumise"
+      },
+      {
+        "rating": 549,
+        "score": 76.4,
+        "speciesId": "litleo"
+      },
+      {
+        "rating": 586,
+        "score": 76.4,
+        "speciesId": "lucario"
+      },
+      {
+        "rating": 581,
+        "score": 76.4,
+        "speciesId": "zebstrika"
+      },
+      {
+        "rating": 570,
+        "score": 76.3,
+        "speciesId": "toxicroak"
+      },
+      {
+        "rating": 597,
+        "score": 76.2,
+        "speciesId": "kabutops"
+      },
+      {
+        "rating": 604,
+        "score": 76.1,
+        "speciesId": "aggron"
+      },
+      {
+        "rating": 638,
+        "score": 76.1,
+        "speciesId": "machop"
+      },
+      {
+        "rating": 542,
+        "score": 76,
+        "speciesId": "lugia"
+      },
+      {
+        "rating": 563,
+        "score": 76,
+        "speciesId": "perrserker"
+      },
+      {
+        "rating": 570,
+        "score": 76,
+        "speciesId": "quaxwell"
+      },
+      {
+        "rating": 645,
+        "score": 76,
+        "speciesId": "roserade"
+      },
+      {
+        "rating": 529,
+        "score": 75.9,
         "speciesId": "avalugg"
       },
       {
         "rating": 584,
-        "score": 75.1,
+        "score": 75.9,
         "speciesId": "baxcalibur"
       },
       {
-        "rating": 567,
-        "score": 75.1,
-        "speciesId": "gabite"
+        "rating": 615,
+        "score": 75.9,
+        "speciesId": "kartana"
       },
       {
-        "rating": 640,
-        "score": 75.1,
-        "speciesId": "magmar"
-      },
-      {
-        "rating": 545,
-        "score": 75.1,
-        "speciesId": "wormadam_plant"
-      },
-      {
-        "rating": 572,
-        "score": 75,
-        "speciesId": "bewear"
-      },
-      {
-        "rating": 596,
-        "score": 75,
-        "speciesId": "giratina_origin"
-      },
-      {
-        "rating": 533,
-        "score": 75,
+        "rating": 531,
+        "score": 75.9,
         "speciesId": "reshiram"
       },
       {
-        "rating": 596,
+        "rating": 586,
+        "score": 75.8,
+        "speciesId": "sawk"
+      },
+      {
+        "rating": 577,
+        "score": 75.7,
+        "speciesId": "druddigon"
+      },
+      {
+        "rating": 574,
+        "score": 75.7,
+        "speciesId": "lairon"
+      },
+      {
+        "rating": 637,
+        "score": 75.6,
+        "speciesId": "bruxish"
+      },
+      {
+        "rating": 525,
+        "score": 75.6,
+        "speciesId": "grimer_alolan"
+      },
+      {
+        "rating": 528,
+        "score": 75.6,
+        "speciesId": "zapdos_galarian"
+      },
+      {
+        "rating": 615,
+        "score": 75.5,
+        "speciesId": "braixen"
+      },
+      {
+        "rating": 569,
+        "score": 75.5,
+        "speciesId": "pumpkaboo_large"
+      },
+      {
+        "rating": 573,
+        "score": 75.4,
+        "speciesId": "kilowattrel"
+      },
+      {
+        "rating": 571,
+        "score": 75.3,
+        "speciesId": "larvesta"
+      },
+      {
+        "rating": 558,
+        "score": 75.3,
+        "speciesId": "suicune"
+      },
+      {
+        "rating": 528,
+        "score": 75.3,
+        "speciesId": "vaporeon"
+      },
+      {
+        "rating": 578,
+        "score": 75.2,
+        "speciesId": "crawdaunt"
+      },
+      {
+        "rating": 594,
+        "score": 75.2,
+        "speciesId": "graveler_alolan"
+      },
+      {
+        "rating": 512,
+        "score": 75.2,
+        "speciesId": "palossand"
+      },
+      {
+        "rating": 631,
+        "score": 75.2,
+        "speciesId": "swoobat"
+      },
+      {
+        "rating": 568,
+        "score": 75.1,
+        "speciesId": "golem_alolan"
+      },
+      {
+        "rating": 595,
         "score": 75,
         "speciesId": "slowbro_galarian"
       },
       {
-        "rating": 580,
-        "score": 75,
-        "speciesId": "zebstrika"
-      },
-      {
-        "rating": 512,
+        "rating": 603,
         "score": 74.9,
-        "speciesId": "palpitoad"
+        "speciesId": "beedrill"
       },
       {
-        "rating": 600,
+        "rating": 618,
+        "score": 74.9,
+        "speciesId": "haunter"
+      },
+      {
+        "rating": 540,
         "score": 74.8,
-        "speciesId": "escavalier"
+        "speciesId": "crocalor"
       },
       {
-        "rating": 581,
+        "rating": 534,
         "score": 74.8,
-        "speciesId": "flapple"
+        "speciesId": "emboar"
       },
       {
-        "rating": 616,
+        "rating": 596,
+        "score": 74.8,
+        "speciesId": "giratina_origin"
+      },
+      {
+        "rating": 580,
         "score": 74.7,
-        "speciesId": "braixen"
+        "speciesId": "barraskewda"
       },
       {
-        "rating": 510,
-        "score": 74.7,
-        "speciesId": "comfey"
-      },
-      {
-        "rating": 577,
-        "score": 74.7,
-        "speciesId": "crawdaunt"
-      },
-      {
-        "rating": 549,
-        "score": 74.7,
-        "speciesId": "pumpkaboo_average"
-      },
-      {
-        "rating": 574,
+        "rating": 586,
         "score": 74.6,
-        "speciesId": "kilowattrel"
+        "speciesId": "charmeleon"
       },
       {
-        "rating": 522,
+        "rating": 621,
+        "score": 74.6,
+        "speciesId": "magmar"
+      },
+      {
+        "rating": 569,
+        "score": 74.6,
+        "speciesId": "quilladin"
+      },
+      {
+        "rating": 596,
+        "score": 74.6,
+        "speciesId": "rapidash_galarian"
+      },
+      {
+        "rating": 547,
         "score": 74.5,
-        "speciesId": "hitmontop"
+        "speciesId": "rayquaza"
       },
       {
-        "rating": 632,
+        "rating": 637,
+        "score": 74.5,
+        "speciesId": "sirfetchd"
+      },
+      {
+        "rating": 634,
         "score": 74.5,
         "speciesId": "tyranitar"
       },
       {
-        "rating": 547,
+        "rating": 560,
         "score": 74.4,
-        "speciesId": "tauros_aqua"
+        "speciesId": "dipplin"
       },
       {
-        "rating": 495,
+        "rating": 599,
         "score": 74.4,
-        "speciesId": "wormadam_sandy"
-      },
-      {
-        "rating": 550,
-        "score": 74.3,
-        "speciesId": "litleo"
-      },
-      {
-        "rating": 556,
-        "score": 74.3,
-        "speciesId": "suicune"
-      },
-      {
-        "rating": 541,
-        "score": 74.2,
-        "speciesId": "rhyperior"
-      },
-      {
-        "rating": 573,
-        "score": 74.1,
-        "speciesId": "golem_alolan"
-      },
-      {
-        "rating": 620,
-        "score": 74.1,
-        "speciesId": "scyther"
-      },
-      {
-        "rating": 550,
-        "score": 74,
-        "speciesId": "celebi"
-      },
-      {
-        "rating": 631,
-        "score": 74,
-        "speciesId": "fraxure"
-      },
-      {
-        "rating": 619,
-        "score": 74,
-        "speciesId": "haunter"
-      },
-      {
-        "rating": 547,
-        "score": 74,
-        "speciesId": "mienshao"
-      },
-      {
-        "rating": 548,
-        "score": 74,
-        "speciesId": "obstagoon"
-      },
-      {
-        "rating": 512,
-        "score": 74,
-        "speciesId": "palossand"
-      },
-      {
-        "rating": 481,
-        "score": 74,
-        "speciesId": "stoutland"
-      },
-      {
-        "rating": 573,
-        "score": 73.9,
-        "speciesId": "shiftry"
-      },
-      {
-        "rating": 552,
-        "score": 73.9,
-        "speciesId": "typhlosion_hisuian"
-      },
-      {
-        "rating": 527,
-        "score": 73.8,
-        "speciesId": "corvisquire"
-      },
-      {
-        "rating": 579,
-        "score": 73.8,
-        "speciesId": "golett"
-      },
-      {
-        "rating": 595,
-        "score": 73.8,
-        "speciesId": "haxorus"
-      },
-      {
-        "rating": 549,
-        "score": 73.8,
-        "speciesId": "slowpoke"
-      },
-      {
-        "rating": 594,
-        "score": 73.7,
-        "speciesId": "armaldo"
-      },
-      {
-        "rating": 506,
-        "score": 73.7,
-        "speciesId": "regice"
-      },
-      {
-        "rating": 593,
-        "score": 73.6,
-        "speciesId": "articuno_galarian"
-      },
-      {
-        "rating": 600,
-        "score": 73.6,
         "speciesId": "magmortar"
       },
       {
-        "rating": 560,
-        "score": 73.6,
-        "speciesId": "pinsir"
+        "rating": 531,
+        "score": 74.4,
+        "speciesId": "torterra"
       },
       {
-        "rating": 578,
-        "score": 73.5,
+        "rating": 581,
+        "score": 74.3,
+        "speciesId": "flapple"
+      },
+      {
+        "rating": 568,
+        "score": 74.3,
+        "speciesId": "gabite"
+      },
+      {
+        "rating": 521,
+        "score": 74.3,
+        "speciesId": "honchkrow"
+      },
+      {
+        "rating": 577,
+        "score": 74.3,
         "speciesId": "kabuto"
       },
       {
-        "rating": 571,
-        "score": 73.5,
-        "speciesId": "lairon"
+        "rating": 580,
+        "score": 74.3,
+        "speciesId": "pancham"
       },
       {
-        "rating": 583,
+        "rating": 574,
+        "score": 74.2,
+        "speciesId": "bewear"
+      },
+      {
+        "rating": 526,
+        "score": 74.2,
+        "speciesId": "electabuzz"
+      },
+      {
+        "rating": 627,
+        "score": 74.2,
+        "speciesId": "scolipede"
+      },
+      {
+        "rating": 494,
+        "score": 74.2,
+        "speciesId": "wormadam_sandy"
+      },
+      {
+        "rating": 590,
+        "score": 74.1,
+        "speciesId": "decidueye"
+      },
+      {
+        "rating": 546,
+        "score": 74.1,
+        "speciesId": "passimian"
+      },
+      {
+        "rating": 549,
+        "score": 74.1,
+        "speciesId": "slowpoke"
+      },
+      {
+        "rating": 535,
+        "score": 74,
+        "speciesId": "eelektrik"
+      },
+      {
+        "rating": 596,
+        "score": 74,
+        "speciesId": "haxorus"
+      },
+      {
+        "rating": 604,
+        "score": 74,
+        "speciesId": "leavanny"
+      },
+      {
+        "rating": 572,
+        "score": 74,
+        "speciesId": "pawmo"
+      },
+      {
+        "rating": 505,
+        "score": 74,
+        "speciesId": "regice"
+      },
+      {
+        "rating": 523,
+        "score": 73.9,
+        "speciesId": "hitmontop"
+      },
+      {
+        "rating": 481,
+        "score": 73.9,
+        "speciesId": "stoutland"
+      },
+      {
+        "rating": 544,
+        "score": 73.9,
+        "speciesId": "wormadam_plant"
+      },
+      {
+        "rating": 599,
+        "score": 73.8,
+        "speciesId": "escavalier"
+      },
+      {
+        "rating": 631,
+        "score": 73.8,
+        "speciesId": "fraxure"
+      },
+      {
+        "rating": 570,
+        "score": 73.7,
+        "speciesId": "monferno"
+      },
+      {
+        "rating": 549,
+        "score": 73.7,
+        "speciesId": "pumpkaboo_average"
+      },
+      {
+        "rating": 550,
+        "score": 73.7,
+        "speciesId": "typhlosion_hisuian"
+      },
+      {
+        "rating": 599,
+        "score": 73.6,
+        "speciesId": "axew"
+      },
+      {
+        "rating": 579,
+        "score": 73.6,
+        "speciesId": "golett"
+      },
+      {
+        "rating": 618,
+        "score": 73.6,
+        "speciesId": "scyther"
+      },
+      {
+        "rating": 549,
+        "score": 73.6,
+        "speciesId": "tauros_aqua"
+      },
+      {
+        "rating": 540,
         "score": 73.5,
-        "speciesId": "misdreavus"
+        "speciesId": "gigalith"
+      },
+      {
+        "rating": 514,
+        "score": 73.5,
+        "speciesId": "palpitoad"
+      },
+      {
+        "rating": 562,
+        "score": 73.5,
+        "speciesId": "regieleki"
+      },
+      {
+        "rating": 548,
+        "score": 73.5,
+        "speciesId": "weezing"
+      },
+      {
+        "rating": 509,
+        "score": 73.4,
+        "speciesId": "comfey"
+      },
+      {
+        "rating": 534,
+        "score": 73.4,
+        "speciesId": "landorus_incarnate"
+      },
+      {
+        "rating": 548,
+        "score": 73.4,
+        "speciesId": "mienshao"
       },
       {
         "rating": 524,
         "score": 73.4,
-        "speciesId": "chimecho"
+        "speciesId": "sandshrew"
       },
       {
-        "rating": 590,
-        "score": 73.4,
-        "speciesId": "kricketune"
-      },
-      {
-        "rating": 548,
-        "score": 73.4,
-        "speciesId": "weezing"
-      },
-      {
-        "rating": 459,
+        "rating": 460,
         "score": 73.3,
         "speciesId": "chansey"
       },
       {
-        "rating": 535,
+        "rating": 524,
+        "score": 73.3,
+        "speciesId": "corvisquire"
+      },
+      {
+        "rating": 575,
+        "score": 73.3,
+        "speciesId": "shiftry"
+      },
+      {
+        "rating": 543,
         "score": 73.2,
-        "speciesId": "crocalor"
+        "speciesId": "manectric"
       },
       {
-        "rating": 525,
-        "score": 73.2,
-        "speciesId": "electabuzz"
-      },
-      {
-        "rating": 458,
-        "score": 73.1,
-        "speciesId": "alomomola"
-      },
-      {
-        "rating": 551,
+        "rating": 552,
         "score": 73.1,
         "speciesId": "cacturne"
       },
       {
-        "rating": 533,
-        "score": 73.1,
-        "speciesId": "eelektrik"
-      },
-      {
-        "rating": 522,
-        "score": 73.1,
-        "speciesId": "gigalith"
-      },
-      {
-        "rating": 497,
+        "rating": 517,
         "score": 73,
-        "speciesId": "bayleef"
+        "speciesId": "combusken"
       },
       {
-        "rating": 499,
-        "score": 73,
+        "rating": 459,
+        "score": 72.9,
+        "speciesId": "alomomola"
+      },
+      {
+        "rating": 507,
+        "score": 72.9,
+        "speciesId": "cinderace"
+      },
+      {
+        "rating": 546,
+        "score": 72.9,
+        "speciesId": "heatran"
+      },
+      {
+        "rating": 593,
+        "score": 72.8,
+        "speciesId": "armaldo"
+      },
+      {
+        "rating": 555,
+        "score": 72.8,
+        "speciesId": "aron"
+      },
+      {
+        "rating": 524,
+        "score": 72.8,
+        "speciesId": "chimecho"
+      },
+      {
+        "rating": 538,
+        "score": 72.8,
+        "speciesId": "houndour"
+      },
+      {
+        "rating": 558,
+        "score": 72.8,
+        "speciesId": "pinsir"
+      },
+      {
+        "rating": 501,
+        "score": 72.7,
         "speciesId": "bibarel"
       },
       {
-        "rating": 549,
-        "score": 72.9,
+        "rating": 548,
+        "score": 72.7,
         "speciesId": "celesteela"
       },
       {
-        "rating": 586,
-        "score": 72.9,
-        "speciesId": "charmeleon"
+        "rating": 542,
+        "score": 72.7,
+        "speciesId": "rhyperior"
       },
       {
         "rating": 490,
-        "score": 72.9,
-        "speciesId": "staravia"
-      },
-      {
-        "rating": 592,
-        "score": 72.8,
-        "speciesId": "graveler_alolan"
-      },
-      {
-        "rating": 584,
-        "score": 72.8,
-        "speciesId": "kleavor"
-      },
-      {
-        "rating": 570,
-        "score": 72.8,
-        "speciesId": "pawmo"
-      },
-      {
-        "rating": 484,
-        "score": 72.8,
-        "speciesId": "tauros_combat"
-      },
-      {
-        "rating": 598,
-        "score": 72.7,
-        "speciesId": "axew"
-      },
-      {
-        "rating": 526,
-        "score": 72.7,
-        "speciesId": "swadloon"
-      },
-      {
-        "rating": 529,
         "score": 72.6,
-        "speciesId": "gholdengo"
-      },
-      {
-        "rating": 577,
-        "score": 72.6,
-        "speciesId": "mienfoo"
-      },
-      {
-        "rating": 577,
-        "score": 72.6,
-        "speciesId": "venomoth"
+        "speciesId": "pignite"
       },
       {
         "rating": 542,
@@ -10600,394 +10595,389 @@
         "speciesId": "frigibax"
       },
       {
-        "rating": 570,
-        "score": 72.5,
-        "speciesId": "monferno"
-      },
-      {
-        "rating": 592,
-        "score": 72.5,
-        "speciesId": "parasect"
-      },
-      {
         "rating": 530,
         "score": 72.5,
-        "speciesId": "pumpkaboo_small"
-      },
-      {
-        "rating": 551,
-        "score": 72.4,
-        "speciesId": "drifloon"
-      },
-      {
-        "rating": 545,
-        "score": 72.4,
-        "speciesId": "heatran"
-      },
-      {
-        "rating": 538,
-        "score": 72.4,
-        "speciesId": "hydrapple"
-      },
-      {
-        "rating": 538,
-        "score": 72.3,
-        "speciesId": "houndour"
-      },
-      {
-        "rating": 616,
-        "score": 72.3,
-        "speciesId": "houndstone"
+        "speciesId": "gholdengo"
       },
       {
         "rating": 546,
-        "score": 72.3,
+        "score": 72.4,
         "speciesId": "vibrava"
       },
       {
         "rating": 524,
-        "score": 72.3,
+        "score": 72.4,
         "speciesId": "wyrdeer"
       },
       {
-        "rating": 491,
-        "score": 72.2,
-        "speciesId": "emboar"
-      },
-      {
-        "rating": 548,
-        "score": 72.2,
-        "speciesId": "huntail"
-      },
-      {
-        "rating": 509,
-        "score": 72.1,
-        "speciesId": "cinderace"
-      },
-      {
-        "rating": 502,
-        "score": 72.1,
+        "rating": 503,
+        "score": 72.3,
         "speciesId": "dialga"
       },
       {
-        "rating": 568,
-        "score": 72.1,
-        "speciesId": "golduck"
+        "rating": 548,
+        "score": 72.3,
+        "speciesId": "drifloon"
       },
       {
-        "rating": 620,
-        "score": 72.1,
-        "speciesId": "hatterene"
-      },
-      {
-        "rating": 522,
-        "score": 72.1,
-        "speciesId": "sandshrew"
-      },
-      {
-        "rating": 530,
-        "score": 71.9,
-        "speciesId": "combusken"
-      },
-      {
-        "rating": 611,
-        "score": 71.9,
-        "speciesId": "magby"
-      },
-      {
-        "rating": 518,
-        "score": 71.9,
-        "speciesId": "metagross"
-      },
-      {
-        "rating": 525,
-        "score": 71.8,
-        "speciesId": "grotle"
-      },
-      {
-        "rating": 622,
-        "score": 71.8,
-        "speciesId": "zangoose"
-      },
-      {
-        "rating": 516,
-        "score": 71.7,
-        "speciesId": "chatot"
-      },
-      {
-        "rating": 551,
-        "score": 71.7,
-        "speciesId": "floatzel"
-      },
-      {
-        "rating": 534,
-        "score": 71.6,
-        "speciesId": "landorus_incarnate"
-      },
-      {
-        "rating": 542,
-        "score": 71.6,
-        "speciesId": "manectric"
-      },
-      {
-        "rating": 580,
-        "score": 71.5,
-        "speciesId": "ponyta"
-      },
-      {
-        "rating": 560,
-        "score": 71.5,
-        "speciesId": "regieleki"
-      },
-      {
-        "rating": 538,
-        "score": 71.5,
-        "speciesId": "weepinbell"
-      },
-      {
-        "rating": 501,
-        "score": 71.4,
-        "speciesId": "moltres"
-      },
-      {
-        "rating": 531,
-        "score": 71.3,
-        "speciesId": "karrablast"
-      },
-      {
-        "rating": 608,
-        "score": 71.2,
-        "speciesId": "absol"
-      },
-      {
-        "rating": 530,
-        "score": 71.2,
-        "speciesId": "durant"
-      },
-      {
-        "rating": 514,
-        "score": 71.2,
-        "speciesId": "purugly"
-      },
-      {
-        "rating": 476,
-        "score": 71.2,
-        "speciesId": "tangrowth"
-      },
-      {
-        "rating": 609,
-        "score": 71.1,
-        "speciesId": "anorith"
-      },
-      {
-        "rating": 505,
-        "score": 71.1,
-        "speciesId": "sawsbuck"
-      },
-      {
-        "rating": 542,
-        "score": 71,
-        "speciesId": "slowpoke_galarian"
-      },
-      {
-        "rating": 551,
-        "score": 71,
-        "speciesId": "sneasler"
+        "rating": 520,
+        "score": 72.3,
+        "speciesId": "misdreavus"
       },
       {
         "rating": 489,
-        "score": 70.9,
-        "speciesId": "pignite"
+        "score": 72.3,
+        "speciesId": "staravia"
       },
       {
-        "rating": 490,
-        "score": 70.9,
-        "speciesId": "staraptor"
+        "rating": 575,
+        "score": 72.3,
+        "speciesId": "venomoth"
       },
       {
-        "rating": 530,
-        "score": 70.8,
+        "rating": 515,
+        "score": 72.2,
+        "speciesId": "chatot"
+      },
+      {
+        "rating": 615,
+        "score": 72.2,
+        "speciesId": "houndstone"
+      },
+      {
+        "rating": 583,
+        "score": 72.2,
+        "speciesId": "kleavor"
+      },
+      {
+        "rating": 578,
+        "score": 72.2,
+        "speciesId": "mienfoo"
+      },
+      {
+        "rating": 579,
+        "score": 72.2,
+        "speciesId": "ponyta"
+      },
+      {
+        "rating": 484,
+        "score": 72.2,
+        "speciesId": "tauros_combat"
+      },
+      {
+        "rating": 496,
+        "score": 72.1,
+        "speciesId": "bayleef"
+      },
+      {
+        "rating": 591,
+        "score": 72,
+        "speciesId": "articuno_galarian"
+      },
+      {
+        "rating": 550,
+        "score": 72,
+        "speciesId": "obstagoon"
+      },
+      {
+        "rating": 550,
+        "score": 71.9,
+        "speciesId": "celebi"
+      },
+      {
+        "rating": 515,
+        "score": 71.9,
+        "speciesId": "purugly"
+      },
+      {
+        "rating": 539,
+        "score": 71.7,
+        "speciesId": "hydrapple"
+      },
+      {
+        "rating": 611,
+        "score": 71.7,
+        "speciesId": "magby"
+      },
+      {
+        "rating": 498,
+        "score": 71.7,
+        "speciesId": "moltres"
+      },
+      {
+        "rating": 609,
+        "score": 71.6,
+        "speciesId": "absol"
+      },
+      {
+        "rating": 529,
+        "score": 71.6,
+        "speciesId": "pumpkaboo_small"
+      },
+      {
+        "rating": 529,
+        "score": 71.5,
         "speciesId": "ceruledge"
       },
       {
-        "rating": 554,
-        "score": 70.7,
-        "speciesId": "grovyle"
+        "rating": 512,
+        "score": 71.5,
+        "speciesId": "pyroar"
       },
       {
-        "rating": 519,
-        "score": 70.7,
-        "speciesId": "thwackey"
+        "rating": 552,
+        "score": 71.4,
+        "speciesId": "floatzel"
       },
       {
-        "rating": 557,
-        "score": 70.6,
-        "speciesId": "smoochum"
+        "rating": 518,
+        "score": 71.4,
+        "speciesId": "metagross"
+      },
+      {
+        "rating": 551,
+        "score": 71.4,
+        "speciesId": "sneasler"
+      },
+      {
+        "rating": 568,
+        "score": 71.1,
+        "speciesId": "golduck"
       },
       {
         "rating": 553,
-        "score": 70.5,
-        "speciesId": "aron"
+        "score": 71,
+        "speciesId": "growlithe_hisuian"
       },
       {
-        "rating": 527,
-        "score": 70.4,
-        "speciesId": "hattrem"
-      },
-      {
-        "rating": 540,
-        "score": 70.3,
-        "speciesId": "leafeon"
-      },
-      {
-        "rating": 455,
-        "score": 70.1,
-        "speciesId": "floette"
+        "rating": 524,
+        "score": 70.9,
+        "speciesId": "tirtouga"
       },
       {
         "rating": 528,
-        "score": 70,
+        "score": 70.8,
         "speciesId": "elekid"
       },
       {
         "rating": 578,
-        "score": 70,
+        "score": 70.7,
         "speciesId": "flareon"
       },
       {
-        "rating": 508,
-        "score": 69.9,
-        "speciesId": "slowking"
+        "rating": 542,
+        "score": 70.7,
+        "speciesId": "slowpoke_galarian"
       },
       {
-        "rating": 562,
-        "score": 69.8,
+        "rating": 537,
+        "score": 70.6,
+        "speciesId": "luxray"
+      },
+      {
+        "rating": 527,
+        "score": 70.5,
+        "speciesId": "hattrem"
+      },
+      {
+        "rating": 592,
+        "score": 70.5,
+        "speciesId": "parasect"
+      },
+      {
+        "rating": 526,
+        "score": 70.4,
+        "speciesId": "grotle"
+      },
+      {
+        "rating": 549,
+        "score": 70.4,
+        "speciesId": "huntail"
+      },
+      {
+        "rating": 530,
+        "score": 70.4,
+        "speciesId": "karrablast"
+      },
+      {
+        "rating": 588,
+        "score": 70.4,
+        "speciesId": "kricketune"
+      },
+      {
+        "rating": 515,
+        "score": 70.3,
+        "speciesId": "carkol"
+      },
+      {
+        "rating": 561,
+        "score": 70.3,
         "speciesId": "growlithe"
       },
       {
-        "rating": 522,
-        "score": 69.7,
-        "speciesId": "mudsdale"
+        "rating": 525,
+        "score": 70.3,
+        "speciesId": "swadloon"
       },
       {
-        "rating": 495,
-        "score": 69.7,
-        "speciesId": "spritzee"
+        "rating": 538,
+        "score": 70.3,
+        "speciesId": "tyrunt"
       },
       {
-        "rating": 516,
-        "score": 69.7,
-        "speciesId": "stunky"
-      },
-      {
-        "rating": 474,
-        "score": 69.7,
-        "speciesId": "swellow"
-      },
-      {
-        "rating": 498,
-        "score": 69.7,
-        "speciesId": "volcanion"
-      },
-      {
-        "rating": 547,
-        "score": 69.6,
-        "speciesId": "masquerain"
+        "rating": 508,
+        "score": 70.1,
+        "speciesId": "corsola"
       },
       {
         "rating": 528,
-        "score": 69.5,
+        "score": 70.1,
         "speciesId": "cryogonal"
       },
       {
-        "rating": 502,
-        "score": 69.5,
-        "speciesId": "mantyke"
+        "rating": 529,
+        "score": 70.1,
+        "speciesId": "darumaka"
       },
       {
-        "rating": 520,
-        "score": 69.5,
-        "speciesId": "sandaconda"
-      },
-      {
-        "rating": 522,
-        "score": 69.5,
-        "speciesId": "tirtouga"
-      },
-      {
-        "rating": 523,
-        "score": 69.4,
-        "speciesId": "espurr"
-      },
-      {
-        "rating": 517,
-        "score": 69.4,
-        "speciesId": "stufful"
+        "rating": 489,
+        "score": 70.1,
+        "speciesId": "staraptor"
       },
       {
         "rating": 506,
+        "score": 70,
+        "speciesId": "seviper"
+      },
+      {
+        "rating": 520,
+        "score": 69.8,
+        "speciesId": "sandaconda"
+      },
+      {
+        "rating": 506,
+        "score": 69.8,
+        "speciesId": "sawsbuck"
+      },
+      {
+        "rating": 499,
+        "score": 69.7,
+        "speciesId": "heatmor"
+      },
+      {
+        "rating": 533,
+        "score": 69.6,
+        "speciesId": "anorith"
+      },
+      {
+        "rating": 530,
+        "score": 69.6,
+        "speciesId": "durant"
+      },
+      {
+        "rating": 620,
+        "score": 69.6,
+        "speciesId": "hatterene"
+      },
+      {
+        "rating": 524,
+        "score": 69.6,
+        "speciesId": "mudsdale"
+      },
+      {
+        "rating": 556,
+        "score": 69.6,
+        "speciesId": "smoochum"
+      },
+      {
+        "rating": 525,
+        "score": 69.5,
+        "speciesId": "geodude_alolan"
+      },
+      {
+        "rating": 508,
+        "score": 69.5,
+        "speciesId": "slowking"
+      },
+      {
+        "rating": 494,
+        "score": 69.5,
+        "speciesId": "spritzee"
+      },
+      {
+        "rating": 534,
+        "score": 69.5,
+        "speciesId": "tyrantrum"
+      },
+      {
+        "rating": 496,
         "score": 69.4,
+        "speciesId": "volcanion"
+      },
+      {
+        "rating": 542,
+        "score": 69.4,
+        "speciesId": "weepinbell"
+      },
+      {
+        "rating": 623,
+        "score": 69.4,
+        "speciesId": "zangoose"
+      },
+      {
+        "rating": 506,
+        "score": 69.3,
         "speciesId": "tauros_blaze"
       },
       {
-        "rating": 544,
+        "rating": 594,
+        "score": 69.2,
+        "speciesId": "arcanine"
+      },
+      {
+        "rating": 543,
         "score": 69.2,
         "speciesId": "beartic"
       },
       {
-        "rating": 513,
+        "rating": 519,
         "score": 69.2,
-        "speciesId": "pyroar"
+        "speciesId": "pidgeotto"
       },
       {
-        "rating": 536,
-        "score": 69.2,
-        "speciesId": "tyrunt"
-      },
-      {
-        "rating": 469,
+        "rating": 495,
         "score": 69.1,
-        "speciesId": "ivysaur"
+        "speciesId": "rotom"
       },
       {
-        "rating": 506,
-        "score": 69.1,
-        "speciesId": "seviper"
-      },
-      {
-        "rating": 474,
+        "rating": 523,
         "score": 69,
-        "speciesId": "floragato"
+        "speciesId": "espurr"
       },
       {
-        "rating": 537,
-        "score": 69,
-        "speciesId": "luxray"
-      },
-      {
-        "rating": 532,
+        "rating": 500,
         "score": 68.9,
-        "speciesId": "tyrantrum"
+        "speciesId": "mantyke"
       },
       {
-        "rating": 477,
+        "rating": 519,
+        "score": 68.9,
+        "speciesId": "stufful"
+      },
+      {
+        "rating": 476,
+        "score": 68.9,
+        "speciesId": "tangrowth"
+      },
+      {
+        "rating": 472,
         "score": 68.8,
-        "speciesId": "mr_mime"
+        "speciesId": "swellow"
       },
       {
-        "rating": 512,
+        "rating": 465,
         "score": 68.7,
-        "speciesId": "bouffalant"
-      },
-      {
-        "rating": 569,
-        "score": 68.7,
-        "speciesId": "maschiff"
-      },
-      {
-        "rating": 484,
-        "score": 68.6,
-        "speciesId": "eldegoss"
+        "speciesId": "ho_oh"
       },
       {
         "rating": 512,
@@ -10995,734 +10985,689 @@
         "speciesId": "espathra"
       },
       {
-        "rating": 529,
-        "score": 68.5,
-        "speciesId": "darumaka"
-      },
-      {
-        "rating": 499,
-        "score": 68.5,
-        "speciesId": "grapploct"
-      },
-      {
-        "rating": 521,
-        "score": 68.5,
-        "speciesId": "pidgeotto"
-      },
-      {
-        "rating": 553,
+        "rating": 513,
         "score": 68.4,
-        "speciesId": "growlithe_hisuian"
+        "speciesId": "bouffalant"
       },
       {
         "rating": 501,
-        "score": 68.4,
-        "speciesId": "heatmor"
-      },
-      {
-        "rating": 509,
-        "score": 68.4,
-        "speciesId": "mewtwo"
-      },
-      {
-        "rating": 611,
         "score": 68.3,
-        "speciesId": "arcanine"
-      },
-      {
-        "rating": 518,
-        "score": 68.3,
-        "speciesId": "buzzwole"
-      },
-      {
-        "rating": 564,
-        "score": 68.2,
-        "speciesId": "mankey"
-      },
-      {
-        "rating": 489,
-        "score": 68.1,
-        "speciesId": "basculin"
+        "speciesId": "grapploct"
       },
       {
         "rating": 485,
-        "score": 68.1,
+        "score": 68.3,
         "speciesId": "sneasel_hisuian"
       },
       {
-        "rating": 466,
+        "rating": 477,
+        "score": 68.2,
+        "speciesId": "quilava"
+      },
+      {
+        "rating": 476,
+        "score": 68.1,
+        "speciesId": "mr_mime"
+      },
+      {
+        "rating": 501,
+        "score": 68.1,
+        "speciesId": "torracat"
+      },
+      {
+        "rating": 473,
         "score": 68.1,
         "speciesId": "watchog"
       },
       {
-        "rating": 485,
+        "rating": 498,
         "score": 68,
-        "speciesId": "appletun"
-      },
-      {
-        "rating": 471,
-        "score": 68,
-        "speciesId": "cherrim_sunny"
-      },
-      {
-        "rating": 495,
-        "score": 68,
-        "speciesId": "rotom"
-      },
-      {
-        "rating": 506,
-        "score": 67.9,
-        "speciesId": "corsola"
-      },
-      {
-        "rating": 467,
-        "score": 67.9,
-        "speciesId": "hitmonchan"
-      },
-      {
-        "rating": 467,
-        "score": 67.9,
-        "speciesId": "ho_oh"
-      },
-      {
-        "rating": 467,
-        "score": 67.8,
-        "speciesId": "dolliv"
-      },
-      {
-        "rating": 492,
-        "score": 67.7,
-        "speciesId": "buneary"
-      },
-      {
-        "rating": 514,
-        "score": 67.7,
-        "speciesId": "carkol"
-      },
-      {
-        "rating": 523,
-        "score": 67.6,
-        "speciesId": "geodude_alolan"
-      },
-      {
-        "rating": 448,
-        "score": 67.6,
-        "speciesId": "scraggy"
-      },
-      {
-        "rating": 501,
-        "score": 67.6,
-        "speciesId": "torracat"
-      },
-      {
-        "rating": 479,
-        "score": 67.5,
-        "speciesId": "quilava"
-      },
-      {
-        "rating": 530,
-        "score": 67.4,
-        "speciesId": "ambipom"
-      },
-      {
-        "rating": 500,
-        "score": 67.4,
-        "speciesId": "oddish"
-      },
-      {
-        "rating": 461,
-        "score": 67.4,
-        "speciesId": "poliwhirl"
-      },
-      {
-        "rating": 532,
-        "score": 67.2,
-        "speciesId": "bisharp"
-      },
-      {
-        "rating": 492,
-        "score": 67.2,
-        "speciesId": "linoone_galarian"
-      },
-      {
-        "rating": 515,
-        "score": 67.2,
-        "speciesId": "mudbray"
-      },
-      {
-        "rating": 458,
-        "score": 67,
-        "speciesId": "gloom"
-      },
-      {
-        "rating": 485,
-        "score": 67,
-        "speciesId": "gothitelle"
-      },
-      {
-        "rating": 496,
-        "score": 67,
         "speciesId": "jolteon"
       },
       {
-        "rating": 492,
-        "score": 67,
-        "speciesId": "meowstic_female"
+        "rating": 531,
+        "score": 68,
+        "speciesId": "leafeon"
       },
       {
-        "rating": 505,
-        "score": 66.9,
-        "speciesId": "noivern"
+        "rating": 493,
+        "score": 67.9,
+        "speciesId": "buneary"
       },
       {
-        "rating": 507,
-        "score": 66.9,
-        "speciesId": "polteageist"
+        "rating": 554,
+        "score": 67.9,
+        "speciesId": "grovyle"
       },
       {
-        "rating": 533,
-        "score": 66.9,
-        "speciesId": "zoroark"
-      },
-      {
-        "rating": 492,
-        "score": 66.7,
-        "speciesId": "koffing"
-      },
-      {
-        "rating": 497,
-        "score": 66.7,
-        "speciesId": "totodile"
-      },
-      {
-        "rating": 459,
-        "score": 66.6,
-        "speciesId": "nidorino"
-      },
-      {
-        "rating": 513,
-        "score": 66.5,
-        "speciesId": "chandelure"
-      },
-      {
-        "rating": 487,
-        "score": 66.5,
-        "speciesId": "sharpedo"
-      },
-      {
-        "rating": 491,
-        "score": 66.4,
-        "speciesId": "gumshoos"
-      },
-      {
-        "rating": 538,
-        "score": 66.3,
-        "speciesId": "alakazam"
-      },
-      {
-        "rating": 512,
-        "score": 66.3,
-        "speciesId": "garbodor"
-      },
-      {
-        "rating": 445,
-        "score": 66.3,
-        "speciesId": "loudred"
-      },
-      {
-        "rating": 481,
-        "score": 66.3,
-        "speciesId": "meowstic"
-      },
-      {
-        "rating": 490,
-        "score": 66.2,
-        "speciesId": "donphan"
-      },
-      {
-        "rating": 393,
-        "score": 66,
-        "speciesId": "delcatty"
-      },
-      {
-        "rating": 495,
-        "score": 66,
-        "speciesId": "frosmoth"
-      },
-      {
-        "rating": 479,
-        "score": 66,
-        "speciesId": "sneasel"
-      },
-      {
-        "rating": 468,
-        "score": 66,
-        "speciesId": "vanillish"
-      },
-      {
-        "rating": 473,
-        "score": 65.9,
-        "speciesId": "bergmite"
-      },
-      {
-        "rating": 445,
-        "score": 65.9,
-        "speciesId": "exploud"
-      },
-      {
-        "rating": 486,
-        "score": 65.8,
-        "speciesId": "drakloak"
-      },
-      {
-        "rating": 501,
-        "score": 65.8,
-        "speciesId": "dustox"
-      },
-      {
-        "rating": 475,
-        "score": 65.8,
-        "speciesId": "prinplup"
-      },
-      {
-        "rating": 470,
-        "score": 65.8,
-        "speciesId": "shellos"
-      },
-      {
-        "rating": 498,
-        "score": 65.7,
-        "speciesId": "omanyte"
-      },
-      {
-        "rating": 456,
-        "score": 65.6,
-        "speciesId": "inteleon"
-      },
-      {
-        "rating": 513,
-        "score": 65.6,
-        "speciesId": "krookodile"
-      },
-      {
-        "rating": 500,
-        "score": 65.6,
-        "speciesId": "ninjask"
-      },
-      {
-        "rating": 446,
-        "score": 65.6,
-        "speciesId": "porygon"
-      },
-      {
-        "rating": 455,
-        "score": 65.6,
-        "speciesId": "sandygast"
-      },
-      {
-        "rating": 517,
-        "score": 65.5,
-        "speciesId": "beautifly"
-      },
-      {
-        "rating": 494,
-        "score": 65.5,
-        "speciesId": "darmanitan_standard"
-      },
-      {
-        "rating": 572,
-        "score": 65.5,
-        "speciesId": "espeon"
-      },
-      {
-        "rating": 496,
-        "score": 65.5,
-        "speciesId": "kubfu"
-      },
-      {
-        "rating": 522,
-        "score": 65.5,
-        "speciesId": "mesprit"
-      },
-      {
-        "rating": 450,
-        "score": 65.4,
-        "speciesId": "herdier"
-      },
-      {
-        "rating": 441,
-        "score": 65.4,
-        "speciesId": "minun"
-      },
-      {
-        "rating": 571,
-        "score": 65.4,
-        "speciesId": "poipole"
-      },
-      {
-        "rating": 487,
-        "score": 65.4,
-        "speciesId": "rotom_mow"
-      },
-      {
-        "rating": 471,
-        "score": 65.3,
-        "speciesId": "cloyster"
-      },
-      {
-        "rating": 501,
-        "score": 65.3,
-        "speciesId": "exeggutor_alolan"
-      },
-      {
-        "rating": 458,
-        "score": 65.3,
-        "speciesId": "falinks"
-      },
-      {
-        "rating": 571,
-        "score": 65.3,
-        "speciesId": "mabosstiff"
-      },
-      {
-        "rating": 480,
-        "score": 65.3,
-        "speciesId": "urshifu_rapid_strike"
+        "rating": 508,
+        "score": 67.9,
+        "speciesId": "mewtwo"
       },
       {
         "rating": 499,
-        "score": 65.2,
-        "speciesId": "honedge"
+        "score": 67.9,
+        "speciesId": "oddish"
       },
       {
-        "rating": 515,
-        "score": 65.2,
-        "speciesId": "skrelp"
+        "rating": 516,
+        "score": 67.9,
+        "speciesId": "stunky"
       },
       {
-        "rating": 494,
-        "score": 64.8,
-        "speciesId": "exeggutor"
-      },
-      {
-        "rating": 447,
-        "score": 64.6,
-        "speciesId": "gothorita"
-      },
-      {
-        "rating": 455,
-        "score": 64.6,
-        "speciesId": "ribombee"
-      },
-      {
-        "rating": 452,
-        "score": 64.4,
-        "speciesId": "dugtrio"
-      },
-      {
-        "rating": 446,
-        "score": 64.4,
-        "speciesId": "tauros"
-      },
-      {
-        "rating": 451,
-        "score": 64.2,
-        "speciesId": "snover"
-      },
-      {
-        "rating": 441,
-        "score": 64.1,
-        "speciesId": "carnivine"
-      },
-      {
-        "rating": 443,
-        "score": 64,
-        "speciesId": "accelgor"
+        "rating": 485,
+        "score": 67.8,
+        "speciesId": "appletun"
       },
       {
         "rating": 488,
-        "score": 64,
-        "speciesId": "darumaka_galarian"
+        "score": 67.8,
+        "speciesId": "sharpedo"
+      },
+      {
+        "rating": 466,
+        "score": 67.7,
+        "speciesId": "dolliv"
+      },
+      {
+        "rating": 518,
+        "score": 67.7,
+        "speciesId": "thwackey"
+      },
+      {
+        "rating": 451,
+        "score": 67.6,
+        "speciesId": "floette"
+      },
+      {
+        "rating": 544,
+        "score": 67.6,
+        "speciesId": "masquerain"
+      },
+      {
+        "rating": 446,
+        "score": 67.6,
+        "speciesId": "porygon"
+      },
+      {
+        "rating": 512,
+        "score": 67.5,
+        "speciesId": "chandelure"
+      },
+      {
+        "rating": 468,
+        "score": 67.5,
+        "speciesId": "ivysaur"
+      },
+      {
+        "rating": 564,
+        "score": 67.5,
+        "speciesId": "mankey"
+      },
+      {
+        "rating": 535,
+        "score": 67.5,
+        "speciesId": "zoroark"
+      },
+      {
+        "rating": 446,
+        "score": 67.4,
+        "speciesId": "exploud"
+      },
+      {
+        "rating": 502,
+        "score": 67.4,
+        "speciesId": "noivern"
+      },
+      {
+        "rating": 531,
+        "score": 67.2,
+        "speciesId": "ambipom"
+      },
+      {
+        "rating": 473,
+        "score": 67.2,
+        "speciesId": "bergmite"
+      },
+      {
+        "rating": 507,
+        "score": 67.2,
+        "speciesId": "polteageist"
+      },
+      {
+        "rating": 446,
+        "score": 67.1,
+        "speciesId": "loudred"
+      },
+      {
+        "rating": 467,
+        "score": 67.1,
+        "speciesId": "vanillish"
+      },
+      {
+        "rating": 493,
+        "score": 67,
+        "speciesId": "darmanitan_standard"
+      },
+      {
+        "rating": 517,
+        "score": 66.9,
+        "speciesId": "buzzwole"
+      },
+      {
+        "rating": 467,
+        "score": 66.9,
+        "speciesId": "hitmonchan"
+      },
+      {
+        "rating": 569,
+        "score": 66.9,
+        "speciesId": "maschiff"
+      },
+      {
+        "rating": 484,
+        "score": 66.8,
+        "speciesId": "eldegoss"
+      },
+      {
+        "rating": 457,
+        "score": 66.8,
+        "speciesId": "gloom"
+      },
+      {
+        "rating": 476,
+        "score": 66.8,
+        "speciesId": "prinplup"
+      },
+      {
+        "rating": 461,
+        "score": 66.7,
+        "speciesId": "poliwhirl"
+      },
+      {
+        "rating": 492,
+        "score": 66.6,
+        "speciesId": "meowstic_female"
+      },
+      {
+        "rating": 489,
+        "score": 66.5,
+        "speciesId": "basculin"
+      },
+      {
+        "rating": 393,
+        "score": 66.4,
+        "speciesId": "delcatty"
+      },
+      {
+        "rating": 499,
+        "score": 66.4,
+        "speciesId": "omanyte"
+      },
+      {
+        "rating": 441,
+        "score": 66.3,
+        "speciesId": "minun"
+      },
+      {
+        "rating": 516,
+        "score": 66.3,
+        "speciesId": "mudbray"
+      },
+      {
+        "rating": 515,
+        "score": 66.3,
+        "speciesId": "skrelp"
+      },
+      {
+        "rating": 492,
+        "score": 66.2,
+        "speciesId": "gumshoos"
+      },
+      {
+        "rating": 491,
+        "score": 66.2,
+        "speciesId": "koffing"
+      },
+      {
+        "rating": 534,
+        "score": 66.1,
+        "speciesId": "bisharp"
+      },
+      {
+        "rating": 473,
+        "score": 66.1,
+        "speciesId": "floragato"
+      },
+      {
+        "rating": 485,
+        "score": 66.1,
+        "speciesId": "gothitelle"
+      },
+      {
+        "rating": 571,
+        "score": 66.1,
+        "speciesId": "poipole"
+      },
+      {
+        "rating": 478,
+        "score": 66.1,
+        "speciesId": "sneasel"
+      },
+      {
+        "rating": 472,
+        "score": 66,
+        "speciesId": "cloyster"
+      },
+      {
+        "rating": 538,
+        "score": 65.9,
+        "speciesId": "alakazam"
+      },
+      {
+        "rating": 511,
+        "score": 65.9,
+        "speciesId": "garbodor"
+      },
+      {
+        "rating": 495,
+        "score": 65.8,
+        "speciesId": "linoone_galarian"
+      },
+      {
+        "rating": 471,
+        "score": 65.7,
+        "speciesId": "cherrim_sunny"
+      },
+      {
+        "rating": 449,
+        "score": 65.7,
+        "speciesId": "scraggy"
+      },
+      {
+        "rating": 450,
+        "score": 65.6,
+        "speciesId": "nidorino"
+      },
+      {
+        "rating": 498,
+        "score": 65.6,
+        "speciesId": "totodile"
+      },
+      {
+        "rating": 490,
+        "score": 65.5,
+        "speciesId": "donphan"
+      },
+      {
+        "rating": 481,
+        "score": 65.5,
+        "speciesId": "meowstic"
+      },
+      {
+        "rating": 471,
+        "score": 65.4,
+        "speciesId": "shellos"
+      },
+      {
+        "rating": 485,
+        "score": 65.3,
+        "speciesId": "drakloak"
+      },
+      {
+        "rating": 493,
+        "score": 65.3,
+        "speciesId": "frosmoth"
+      },
+      {
+        "rating": 572,
+        "score": 65.2,
+        "speciesId": "espeon"
+      },
+      {
+        "rating": 500,
+        "score": 65.1,
+        "speciesId": "exeggutor_alolan"
+      },
+      {
+        "rating": 521,
+        "score": 65.1,
+        "speciesId": "mesprit"
+      },
+      {
+        "rating": 478,
+        "score": 65,
+        "speciesId": "entei"
       },
       {
         "rating": 456,
-        "score": 63.8,
+        "score": 65,
         "speciesId": "klawf"
+      },
+      {
+        "rating": 456,
+        "score": 64.9,
+        "speciesId": "inteleon"
+      },
+      {
+        "rating": 452,
+        "score": 64.8,
+        "speciesId": "dugtrio"
+      },
+      {
+        "rating": 500,
+        "score": 64.8,
+        "speciesId": "honedge"
+      },
+      {
+        "rating": 514,
+        "score": 64.8,
+        "speciesId": "krookodile"
+      },
+      {
+        "rating": 497,
+        "score": 64.8,
+        "speciesId": "kubfu"
+      },
+      {
+        "rating": 515,
+        "score": 64.7,
+        "speciesId": "beautifly"
+      },
+      {
+        "rating": 499,
+        "score": 64.6,
+        "speciesId": "dustox"
+      },
+      {
+        "rating": 460,
+        "score": 64.6,
+        "speciesId": "raboot"
+      },
+      {
+        "rating": 486,
+        "score": 64.4,
+        "speciesId": "rotom_mow"
+      },
+      {
+        "rating": 456,
+        "score": 64.4,
+        "speciesId": "sandygast"
+      },
+      {
+        "rating": 443,
+        "score": 64.4,
+        "speciesId": "sudowoodo"
+      },
+      {
+        "rating": 451,
+        "score": 64.3,
+        "speciesId": "herdier"
+      },
+      {
+        "rating": 498,
+        "score": 64.3,
+        "speciesId": "ninjask"
+      },
+      {
+        "rating": 487,
+        "score": 64.2,
+        "speciesId": "darumaka_galarian"
+      },
+      {
+        "rating": 494,
+        "score": 64.2,
+        "speciesId": "exeggutor"
+      },
+      {
+        "rating": 454,
+        "score": 64.2,
+        "speciesId": "tentacool"
+      },
+      {
+        "rating": 447,
+        "score": 64.1,
+        "speciesId": "gothorita"
+      },
+      {
+        "rating": 572,
+        "score": 64.1,
+        "speciesId": "mabosstiff"
+      },
+      {
+        "rating": 432,
+        "score": 64.1,
+        "speciesId": "rotom_heat"
+      },
+      {
+        "rating": 477,
+        "score": 63.9,
+        "speciesId": "diancie"
+      },
+      {
+        "rating": 458,
+        "score": 63.9,
+        "speciesId": "falinks"
+      },
+      {
+        "rating": 447,
+        "score": 63.9,
+        "speciesId": "tauros"
       },
       {
         "rating": 470,
         "score": 63.8,
-        "speciesId": "luxio"
+        "speciesId": "omastar"
       },
       {
-        "rating": 471,
+        "rating": 481,
+        "score": 63.8,
+        "speciesId": "urshifu_rapid_strike"
+      },
+      {
+        "rating": 473,
         "score": 63.8,
         "speciesId": "zygarde_10"
       },
       {
-        "rating": 441,
+        "rating": 526,
         "score": 63.7,
-        "speciesId": "sudowoodo"
-      },
-      {
-        "rating": 497,
-        "score": 63.5,
-        "speciesId": "goldeen"
-      },
-      {
-        "rating": 499,
-        "score": 63.5,
-        "speciesId": "krokorok"
-      },
-      {
-        "rating": 468,
-        "score": 63.5,
-        "speciesId": "omastar"
-      },
-      {
-        "rating": 462,
-        "score": 63.4,
-        "speciesId": "raboot"
-      },
-      {
-        "rating": 488,
-        "score": 63.4,
-        "speciesId": "snubbull"
-      },
-      {
-        "rating": 422,
-        "score": 63.3,
-        "speciesId": "flaaffy"
-      },
-      {
-        "rating": 456,
-        "score": 63.3,
-        "speciesId": "nuzleaf"
-      },
-      {
-        "rating": 524,
-        "score": 63.3,
-        "speciesId": "rhyhorn"
-      },
-      {
-        "rating": 454,
-        "score": 63.3,
-        "speciesId": "tentacool"
-      },
-      {
-        "rating": 414,
-        "score": 63.2,
-        "speciesId": "brionne"
-      },
-      {
-        "rating": 468,
-        "score": 63.1,
-        "speciesId": "duraludon"
-      },
-      {
-        "rating": 433,
-        "score": 63.1,
-        "speciesId": "rotom_heat"
-      },
-      {
-        "rating": 420,
-        "score": 63,
-        "speciesId": "banette"
-      },
-      {
-        "rating": 484,
-        "score": 63,
-        "speciesId": "breloom"
-      },
-      {
-        "rating": 486,
-        "score": 63,
-        "speciesId": "cubone"
-      },
-      {
-        "rating": 525,
-        "score": 63,
         "speciesId": "klinklang"
       },
       {
-        "rating": 458,
-        "score": 62.9,
-        "speciesId": "revavroom"
+        "rating": 450,
+        "score": 63.7,
+        "speciesId": "snover"
       },
       {
-        "rating": 527,
-        "score": 62.7,
-        "speciesId": "kingler"
-      },
-      {
-        "rating": 440,
-        "score": 62.5,
-        "speciesId": "porygon2"
-      },
-      {
-        "rating": 494,
-        "score": 62.5,
-        "speciesId": "skorupi"
-      },
-      {
-        "rating": 512,
-        "score": 62.4,
-        "speciesId": "entei"
-      },
-      {
-        "rating": 471,
-        "score": 62.4,
-        "speciesId": "lycanroc_midday"
-      },
-      {
-        "rating": 492,
-        "score": 62.4,
-        "speciesId": "ponyta_galarian"
-      },
-      {
-        "rating": 471,
-        "score": 62.4,
-        "speciesId": "yanma"
-      },
-      {
-        "rating": 418,
-        "score": 62.3,
-        "speciesId": "simisage"
-      },
-      {
-        "rating": 467,
-        "score": 62.1,
-        "speciesId": "cursola"
-      },
-      {
-        "rating": 411,
-        "score": 62.1,
-        "speciesId": "musharna"
-      },
-      {
-        "rating": 426,
-        "score": 62.1,
-        "speciesId": "rotom_fan"
-      },
-      {
-        "rating": 475,
-        "score": 62,
-        "speciesId": "diancie"
-      },
-      {
-        "rating": 503,
-        "score": 62,
-        "speciesId": "granbull"
-      },
-      {
-        "rating": 507,
-        "score": 61.9,
-        "speciesId": "dugtrio_alolan"
-      },
-      {
-        "rating": 486,
-        "score": 61.9,
-        "speciesId": "mr_mime_galarian"
-      },
-      {
-        "rating": 424,
-        "score": 61.9,
-        "speciesId": "vileplume"
-      },
-      {
-        "rating": 495,
-        "score": 61.8,
-        "speciesId": "graveler"
-      },
-      {
-        "rating": 452,
-        "score": 61.8,
-        "speciesId": "simipour"
-      },
-      {
-        "rating": 435,
-        "score": 61.7,
-        "speciesId": "arboliva"
-      },
-      {
-        "rating": 374,
-        "score": 61.7,
-        "speciesId": "blissey"
-      },
-      {
-        "rating": 448,
-        "score": 61.7,
-        "speciesId": "pineco"
-      },
-      {
-        "rating": 453,
-        "score": 61.7,
-        "speciesId": "silicobra"
-      },
-      {
-        "rating": 439,
-        "score": 61.5,
+        "rating": 441,
+        "score": 63.6,
         "speciesId": "heliolisk"
       },
       {
-        "rating": 468,
-        "score": 61.4,
-        "speciesId": "jynx"
+        "rating": 526,
+        "score": 63.6,
+        "speciesId": "rhyhorn"
       },
       {
-        "rating": 473,
-        "score": 61.3,
+        "rating": 423,
+        "score": 63.5,
+        "speciesId": "flaaffy"
+      },
+      {
+        "rating": 469,
+        "score": 63.5,
+        "speciesId": "luxio"
+      },
+      {
+        "rating": 423,
+        "score": 63.5,
+        "speciesId": "rotom_fan"
+      },
+      {
+        "rating": 454,
+        "score": 63.4,
+        "speciesId": "ribombee"
+      },
+      {
+        "rating": 420,
+        "score": 63.2,
+        "speciesId": "banette"
+      },
+      {
+        "rating": 480,
+        "score": 63.2,
+        "speciesId": "bonsly"
+      },
+      {
+        "rating": 476,
+        "score": 63.2,
         "speciesId": "onix"
       },
       {
+        "rating": 460,
+        "score": 63.2,
+        "speciesId": "revavroom"
+      },
+      {
+        "rating": 441,
+        "score": 63,
+        "speciesId": "porygon2"
+      },
+      {
+        "rating": 470,
+        "score": 62.8,
+        "speciesId": "duraludon"
+      },
+      {
+        "rating": 414,
+        "score": 62.7,
+        "speciesId": "brionne"
+      },
+      {
+        "rating": 467,
+        "score": 62.7,
+        "speciesId": "cursola"
+      },
+      {
+        "rating": 501,
+        "score": 62.6,
+        "speciesId": "krokorok"
+      },
+      {
+        "rating": 472,
+        "score": 62.3,
+        "speciesId": "lycanroc_midday"
+      },
+      {
+        "rating": 484,
+        "score": 62.1,
+        "speciesId": "breloom"
+      },
+      {
+        "rating": 488,
+        "score": 62.1,
+        "speciesId": "graveler"
+      },
+      {
+        "rating": 453,
+        "score": 62.1,
+        "speciesId": "silicobra"
+      },
+      {
         "rating": 456,
-        "score": 61.2,
+        "score": 62,
+        "speciesId": "nuzleaf"
+      },
+      {
+        "rating": 488,
+        "score": 62,
+        "speciesId": "snubbull"
+      },
+      {
+        "rating": 374,
+        "score": 61.9,
+        "speciesId": "blissey"
+      },
+      {
+        "rating": 503,
+        "score": 61.9,
+        "speciesId": "granbull"
+      },
+      {
+        "rating": 498,
+        "score": 61.7,
+        "speciesId": "goldeen"
+      },
+      {
+        "rating": 434,
+        "score": 61.7,
         "speciesId": "weavile"
       },
       {
-        "rating": 458,
-        "score": 61.1,
-        "speciesId": "drowzee"
+        "rating": 441,
+        "score": 61.6,
+        "speciesId": "accelgor"
       },
       {
-        "rating": 500,
-        "score": 61.1,
-        "speciesId": "groudon"
+        "rating": 490,
+        "score": 61.6,
+        "speciesId": "cubone"
       },
       {
-        "rating": 382,
-        "score": 61.1,
-        "speciesId": "rotom_wash"
-      },
-      {
-        "rating": 406,
-        "score": 61.1,
-        "speciesId": "shaymin_land"
-      },
-      {
-        "rating": 474,
-        "score": 61,
-        "speciesId": "gardevoir"
-      },
-      {
-        "rating": 422,
-        "score": 61,
-        "speciesId": "trapinch"
-      },
-      {
-        "rating": 474,
-        "score": 60.9,
-        "speciesId": "exeggcute"
-      },
-      {
-        "rating": 436,
-        "score": 60.9,
+        "rating": 437,
+        "score": 61.6,
         "speciesId": "seel"
       },
       {
-        "rating": 463,
-        "score": 60.8,
+        "rating": 440,
+        "score": 61.5,
+        "speciesId": "carnivine"
+      },
+      {
+        "rating": 493,
+        "score": 61.5,
+        "speciesId": "skorupi"
+      },
+      {
+        "rating": 434,
+        "score": 61.4,
+        "speciesId": "arboliva"
+      },
+      {
+        "rating": 412,
+        "score": 61.4,
+        "speciesId": "musharna"
+      },
+      {
+        "rating": 464,
+        "score": 61.2,
         "speciesId": "kyogre"
+      },
+      {
+        "rating": 508,
+        "score": 61,
+        "speciesId": "dugtrio_alolan"
+      },
+      {
+        "rating": 485,
+        "score": 61,
+        "speciesId": "mr_mime_galarian"
+      },
+      {
+        "rating": 492,
+        "score": 60.8,
+        "speciesId": "ponyta_galarian"
+      },
+      {
+        "rating": 401,
+        "score": 60.8,
+        "speciesId": "vileplume"
+      },
+      {
+        "rating": 458,
+        "score": 60.7,
+        "speciesId": "drowzee"
       },
       {
         "rating": 445,
@@ -11730,583 +11675,638 @@
         "speciesId": "toedscool"
       },
       {
-        "rating": 408,
+        "rating": 452,
         "score": 60.6,
-        "speciesId": "lilligant_hisuian"
+        "speciesId": "fuecoco"
       },
       {
-        "rating": 435,
-        "score": 60.5,
-        "speciesId": "tsareena"
-      },
-      {
-        "rating": 412,
-        "score": 60.3,
-        "speciesId": "archen"
-      },
-      {
-        "rating": 409,
-        "score": 59.8,
-        "speciesId": "archeops"
-      },
-      {
-        "rating": 434,
-        "score": 59.8,
-        "speciesId": "infernape"
-      },
-      {
-        "rating": 441,
-        "score": 59.7,
-        "speciesId": "liepard"
-      },
-      {
-        "rating": 422,
-        "score": 59.7,
-        "speciesId": "oricorio_pom_pom"
-      },
-      {
-        "rating": 416,
-        "score": 59.5,
-        "speciesId": "carracosta"
-      },
-      {
-        "rating": 435,
-        "score": 59.4,
-        "speciesId": "bonsly"
-      },
-      {
-        "rating": 467,
-        "score": 59.1,
-        "speciesId": "pupitar"
+        "rating": 527,
+        "score": 60.6,
+        "speciesId": "kingler"
       },
       {
         "rating": 404,
-        "score": 59,
+        "score": 60.5,
         "speciesId": "eelektross"
       },
       {
+        "rating": 433,
+        "score": 60.5,
+        "speciesId": "infernape"
+      },
+      {
+        "rating": 417,
+        "score": 60.5,
+        "speciesId": "simisage"
+      },
+      {
+        "rating": 519,
+        "score": 60.4,
+        "speciesId": "geodude"
+      },
+      {
+        "rating": 492,
+        "score": 60.4,
+        "speciesId": "glimmora"
+      },
+      {
+        "rating": 467,
+        "score": 60.4,
+        "speciesId": "jynx"
+      },
+      {
+        "rating": 469,
+        "score": 60.3,
+        "speciesId": "pupitar"
+      },
+      {
+        "rating": 382,
+        "score": 60.3,
+        "speciesId": "rotom_wash"
+      },
+      {
+        "rating": 412,
+        "score": 60.2,
+        "speciesId": "archen"
+      },
+      {
+        "rating": 477,
+        "score": 60.2,
+        "speciesId": "darmanitan_galarian_standard"
+      },
+      {
+        "rating": 423,
+        "score": 60.2,
+        "speciesId": "trapinch"
+      },
+      {
+        "rating": 469,
+        "score": 60.2,
+        "speciesId": "yanma"
+      },
+      {
+        "rating": 417,
+        "score": 60.1,
+        "speciesId": "carracosta"
+      },
+      {
+        "rating": 452,
+        "score": 60.1,
+        "speciesId": "simipour"
+      },
+      {
+        "rating": 447,
+        "score": 59.9,
+        "speciesId": "pineco"
+      },
+      {
+        "rating": 441,
+        "score": 59.9,
+        "speciesId": "simisear"
+      },
+      {
+        "rating": 420,
+        "score": 59.8,
+        "speciesId": "oricorio_pom_pom"
+      },
+      {
         "rating": 409,
+        "score": 59.7,
+        "speciesId": "archeops"
+      },
+      {
+        "rating": 500,
+        "score": 59.7,
+        "speciesId": "groudon"
+      },
+      {
+        "rating": 474,
+        "score": 59.6,
+        "speciesId": "exeggcute"
+      },
+      {
+        "rating": 473,
+        "score": 59.6,
+        "speciesId": "gardevoir"
+      },
+      {
+        "rating": 407,
+        "score": 59.6,
+        "speciesId": "lilligant_hisuian"
+      },
+      {
+        "rating": 493,
+        "score": 59.4,
+        "speciesId": "glimmet"
+      },
+      {
+        "rating": 442,
+        "score": 59.2,
+        "speciesId": "boldore"
+      },
+      {
+        "rating": 434,
+        "score": 59.2,
+        "speciesId": "tsareena"
+      },
+      {
+        "rating": 443,
+        "score": 59.1,
+        "speciesId": "liepard"
+      },
+      {
+        "rating": 478,
+        "score": 59.1,
+        "speciesId": "stonjourner"
+      },
+      {
+        "rating": 405,
         "score": 58.9,
-        "speciesId": "deerling"
+        "speciesId": "shaymin_land"
+      },
+      {
+        "rating": 397,
+        "score": 58.9,
+        "speciesId": "tranquill"
       },
       {
         "rating": 442,
         "score": 58.8,
-        "speciesId": "boldore"
-      },
-      {
-        "rating": 444,
-        "score": 58.8,
-        "speciesId": "fuecoco"
-      },
-      {
-        "rating": 478,
-        "score": 58.7,
-        "speciesId": "darmanitan_galarian_standard"
-      },
-      {
-        "rating": 443,
-        "score": 58.7,
-        "speciesId": "simisear"
-      },
-      {
-        "rating": 412,
-        "score": 58.5,
-        "speciesId": "clamperl"
-      },
-      {
-        "rating": 431,
-        "score": 58.4,
-        "speciesId": "dragapult"
-      },
-      {
-        "rating": 441,
-        "score": 58.4,
         "speciesId": "lycanroc_dusk"
       },
       {
-        "rating": 396,
-        "score": 58.3,
-        "speciesId": "raticate"
-      },
-      {
-        "rating": 399,
-        "score": 58.3,
-        "speciesId": "tranquill"
-      },
-      {
-        "rating": 410,
-        "score": 58.2,
-        "speciesId": "whirlipede"
-      },
-      {
-        "rating": 464,
-        "score": 58.1,
-        "speciesId": "mr_rime"
-      },
-      {
-        "rating": 399,
-        "score": 58,
-        "speciesId": "crabominable"
-      },
-      {
         "rating": 368,
-        "score": 58,
+        "score": 58.7,
         "speciesId": "phanpy"
       },
       {
-        "rating": 475,
-        "score": 57.8,
-        "speciesId": "vivillon"
+        "rating": 419,
+        "score": 58.5,
+        "speciesId": "dwebble"
       },
       {
-        "rating": 519,
+        "rating": 409,
+        "score": 58.5,
+        "speciesId": "whirlipede"
+      },
+      {
+        "rating": 429,
+        "score": 58.3,
+        "speciesId": "dragapult"
+      },
+      {
+        "rating": 412,
+        "score": 58.1,
+        "speciesId": "clamperl"
+      },
+      {
+        "rating": 463,
+        "score": 57.9,
+        "speciesId": "mr_rime"
+      },
+      {
+        "rating": 489,
         "score": 57.7,
-        "speciesId": "geodude"
+        "speciesId": "lycanroc_midnight"
+      },
+      {
+        "rating": 397,
+        "score": 57.7,
+        "speciesId": "raticate"
+      },
+      {
+        "rating": 400,
+        "score": 57.3,
+        "speciesId": "crabominable"
+      },
+      {
+        "rating": 409,
+        "score": 57.3,
+        "speciesId": "deerling"
+      },
+      {
+        "rating": 414,
+        "score": 57.3,
+        "speciesId": "eevee"
       },
       {
         "rating": 360,
-        "score": 57.6,
-        "speciesId": "lombre"
-      },
-      {
-        "rating": 386,
-        "score": 57.5,
-        "speciesId": "braviary"
-      },
-      {
-        "rating": 354,
-        "score": 57.4,
-        "speciesId": "plusle"
-      },
-      {
-        "rating": 406,
-        "score": 57.4,
-        "speciesId": "tangela"
-      },
-      {
-        "rating": 359,
-        "score": 57.3,
+        "score": 57.1,
         "speciesId": "chinchou"
       },
       {
         "rating": 394,
-        "score": 57.3,
+        "score": 56.9,
         "speciesId": "corphish"
       },
       {
-        "rating": 430,
-        "score": 57.2,
-        "speciesId": "yanmega"
+        "rating": 384,
+        "score": 56.8,
+        "speciesId": "braviary"
       },
       {
-        "rating": 420,
-        "score": 57.1,
-        "speciesId": "dwebble"
-      },
-      {
-        "rating": 416,
-        "score": 57.1,
-        "speciesId": "popplio"
-      },
-      {
-        "rating": 477,
-        "score": 57.1,
-        "speciesId": "stonjourner"
-      },
-      {
-        "rating": 362,
-        "score": 57.1,
-        "speciesId": "swirlix"
-      },
-      {
-        "rating": 420,
-        "score": 57,
+        "rating": 418,
+        "score": 56.8,
         "speciesId": "oricorio_baile"
       },
       {
-        "rating": 378,
-        "score": 57,
-        "speciesId": "sunflora"
+        "rating": 355,
+        "score": 56.8,
+        "speciesId": "plusle"
       },
       {
         "rating": 501,
-        "score": 56.9,
+        "score": 56.7,
         "speciesId": "azelf"
       },
       {
-        "rating": 413,
-        "score": 56.9,
-        "speciesId": "eevee"
-      },
-      {
-        "rating": 491,
-        "score": 56.9,
-        "speciesId": "glimmora"
-      },
-      {
-        "rating": 449,
-        "score": 56.9,
-        "speciesId": "rowlet"
-      },
-      {
-        "rating": 439,
+        "rating": 483,
         "score": 56.6,
-        "speciesId": "arcanine_hisuian"
+        "speciesId": "rampardos"
+      },
+      {
+        "rating": 362,
+        "score": 56.6,
+        "speciesId": "swirlix"
       },
       {
         "rating": 403,
-        "score": 56.6,
+        "score": 56.5,
         "speciesId": "cinccino"
       },
       {
-        "rating": 387,
-        "score": 56.5,
-        "speciesId": "clauncher"
+        "rating": 440,
+        "score": 56.3,
+        "speciesId": "arcanine_hisuian"
       },
       {
-        "rating": 400,
-        "score": 56.5,
+        "rating": 401,
+        "score": 56.3,
         "speciesId": "tatsugiri_curly"
       },
       {
-        "rating": 400,
-        "score": 56.5,
+        "rating": 401,
+        "score": 56.3,
         "speciesId": "tatsugiri_droopy"
       },
       {
-        "rating": 400,
-        "score": 56.5,
+        "rating": 401,
+        "score": 56.3,
         "speciesId": "tatsugiri_stretchy"
       },
       {
-        "rating": 441,
-        "score": 56.2,
-        "speciesId": "elgyem"
+        "rating": 473,
+        "score": 56.1,
+        "speciesId": "vivillon"
       },
       {
-        "rating": 463,
+        "rating": 428,
+        "score": 56.1,
+        "speciesId": "yanmega"
+      },
+      {
+        "rating": 456,
         "score": 56,
-        "speciesId": "mothim"
-      },
-      {
-        "rating": 385,
-        "score": 56,
-        "speciesId": "vanilluxe"
-      },
-      {
-        "rating": 408,
-        "score": 55.9,
-        "speciesId": "reuniclus"
-      },
-      {
-        "rating": 413,
-        "score": 55.8,
-        "speciesId": "bulbasaur"
-      },
-      {
-        "rating": 492,
-        "score": 55.8,
-        "speciesId": "glimmet"
-      },
-      {
-        "rating": 379,
-        "score": 55.8,
-        "speciesId": "indeedee_female"
-      },
-      {
-        "rating": 455,
-        "score": 55.7,
         "speciesId": "krabby"
       },
       {
-        "rating": 377,
-        "score": 55.6,
+        "rating": 360,
+        "score": 55.9,
+        "speciesId": "lombre"
+      },
+      {
+        "rating": 416,
+        "score": 55.9,
+        "speciesId": "popplio"
+      },
+      {
+        "rating": 384,
+        "score": 55.9,
+        "speciesId": "vanilluxe"
+      },
+      {
+        "rating": 378,
+        "score": 55.7,
         "speciesId": "boltund"
       },
       {
-        "rating": 431,
+        "rating": 379,
+        "score": 55.7,
+        "speciesId": "indeedee_female"
+      },
+      {
+        "rating": 387,
         "score": 55.6,
+        "speciesId": "clauncher"
+      },
+      {
+        "rating": 405,
+        "score": 55.6,
+        "speciesId": "tangela"
+      },
+      {
+        "rating": 448,
+        "score": 55.5,
+        "speciesId": "rowlet"
+      },
+      {
+        "rating": 440,
+        "score": 55.4,
+        "speciesId": "elgyem"
+      },
+      {
+        "rating": 461,
+        "score": 54.9,
+        "speciesId": "mothim"
+      },
+      {
+        "rating": 408,
+        "score": 54.9,
+        "speciesId": "reuniclus"
+      },
+      {
+        "rating": 331,
+        "score": 54.7,
+        "speciesId": "rotom_frost"
+      },
+      {
+        "rating": 377,
+        "score": 54.6,
+        "speciesId": "sunflora"
+      },
+      {
+        "rating": 429,
+        "score": 54.5,
         "speciesId": "oricorio_sensu"
       },
       {
         "rating": 434,
-        "score": 55.2,
+        "score": 54.4,
         "speciesId": "beheeyem"
       },
       {
-        "rating": 331,
-        "score": 55.2,
-        "speciesId": "rotom_frost"
+        "rating": 390,
+        "score": 54.2,
+        "speciesId": "nosepass"
+      },
+      {
+        "rating": 412,
+        "score": 54.1,
+        "speciesId": "bulbasaur"
       },
       {
         "rating": 393,
-        "score": 54.9,
+        "score": 54.1,
         "speciesId": "drizzile"
       },
       {
-        "rating": 405,
-        "score": 54.4,
-        "speciesId": "chespin"
-      },
-      {
-        "rating": 379,
-        "score": 54.2,
-        "speciesId": "stantler"
-      },
-      {
-        "rating": 379,
-        "score": 54,
+        "rating": 380,
+        "score": 53.4,
         "speciesId": "octillery"
       },
       {
-        "rating": 482,
-        "score": 54,
-        "speciesId": "rampardos"
-      },
-      {
-        "rating": 359,
-        "score": 53.8,
-        "speciesId": "seadra"
-      },
-      {
-        "rating": 463,
+        "rating": 404,
         "score": 53.1,
-        "speciesId": "rhydon"
+        "speciesId": "chespin"
       },
       {
-        "rating": 460,
-        "score": 53,
-        "speciesId": "golem"
+        "rating": 380,
+        "score": 53.1,
+        "speciesId": "stantler"
       },
       {
-        "rating": 362,
-        "score": 53,
-        "speciesId": "maractus"
-      },
-      {
-        "rating": 336,
-        "score": 52.9,
+        "rating": 337,
+        "score": 52.8,
         "speciesId": "komala"
       },
       {
-        "rating": 372,
-        "score": 52.8,
+        "rating": 359,
+        "score": 52.4,
+        "speciesId": "seadra"
+      },
+      {
+        "rating": 461,
+        "score": 52.3,
+        "speciesId": "golem"
+      },
+      {
+        "rating": 465,
+        "score": 52.3,
+        "speciesId": "rhydon"
+      },
+      {
+        "rating": 374,
+        "score": 52.1,
         "speciesId": "piplup"
       },
       {
-        "rating": 376,
-        "score": 52.6,
+        "rating": 396,
+        "score": 51.3,
+        "speciesId": "varoom"
+      },
+      {
+        "rating": 360,
+        "score": 51.1,
+        "speciesId": "maractus"
+      },
+      {
+        "rating": 396,
+        "score": 50.9,
+        "speciesId": "oricorio_pau"
+      },
+      {
+        "rating": 374,
+        "score": 50.6,
         "speciesId": "braviary_hisuian"
       },
       {
+        "rating": 429,
+        "score": 50.6,
+        "speciesId": "roggenrola"
+      },
+      {
         "rating": 368,
-        "score": 51.8,
+        "score": 50.5,
         "speciesId": "frogadier"
       },
       {
         "rating": 387,
-        "score": 51.7,
+        "score": 50.5,
         "speciesId": "gorebyss"
       },
       {
-        "rating": 389,
-        "score": 51.7,
-        "speciesId": "nosepass"
-      },
-      {
-        "rating": 398,
-        "score": 51.7,
-        "speciesId": "oricorio_pau"
-      },
-      {
-        "rating": 394,
-        "score": 51.6,
-        "speciesId": "varoom"
-      },
-      {
-        "rating": 389,
-        "score": 51.1,
-        "speciesId": "shaymin_sky"
-      },
-      {
-        "rating": 393,
-        "score": 50.9,
-        "speciesId": "sigilyph"
-      },
-      {
-        "rating": 403,
-        "score": 50.5,
+        "rating": 404,
+        "score": 50.4,
         "speciesId": "crabrawler"
       },
       {
-        "rating": 411,
-        "score": 50.3,
-        "speciesId": "lycanroc_midnight"
-      },
-      {
-        "rating": 315,
+        "rating": 391,
         "score": 50.2,
-        "speciesId": "cherrim_overcast"
-      },
-      {
-        "rating": 380,
-        "score": 50,
-        "speciesId": "clawitzer"
+        "speciesId": "sigilyph"
       },
       {
         "rating": 372,
-        "score": 50,
+        "score": 50.1,
         "speciesId": "glaceon"
       },
       {
-        "rating": 455,
-        "score": 49.8,
-        "speciesId": "kadabra"
-      },
-      {
-        "rating": 390,
-        "score": 49.8,
-        "speciesId": "wugtrio"
-      },
-      {
-        "rating": 400,
-        "score": 49.3,
-        "speciesId": "unfezant"
-      },
-      {
-        "rating": 428,
-        "score": 49.1,
-        "speciesId": "roggenrola"
-      },
-      {
-        "rating": 411,
-        "score": 49.1,
-        "speciesId": "stakataka"
-      },
-      {
-        "rating": 379,
-        "score": 49.1,
-        "speciesId": "tornadus_incarnate"
-      },
-      {
-        "rating": 398,
-        "score": 48.7,
-        "speciesId": "deoxys_speed"
-      },
-      {
-        "rating": 282,
-        "score": 48.4,
-        "speciesId": "flabebe"
-      },
-      {
-        "rating": 361,
-        "score": 48.3,
-        "speciesId": "dottler"
-      },
-      {
-        "rating": 367,
-        "score": 48.2,
+        "rating": 369,
+        "score": 50.1,
         "speciesId": "roselia"
       },
       {
-        "rating": 349,
-        "score": 48.2,
-        "speciesId": "turtwig"
+        "rating": 455,
+        "score": 50,
+        "speciesId": "kadabra"
       },
       {
-        "rating": 350,
-        "score": 47.9,
-        "speciesId": "ferroseed"
+        "rating": 399,
+        "score": 49.5,
+        "speciesId": "unfezant"
       },
       {
-        "rating": 424,
-        "score": 47.9,
-        "speciesId": "hoopa"
+        "rating": 387,
+        "score": 49.2,
+        "speciesId": "shaymin_sky"
       },
       {
-        "rating": 382,
-        "score": 47.7,
+        "rating": 413,
+        "score": 49.2,
+        "speciesId": "stakataka"
+      },
+      {
+        "rating": 390,
+        "score": 49.1,
+        "speciesId": "wugtrio"
+      },
+      {
+        "rating": 380,
+        "score": 49,
+        "speciesId": "clawitzer"
+      },
+      {
+        "rating": 381,
+        "score": 49,
         "speciesId": "naganadel"
       },
       {
+        "rating": 398,
+        "score": 48.1,
+        "speciesId": "deoxys_speed"
+      },
+      {
+        "rating": 351,
+        "score": 48.1,
+        "speciesId": "ferroseed"
+      },
+      {
+        "rating": 379,
+        "score": 48,
+        "speciesId": "tornadus_incarnate"
+      },
+      {
+        "rating": 315,
+        "score": 47.8,
+        "speciesId": "cherrim_overcast"
+      },
+      {
         "rating": 433,
-        "score": 47,
+        "score": 47.6,
         "speciesId": "cranidos"
       },
       {
-        "rating": 304,
+        "rating": 423,
+        "score": 46.7,
+        "speciesId": "hoopa"
+      },
+      {
+        "rating": 348,
+        "score": 46.7,
+        "speciesId": "turtwig"
+      },
+      {
+        "rating": 359,
         "score": 46.3,
+        "speciesId": "dottler"
+      },
+      {
+        "rating": 278,
+        "score": 46.2,
+        "speciesId": "flabebe"
+      },
+      {
+        "rating": 306,
+        "score": 45.2,
         "speciesId": "munna"
       },
       {
-        "rating": 357,
-        "score": 44.9,
+        "rating": 358,
+        "score": 44.4,
         "speciesId": "porygon_z"
       },
       {
-        "rating": 297,
-        "score": 43.7,
-        "speciesId": "indeedee_male"
-      },
-      {
         "rating": 369,
-        "score": 43.2,
+        "score": 43.1,
         "speciesId": "lilligant"
       },
       {
-        "rating": 366,
-        "score": 43.1,
-        "speciesId": "butterfree"
+        "rating": 298,
+        "score": 42.6,
+        "speciesId": "indeedee_male"
       },
       {
-        "rating": 310,
+        "rating": 313,
         "score": 41.8,
         "speciesId": "meltan"
       },
       {
-        "rating": 359,
-        "score": 41,
+        "rating": 385,
+        "score": 41.6,
+        "speciesId": "butterfree"
+      },
+      {
+        "rating": 358,
+        "score": 40.5,
         "speciesId": "duosion"
       },
       {
         "rating": 307,
-        "score": 40.9,
+        "score": 40.3,
         "speciesId": "skiddo"
       },
       {
         "rating": 356,
-        "score": 40.5,
+        "score": 40.1,
         "speciesId": "solosis"
       },
       {
-        "rating": 282,
-        "score": 34.7,
-        "speciesId": "clobbopus"
-      },
-      {
         "rating": 328,
-        "score": 33.5,
+        "score": 34.6,
         "speciesId": "regigigas"
       },
       {
-        "rating": 275,
-        "score": 31.1,
+        "rating": 282,
+        "score": 34.1,
+        "speciesId": "clobbopus"
+      },
+      {
+        "rating": 300,
+        "score": 30.8,
         "speciesId": "spoink"
       },
       {
         "rating": 215,
-        "score": 25.1,
+        "score": 24.5,
         "speciesId": "clefairy"
       },
       {
-        "rating": 281,
-        "score": 24.8,
+        "rating": 282,
+        "score": 24.4,
         "speciesId": "unown"
       },
       {
         "rating": 63,
-        "score": 11.3,
+        "score": 10.9,
         "speciesId": "slaking"
       }
     ],
@@ -16773,5 +16773,5 @@
       "url": "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data/rankings/all/overall/rankings-10000.json"
     }
   ],
-  "updatedAt": "2026-09-09"
+  "updatedAt": "2026-09-15"
 }
