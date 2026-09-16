@@ -16150,7 +16150,7 @@
 "flying"
 ],
 "shadowAvailable": true,
-"released": false,
+"released": true,
 "evolutions": [],
 "fastMoves": [
 "QUICK_ATTACK",

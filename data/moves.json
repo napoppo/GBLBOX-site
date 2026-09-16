@@ -335,6 +335,21 @@
 "buffTarget": "self",
 "buffChance": 1.0
 },
+"BRAVE_BIRD_PLUS": {
+"name": "Brave Bird+",
+"nameJa": "ブレイブバード",
+"type": "flying",
+"power": 70,
+"energy": 40,
+"energyGain": 0,
+"turns": 1,
+"buffs": [
+0,
+-3
+],
+"buffTarget": "self",
+"buffChance": 1.0
+},
 "BREAKING_SWIPE": {
 "name": "Breaking Swipe",
 "nameJa": "ワイドブレイカー",
