@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.9.2-415",
+      "id": "2.9.3-416",
       "enabled": true,
+      "publishedAt": "2026-09-17",
+      "maximumBuild": 415,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 416,
+      "titleJa": "GBLBOX 2.9.3 の配信を開始しました",
+      "titleEn": "GBLBOX 2.9.3 is now available",
+      "bodyJa": "GBLBOX 2.9.3を公開しました。\n\n読み取り結果の種族を選び直したときのおすすめ表示を修正し、リーグ切り替え時に最適な育成候補を自動選択するようにしました。\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.9.3 is now available.\n\nFixed recommendations after manually changing the scanned species. Switching leagues now automatically selects the best eligible training target.\nWe recommend updating to the latest version.",
+      "updatePromptJa": "おすすめ表示と育成候補の選択を改善した2.9.3へのアップデートをおすすめします。",
+      "updatePromptEn": "We recommend updating to version 2.9.3 for improved recommendations and training target selection.",
+      "updateActionTitleJa": "App Storeで2.9.3へ更新",
+      "updateActionTitleEn": "Update to 2.9.3",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.9.2-415",
+      "enabled": false,
       "publishedAt": "2026-09-14",
       "maximumBuild": 414,
       "maximumBuildAndroid": 0,
