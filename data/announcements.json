@@ -2,8 +2,25 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2.9.3-416",
+      "id": "2.9.4-420",
       "enabled": true,
+      "publishedAt": "2026-09-19",
+      "maximumBuild": 419,
+      "maximumBuildAndroid": 0,
+      "recommendedBuild": 420,
+      "titleJa": "GBLBOX 2.9.4 の配信を開始しました",
+      "titleEn": "GBLBOX 2.9.4 is now available",
+      "bodyJa": "GBLBOX 2.9.4を公開しました。\n\nシーズン内のカップを選びやすくし、技カウントをコンパクトな3列表示にしました。ボックスや設定画面の操作も改善しました。\n最新版へのアップデートをおすすめします。",
+      "bodyEn": "GBLBOX 2.9.4 is now available.\n\nExpanded cup selection within the season and restored a compact three-column Move Counts layout. We also improved Box and Settings interactions.\nWe recommend updating to the latest version.",
+      "updatePromptJa": "カップ選択や技カウント、画面操作を改善した2.9.4へのアップデートをおすすめします。",
+      "updatePromptEn": "We recommend updating to version 2.9.4 for improved cup selection, Move Counts, and screen controls.",
+      "updateActionTitleJa": "App Storeで2.9.4へ更新",
+      "updateActionTitleEn": "Update to 2.9.4",
+      "updateAppStoreUrl": "https://apps.apple.com/jp/app/gbl-box/id6776499795"
+    },
+    {
+      "id": "2.9.3-416",
+      "enabled": false,
       "publishedAt": "2026-09-17",
       "maximumBuild": 415,
       "maximumBuildAndroid": 0,
